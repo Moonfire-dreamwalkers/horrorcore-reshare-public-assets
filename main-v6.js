@@ -1597,4 +1597,35 @@ if (document.querySelector('.ytm-shell')) {
     renderGlobalAlbumGrid();
 }
 
-console.log("Horrorcore Reshare logic initialized.");
+// =========================================================================
+// DIAGNOSTIC LOGGING — verifies CDN pipeline is working
+// =========================================================================
+(function logDiagnostics() {
+    // Detect where this script was loaded from
+    const scriptEl = document.currentScript;
+    const srcUrl = scriptEl ? scriptEl.src : 'unknown (inline)';
+    const isCDN = srcUrl.includes('jsdelivr.net');
+    const isLocal = srcUrl.includes(window.location.hostname) || srcUrl.startsWith('/') || srcUrl.startsWith('.');
+
+    const diag = {
+        timestamp: new Date().toISOString(),
+        pageUrl: window.location.href,
+        scriptSource: srcUrl,
+        loadedFromCDN: isCDN,
+        loadedLocally: isLocal,
+        appVersion: APP_VERSION,
+        swVersion: 'horrorcore-reshare-v11',
+        dataJsCDN: typeof HR_BUILD_VERSION !== 'undefined' ? HR_BUILD_VERSION : 'NOT LOADED',
+        userAgent: navigator.userAgent.substring(0, 80),
+        viewport: `${window.innerWidth}x${window.innerHeight}`,
+    };
+
+    console.log('%c🔍 HR DIAGNOSTICS %c' + JSON.stringify(diag, null, 2),
+        'color: #ff0033; font-weight: bold; font-size: 14px;',
+        'color: #aaa;');
+    console.log('%c📡 Loaded from: %c' + (isCDN ? '✅ jsDelivr CDN' : isLocal ? '⚠️ Local/Vercel' : '❓ Unknown'),
+        'color: #ffcc00; font-weight: bold;', 'color: #fff;');
+    console.log('%c🏷  Version: %c' + APP_VERSION + ' %c| %cSW: %cv11',
+        'color: #ffcc00;', 'color: #0f0;', 'color: #aaa;', 'color: #ffcc00;', 'color: #0f0;');
+    console.log("Horrorcore Reshare logic initialized.");
+})();
