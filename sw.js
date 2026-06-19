@@ -32,6 +32,14 @@ self.addEventListener('activate', (e) => {
 self.addEventListener('fetch', (e) => {
   const url = new URL(e.request.url);
 
+  // 1. Bypass Service Worker cache completely for local development
+  if (url.hostname === 'localhost' || 
+      url.hostname === '127.0.0.1' || 
+      url.hostname === '[::1]' || 
+      url.hostname.startsWith('192.168.')) {
+    return;
+  }
+
   // Skip non-GET, extensions, analytics, and build version check file
   if (e.request.method !== 'GET' || 
       url.protocol === 'chrome-extension:' || 
@@ -47,23 +55,46 @@ self.addEventListener('fetch', (e) => {
   const isImage = e.request.destination === 'image' || url.pathname.match(/\.(png|jpg|jpeg|gif|webp|svg|ico)$/) || url.hostname.includes('spotifycdn.com') || url.hostname.includes('scdn.co') || url.hostname.includes('dicebear.com');
   const isFont = e.request.destination === 'font' || url.pathname.match(/\.(woff|woff2|ttf|otf|eot)$/) || url.hostname.includes('fonts.gstatic.com') || url.hostname.includes('fonts.googleapis.com');
 
-  // Network-first for HTML, JS, CSS (always get latest)
-  if (isHtml || isCode) {
+  // Check for versioned (immutable) CDN assets
+  const isVersionedCdn = url.hostname.includes('jsdelivr.net') && url.pathname.includes('@') && !url.pathname.includes('@main');
+
+  // 2. Cache-First for versioned/immutable CDN assets (never change)
+  if (isVersionedCdn) {
     e.respondWith(
-      fetch(e.request).then((networkResponse) => {
-        if (networkResponse.status === 200) {
-          const clone = networkResponse.clone();
-          caches.open(CACHE_NAME).then(cache => cache.put(e.request, clone));
-        }
-        return networkResponse;
-      }).catch(() => {
-        return caches.match(e.request);
+      caches.match(e.request).then((cached) => {
+        if (cached) return cached;
+        return fetch(e.request).then((networkResponse) => {
+          if (networkResponse.status === 200) {
+            const clone = networkResponse.clone();
+            caches.open(CACHE_NAME).then(cache => cache.put(e.request, clone));
+          }
+          return networkResponse;
+        });
       })
     );
     return;
   }
 
-  // Cache-first for images and fonts (rarely change)
+  // 3. Stale-While-Revalidate for HTML, mutable JS, and mutable CSS (loads instantly, updates in background)
+  if (isHtml || isCode) {
+    e.respondWith(
+      caches.match(e.request).then((cached) => {
+        const networkFetch = fetch(e.request).then((networkResponse) => {
+          if (networkResponse.status === 200) {
+            const clone = networkResponse.clone();
+            caches.open(CACHE_NAME).then(cache => cache.put(e.request, clone));
+          }
+          return networkResponse;
+        }).catch(() => {
+          // Ignore network errors silently (fallback to cache)
+        });
+        return cached || networkFetch;
+      })
+    );
+    return;
+  }
+
+  // 4. Cache-first for images and fonts (rarely change)
   if (isImage || isFont) {
     e.respondWith(
       caches.match(e.request).then((cached) => {
@@ -80,8 +111,17 @@ self.addEventListener('fetch', (e) => {
     return;
   }
 
-  // Default: network-first for everything else
+  // Default: Stale-While-Revalidate for everything else
   e.respondWith(
-    fetch(e.request).catch(() => caches.match(e.request))
+    caches.match(e.request).then((cached) => {
+      const networkFetch = fetch(e.request).then((networkResponse) => {
+        if (networkResponse.status === 200) {
+          const clone = networkResponse.clone();
+          caches.open(CACHE_NAME).then(cache => cache.put(e.request, clone));
+        }
+        return networkResponse;
+      }).catch(() => {});
+      return cached || networkFetch;
+    })
   );
 });

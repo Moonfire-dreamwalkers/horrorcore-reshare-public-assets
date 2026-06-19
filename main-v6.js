@@ -187,7 +187,7 @@ function injectHeader() {
             <a href="${isLocalhost ? 'flyer-builder.html' : '/flyer-builder'}">Flyer Builder</a>
             <a href="${isLocalhost ? 'discord.html' : '/discord'}">Discord</a>
             <a href="${isLocalhost ? 'services.html' : '/services'}">Services</a>
-            <a href="#" onclick="return false" style="cursor: default;">Void</a>
+            <a href="#" onclick="return false" style="cursor: default;">Yogurt</a>
         </nav>
     `;
 
@@ -1612,8 +1612,9 @@ if (document.querySelector('.ytm-shell')) {
 // DYNAMIC CDN BUILD MISMATCH DETECTION & UPDATE NOTIFICATION SYSTEM
 // =========================================================================
 (function initUpdateChecker() {
-    // Skip if running locally
-    if (window.location.hostname === 'localhost' || 
+    // Skip if running locally or if this page does not use the bootloader (like tool/admin pages)
+    if (!window.HR_BUILD_VERSION ||
+        window.location.hostname === 'localhost' || 
         window.location.hostname === '127.0.0.1' || 
         window.location.hostname === '[::1]' ||
         window.location.hostname.match(/^192\.168\./) ||
@@ -1625,7 +1626,7 @@ if (document.querySelector('.ytm-shell')) {
 
     async function checkForUpdates() {
         try {
-            const res = await fetch('https://cdn.jsdelivr.net/gh/Moonfire-dreamwalkers/horrorcore-reshare-public-assets@main/build-version.json?t=' + Date.now(), { cache: 'no-store' });
+            const res = await fetch('/build-version.json?t=' + Date.now(), { cache: 'no-store' });
             if (!res.ok) return;
 
             const data = await res.json();
