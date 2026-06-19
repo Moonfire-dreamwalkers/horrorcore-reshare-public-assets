@@ -24,13 +24,24 @@ if ('serviceWorker' in navigator && !isLocalhost) {
     });
 }
 
-const APP_VERSION = '7.11';
+const APP_VERSION = '7.12';
 if (localStorage.getItem('hr_version') !== APP_VERSION) {
     localStorage.setItem('hr_version', APP_VERSION);
     if ('caches' in window) {
         caches.keys().then(names => {
-            for (let name of names) caches.delete(name);
+            return Promise.all(names.map(name => caches.delete(name)));
+        }).then(() => {
+            if ('serviceWorker' in navigator) {
+                navigator.serviceWorker.getRegistrations().then(registrations => {
+                    for (let registration of registrations) {
+                        registration.update();
+                    }
+                });
+            }
+            window.location.reload();
         });
+    } else {
+        window.location.reload();
     }
 }
 
