@@ -12,10 +12,16 @@
     <meta property="og:image" content="https://i2o.scdn.co/image/ab676186000016677a95a3321d0aac98e365a991">
     <meta property="og:site_name" content="Horrorcore Reshare">
     <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="BatiBatt | Horrorcore Reshare Underground Artist">
+    <meta name="twitter:description" content="BatiBatt is a gothic horror artist out of West Chester, Pennsylvania who has been on a warpath since stepping into the underground scene in 2021. Her si...">
+    <meta name="twitter:image" content="https://i2o.scdn.co/image/ab676186000016677a95a3321d0aac98e365a991">
     <title>BatiBatt | Horrorcore Reshare Underground Artist Profile</title>
     <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/Moonfire-dreamwalkers/horrorcore-reshare-public-assets/main/images/hr-icon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://i.scdn.co">
+    <link rel="preconnect" href="https://i2o.scdn.co">
+    <link rel="preconnect" href="https://image-cdn-fa.spotifycdn.com">
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Inter:wght@300;400;800&family=Orbitron:wght@400;900&family=Share+Tech+Mono&display=swap" rel="stylesheet">
     <style>
         :root { --hr-blood: #8b0000; --hr-crimson: #cc2222; --hr-crimson-glow: rgba(204,34,34,0.6); --hr-text-muted: rgba(255,255,255,0.55); --hr-font-classic: "Orbitron",sans-serif; }
@@ -30,18 +36,33 @@
         .genre-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 20px; }
         .genre-tag { background: rgba(255,0,60,0.15); border: 1px solid rgba(255,0,60,0.3); padding: 4px 12px; border-radius: 4px; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 1px; color: #fff; }
         .bio-section { line-height: 1.9; font-size: 1rem; color: rgba(255,255,255,0.85); }
-        .bio-section h2, .similar-section h2 { font-family: "Orbitron",sans-serif; color: #ff003c; letter-spacing: 2px; font-size: 1.5rem; margin-bottom: 15px; border-bottom: 1px solid rgba(255,0,60,0.3); padding-bottom: 10px; }
+        .bio-section h2, .similar-section h2, .releases-heading { font-family: "Orbitron",sans-serif; color: #ff003c; letter-spacing: 2px; font-size: 1.5rem; margin-bottom: 15px; border-bottom: 1px solid rgba(255,0,60,0.3); padding-bottom: 10px; }
         .links-row { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 30px; }
         .social-btn { display: inline-block; padding: 10px 20px; text-decoration: none; font-family: "Share Tech Mono",monospace; border-radius: 4px; color: #fff; transition: 0.3s; }
         .spotify-btn { background: #1DB954; border: 1px solid #1DB954; }
         .insta-btn { background: rgba(255,0,60,0.2); border: 1px solid rgba(255,0,60,0.4); }
         .web-btn { background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.15); }
         .social-btn:hover { filter: brightness(1.2); }
-        .releases-list { list-style: none; display: flex; flex-direction: column; gap: 8px; }
-        .releases-list li { padding: 8px 12px; background: rgba(255,255,255,0.03); border-left: 2px solid rgba(255,0,60,0.4); border-radius: 0 4px 4px 0; font-size: 0.9rem; }
+        .releases-section { margin-top: 40px; }
+        .releases-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 20px; }
+        .release-card { display: flex; flex-direction: column; border-radius: 12px; overflow: hidden; background: rgba(10,10,10,0.85); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.08); transition: all 0.3s ease; cursor: pointer; position: relative; }
+        .release-card:hover { border-color: rgba(139,0,0,0.4); box-shadow: 0 8px 25px rgba(139,0,0,0.25); transform: translateY(-2px); }
+        .release-card-badges { position: absolute; top: 10px; left: 10px; z-index: 10; display: flex; gap: 6px; flex-wrap: wrap; }
+        .release-badge { font-family: "Share Tech Mono",monospace; font-size: 0.6rem; padding: 2px 7px; border-radius: 3px; font-weight: bold; letter-spacing: 1px; color: #fff; }
+        .tracks-badge { border: 1px solid transparent; }
+        .duration-badge { background: rgba(0,0,0,0.7); color: #ffcc00; border: 1px solid rgba(255,204,0,0.3); }
+        .pre-release { background: rgba(255,204,0,0.15); color: #ffcc00; border: 1px solid rgba(255,204,0,0.4); }
+        .release-card-cover-wrap { position: relative; width: 100%; aspect-ratio: 1; overflow: hidden; border-bottom: 1px solid rgba(139,0,0,0.1); }
+        .release-card-cover { width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s ease; }
+        .release-card:hover .release-card-cover { transform: scale(1.05); }
+        .release-card-info { padding: 16px; flex-grow: 1; display: flex; flex-direction: column; gap: 6px; }
+        .release-card-title { font-family: "Orbitron",sans-serif; font-size: 0.85rem; color: #fff; margin: 0; letter-spacing: 1px; line-height: 1.35; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+        .release-card-artist { font-family: "Share Tech Mono",monospace; color: #8b0000; font-size: 0.7rem; margin: 0; font-weight: bold; letter-spacing: 0.5px; }
+        .release-card-date { font-family: "Share Tech Mono",monospace; color: rgba(255,255,255,0.45); font-size: 0.65rem; margin: 0; letter-spacing: 0.5px; }
+        .releases-section .bio-section { padding: 0; background: none; backdrop-filter: none; border: none; border-radius: 0; margin-top: 20px; }
         .footer-nav { border-top: 1px solid rgba(255,0,60,0.2); padding: 30px 20px; text-align: center; font-size: 0.85rem; color: rgba(255,255,255,0.6); }
         .footer-nav a { color: #fff; text-decoration: none; margin: 0 10px; }
-        @media (max-width: 600px) { .artist-header { flex-direction: column; align-items: center; text-align: center; } .artist-img { width: 150px; height: 150px; } }
+        @media (max-width: 600px) { .artist-header { flex-direction: column; align-items: center; text-align: center; } .artist-img { width: 150px; height: 150px; } .releases-grid { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 14px; } .hr-glass { padding: 24px; } }
     </style>
     <script type="application/ld+json">
     {
@@ -52,7 +73,8 @@
         "image": "https://i2o.scdn.co/image/ab676186000016677a95a3321d0aac98e365a991",
         "description": "BatiBatt is a gothic horror artist out of West Chester, Pennsylvania who has been on a warpath since stepping into the underground scene in 2021. Her signature is a dynamic vocal range that moves fluidly between soft and ethereal to devastating screams, all wrapped in witchy symbolism, occult-themed",
         "genre": ["horrorcore","dark trap"],
-        "sameAs": ["https://open.spotify.com/artist/68OJ3J2rE5D1O24GSIZOLd","https://www.instagram.com/batibatt_official/","https://entershadowland.com/"]
+        "sameAs": ["https://open.spotify.com/artist/68OJ3J2rE5D1O24GSIZOLd","https://www.instagram.com/batibatt_official/","https://entershadowland.com/"],
+        "album": [{"@type":"MusicAlbum","name":"Fall From Grace","url":"https://open.spotify.com/album/0tGAwqNwlgYb1AaZQd8hqg","image":"https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273e24c8a4bab7fa1e09f5c93f5","datePublished":"2024-02-12","numTracks":8},{"@type":"MusicAlbum","name":"Virago","url":"https://open.spotify.com/album/5Uh4tlrunkEKQ04WXue7Ou","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273505607bb629eab843eeed581","datePublished":"2021-02-05","numTracks":8},{"@type":"MusicAlbum","name":"Moonlight Son (Mike Skyros Official Theme)","url":"https://open.spotify.com/album/5uRIJ1x24ip12DTaXJA4Zt","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273eac13216e257a37666e0465b","datePublished":"2026-03-20","numTracks":1},{"@type":"MusicAlbum","name":"Wrath","url":"https://open.spotify.com/album/4lgO6ugyt4F0bgwIVfr23v","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273ceb47d3c8a5bb7d9434e4ed0","datePublished":"2025-09-01","numTracks":1}]
     }
     </script>
     <script type="application/ld+json">
@@ -70,11 +92,13 @@
     <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-YGTD782ZEK");</script>
 </head>
 <body>
-    <main class="page-main">
+    <main class="page-main" itemscope itemtype="https://schema.org/MusicGroup">
+        <meta itemprop="name" content="BatiBatt">
+        <meta itemprop="url" content="https://www.horrorcore-reshare.com/artists/batibatt">
         <div class="artist-header hr-glass">
-            <img src="https://i2o.scdn.co/image/ab676186000016677a95a3321d0aac98e365a991" alt="BatiBatt underground horrorcore artist photo" class="artist-img" loading="lazy">
+            <img src="https://i2o.scdn.co/image/ab676186000016677a95a3321d0aac98e365a991" alt="BatiBatt underground horrorcore artist photo" class="artist-img" loading="lazy" itemprop="image">
             <div class="artist-info">
-                <h1>BatiBatt</h1>
+                <h1 itemprop="name">BatiBatt</h1>
                 <div class="genre-tags">
 <span class="genre-tag">horrorcore</span>
 <span class="genre-tag">dark trap</span>
@@ -86,25 +110,88 @@
 </div>
             </div>
         </div>
-        <div class="bio-section hr-glass">
+        <div class="bio-section hr-glass" itemprop="description">
             <h2>Artist Biography</h2>
             <p>BatiBatt is a gothic horror artist out of West Chester, Pennsylvania who has been on a warpath since stepping into the underground scene in 2021. Her signature is a dynamic vocal range that moves fluidly between soft and ethereal to devastating screams, all wrapped in witchy symbolism, occult-themed visuals, and deeply personal themes of self-love, death, revenge, and spiritual awakening. Her debut Virago (2021) came out swinging across eight tracks of trap metal and industrial-influenced aggression, built on psychological turmoil, horror imagery, and demonology. Three years later, Fall From Grace (2024) showed a clear evolution. Still eight tracks, but leaning further into post-metal, melodic singing, and dark pop, expanding her range without softening her edge. The themes of demon lore, human psychology, and introspective self-reflection hit harder for the added dimension, and the artwork, a veiled figure with dark hands covering the face and a crown of thorns dripping blood, is among the most striking in the underground. She followed it up with two singles in 2025, Broken Garden and Wrath, making clear she has no intention of slowing down.</p>
         </div>
-        <div class="bio-section hr-glass">
-            <h2>Latest Releases</h2>
-            <ul class="releases-list">
-<li><a href="https://open.spotify.com/album/0tGAwqNwlgYb1AaZQd8hqg" target="_blank" rel="noopener noreferrer" style="color: #ffcc00;">Spotify Release 0tGAwqNwlgYb1AaZQd8hqg</a></li>
-<li><a href="https://open.spotify.com/album/5Uh4tlrunkEKQ04WXue7Ou" target="_blank" rel="noopener noreferrer" style="color: #ffcc00;">Spotify Release 5Uh4tlrunkEKQ04WXue7Ou</a></li>
-<li><a href="https://open.spotify.com/album/5uRIJ1x24ip12DTaXJA4Zt" target="_blank" rel="noopener noreferrer" style="color: #ffcc00;">Spotify Release 5uRIJ1x24ip12DTaXJA4Zt</a></li>
-<li><a href="https://open.spotify.com/album/5jETWden01jtholLQbwyuC" target="_blank" rel="noopener noreferrer" style="color: #ffcc00;">Spotify Release 5jETWden01jtholLQbwyuC</a></li>
-<li><a href="https://open.spotify.com/album/4lgO6ugyt4F0bgwIVfr23v" target="_blank" rel="noopener noreferrer" style="color: #ffcc00;">Spotify Release 4lgO6ugyt4F0bgwIVfr23v</a></li>
-</ul>
-        </div>
-        <div class="similar-section hr-glass">
+        
+                    <div class="releases-section">
+                        <h2 class="releases-heading">Albums & EPs</h2>
+                        <div class="releases-grid">
+                            
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/0tGAwqNwlgYb1AaZQd8hqg', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(78, 85, 85, 0.85); border-color: rgba(78, 85, 85, 0.5);">8 TRACKS</span>
+                            <span class="release-badge duration-badge">30m 41s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273e24c8a4bab7fa1e09f5c93f5" alt="Fall From Grace album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=Fall%20From%20Grace&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="Fall From Grace">Fall From Grace</h3>
+                            <p class="release-card-artist">BATIBATT</p>
+                            <p class="release-card-date">FEB 12, 2024</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/5Uh4tlrunkEKQ04WXue7Ou', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(97, 81, 49, 0.85); border-color: rgba(97, 81, 49, 0.5);">8 TRACKS</span>
+                            <span class="release-badge duration-badge">30m 0s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273505607bb629eab843eeed581" alt="Virago album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=Virago&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="Virago">Virago</h3>
+                            <p class="release-card-artist">BATIBATT</p>
+                            <p class="release-card-date">FEB 5, 2021</p>
+                        </div>
+                    </div>
+                        </div>
+                    </div>
+                    <div class="releases-section">
+                        <h2 class="releases-heading">Singles</h2>
+                        <div class="releases-grid">
+                            
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/5uRIJ1x24ip12DTaXJA4Zt', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(159, 0, 0, 0.85); border-color: rgba(159, 0, 0, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">1m 29s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273eac13216e257a37666e0465b" alt="Moonlight Son (Mike Skyros Official Theme) album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=Moonlight%20Son%20(Mike%20Skyros%20Official%20Theme)&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="Moonlight Son (Mike Skyros Official Theme)">Moonlight Son (Mike Skyros Official Theme)</h3>
+                            <p class="release-card-artist">BATIBATT</p>
+                            <p class="release-card-date">MAR 20, 2026</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/4lgO6ugyt4F0bgwIVfr23v', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(137, 58, 0, 0.85); border-color: rgba(137, 58, 0, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">2m 54s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273ceb47d3c8a5bb7d9434e4ed0" alt="Wrath album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=Wrath&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="Wrath">Wrath</h3>
+                            <p class="release-card-artist">BATIBATT</p>
+                            <p class="release-card-date">SEP 1, 2025</p>
+                        </div>
+                    </div>
+                        </div>
+                    </div>
+        <div class="similar-section hr-glass" style="margin-top: 40px;">
             <h2>Similar Artists</h2>
             <p style="line-height: 1.8;"><a href="https://www.horrorcore-reshare.com/artists/neon-sermon" style="color: #ffcc00; text-decoration: underline;">Neon Sermon</a>, <a href="https://www.horrorcore-reshare.com/artists/lo-key" style="color: #ffcc00; text-decoration: underline;">Lo Key</a>, <a href="https://www.horrorcore-reshare.com/artists/elita" style="color: #ffcc00; text-decoration: underline;">Elita</a></p>
         </div>
-        <div class="bio-section hr-glass">
+        <div class="bio-section hr-glass" style="margin-top: 30px;">
             <h2>Genre Tags</h2>
             <p><a href="https://www.horrorcore-reshare.com/genres/horrorcore" style="color: #ffcc00; text-decoration: underline;">horrorcore</a>, <a href="https://www.horrorcore-reshare.com/genres/dark-trap" style="color: #ffcc00; text-decoration: underline;">dark trap</a></p>
         </div>
@@ -119,7 +206,7 @@
                 <a href="/discord">Discord</a> <a href="/services">Services</a>
                 <a href="/follow">Follow</a> <a href="/page-audit">Page Audit</a> <a href="/privacy">Privacy</a>
             </nav>
-            <p>&copy; 2024-2026 Horrorcore Reshare | Update 001 | Maintained by Luna Serafina</p>
+            <p>&copy; 2024-2026 Horrorcore Reshare | Maintained by Luna Serafina</p>
         </div>
     </footer>
 </body>

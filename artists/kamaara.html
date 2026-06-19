@@ -12,10 +12,16 @@
     <meta property="og:image" content="https://i2o.scdn.co/image/ab676186000016673f9c40ab026b61345676404e">
     <meta property="og:site_name" content="Horrorcore Reshare">
     <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="KAMAARA | Horrorcore Reshare Underground Artist">
+    <meta name="twitter:description" content="Kamaara is a rapper, producer, and artist out of Fort Lauderdale, Florida, now based in North Carolina. His sound is rooted in trap metal and industrial...">
+    <meta name="twitter:image" content="https://i2o.scdn.co/image/ab676186000016673f9c40ab026b61345676404e">
     <title>KAMAARA | Horrorcore Reshare Underground Artist Profile</title>
     <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/Moonfire-dreamwalkers/horrorcore-reshare-public-assets/main/images/hr-icon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://i.scdn.co">
+    <link rel="preconnect" href="https://i2o.scdn.co">
+    <link rel="preconnect" href="https://image-cdn-fa.spotifycdn.com">
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Inter:wght@300;400;800&family=Orbitron:wght@400;900&family=Share+Tech+Mono&display=swap" rel="stylesheet">
     <style>
         :root { --hr-blood: #8b0000; --hr-crimson: #cc2222; --hr-crimson-glow: rgba(204,34,34,0.6); --hr-text-muted: rgba(255,255,255,0.55); --hr-font-classic: "Orbitron",sans-serif; }
@@ -30,18 +36,33 @@
         .genre-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 20px; }
         .genre-tag { background: rgba(255,0,60,0.15); border: 1px solid rgba(255,0,60,0.3); padding: 4px 12px; border-radius: 4px; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 1px; color: #fff; }
         .bio-section { line-height: 1.9; font-size: 1rem; color: rgba(255,255,255,0.85); }
-        .bio-section h2, .similar-section h2 { font-family: "Orbitron",sans-serif; color: #ff003c; letter-spacing: 2px; font-size: 1.5rem; margin-bottom: 15px; border-bottom: 1px solid rgba(255,0,60,0.3); padding-bottom: 10px; }
+        .bio-section h2, .similar-section h2, .releases-heading { font-family: "Orbitron",sans-serif; color: #ff003c; letter-spacing: 2px; font-size: 1.5rem; margin-bottom: 15px; border-bottom: 1px solid rgba(255,0,60,0.3); padding-bottom: 10px; }
         .links-row { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 30px; }
         .social-btn { display: inline-block; padding: 10px 20px; text-decoration: none; font-family: "Share Tech Mono",monospace; border-radius: 4px; color: #fff; transition: 0.3s; }
         .spotify-btn { background: #1DB954; border: 1px solid #1DB954; }
         .insta-btn { background: rgba(255,0,60,0.2); border: 1px solid rgba(255,0,60,0.4); }
         .web-btn { background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.15); }
         .social-btn:hover { filter: brightness(1.2); }
-        .releases-list { list-style: none; display: flex; flex-direction: column; gap: 8px; }
-        .releases-list li { padding: 8px 12px; background: rgba(255,255,255,0.03); border-left: 2px solid rgba(255,0,60,0.4); border-radius: 0 4px 4px 0; font-size: 0.9rem; }
+        .releases-section { margin-top: 40px; }
+        .releases-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 20px; }
+        .release-card { display: flex; flex-direction: column; border-radius: 12px; overflow: hidden; background: rgba(10,10,10,0.85); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.08); transition: all 0.3s ease; cursor: pointer; position: relative; }
+        .release-card:hover { border-color: rgba(139,0,0,0.4); box-shadow: 0 8px 25px rgba(139,0,0,0.25); transform: translateY(-2px); }
+        .release-card-badges { position: absolute; top: 10px; left: 10px; z-index: 10; display: flex; gap: 6px; flex-wrap: wrap; }
+        .release-badge { font-family: "Share Tech Mono",monospace; font-size: 0.6rem; padding: 2px 7px; border-radius: 3px; font-weight: bold; letter-spacing: 1px; color: #fff; }
+        .tracks-badge { border: 1px solid transparent; }
+        .duration-badge { background: rgba(0,0,0,0.7); color: #ffcc00; border: 1px solid rgba(255,204,0,0.3); }
+        .pre-release { background: rgba(255,204,0,0.15); color: #ffcc00; border: 1px solid rgba(255,204,0,0.4); }
+        .release-card-cover-wrap { position: relative; width: 100%; aspect-ratio: 1; overflow: hidden; border-bottom: 1px solid rgba(139,0,0,0.1); }
+        .release-card-cover { width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s ease; }
+        .release-card:hover .release-card-cover { transform: scale(1.05); }
+        .release-card-info { padding: 16px; flex-grow: 1; display: flex; flex-direction: column; gap: 6px; }
+        .release-card-title { font-family: "Orbitron",sans-serif; font-size: 0.85rem; color: #fff; margin: 0; letter-spacing: 1px; line-height: 1.35; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+        .release-card-artist { font-family: "Share Tech Mono",monospace; color: #8b0000; font-size: 0.7rem; margin: 0; font-weight: bold; letter-spacing: 0.5px; }
+        .release-card-date { font-family: "Share Tech Mono",monospace; color: rgba(255,255,255,0.45); font-size: 0.65rem; margin: 0; letter-spacing: 0.5px; }
+        .releases-section .bio-section { padding: 0; background: none; backdrop-filter: none; border: none; border-radius: 0; margin-top: 20px; }
         .footer-nav { border-top: 1px solid rgba(255,0,60,0.2); padding: 30px 20px; text-align: center; font-size: 0.85rem; color: rgba(255,255,255,0.6); }
         .footer-nav a { color: #fff; text-decoration: none; margin: 0 10px; }
-        @media (max-width: 600px) { .artist-header { flex-direction: column; align-items: center; text-align: center; } .artist-img { width: 150px; height: 150px; } }
+        @media (max-width: 600px) { .artist-header { flex-direction: column; align-items: center; text-align: center; } .artist-img { width: 150px; height: 150px; } .releases-grid { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 14px; } .hr-glass { padding: 24px; } }
     </style>
     <script type="application/ld+json">
     {
@@ -52,7 +73,8 @@
         "image": "https://i2o.scdn.co/image/ab676186000016673f9c40ab026b61345676404e",
         "description": "Kamaara is a rapper, producer, and artist out of Fort Lauderdale, Florida, now based in North Carolina. His sound is rooted in trap metal and industrial hip-hop, built on dark, heavy beats and an aggressive delivery that has been his signature since his debut in 2017. His solo discography runs from ",
         "genre": ["dark trap","industrial hip hop","horrorcore"],
-        "sameAs": ["https://open.spotify.com/artist/06d6Jun2N1hugnXeN98kQ0","https://www.instagram.com/kamaara/"]
+        "sameAs": ["https://open.spotify.com/artist/06d6Jun2N1hugnXeN98kQ0","https://www.instagram.com/kamaara/"],
+        "album": [{"@type":"MusicAlbum","name":"Circling Terror","url":"https://open.spotify.com/album/3of56j2BnYbsNkg1VUpaRy","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273e2b366b84f9014f1f040cf1a","datePublished":"2025-03-07","numTracks":8},{"@type":"MusicAlbum","name":"TrenchBoy||","url":"https://open.spotify.com/album/0Vfy5ukBUXEVzArLDIE8Ye","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27346510c76dd2cffc9dfc86e5e","datePublished":"2020-10-21","numTracks":13},{"@type":"MusicAlbum","name":"Cowboy Cutie","url":"https://open.spotify.com/album/6mfq6WTN6KbkQADZGGPDL5","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2735f133de54de5927810425784","datePublished":"2019-07-20","numTracks":13},{"@type":"MusicAlbum","name":"Next Time You See Me I'll Be Dead on Your Doorstep","url":"https://open.spotify.com/album/5SRhjLtuq84q8wLvSazmpS","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2737f9420a19859b23cc6690011","datePublished":"2018-06-29","numTracks":11},{"@type":"MusicAlbum","name":"I'll Come Back 2 Haunt You","url":"https://open.spotify.com/album/3P20mv4bbLNQo4fDaw1xBB","image":"https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27326352f4dd2630430ae1ae601","datePublished":"2025-09-05","numTracks":1},{"@type":"MusicAlbum","name":"TortureInsideMyAmygdala","url":"https://open.spotify.com/album/0p6HOkxIjtAoiDpfSbvSHU","image":"https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2737cdf064b2102ae02e592f332","datePublished":"2024-05-31","numTracks":1},{"@type":"MusicAlbum","name":"SIGNS","url":"https://open.spotify.com/album/59OFpC7J5h3OcyXG5NPf9Q","image":"https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273317ff2707a0c1d58181a1d69","datePublished":"2024-03-06","numTracks":1},{"@type":"MusicAlbum","name":"GauzeValley","url":"https://open.spotify.com/album/5paHLzewvgX7QCz1LP73MO","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273584b2ea947947907c64b5c63","datePublished":"2022-06-23","numTracks":1},{"@type":"MusicAlbum","name":"CATACOMBS!","url":"https://open.spotify.com/album/6P79MWNcyqDUyXlB6ykiAT","image":"https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27311b769a3ee7f2f503c63519e","datePublished":"2022-04-20","numTracks":1},{"@type":"MusicAlbum","name":"WeProbablyShouldn'ttalkanymore","url":"https://open.spotify.com/album/63mm4ZMw3FGmwW1nCtMy09","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27333a652c592aa88b724edfb4c","datePublished":"2018-12-15","numTracks":1},{"@type":"MusicAlbum","name":"SorryItsVague","url":"https://open.spotify.com/album/3YEK8l1byfJUnRCvkywy0q","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2734150742e5d7a1d7e8e50e26d","datePublished":"2018-11-14","numTracks":1},{"@type":"MusicAlbum","name":"I Might Die Before I Detox","url":"https://open.spotify.com/album/18dLFncnmkXqgHeUkmXpwF","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273a1b98eb5f27507cda0412644","datePublished":"2017-06-03","numTracks":1}]
     }
     </script>
     <script type="application/ld+json">
@@ -70,11 +92,13 @@
     <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-YGTD782ZEK");</script>
 </head>
 <body>
-    <main class="page-main">
+    <main class="page-main" itemscope itemtype="https://schema.org/MusicGroup">
+        <meta itemprop="name" content="KAMAARA">
+        <meta itemprop="url" content="https://www.horrorcore-reshare.com/artists/kamaara">
         <div class="artist-header hr-glass">
-            <img src="https://i2o.scdn.co/image/ab676186000016673f9c40ab026b61345676404e" alt="KAMAARA underground horrorcore artist photo" class="artist-img" loading="lazy">
+            <img src="https://i2o.scdn.co/image/ab676186000016673f9c40ab026b61345676404e" alt="KAMAARA underground horrorcore artist photo" class="artist-img" loading="lazy" itemprop="image">
             <div class="artist-info">
-                <h1>KAMAARA</h1>
+                <h1 itemprop="name">KAMAARA</h1>
                 <div class="genre-tags">
 <span class="genre-tag">dark trap</span>
 <span class="genre-tag">industrial hip hop</span>
@@ -86,25 +110,208 @@
 </div>
             </div>
         </div>
-        <div class="bio-section hr-glass">
+        <div class="bio-section hr-glass" itemprop="description">
             <h2>Artist Biography</h2>
             <p>Kamaara is a rapper, producer, and artist out of Fort Lauderdale, Florida, now based in North Carolina. His sound is rooted in trap metal and industrial hip-hop, built on dark, heavy beats and an aggressive delivery that has been his signature since his debut in 2017. His solo discography runs from Valley (2017) through Next Time You See Me I'll Be Dead on Your Doorstep || (2018), Cowboy Cutie (2019), and TrenchBoy|| (2020), each project pushing further into experimental and atmospheric territory. Beyond his solo work he is also a member of the collective Haunted House, and has a collab project with Savage Ga$p as well as Circling Terror with Kill Ebola in 2025. He produces much of his own material and has built a reputation as a tireless collaborator in the dark underground rap scene. With active touring across the US and Europe, Kamaara has steadily grown from a regional underground name into a genuinely international presence.</p>
         </div>
-        <div class="bio-section hr-glass">
-            <h2>Latest Releases</h2>
-            <ul class="releases-list">
-<li><a href="https://open.spotify.com/album/3of56j2BnYbsNkg1VUpaRy" target="_blank" rel="noopener noreferrer" style="color: #ffcc00;">Spotify Release 3of56j2BnYbsNkg1VUpaRy</a></li>
-<li><a href="https://open.spotify.com/album/3lKy1Ddnt6Jov2ALre3Cao" target="_blank" rel="noopener noreferrer" style="color: #ffcc00;">Spotify Release 3lKy1Ddnt6Jov2ALre3Cao</a></li>
-<li><a href="https://open.spotify.com/album/0Vfy5ukBUXEVzArLDIE8Ye" target="_blank" rel="noopener noreferrer" style="color: #ffcc00;">Spotify Release 0Vfy5ukBUXEVzArLDIE8Ye</a></li>
-<li><a href="https://open.spotify.com/album/6mfq6WTN6KbkQADZGGPDL5" target="_blank" rel="noopener noreferrer" style="color: #ffcc00;">Spotify Release 6mfq6WTN6KbkQADZGGPDL5</a></li>
-<li><a href="https://open.spotify.com/album/5SRhjLtuq84q8wLvSazmpS" target="_blank" rel="noopener noreferrer" style="color: #ffcc00;">Spotify Release 5SRhjLtuq84q8wLvSazmpS</a></li>
-</ul>
-        </div>
-        <div class="similar-section hr-glass">
+        
+                    <div class="releases-section">
+                        <h2 class="releases-heading">Albums & EPs</h2>
+                        <div class="releases-grid">
+                            
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/3of56j2BnYbsNkg1VUpaRy', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(83, 83, 83, 0.85); border-color: rgba(83, 83, 83, 0.5);">8 TRACKS</span>
+                            <span class="release-badge duration-badge">20m 33s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273e2b366b84f9014f1f040cf1a" alt="Circling Terror album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=Circling%20Terror&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="Circling Terror">Circling Terror</h3>
+                            <p class="release-card-artist">KAMAARA</p>
+                            <p class="release-card-date">MAR 7, 2025</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/0Vfy5ukBUXEVzArLDIE8Ye', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(147, 46, 0, 0.85); border-color: rgba(147, 46, 0, 0.5);">13 TRACKS</span>
+                            <span class="release-badge duration-badge">34m 54s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27346510c76dd2cffc9dfc86e5e" alt="TrenchBoy|| album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=TrenchBoy%7C%7C&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="TrenchBoy||">TrenchBoy||</h3>
+                            <p class="release-card-artist">KAMAARA</p>
+                            <p class="release-card-date">OCT 21, 2020</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/6mfq6WTN6KbkQADZGGPDL5', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(137, 0, 150, 0.85); border-color: rgba(137, 0, 150, 0.5);">13 TRACKS</span>
+                            <span class="release-badge duration-badge">29m 39s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2735f133de54de5927810425784" alt="Cowboy Cutie album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=Cowboy%20Cutie&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="Cowboy Cutie">Cowboy Cutie</h3>
+                            <p class="release-card-artist">KAMAARA</p>
+                            <p class="release-card-date">JUL 20, 2019</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/5SRhjLtuq84q8wLvSazmpS', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(158, 0, 26, 0.85); border-color: rgba(158, 0, 26, 0.5);">11 TRACKS</span>
+                            <span class="release-badge duration-badge">29m 53s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2737f9420a19859b23cc6690011" alt="Next Time You See Me I'll Be Dead on Your Doorstep album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=Next%20Time%20You%20See%20Me%20I'll%20Be%20Dead%20on%20Your%20Doorstep&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="Next Time You See Me I'll Be Dead on Your Doorstep">Next Time You See Me I'll Be Dead on Your Doorstep</h3>
+                            <p class="release-card-artist">KAMAARA</p>
+                            <p class="release-card-date">JUN 29, 2018</p>
+                        </div>
+                    </div>
+                        </div>
+                    </div>
+                    <div class="releases-section">
+                        <h2 class="releases-heading">Singles</h2>
+                        <div class="releases-grid">
+                            
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/3P20mv4bbLNQo4fDaw1xBB', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(8, 80, 72, 0.85); border-color: rgba(8, 80, 72, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">2m 16s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27326352f4dd2630430ae1ae601" alt="I'll Come Back 2 Haunt You album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=I'll%20Come%20Back%202%20Haunt%20You&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="I'll Come Back 2 Haunt You">I'll Come Back 2 Haunt You</h3>
+                            <p class="release-card-artist">KAMAARA</p>
+                            <p class="release-card-date">SEP 5, 2025</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/0p6HOkxIjtAoiDpfSbvSHU', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(83, 83, 83, 0.85); border-color: rgba(83, 83, 83, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">1m 28s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2737cdf064b2102ae02e592f332" alt="TortureInsideMyAmygdala album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=TortureInsideMyAmygdala&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="TortureInsideMyAmygdala">TortureInsideMyAmygdala</h3>
+                            <p class="release-card-artist">KAMAARA</p>
+                            <p class="release-card-date">MAY 31, 2024</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/59OFpC7J5h3OcyXG5NPf9Q', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(44, 83, 137, 0.85); border-color: rgba(44, 83, 137, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">1m 27s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273317ff2707a0c1d58181a1d69" alt="SIGNS album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=SIGNS&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="SIGNS">SIGNS</h3>
+                            <p class="release-card-artist">KAMAARA</p>
+                            <p class="release-card-date">MAR 6, 2024</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/5paHLzewvgX7QCz1LP73MO', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(83, 83, 83, 0.85); border-color: rgba(83, 83, 83, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">2m 30s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273584b2ea947947907c64b5c63" alt="GauzeValley album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=GauzeValley&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="GauzeValley">GauzeValley</h3>
+                            <p class="release-card-artist">KAMAARA</p>
+                            <p class="release-card-date">JUN 23, 2022</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/6P79MWNcyqDUyXlB6ykiAT', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(157, 20, 0, 0.85); border-color: rgba(157, 20, 0, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">2m 36s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27311b769a3ee7f2f503c63519e" alt="CATACOMBS! album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=CATACOMBS!&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="CATACOMBS!">CATACOMBS!</h3>
+                            <p class="release-card-artist">KAMAARA</p>
+                            <p class="release-card-date">APR 20, 2022</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/63mm4ZMw3FGmwW1nCtMy09', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(159, 0, 0, 0.85); border-color: rgba(159, 0, 0, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">2m 36s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27333a652c592aa88b724edfb4c" alt="WeProbablyShouldn'ttalkanymore album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=WeProbablyShouldn'ttalkanymore&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="WeProbablyShouldn'ttalkanymore">WeProbablyShouldn'ttalkanymore</h3>
+                            <p class="release-card-artist">KAMAARA</p>
+                            <p class="release-card-date">DEC 15, 2018</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/3YEK8l1byfJUnRCvkywy0q', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(15, 59, 212, 0.85); border-color: rgba(15, 59, 212, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">2m 35s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2734150742e5d7a1d7e8e50e26d" alt="SorryItsVague album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=SorryItsVague&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="SorryItsVague">SorryItsVague</h3>
+                            <p class="release-card-artist">KAMAARA</p>
+                            <p class="release-card-date">NOV 14, 2018</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/18dLFncnmkXqgHeUkmXpwF', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(159, 0, 0, 0.85); border-color: rgba(159, 0, 0, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">3m 20s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273a1b98eb5f27507cda0412644" alt="I Might Die Before I Detox album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=I%20Might%20Die%20Before%20I%20Detox&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="I Might Die Before I Detox">I Might Die Before I Detox</h3>
+                            <p class="release-card-artist">KAMAARA</p>
+                            <p class="release-card-date">JUN 3, 2017</p>
+                        </div>
+                    </div>
+                        </div>
+                    </div>
+        <div class="similar-section hr-glass" style="margin-top: 40px;">
             <h2>Similar Artists</h2>
             <p style="line-height: 1.8;"><a href="https://www.horrorcore-reshare.com/artists/kill-dyll" style="color: #ffcc00; text-decoration: underline;">Kill Dyll</a>, <a href="https://www.horrorcore-reshare.com/artists/grim-salvo" style="color: #ffcc00; text-decoration: underline;">Grim Salvo</a>, <a href="https://www.horrorcore-reshare.com/artists/witchouse-40k" style="color: #ffcc00; text-decoration: underline;">Witchouse 40k</a>, <a href="https://www.horrorcore-reshare.com/artists/godhandusa" style="color: #ffcc00; text-decoration: underline;">GODHANDUSA</a></p>
         </div>
-        <div class="bio-section hr-glass">
+        <div class="bio-section hr-glass" style="margin-top: 30px;">
             <h2>Genre Tags</h2>
             <p><a href="https://www.horrorcore-reshare.com/genres/dark-trap" style="color: #ffcc00; text-decoration: underline;">dark trap</a>, <a href="https://www.horrorcore-reshare.com/genres/industrial-hip-hop" style="color: #ffcc00; text-decoration: underline;">industrial hip hop</a>, <a href="https://www.horrorcore-reshare.com/genres/horrorcore" style="color: #ffcc00; text-decoration: underline;">horrorcore</a></p>
         </div>
@@ -119,7 +326,7 @@
                 <a href="/discord">Discord</a> <a href="/services">Services</a>
                 <a href="/follow">Follow</a> <a href="/page-audit">Page Audit</a> <a href="/privacy">Privacy</a>
             </nav>
-            <p>&copy; 2024-2026 Horrorcore Reshare | Update 001 | Maintained by Luna Serafina</p>
+            <p>&copy; 2024-2026 Horrorcore Reshare | Maintained by Luna Serafina</p>
         </div>
     </footer>
 </body>

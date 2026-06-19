@@ -12,10 +12,16 @@
     <meta property="og:image" content="https://raw.githubusercontent.com/Moonfire-dreamwalkers/horrorcore-reshare-public-assets/main/images/elita.jpeg">
     <meta property="og:site_name" content="Horrorcore Reshare">
     <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Elita | Horrorcore Reshare Underground Artist">
+    <meta name="twitter:description" content="Elita is the project of Emma Harvey, a Canadian singer, songwriter, and actress born and raised in St. John's, Newfoundland. Built alongside her partner...">
+    <meta name="twitter:image" content="https://raw.githubusercontent.com/Moonfire-dreamwalkers/horrorcore-reshare-public-assets/main/images/elita.jpeg">
     <title>Elita | Horrorcore Reshare Underground Artist Profile</title>
     <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/Moonfire-dreamwalkers/horrorcore-reshare-public-assets/main/images/hr-icon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://i.scdn.co">
+    <link rel="preconnect" href="https://i2o.scdn.co">
+    <link rel="preconnect" href="https://image-cdn-fa.spotifycdn.com">
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Inter:wght@300;400;800&family=Orbitron:wght@400;900&family=Share+Tech+Mono&display=swap" rel="stylesheet">
     <style>
         :root { --hr-blood: #8b0000; --hr-crimson: #cc2222; --hr-crimson-glow: rgba(204,34,34,0.6); --hr-text-muted: rgba(255,255,255,0.55); --hr-font-classic: "Orbitron",sans-serif; }
@@ -30,18 +36,33 @@
         .genre-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 20px; }
         .genre-tag { background: rgba(255,0,60,0.15); border: 1px solid rgba(255,0,60,0.3); padding: 4px 12px; border-radius: 4px; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 1px; color: #fff; }
         .bio-section { line-height: 1.9; font-size: 1rem; color: rgba(255,255,255,0.85); }
-        .bio-section h2, .similar-section h2 { font-family: "Orbitron",sans-serif; color: #ff003c; letter-spacing: 2px; font-size: 1.5rem; margin-bottom: 15px; border-bottom: 1px solid rgba(255,0,60,0.3); padding-bottom: 10px; }
+        .bio-section h2, .similar-section h2, .releases-heading { font-family: "Orbitron",sans-serif; color: #ff003c; letter-spacing: 2px; font-size: 1.5rem; margin-bottom: 15px; border-bottom: 1px solid rgba(255,0,60,0.3); padding-bottom: 10px; }
         .links-row { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 30px; }
         .social-btn { display: inline-block; padding: 10px 20px; text-decoration: none; font-family: "Share Tech Mono",monospace; border-radius: 4px; color: #fff; transition: 0.3s; }
         .spotify-btn { background: #1DB954; border: 1px solid #1DB954; }
         .insta-btn { background: rgba(255,0,60,0.2); border: 1px solid rgba(255,0,60,0.4); }
         .web-btn { background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.15); }
         .social-btn:hover { filter: brightness(1.2); }
-        .releases-list { list-style: none; display: flex; flex-direction: column; gap: 8px; }
-        .releases-list li { padding: 8px 12px; background: rgba(255,255,255,0.03); border-left: 2px solid rgba(255,0,60,0.4); border-radius: 0 4px 4px 0; font-size: 0.9rem; }
+        .releases-section { margin-top: 40px; }
+        .releases-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 20px; }
+        .release-card { display: flex; flex-direction: column; border-radius: 12px; overflow: hidden; background: rgba(10,10,10,0.85); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.08); transition: all 0.3s ease; cursor: pointer; position: relative; }
+        .release-card:hover { border-color: rgba(139,0,0,0.4); box-shadow: 0 8px 25px rgba(139,0,0,0.25); transform: translateY(-2px); }
+        .release-card-badges { position: absolute; top: 10px; left: 10px; z-index: 10; display: flex; gap: 6px; flex-wrap: wrap; }
+        .release-badge { font-family: "Share Tech Mono",monospace; font-size: 0.6rem; padding: 2px 7px; border-radius: 3px; font-weight: bold; letter-spacing: 1px; color: #fff; }
+        .tracks-badge { border: 1px solid transparent; }
+        .duration-badge { background: rgba(0,0,0,0.7); color: #ffcc00; border: 1px solid rgba(255,204,0,0.3); }
+        .pre-release { background: rgba(255,204,0,0.15); color: #ffcc00; border: 1px solid rgba(255,204,0,0.4); }
+        .release-card-cover-wrap { position: relative; width: 100%; aspect-ratio: 1; overflow: hidden; border-bottom: 1px solid rgba(139,0,0,0.1); }
+        .release-card-cover { width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s ease; }
+        .release-card:hover .release-card-cover { transform: scale(1.05); }
+        .release-card-info { padding: 16px; flex-grow: 1; display: flex; flex-direction: column; gap: 6px; }
+        .release-card-title { font-family: "Orbitron",sans-serif; font-size: 0.85rem; color: #fff; margin: 0; letter-spacing: 1px; line-height: 1.35; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+        .release-card-artist { font-family: "Share Tech Mono",monospace; color: #8b0000; font-size: 0.7rem; margin: 0; font-weight: bold; letter-spacing: 0.5px; }
+        .release-card-date { font-family: "Share Tech Mono",monospace; color: rgba(255,255,255,0.45); font-size: 0.65rem; margin: 0; letter-spacing: 0.5px; }
+        .releases-section .bio-section { padding: 0; background: none; backdrop-filter: none; border: none; border-radius: 0; margin-top: 20px; }
         .footer-nav { border-top: 1px solid rgba(255,0,60,0.2); padding: 30px 20px; text-align: center; font-size: 0.85rem; color: rgba(255,255,255,0.6); }
         .footer-nav a { color: #fff; text-decoration: none; margin: 0 10px; }
-        @media (max-width: 600px) { .artist-header { flex-direction: column; align-items: center; text-align: center; } .artist-img { width: 150px; height: 150px; } }
+        @media (max-width: 600px) { .artist-header { flex-direction: column; align-items: center; text-align: center; } .artist-img { width: 150px; height: 150px; } .releases-grid { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 14px; } .hr-glass { padding: 24px; } }
     </style>
     <script type="application/ld+json">
     {
@@ -52,7 +73,8 @@
         "image": "https://raw.githubusercontent.com/Moonfire-dreamwalkers/horrorcore-reshare-public-assets/main/images/elita.jpeg",
         "description": "Elita is the project of Emma Harvey, a Canadian singer, songwriter, and actress born and raised in St. John's, Newfoundland. Built alongside her partner Timothy Rypien, the band blends angelic vocals with sinister, bone-chilling lyrics, layering shoegaze, noise, garage rock, and dark pop into a soun",
         "genre": ["underground rap","wicked shit"],
-        "sameAs": ["https://open.spotify.com/artist/7ApzfFN0BmeeVJPsQBReRv","https://www.instagram.com/yungelita/","https://elitamusicworld.com/"]
+        "sameAs": ["https://open.spotify.com/artist/7ApzfFN0BmeeVJPsQBReRv","https://www.instagram.com/yungelita/","https://elitamusicworld.com/"],
+        "album": [{"@type":"MusicAlbum","name":"Hell Hill","url":"https://open.spotify.com/album/7KJtjq7YfLI4kACOIdcHaW","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273392382dddd166d238025ac1f","datePublished":"2025-04-25","numTracks":13},{"@type":"MusicAlbum","name":"Dysania","url":"https://open.spotify.com/album/31fM7MbZkDMt1zn51QJ9ap","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2738d1f764df92a5c1dd249abda","datePublished":"2023-03-22","numTracks":11},{"@type":"MusicAlbum","name":"It's a Joke","url":"https://open.spotify.com/album/0wi8ZxKcnHoTqBOSypCxRE","image":"https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273789b3c5246d1c584aa77b503","datePublished":"2023-03-01","numTracks":4},{"@type":"MusicAlbum","name":"She Bangs Like a Fairy on Acid","url":"https://open.spotify.com/album/1ZihE7uvcauy0odKAIJCY4","image":"https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27319b0d79569385b3be2551e0b","datePublished":"2023-02-01","numTracks":3},{"@type":"MusicAlbum","name":"Mentally Not Here","url":"https://open.spotify.com/album/3f9hSxQdwLyg5ch1o4xRxt","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273c82919f321a847e182cfe411","datePublished":"2022-11-30","numTracks":2},{"@type":"MusicAlbum","name":"Anxiety Angel","url":"https://open.spotify.com/album/0jmTbk3JwYNSaMIhAxpef0","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273e6a375051cedbc0f614c95fb","datePublished":"2021-10-21","numTracks":5},{"@type":"MusicAlbum","name":"Satanic Slumber Party","url":"https://open.spotify.com/album/41lETiLeuJBY4SmieMV0K7","image":"https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2732d4975a7228f710adeba3799","datePublished":"2021-10-07","numTracks":2},{"@type":"MusicAlbum","name":"Blood Sucker","url":"https://open.spotify.com/album/64RhbtFuXkhlcsRsaZ5uwi","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2736bcf9ce63a227ccf737b5ecf","datePublished":"2020-05-01","numTracks":4},{"@type":"MusicAlbum","name":"Sick Girl","url":"https://open.spotify.com/album/1xIFpGv6PXylrlLYN9bINU","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27367696fb17a081d2f28e2bf43","datePublished":"2019-06-21","numTracks":5},{"@type":"MusicAlbum","name":"So Wet","url":"https://open.spotify.com/album/7E6VYflNOZL2cItcb9GRrZ","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27344c3edfcdf81df3912f18ed5","datePublished":"2021-08-10","numTracks":1},{"@type":"MusicAlbum","name":"Void","url":"https://open.spotify.com/album/09fwZzRv4EmksZdhUGkvA4","image":"https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273b083d84a97c8f6755b324486","datePublished":"2020-01-17","numTracks":1},{"@type":"MusicAlbum","name":"I Hate Everyone but You","url":"https://open.spotify.com/album/0jvdK0GFKwJYM7WdDICyHi","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273eb578801627f15c22a265180","datePublished":"2018-07-12","numTracks":1}]
     }
     </script>
     <script type="application/ld+json">
@@ -70,11 +92,13 @@
     <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-YGTD782ZEK");</script>
 </head>
 <body>
-    <main class="page-main">
+    <main class="page-main" itemscope itemtype="https://schema.org/MusicGroup">
+        <meta itemprop="name" content="Elita">
+        <meta itemprop="url" content="https://www.horrorcore-reshare.com/artists/elita">
         <div class="artist-header hr-glass">
-            <img src="https://raw.githubusercontent.com/Moonfire-dreamwalkers/horrorcore-reshare-public-assets/main/images/elita.jpeg" alt="Elita underground horrorcore artist photo" class="artist-img" loading="lazy">
+            <img src="https://raw.githubusercontent.com/Moonfire-dreamwalkers/horrorcore-reshare-public-assets/main/images/elita.jpeg" alt="Elita underground horrorcore artist photo" class="artist-img" loading="lazy" itemprop="image">
             <div class="artist-info">
-                <h1>Elita</h1>
+                <h1 itemprop="name">Elita</h1>
                 <div class="genre-tags">
 <span class="genre-tag">underground rap</span>
 <span class="genre-tag">wicked shit</span>
@@ -86,25 +110,208 @@
 </div>
             </div>
         </div>
-        <div class="bio-section hr-glass">
+        <div class="bio-section hr-glass" itemprop="description">
             <h2>Artist Biography</h2>
             <p>Elita is the project of Emma Harvey, a Canadian singer, songwriter, and actress born and raised in St. John's, Newfoundland. Built alongside her partner Timothy Rypien, the band blends angelic vocals with sinister, bone-chilling lyrics, layering shoegaze, noise, garage rock, and dark pop into a sound that is intimate and unsettling in equal measure. Her themes orbit anxiety, depression, agoraphobia, intrusive thinking, paranoia, and the supernatural, delivered with a vocal quality that feels almost too delicate for the darkness underneath it. She debuted with the single I Hate Everyone but You in 2018 and followed it with the Sick Girl EP in 2019, an honest, raw exploration of different mental states that put her on the map. Her debut album Dysania came next, with cover art shot by legendary fashion photographer Nick Knight. Her most recent release Hell Hill (2025) has been widely praised as her most fully realized work yet, a 45-minute deep dive that finds beauty in abstraction and pushes her experimental sound into new territory while staying rooted in everything that makes Elita distinctly her own.</p>
         </div>
-        <div class="bio-section hr-glass">
-            <h2>Latest Releases</h2>
-            <ul class="releases-list">
-<li><a href="https://open.spotify.com/album/7KJtjq7YfLI4kACOIdcHaW" target="_blank" rel="noopener noreferrer" style="color: #ffcc00;">Spotify Release 7KJtjq7YfLI4kACOIdcHaW</a></li>
-<li><a href="https://open.spotify.com/album/31fM7MbZkDMt1zn51QJ9ap" target="_blank" rel="noopener noreferrer" style="color: #ffcc00;">Spotify Release 31fM7MbZkDMt1zn51QJ9ap</a></li>
-<li><a href="https://open.spotify.com/album/1W8K5f2dlUlPKOjcPpFse3" target="_blank" rel="noopener noreferrer" style="color: #ffcc00;">Spotify Release 1W8K5f2dlUlPKOjcPpFse3</a></li>
-<li><a href="https://open.spotify.com/album/1FvAe6SqLX8zG0lD3hGEaU" target="_blank" rel="noopener noreferrer" style="color: #ffcc00;">Spotify Release 1FvAe6SqLX8zG0lD3hGEaU</a></li>
-<li><a href="https://open.spotify.com/album/3DR5jShLK80E3NXJGUKxnp" target="_blank" rel="noopener noreferrer" style="color: #ffcc00;">Spotify Release 3DR5jShLK80E3NXJGUKxnp</a></li>
-</ul>
-        </div>
-        <div class="similar-section hr-glass">
+        
+                    <div class="releases-section">
+                        <h2 class="releases-heading">Albums & EPs</h2>
+                        <div class="releases-grid">
+                            
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/7KJtjq7YfLI4kACOIdcHaW', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(56, 72, 88, 0.85); border-color: rgba(56, 72, 88, 0.5);">13 TRACKS</span>
+                            <span class="release-badge duration-badge">45m 23s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273392382dddd166d238025ac1f" alt="Hell Hill album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=Hell%20Hill&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="Hell Hill">Hell Hill</h3>
+                            <p class="release-card-artist">ELITA</p>
+                            <p class="release-card-date">APR 25, 2025</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/31fM7MbZkDMt1zn51QJ9ap', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(56, 64, 72, 0.85); border-color: rgba(56, 64, 72, 0.5);">11 TRACKS</span>
+                            <span class="release-badge duration-badge">31m 5s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2738d1f764df92a5c1dd249abda" alt="Dysania album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=Dysania&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="Dysania">Dysania</h3>
+                            <p class="release-card-artist">ELITA</p>
+                            <p class="release-card-date">MAR 22, 2023</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/0wi8ZxKcnHoTqBOSypCxRE', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(77, 84, 91, 0.85); border-color: rgba(77, 84, 91, 0.5);">4 TRACKS</span>
+                            <span class="release-badge duration-badge">11m 33s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273789b3c5246d1c584aa77b503" alt="It's a Joke album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=It's%20a%20Joke&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="It's a Joke">It's a Joke</h3>
+                            <p class="release-card-artist">ELITA</p>
+                            <p class="release-card-date">MAR 1, 2023</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/1ZihE7uvcauy0odKAIJCY4', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(42, 80, 151, 0.85); border-color: rgba(42, 80, 151, 0.5);">3 TRACKS</span>
+                            <span class="release-badge duration-badge">9m 3s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27319b0d79569385b3be2551e0b" alt="She Bangs Like a Fairy on Acid album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=She%20Bangs%20Like%20a%20Fairy%20on%20Acid&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="She Bangs Like a Fairy on Acid">She Bangs Like a Fairy on Acid</h3>
+                            <p class="release-card-artist">ELITA</p>
+                            <p class="release-card-date">FEB 1, 2023</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/3f9hSxQdwLyg5ch1o4xRxt', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(0, 88, 123, 0.85); border-color: rgba(0, 88, 123, 0.5);">2 TRACKS</span>
+                            <span class="release-badge duration-badge">6m 8s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273c82919f321a847e182cfe411" alt="Mentally Not Here album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=Mentally%20Not%20Here&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="Mentally Not Here">Mentally Not Here</h3>
+                            <p class="release-card-artist">ELITA</p>
+                            <p class="release-card-date">NOV 30, 2022</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/0jmTbk3JwYNSaMIhAxpef0', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(103, 77, 77, 0.85); border-color: rgba(103, 77, 77, 0.5);">5 TRACKS</span>
+                            <span class="release-badge duration-badge">15m 12s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273e6a375051cedbc0f614c95fb" alt="Anxiety Angel album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=Anxiety%20Angel&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="Anxiety Angel">Anxiety Angel</h3>
+                            <p class="release-card-artist">ELITA</p>
+                            <p class="release-card-date">OCT 21, 2021</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/41lETiLeuJBY4SmieMV0K7', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(136, 49, 97, 0.85); border-color: rgba(136, 49, 97, 0.5);">2 TRACKS</span>
+                            <span class="release-badge duration-badge">5m 32s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2732d4975a7228f710adeba3799" alt="Satanic Slumber Party album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=Satanic%20Slumber%20Party&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="Satanic Slumber Party">Satanic Slumber Party</h3>
+                            <p class="release-card-artist">ELITA</p>
+                            <p class="release-card-date">OCT 7, 2021</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/64RhbtFuXkhlcsRsaZ5uwi', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(65, 87, 94, 0.85); border-color: rgba(65, 87, 94, 0.5);">4 TRACKS</span>
+                            <span class="release-badge duration-badge">15m 22s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2736bcf9ce63a227ccf737b5ecf" alt="Blood Sucker album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=Blood%20Sucker&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="Blood Sucker">Blood Sucker</h3>
+                            <p class="release-card-artist">ELITA</p>
+                            <p class="release-card-date">MAY 1, 2020</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/1xIFpGv6PXylrlLYN9bINU', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(119, 60, 120, 0.85); border-color: rgba(119, 60, 120, 0.5);">5 TRACKS</span>
+                            <span class="release-badge duration-badge">15m 8s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27367696fb17a081d2f28e2bf43" alt="Sick Girl album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=Sick%20Girl&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="Sick Girl">Sick Girl</h3>
+                            <p class="release-card-artist">ELITA</p>
+                            <p class="release-card-date">JUN 21, 2019</p>
+                        </div>
+                    </div>
+                        </div>
+                    </div>
+                    <div class="releases-section">
+                        <h2 class="releases-heading">Singles</h2>
+                        <div class="releases-grid">
+                            
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/7E6VYflNOZL2cItcb9GRrZ', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(97, 74, 112, 0.85); border-color: rgba(97, 74, 112, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">2m 37s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27344c3edfcdf81df3912f18ed5" alt="So Wet album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=So%20Wet&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="So Wet">So Wet</h3>
+                            <p class="release-card-artist">ELITA</p>
+                            <p class="release-card-date">AUG 10, 2021</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/09fwZzRv4EmksZdhUGkvA4', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(24, 48, 96, 0.85); border-color: rgba(24, 48, 96, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">2m 35s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273b083d84a97c8f6755b324486" alt="Void album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=Void&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="Void">Void</h3>
+                            <p class="release-card-artist">ELITA</p>
+                            <p class="release-card-date">JAN 17, 2020</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/0jvdK0GFKwJYM7WdDICyHi', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(84, 76, 129, 0.85); border-color: rgba(84, 76, 129, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">2m 51s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273eb578801627f15c22a265180" alt="I Hate Everyone but You album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=I%20Hate%20Everyone%20but%20You&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="I Hate Everyone but You">I Hate Everyone but You</h3>
+                            <p class="release-card-artist">ELITA</p>
+                            <p class="release-card-date">JUL 12, 2018</p>
+                        </div>
+                    </div>
+                        </div>
+                    </div>
+        <div class="similar-section hr-glass" style="margin-top: 40px;">
             <h2>Similar Artists</h2>
             <p style="line-height: 1.8;"><a href="https://www.horrorcore-reshare.com/artists/luluyam" style="color: #ffcc00; text-decoration: underline;">LuLuYam</a>, <a href="https://www.horrorcore-reshare.com/artists/moonvampire" style="color: #ffcc00; text-decoration: underline;">Moonvampire</a>, <a href="https://www.horrorcore-reshare.com/artists/batibatt" style="color: #ffcc00; text-decoration: underline;">BatiBatt</a></p>
         </div>
-        <div class="bio-section hr-glass">
+        <div class="bio-section hr-glass" style="margin-top: 30px;">
             <h2>Genre Tags</h2>
             <p><a href="https://www.horrorcore-reshare.com/genres/underground-rap" style="color: #ffcc00; text-decoration: underline;">underground rap</a>, <a href="https://www.horrorcore-reshare.com/genres/wicked-shit" style="color: #ffcc00; text-decoration: underline;">wicked shit</a></p>
         </div>
@@ -119,7 +326,7 @@
                 <a href="/discord">Discord</a> <a href="/services">Services</a>
                 <a href="/follow">Follow</a> <a href="/page-audit">Page Audit</a> <a href="/privacy">Privacy</a>
             </nav>
-            <p>&copy; 2024-2026 Horrorcore Reshare | Update 001 | Maintained by Luna Serafina</p>
+            <p>&copy; 2024-2026 Horrorcore Reshare | Maintained by Luna Serafina</p>
         </div>
     </footer>
 </body>

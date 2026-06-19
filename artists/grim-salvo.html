@@ -12,10 +12,16 @@
     <meta property="og:image" content="https://i2o.scdn.co/image/ab67618600001667ba6e30a727e5d3f261aa5f13">
     <meta property="og:site_name" content="Horrorcore Reshare">
     <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Grim Salvo | Horrorcore Reshare Underground Artist">
+    <meta name="twitter:description" content="Grim Salvo is a dark trap and experimental duo out of Portland, OR, made up of childhood friends SLEUTH and MOSSBACK. The two met growing up in Portland...">
+    <meta name="twitter:image" content="https://i2o.scdn.co/image/ab67618600001667ba6e30a727e5d3f261aa5f13">
     <title>Grim Salvo | Horrorcore Reshare Underground Artist Profile</title>
     <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/Moonfire-dreamwalkers/horrorcore-reshare-public-assets/main/images/hr-icon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://i.scdn.co">
+    <link rel="preconnect" href="https://i2o.scdn.co">
+    <link rel="preconnect" href="https://image-cdn-fa.spotifycdn.com">
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Inter:wght@300;400;800&family=Orbitron:wght@400;900&family=Share+Tech+Mono&display=swap" rel="stylesheet">
     <style>
         :root { --hr-blood: #8b0000; --hr-crimson: #cc2222; --hr-crimson-glow: rgba(204,34,34,0.6); --hr-text-muted: rgba(255,255,255,0.55); --hr-font-classic: "Orbitron",sans-serif; }
@@ -30,18 +36,33 @@
         .genre-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 20px; }
         .genre-tag { background: rgba(255,0,60,0.15); border: 1px solid rgba(255,0,60,0.3); padding: 4px 12px; border-radius: 4px; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 1px; color: #fff; }
         .bio-section { line-height: 1.9; font-size: 1rem; color: rgba(255,255,255,0.85); }
-        .bio-section h2, .similar-section h2 { font-family: "Orbitron",sans-serif; color: #ff003c; letter-spacing: 2px; font-size: 1.5rem; margin-bottom: 15px; border-bottom: 1px solid rgba(255,0,60,0.3); padding-bottom: 10px; }
+        .bio-section h2, .similar-section h2, .releases-heading { font-family: "Orbitron",sans-serif; color: #ff003c; letter-spacing: 2px; font-size: 1.5rem; margin-bottom: 15px; border-bottom: 1px solid rgba(255,0,60,0.3); padding-bottom: 10px; }
         .links-row { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 30px; }
         .social-btn { display: inline-block; padding: 10px 20px; text-decoration: none; font-family: "Share Tech Mono",monospace; border-radius: 4px; color: #fff; transition: 0.3s; }
         .spotify-btn { background: #1DB954; border: 1px solid #1DB954; }
         .insta-btn { background: rgba(255,0,60,0.2); border: 1px solid rgba(255,0,60,0.4); }
         .web-btn { background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.15); }
         .social-btn:hover { filter: brightness(1.2); }
-        .releases-list { list-style: none; display: flex; flex-direction: column; gap: 8px; }
-        .releases-list li { padding: 8px 12px; background: rgba(255,255,255,0.03); border-left: 2px solid rgba(255,0,60,0.4); border-radius: 0 4px 4px 0; font-size: 0.9rem; }
+        .releases-section { margin-top: 40px; }
+        .releases-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 20px; }
+        .release-card { display: flex; flex-direction: column; border-radius: 12px; overflow: hidden; background: rgba(10,10,10,0.85); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.08); transition: all 0.3s ease; cursor: pointer; position: relative; }
+        .release-card:hover { border-color: rgba(139,0,0,0.4); box-shadow: 0 8px 25px rgba(139,0,0,0.25); transform: translateY(-2px); }
+        .release-card-badges { position: absolute; top: 10px; left: 10px; z-index: 10; display: flex; gap: 6px; flex-wrap: wrap; }
+        .release-badge { font-family: "Share Tech Mono",monospace; font-size: 0.6rem; padding: 2px 7px; border-radius: 3px; font-weight: bold; letter-spacing: 1px; color: #fff; }
+        .tracks-badge { border: 1px solid transparent; }
+        .duration-badge { background: rgba(0,0,0,0.7); color: #ffcc00; border: 1px solid rgba(255,204,0,0.3); }
+        .pre-release { background: rgba(255,204,0,0.15); color: #ffcc00; border: 1px solid rgba(255,204,0,0.4); }
+        .release-card-cover-wrap { position: relative; width: 100%; aspect-ratio: 1; overflow: hidden; border-bottom: 1px solid rgba(139,0,0,0.1); }
+        .release-card-cover { width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s ease; }
+        .release-card:hover .release-card-cover { transform: scale(1.05); }
+        .release-card-info { padding: 16px; flex-grow: 1; display: flex; flex-direction: column; gap: 6px; }
+        .release-card-title { font-family: "Orbitron",sans-serif; font-size: 0.85rem; color: #fff; margin: 0; letter-spacing: 1px; line-height: 1.35; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+        .release-card-artist { font-family: "Share Tech Mono",monospace; color: #8b0000; font-size: 0.7rem; margin: 0; font-weight: bold; letter-spacing: 0.5px; }
+        .release-card-date { font-family: "Share Tech Mono",monospace; color: rgba(255,255,255,0.45); font-size: 0.65rem; margin: 0; letter-spacing: 0.5px; }
+        .releases-section .bio-section { padding: 0; background: none; backdrop-filter: none; border: none; border-radius: 0; margin-top: 20px; }
         .footer-nav { border-top: 1px solid rgba(255,0,60,0.2); padding: 30px 20px; text-align: center; font-size: 0.85rem; color: rgba(255,255,255,0.6); }
         .footer-nav a { color: #fff; text-decoration: none; margin: 0 10px; }
-        @media (max-width: 600px) { .artist-header { flex-direction: column; align-items: center; text-align: center; } .artist-img { width: 150px; height: 150px; } }
+        @media (max-width: 600px) { .artist-header { flex-direction: column; align-items: center; text-align: center; } .artist-img { width: 150px; height: 150px; } .releases-grid { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 14px; } .hr-glass { padding: 24px; } }
     </style>
     <script type="application/ld+json">
     {
@@ -52,7 +73,8 @@
         "image": "https://i2o.scdn.co/image/ab67618600001667ba6e30a727e5d3f261aa5f13",
         "description": "Grim Salvo is a dark trap and experimental duo out of Portland, OR, made up of childhood friends SLEUTH and MOSSBACK. The two met growing up in Portland and eventually built a sound together that blends trap metal, grunge, and horror-infused aesthetics into something raw and distinctly their own. Bo",
         "genre": ["dark trap","horrorcore","industrial hip hop"],
-        "sameAs": ["https://open.spotify.com/artist/5UogEGDRYo5Q9bRIMRjuEC","https://www.instagram.com/grimsalvo/","https://grimsalvo.com/"]
+        "sameAs": ["https://open.spotify.com/artist/5UogEGDRYo5Q9bRIMRjuEC","https://www.instagram.com/grimsalvo/","https://grimsalvo.com/"],
+        "album": [{"@type":"MusicAlbum","name":"VOIDST★R","url":"https://open.spotify.com/album/5iSsvkysEm4sjAWzLZvYBq","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27332fdc484f7e59b8e4cfcfad1","datePublished":"2024-07-25","numTracks":12},{"@type":"MusicAlbum","name":"MILDRED DECOMPOSED (Instrumental)","url":"https://open.spotify.com/album/3jae2GNwWp7557szjtj0ke","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27399b6a354dc54024e2b6d49e4","datePublished":"2023-11-07","numTracks":10},{"@type":"MusicAlbum","name":"MILDRED","url":"https://open.spotify.com/album/5OBtYdpWmoyEVWPllhrVKj","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2733d9e704bf94a4568d97d42ee","datePublished":"2022-11-07","numTracks":10},{"@type":"MusicAlbum","name":"Dolores","url":"https://open.spotify.com/album/5sU6Ljpr6EwKXoThSkh2Ye","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273f1f7f8ec673ce29d0d3ae30f","datePublished":"2020-07-01","numTracks":5},{"@type":"MusicAlbum","name":"orb.weaver","url":"https://open.spotify.com/album/7ksPxrBTs9H35LoGia5zq3","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2738b15d85e11d27c06e2b43378","datePublished":"2025-10-02","numTracks":1},{"@type":"MusicAlbum","name":"30 DAYS OF NIGHT","url":"https://open.spotify.com/album/6D8mIYnzouehNA0S0E3qvB","image":"https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273872a24a38a9fc02f0876156a","datePublished":"2025-02-28","numTracks":1},{"@type":"MusicAlbum","name":"why do I still care?","url":"https://open.spotify.com/album/6shFiJsED3fVGbiOULhtKz","image":"https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273c0ea6f55336ce94e67e54390","datePublished":"2023-05-05","numTracks":1},{"@type":"MusicAlbum","name":"Boysenberry Sepsis","url":"https://open.spotify.com/album/2I7HLr0sUFrdDOalAlWE7L","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273b5415b9657a2d85b5945dc46","datePublished":"2021-01-22","numTracks":1},{"@type":"MusicAlbum","name":"SKEET MODE","url":"https://open.spotify.com/album/5eYGi5ty7PfqXZ9JzpdIvC","image":"https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2738e52516e8b605aa7a55ca1ad","datePublished":"2020-10-16","numTracks":1},{"@type":"MusicAlbum","name":"Tropic of Sarin","url":"https://open.spotify.com/album/3TfJe0gRUYcH8nECv4RJnt","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273cc9e8272bd8c0b00dc6a67c9","datePublished":"2020-03-16","numTracks":1},{"@type":"MusicAlbum","name":"Eye.Sink","url":"https://open.spotify.com/album/1tN4GEEdKH7cwAg2t5LqWh","image":"https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2734a47620e434060ec67f9311c","datePublished":"2019-03-05","numTracks":1},{"@type":"MusicAlbum","name":"Grey.Link","url":"https://open.spotify.com/album/25317HDefIRr0bbooOLUiu","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27325f906b7f6bf4a57ebbea679","datePublished":"2018-12-04","numTracks":1},{"@type":"MusicAlbum","name":"Burnside","url":"https://open.spotify.com/album/0ZbethZRzM03ZxAiAR8EPJ","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27343b4f3e84b8238d798d33f72","datePublished":"2018-10-19","numTracks":1},{"@type":"MusicAlbum","name":"Smiles Are Weak","url":"https://open.spotify.com/album/47IEjkWlOdMr4OnA013haT","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27302727cc5e47961fd6ca038f1","datePublished":"2018-09-18","numTracks":1},{"@type":"MusicAlbum","name":"Waste in the Shade.","url":"https://open.spotify.com/album/2XkoHJNgp6s2jof0HxlP7q","image":"https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273b5c92defeffea662e9bb2c6c","datePublished":"2018-08-13","numTracks":1},{"@type":"MusicAlbum","name":"Guck","url":"https://open.spotify.com/album/1HeyidK2eiHqD0b1lULyna","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273aee3379b38d299de6bc7108f","datePublished":"2018-07-09","numTracks":1}]
     }
     </script>
     <script type="application/ld+json">
@@ -70,11 +92,13 @@
     <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-YGTD782ZEK");</script>
 </head>
 <body>
-    <main class="page-main">
+    <main class="page-main" itemscope itemtype="https://schema.org/MusicGroup">
+        <meta itemprop="name" content="Grim Salvo">
+        <meta itemprop="url" content="https://www.horrorcore-reshare.com/artists/grim-salvo">
         <div class="artist-header hr-glass">
-            <img src="https://i2o.scdn.co/image/ab67618600001667ba6e30a727e5d3f261aa5f13" alt="Grim Salvo underground horrorcore artist photo" class="artist-img" loading="lazy">
+            <img src="https://i2o.scdn.co/image/ab67618600001667ba6e30a727e5d3f261aa5f13" alt="Grim Salvo underground horrorcore artist photo" class="artist-img" loading="lazy" itemprop="image">
             <div class="artist-info">
-                <h1>Grim Salvo</h1>
+                <h1 itemprop="name">Grim Salvo</h1>
                 <div class="genre-tags">
 <span class="genre-tag">dark trap</span>
 <span class="genre-tag">horrorcore</span>
@@ -87,25 +111,268 @@
 </div>
             </div>
         </div>
-        <div class="bio-section hr-glass">
+        <div class="bio-section hr-glass" itemprop="description">
             <h2>Artist Biography</h2>
             <p>Grim Salvo is a dark trap and experimental duo out of Portland, OR, made up of childhood friends SLEUTH and MOSSBACK. The two met growing up in Portland and eventually built a sound together that blends trap metal, grunge, and horror-infused aesthetics into something raw and distinctly their own. Both members are also part of the three-man production team Â³Â³marrow alongside audio engineer Jeremy Klein, giving Grim Salvo a tightly unified sound from the ground up. The name, as the duo has put it, was something they randomly made up but felt like it perfectly captured their purpose. Their 2022 project Mildred and the 2024 release VOIDSTâ˜…R have cemented them as one of the more compelling acts pushing the boundaries of the horrorcore and dark trap underground, with a growing fanbase that continues to expand through active touring across the US and Europe.</p>
         </div>
-        <div class="bio-section hr-glass">
-            <h2>Latest Releases</h2>
-            <ul class="releases-list">
-<li><a href="https://open.spotify.com/album/5iSsvkysEm4sjAWzLZvYBq" target="_blank" rel="noopener noreferrer" style="color: #ffcc00;">Spotify Release 5iSsvkysEm4sjAWzLZvYBq</a></li>
-<li><a href="https://open.spotify.com/album/3jae2GNwWp7557szjtj0ke" target="_blank" rel="noopener noreferrer" style="color: #ffcc00;">Spotify Release 3jae2GNwWp7557szjtj0ke</a></li>
-<li><a href="https://open.spotify.com/album/5OBtYdpWmoyEVWPllhrVKj" target="_blank" rel="noopener noreferrer" style="color: #ffcc00;">Spotify Release 5OBtYdpWmoyEVWPllhrVKj</a></li>
-<li><a href="https://open.spotify.com/album/7ksPxrBTs9H35LoGia5zq3" target="_blank" rel="noopener noreferrer" style="color: #ffcc00;">Spotify Release 7ksPxrBTs9H35LoGia5zq3</a></li>
-<li><a href="https://open.spotify.com/album/6D8mIYnzouehNA0S0E3qvB" target="_blank" rel="noopener noreferrer" style="color: #ffcc00;">Spotify Release 6D8mIYnzouehNA0S0E3qvB</a></li>
-</ul>
-        </div>
-        <div class="similar-section hr-glass">
+        
+                    <div class="releases-section">
+                        <h2 class="releases-heading">Albums & EPs</h2>
+                        <div class="releases-grid">
+                            
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/5iSsvkysEm4sjAWzLZvYBq', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(120, 48, 56, 0.85); border-color: rgba(120, 48, 56, 0.5);">12 TRACKS</span>
+                            <span class="release-badge duration-badge">49m 0s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27332fdc484f7e59b8e4cfcfad1" alt="VOIDST★R album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=VOIDST%E2%98%85R&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="VOIDST★R">VOIDST★R</h3>
+                            <p class="release-card-artist">GRIM SALVO</p>
+                            <p class="release-card-date">JUL 25, 2024</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/3jae2GNwWp7557szjtj0ke', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(0, 78, 169, 0.85); border-color: rgba(0, 78, 169, 0.5);">10 TRACKS</span>
+                            <span class="release-badge duration-badge">36m 56s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27399b6a354dc54024e2b6d49e4" alt="MILDRED DECOMPOSED (Instrumental) album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=MILDRED%20DECOMPOSED%20(Instrumental)&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="MILDRED DECOMPOSED (Instrumental)">MILDRED DECOMPOSED (Instrumental)</h3>
+                            <p class="release-card-artist">GRIM SALVO</p>
+                            <p class="release-card-date">NOV 7, 2023</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/5OBtYdpWmoyEVWPllhrVKj', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(0, 76, 174, 0.85); border-color: rgba(0, 76, 174, 0.5);">10 TRACKS</span>
+                            <span class="release-badge duration-badge">37m 8s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2733d9e704bf94a4568d97d42ee" alt="MILDRED album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=MILDRED&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="MILDRED">MILDRED</h3>
+                            <p class="release-card-artist">GRIM SALVO</p>
+                            <p class="release-card-date">NOV 7, 2022</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/5sU6Ljpr6EwKXoThSkh2Ye', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(159, 0, 0, 0.85); border-color: rgba(159, 0, 0, 0.5);">5 TRACKS</span>
+                            <span class="release-badge duration-badge">16m 10s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273f1f7f8ec673ce29d0d3ae30f" alt="Dolores album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=Dolores&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="Dolores">Dolores</h3>
+                            <p class="release-card-artist">GRIM SALVO</p>
+                            <p class="release-card-date">JUL 1, 2020</p>
+                        </div>
+                    </div>
+                        </div>
+                    </div>
+                    <div class="releases-section">
+                        <h2 class="releases-heading">Singles</h2>
+                        <div class="releases-grid">
+                            
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/7ksPxrBTs9H35LoGia5zq3', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(128, 40, 64, 0.85); border-color: rgba(128, 40, 64, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">5m 15s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2738b15d85e11d27c06e2b43378" alt="orb.weaver album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=orb.weaver&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="orb.weaver">orb.weaver</h3>
+                            <p class="release-card-artist">GRIM SALVO</p>
+                            <p class="release-card-date">OCT 2, 2025</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/6D8mIYnzouehNA0S0E3qvB', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(82, 82, 96, 0.85); border-color: rgba(82, 82, 96, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">3m 33s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273872a24a38a9fc02f0876156a" alt="30 DAYS OF NIGHT album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=30%20DAYS%20OF%20NIGHT&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="30 DAYS OF NIGHT">30 DAYS OF NIGHT</h3>
+                            <p class="release-card-artist">GRIM SALVO</p>
+                            <p class="release-card-date">FEB 28, 2025</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/6shFiJsED3fVGbiOULhtKz', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(105, 69, 118, 0.85); border-color: rgba(105, 69, 118, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">3m 40s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273c0ea6f55336ce94e67e54390" alt="why do I still care? album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=why%20do%20I%20still%20care%3F&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="why do I still care?">why do I still care?</h3>
+                            <p class="release-card-artist">GRIM SALVO</p>
+                            <p class="release-card-date">MAY 5, 2023</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/2I7HLr0sUFrdDOalAlWE7L', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(4, 96, 0, 0.85); border-color: rgba(4, 96, 0, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">2m 59s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273b5415b9657a2d85b5945dc46" alt="Boysenberry Sepsis album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=Boysenberry%20Sepsis&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="Boysenberry Sepsis">Boysenberry Sepsis</h3>
+                            <p class="release-card-artist">GRIM SALVO</p>
+                            <p class="release-card-date">JAN 22, 2021</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/5eYGi5ty7PfqXZ9JzpdIvC', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(158, 0, 37, 0.85); border-color: rgba(158, 0, 37, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">3m 19s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2738e52516e8b605aa7a55ca1ad" alt="SKEET MODE album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=SKEET%20MODE&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="SKEET MODE">SKEET MODE</h3>
+                            <p class="release-card-artist">GRIM SALVO</p>
+                            <p class="release-card-date">OCT 16, 2020</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/3TfJe0gRUYcH8nECv4RJnt', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(0, 87, 130, 0.85); border-color: rgba(0, 87, 130, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">3m 39s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273cc9e8272bd8c0b00dc6a67c9" alt="Tropic of Sarin album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=Tropic%20of%20Sarin&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="Tropic of Sarin">Tropic of Sarin</h3>
+                            <p class="release-card-artist">GRIM SALVO</p>
+                            <p class="release-card-date">MAR 16, 2020</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/1tN4GEEdKH7cwAg2t5LqWh', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(64, 56, 64, 0.85); border-color: rgba(64, 56, 64, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">4m 18s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2734a47620e434060ec67f9311c" alt="Eye.Sink album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=Eye.Sink&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="Eye.Sink">Eye.Sink</h3>
+                            <p class="release-card-artist">GRIM SALVO</p>
+                            <p class="release-card-date">MAR 5, 2019</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/25317HDefIRr0bbooOLUiu', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(128, 48, 40, 0.85); border-color: rgba(128, 48, 40, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">2m 14s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27325f906b7f6bf4a57ebbea679" alt="Grey.Link album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=Grey.Link&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="Grey.Link">Grey.Link</h3>
+                            <p class="release-card-artist">GRIM SALVO</p>
+                            <p class="release-card-date">DEC 4, 2018</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/0ZbethZRzM03ZxAiAR8EPJ', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(83, 83, 83, 0.85); border-color: rgba(83, 83, 83, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">3m 36s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27343b4f3e84b8238d798d33f72" alt="Burnside album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=Burnside&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="Burnside">Burnside</h3>
+                            <p class="release-card-artist">GRIM SALVO</p>
+                            <p class="release-card-date">OCT 19, 2018</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/47IEjkWlOdMr4OnA013haT', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(97, 82, 42, 0.85); border-color: rgba(97, 82, 42, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">2m 26s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27302727cc5e47961fd6ca038f1" alt="Smiles Are Weak album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=Smiles%20Are%20Weak&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="Smiles Are Weak">Smiles Are Weak</h3>
+                            <p class="release-card-artist">GRIM SALVO</p>
+                            <p class="release-card-date">SEP 18, 2018</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/2XkoHJNgp6s2jof0HxlP7q', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(83, 83, 83, 0.85); border-color: rgba(83, 83, 83, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">3m 41s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273b5c92defeffea662e9bb2c6c" alt="Waste in the Shade. album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=Waste%20in%20the%20Shade.&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="Waste in the Shade.">Waste in the Shade.</h3>
+                            <p class="release-card-artist">GRIM SALVO</p>
+                            <p class="release-card-date">AUG 13, 2018</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/1HeyidK2eiHqD0b1lULyna', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(83, 83, 83, 0.85); border-color: rgba(83, 83, 83, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">3m 4s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273aee3379b38d299de6bc7108f" alt="Guck album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=Guck&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="Guck">Guck</h3>
+                            <p class="release-card-artist">GRIM SALVO</p>
+                            <p class="release-card-date">JUL 9, 2018</p>
+                        </div>
+                    </div>
+                        </div>
+                    </div>
+        <div class="similar-section hr-glass" style="margin-top: 40px;">
             <h2>Similar Artists</h2>
             <p style="line-height: 1.8;"><a href="https://www.horrorcore-reshare.com/artists/mossback" style="color: #ffcc00; text-decoration: underline;">MOSSBACK</a>, <a href="https://www.horrorcore-reshare.com/artists/istasha" style="color: #ffcc00; text-decoration: underline;">Istasha</a>, <a href="https://www.horrorcore-reshare.com/artists/kamaara" style="color: #ffcc00; text-decoration: underline;">KAMAARA</a>, <a href="https://www.horrorcore-reshare.com/artists/kill-dyll" style="color: #ffcc00; text-decoration: underline;">Kill Dyll</a></p>
         </div>
-        <div class="bio-section hr-glass">
+        <div class="bio-section hr-glass" style="margin-top: 30px;">
             <h2>Genre Tags</h2>
             <p><a href="https://www.horrorcore-reshare.com/genres/dark-trap" style="color: #ffcc00; text-decoration: underline;">dark trap</a>, <a href="https://www.horrorcore-reshare.com/genres/horrorcore" style="color: #ffcc00; text-decoration: underline;">horrorcore</a>, <a href="https://www.horrorcore-reshare.com/genres/industrial-hip-hop" style="color: #ffcc00; text-decoration: underline;">industrial hip hop</a></p>
         </div>
@@ -120,7 +387,7 @@
                 <a href="/discord">Discord</a> <a href="/services">Services</a>
                 <a href="/follow">Follow</a> <a href="/page-audit">Page Audit</a> <a href="/privacy">Privacy</a>
             </nav>
-            <p>&copy; 2024-2026 Horrorcore Reshare | Update 001 | Maintained by Luna Serafina</p>
+            <p>&copy; 2024-2026 Horrorcore Reshare | Maintained by Luna Serafina</p>
         </div>
     </footer>
 </body>

@@ -12,10 +12,16 @@
     <meta property="og:image" content="https://i2o.scdn.co/image/ab67618600001667e436d26d0fecccc63b6c3963">
     <meta property="og:site_name" content="Horrorcore Reshare">
     <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="GODHANDUSA | Horrorcore Reshare Underground Artist">
+    <meta name="twitter:description" content="GODHANDUSA is an aggressive underground duo out of California, made up of Gonda and Mongo, two aliases adopted specifically for this project. Part of th...">
+    <meta name="twitter:image" content="https://i2o.scdn.co/image/ab67618600001667e436d26d0fecccc63b6c3963">
     <title>GODHANDUSA | Horrorcore Reshare Underground Artist Profile</title>
     <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/Moonfire-dreamwalkers/horrorcore-reshare-public-assets/main/images/hr-icon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://i.scdn.co">
+    <link rel="preconnect" href="https://i2o.scdn.co">
+    <link rel="preconnect" href="https://image-cdn-fa.spotifycdn.com">
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Inter:wght@300;400;800&family=Orbitron:wght@400;900&family=Share+Tech+Mono&display=swap" rel="stylesheet">
     <style>
         :root { --hr-blood: #8b0000; --hr-crimson: #cc2222; --hr-crimson-glow: rgba(204,34,34,0.6); --hr-text-muted: rgba(255,255,255,0.55); --hr-font-classic: "Orbitron",sans-serif; }
@@ -30,18 +36,33 @@
         .genre-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 20px; }
         .genre-tag { background: rgba(255,0,60,0.15); border: 1px solid rgba(255,0,60,0.3); padding: 4px 12px; border-radius: 4px; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 1px; color: #fff; }
         .bio-section { line-height: 1.9; font-size: 1rem; color: rgba(255,255,255,0.85); }
-        .bio-section h2, .similar-section h2 { font-family: "Orbitron",sans-serif; color: #ff003c; letter-spacing: 2px; font-size: 1.5rem; margin-bottom: 15px; border-bottom: 1px solid rgba(255,0,60,0.3); padding-bottom: 10px; }
+        .bio-section h2, .similar-section h2, .releases-heading { font-family: "Orbitron",sans-serif; color: #ff003c; letter-spacing: 2px; font-size: 1.5rem; margin-bottom: 15px; border-bottom: 1px solid rgba(255,0,60,0.3); padding-bottom: 10px; }
         .links-row { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 30px; }
         .social-btn { display: inline-block; padding: 10px 20px; text-decoration: none; font-family: "Share Tech Mono",monospace; border-radius: 4px; color: #fff; transition: 0.3s; }
         .spotify-btn { background: #1DB954; border: 1px solid #1DB954; }
         .insta-btn { background: rgba(255,0,60,0.2); border: 1px solid rgba(255,0,60,0.4); }
         .web-btn { background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.15); }
         .social-btn:hover { filter: brightness(1.2); }
-        .releases-list { list-style: none; display: flex; flex-direction: column; gap: 8px; }
-        .releases-list li { padding: 8px 12px; background: rgba(255,255,255,0.03); border-left: 2px solid rgba(255,0,60,0.4); border-radius: 0 4px 4px 0; font-size: 0.9rem; }
+        .releases-section { margin-top: 40px; }
+        .releases-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 20px; }
+        .release-card { display: flex; flex-direction: column; border-radius: 12px; overflow: hidden; background: rgba(10,10,10,0.85); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.08); transition: all 0.3s ease; cursor: pointer; position: relative; }
+        .release-card:hover { border-color: rgba(139,0,0,0.4); box-shadow: 0 8px 25px rgba(139,0,0,0.25); transform: translateY(-2px); }
+        .release-card-badges { position: absolute; top: 10px; left: 10px; z-index: 10; display: flex; gap: 6px; flex-wrap: wrap; }
+        .release-badge { font-family: "Share Tech Mono",monospace; font-size: 0.6rem; padding: 2px 7px; border-radius: 3px; font-weight: bold; letter-spacing: 1px; color: #fff; }
+        .tracks-badge { border: 1px solid transparent; }
+        .duration-badge { background: rgba(0,0,0,0.7); color: #ffcc00; border: 1px solid rgba(255,204,0,0.3); }
+        .pre-release { background: rgba(255,204,0,0.15); color: #ffcc00; border: 1px solid rgba(255,204,0,0.4); }
+        .release-card-cover-wrap { position: relative; width: 100%; aspect-ratio: 1; overflow: hidden; border-bottom: 1px solid rgba(139,0,0,0.1); }
+        .release-card-cover { width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s ease; }
+        .release-card:hover .release-card-cover { transform: scale(1.05); }
+        .release-card-info { padding: 16px; flex-grow: 1; display: flex; flex-direction: column; gap: 6px; }
+        .release-card-title { font-family: "Orbitron",sans-serif; font-size: 0.85rem; color: #fff; margin: 0; letter-spacing: 1px; line-height: 1.35; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+        .release-card-artist { font-family: "Share Tech Mono",monospace; color: #8b0000; font-size: 0.7rem; margin: 0; font-weight: bold; letter-spacing: 0.5px; }
+        .release-card-date { font-family: "Share Tech Mono",monospace; color: rgba(255,255,255,0.45); font-size: 0.65rem; margin: 0; letter-spacing: 0.5px; }
+        .releases-section .bio-section { padding: 0; background: none; backdrop-filter: none; border: none; border-radius: 0; margin-top: 20px; }
         .footer-nav { border-top: 1px solid rgba(255,0,60,0.2); padding: 30px 20px; text-align: center; font-size: 0.85rem; color: rgba(255,255,255,0.6); }
         .footer-nav a { color: #fff; text-decoration: none; margin: 0 10px; }
-        @media (max-width: 600px) { .artist-header { flex-direction: column; align-items: center; text-align: center; } .artist-img { width: 150px; height: 150px; } }
+        @media (max-width: 600px) { .artist-header { flex-direction: column; align-items: center; text-align: center; } .artist-img { width: 150px; height: 150px; } .releases-grid { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 14px; } .hr-glass { padding: 24px; } }
     </style>
     <script type="application/ld+json">
     {
@@ -52,7 +73,8 @@
         "image": "https://i2o.scdn.co/image/ab67618600001667e436d26d0fecccc63b6c3963",
         "description": "GODHANDUSA is an aggressive underground duo out of California, made up of Gonda and Mongo, two aliases adopted specifically for this project. Part of the Spider Gang collective, the duo channel a sound rooted in Memphis rap and cloud rap, filtered through a distinctive 8-bit vocal effect that gives ",
         "genre": ["dark trap","underground rap"],
-        "sameAs": ["https://open.spotify.com/artist/52XZBIfTRn9iyM7QLf6DmX","https://www.instagram.com/godhandusa/","https://www.godhandusa.com/"]
+        "sameAs": ["https://open.spotify.com/artist/52XZBIfTRn9iyM7QLf6DmX","https://www.instagram.com/godhandusa/","https://www.godhandusa.com/"],
+        "album": [{"@type":"MusicAlbum","name":"GODHAND VOLUME 3","url":"https://open.spotify.com/album/0XPZj7cckuT6tQ0BQeSfYI","image":"https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273af80e3866ae92ddbec911d4f","datePublished":"2026-01-07","numTracks":14},{"@type":"MusicAlbum","name":"IGNORANCE IS BLISS (THE MIXTAPE)","url":"https://open.spotify.com/album/2PKM1ic0L8LyhrkwMa4Tom","image":"https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2733bc0284359f9f2118d7adcb7","datePublished":"2025-07-30","numTracks":10},{"@type":"MusicAlbum","name":"GODHAND VOLUME 2: THE WORLD IS A LIVING HELL","url":"https://open.spotify.com/album/0AxuZuHTIPO0tcJ3xjnWjl","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2731a59407cfac625d25f7d07e3","datePublished":"2025-05-07","numTracks":20},{"@type":"MusicAlbum","name":"GODHAND VOLUME 2","url":"https://open.spotify.com/album/0Wvhhn3mHQaBeS9a3M77dX","image":"https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273f40eb5d3e4262739e1cfb5b2","datePublished":"2025-04-02","numTracks":15},{"@type":"MusicAlbum","name":"GODHAND VOLUME 1","url":"https://open.spotify.com/album/1sAr7ylbTfTyPnNT17ZwZI","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273421b9ef5d002063edc4e1c2a","datePublished":"2024-09-11","numTracks":14},{"@type":"MusicAlbum","name":"GODHAND VOLUME 0","url":"https://open.spotify.com/album/7CW4FfVZu66BPrBrq5buza","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2731217237ef3d5aae918fa76dd","datePublished":"2024-08-31","numTracks":10},{"@type":"MusicAlbum","name":"MAKIN' STANG","url":"https://open.spotify.com/album/3A47GgDbKSUIASrbiV6FHA","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273cabea7208af3c23418014d28","datePublished":"2026-06-03","numTracks":1},{"@type":"MusicAlbum","name":"GANG SHIT SWAG","url":"https://open.spotify.com/album/0E1v0BdcnaBOWGCT1gQU7f","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273cf1119d74009d00c269e77a4","datePublished":"2026-05-20","numTracks":1},{"@type":"MusicAlbum","name":"CAN'T TAKE THAT AWAY FROM ME","url":"https://open.spotify.com/album/3Z6Nlc4IpIGa7jquBF5m3f","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273a1e1ee907f7373c97d2785c7","datePublished":"2026-05-06","numTracks":1},{"@type":"MusicAlbum","name":"SUFFA","url":"https://open.spotify.com/album/2gkG4LAhhlQdVQ6n0cyLma","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2732b6b37d975dc1eb90b39f3b4","datePublished":"2026-04-29","numTracks":1},{"@type":"MusicAlbum","name":"HOME TO ME","url":"https://open.spotify.com/album/3NcaTHIkFuzZaBFguBlNh9","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27356479698c8389bdce9ba837b","datePublished":"2026-04-22","numTracks":1},{"@type":"MusicAlbum","name":"THE GIFT OF PAIN","url":"https://open.spotify.com/album/7Lw3b9lkNV9SuLGOfHAMxV","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2730fcc81fff031b238bfdf4de7","datePublished":"2026-04-08","numTracks":1},{"@type":"MusicAlbum","name":"WOP WOP","url":"https://open.spotify.com/album/2dZhZqPfpzXhh2PCisb0se","image":"https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273f1bd00ea6778a9026e42934a","datePublished":"2026-03-25","numTracks":1},{"@type":"MusicAlbum","name":"AIN'T SHIT CHANGE","url":"https://open.spotify.com/album/547cjoSfMIjnEXEDPG9I2q","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27347719d060b9b92132cd773cc","datePublished":"2025-11-26","numTracks":1},{"@type":"MusicAlbum","name":"DOORKICKAZ","url":"https://open.spotify.com/album/4YzFxhWtP97GIlqKq096zo","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27349ec2aad751f10acb3090b2f","datePublished":"2025-11-19","numTracks":1},{"@type":"MusicAlbum","name":"DIE FOR THIS SHIT","url":"https://open.spotify.com/album/2i2obyzsrt5UiZcOnU90EL","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273be0712fe882bba8a88bfe67b","datePublished":"2025-11-12","numTracks":1},{"@type":"MusicAlbum","name":"OUTLAW","url":"https://open.spotify.com/album/0tLnUCRwWhxcAerR5Wyna5","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2735c4ffb70c8a067a49d5b2dd2","datePublished":"2025-07-09","numTracks":1},{"@type":"MusicAlbum","name":"IT'S STILL FUCK EVERYBODY","url":"https://open.spotify.com/album/1jyo01HuaIQo2fMfWBLg1R","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273313976bf209f333fbc5a9521","datePublished":"2025-07-02","numTracks":1},{"@type":"MusicAlbum","name":"GODHANDUK","url":"https://open.spotify.com/album/4s8YvRodJh6bGtx5qHSd7R","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2732b04cac1220efccd59a104da","datePublished":"2025-06-25","numTracks":1},{"@type":"MusicAlbum","name":"SWANGIN'","url":"https://open.spotify.com/album/0bFT0tQeFZC73j5OaDOLKD","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273993671385a8406fcd93e3e78","datePublished":"2025-06-18","numTracks":1},{"@type":"MusicAlbum","name":"MICHAEL JACKSON","url":"https://open.spotify.com/album/7dGSEgVLuD2NyDl0HvB4Lc","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2730c0d1b3c18407816b4b9061c","datePublished":"2025-06-11","numTracks":1},{"@type":"MusicAlbum","name":"MÃOS DE DEUS","url":"https://open.spotify.com/album/3CKklPQEUgJeP8ijfRfEDO","image":"https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27314fb8bcf6d6cc43688de5ca2","datePublished":"2025-02-19","numTracks":1},{"@type":"MusicAlbum","name":"I HATE YOU","url":"https://open.spotify.com/album/1mU034zumR5Otnp8COb32Z","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27358cc239cae7816f8c7d71dda","datePublished":"2025-02-12","numTracks":1},{"@type":"MusicAlbum","name":"FUCK EVERYBODY","url":"https://open.spotify.com/album/56R8upRk37Ae96bUJkMTCd","image":"https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273fbe8223bc75b707efde80c52","datePublished":"2025-02-05","numTracks":1},{"@type":"MusicAlbum","name":"THAT'S THE GOD LAW","url":"https://open.spotify.com/album/55UzcH5VZa4go3aoYycRCj","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27359abbe551cf966963273bd50","datePublished":"2025-01-29","numTracks":1},{"@type":"MusicAlbum","name":"POP BANDS","url":"https://open.spotify.com/album/4BZJoeAa2XhpAYcIIv9JcZ","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27346d708a2a33f9f55418829f3","datePublished":"2024-11-20","numTracks":1},{"@type":"MusicAlbum","name":"COP CAR","url":"https://open.spotify.com/album/4iI9aWIms4WrinfD9PVXWS","image":"https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273c164188e98eed735af3afecf","datePublished":"2024-10-09","numTracks":1}]
     }
     </script>
     <script type="application/ld+json">
@@ -70,11 +92,13 @@
     <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-YGTD782ZEK");</script>
 </head>
 <body>
-    <main class="page-main">
+    <main class="page-main" itemscope itemtype="https://schema.org/MusicGroup">
+        <meta itemprop="name" content="GODHANDUSA">
+        <meta itemprop="url" content="https://www.horrorcore-reshare.com/artists/godhandusa">
         <div class="artist-header hr-glass">
-            <img src="https://i2o.scdn.co/image/ab67618600001667e436d26d0fecccc63b6c3963" alt="GODHANDUSA underground horrorcore artist photo" class="artist-img" loading="lazy">
+            <img src="https://i2o.scdn.co/image/ab67618600001667e436d26d0fecccc63b6c3963" alt="GODHANDUSA underground horrorcore artist photo" class="artist-img" loading="lazy" itemprop="image">
             <div class="artist-info">
-                <h1>GODHANDUSA</h1>
+                <h1 itemprop="name">GODHANDUSA</h1>
                 <div class="genre-tags">
 <span class="genre-tag">dark trap</span>
 <span class="genre-tag">underground rap</span>
@@ -86,25 +110,433 @@
 </div>
             </div>
         </div>
-        <div class="bio-section hr-glass">
+        <div class="bio-section hr-glass" itemprop="description">
             <h2>Artist Biography</h2>
             <p>GODHANDUSA is an aggressive underground duo out of California, made up of Gonda and Mongo, two aliases adopted specifically for this project. Part of the Spider Gang collective, the duo channel a sound rooted in Memphis rap and cloud rap, filtered through a distinctive 8-bit vocal effect that gives their music an immediately recognizable, almost lo-fi video game quality. Since launching in 2024 with GODHAND VOLUME 0 and their debut proper GODHAND VOLUME 1, they have moved fast, dropping GODHAND VOLUME 2 and the mixtape IGNORANCE IS BLISS in 2025, followed by GODHAND VOLUME 3 in 2026. The project has a loose, high-energy feel, equal parts fun and unhinged, with the duo leaning into the chaos rather than away from it.</p>
         </div>
-        <div class="bio-section hr-glass">
-            <h2>Latest Releases</h2>
-            <ul class="releases-list">
-<li><a href="https://open.spotify.com/album/0XPZj7cckuT6tQ0BQeSfYI" target="_blank" rel="noopener noreferrer" style="color: #ffcc00;">Spotify Release 0XPZj7cckuT6tQ0BQeSfYI</a></li>
-<li><a href="https://open.spotify.com/album/2PKM1ic0L8LyhrkwMa4Tom" target="_blank" rel="noopener noreferrer" style="color: #ffcc00;">Spotify Release 2PKM1ic0L8LyhrkwMa4Tom</a></li>
-<li><a href="https://open.spotify.com/album/0AxuZuHTIPO0tcJ3xjnWjl" target="_blank" rel="noopener noreferrer" style="color: #ffcc00;">Spotify Release 0AxuZuHTIPO0tcJ3xjnWjl</a></li>
-<li><a href="https://open.spotify.com/album/0Wvhhn3mHQaBeS9a3M77dX" target="_blank" rel="noopener noreferrer" style="color: #ffcc00;">Spotify Release 0Wvhhn3mHQaBeS9a3M77dX</a></li>
-<li><a href="https://open.spotify.com/album/1sAr7ylbTfTyPnNT17ZwZI" target="_blank" rel="noopener noreferrer" style="color: #ffcc00;">Spotify Release 1sAr7ylbTfTyPnNT17ZwZI</a></li>
-</ul>
-        </div>
-        <div class="similar-section hr-glass">
+        
+                    <div class="releases-section">
+                        <h2 class="releases-heading">Albums & EPs</h2>
+                        <div class="releases-grid">
+                            
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/0XPZj7cckuT6tQ0BQeSfYI', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(24, 88, 104, 0.85); border-color: rgba(24, 88, 104, 0.5);">14 TRACKS</span>
+                            <span class="release-badge duration-badge">49m 4s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273af80e3866ae92ddbec911d4f" alt="GODHAND VOLUME 3 album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=GODHAND%20VOLUME%203&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="GODHAND VOLUME 3">GODHAND VOLUME 3</h3>
+                            <p class="release-card-artist">GODHANDUSA</p>
+                            <p class="release-card-date">JAN 7, 2026</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/2PKM1ic0L8LyhrkwMa4Tom', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(0, 96, 0, 0.85); border-color: rgba(0, 96, 0, 0.5);">10 TRACKS</span>
+                            <span class="release-badge duration-badge">37m 45s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2733bc0284359f9f2118d7adcb7" alt="IGNORANCE IS BLISS (THE MIXTAPE) album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=IGNORANCE%20IS%20BLISS%20(THE%20MIXTAPE)&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="IGNORANCE IS BLISS (THE MIXTAPE)">IGNORANCE IS BLISS (THE MIXTAPE)</h3>
+                            <p class="release-card-artist">GODHANDUSA</p>
+                            <p class="release-card-date">JUL 30, 2025</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/0AxuZuHTIPO0tcJ3xjnWjl', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(140, 55, 0, 0.85); border-color: rgba(140, 55, 0, 0.5);">20 TRACKS</span>
+                            <span class="release-badge duration-badge">53m 20s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2731a59407cfac625d25f7d07e3" alt="GODHAND VOLUME 2: THE WORLD IS A LIVING HELL album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=GODHAND%20VOLUME%202%3A%20THE%20WORLD%20IS%20A%20LIVING%20HELL&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="GODHAND VOLUME 2: THE WORLD IS A LIVING HELL">GODHAND VOLUME 2: THE WORLD IS A LIVING HELL</h3>
+                            <p class="release-card-artist">GODHANDUSA</p>
+                            <p class="release-card-date">MAY 7, 2025</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/0Wvhhn3mHQaBeS9a3M77dX', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(142, 53, 0, 0.85); border-color: rgba(142, 53, 0, 0.5);">15 TRACKS</span>
+                            <span class="release-badge duration-badge">40m 14s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273f40eb5d3e4262739e1cfb5b2" alt="GODHAND VOLUME 2 album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=GODHAND%20VOLUME%202&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="GODHAND VOLUME 2">GODHAND VOLUME 2</h3>
+                            <p class="release-card-artist">GODHANDUSA</p>
+                            <p class="release-card-date">APR 2, 2025</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/1sAr7ylbTfTyPnNT17ZwZI', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(70, 85, 99, 0.85); border-color: rgba(70, 85, 99, 0.5);">14 TRACKS</span>
+                            <span class="release-badge duration-badge">31m 19s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273421b9ef5d002063edc4e1c2a" alt="GODHAND VOLUME 1 album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=GODHAND%20VOLUME%201&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="GODHAND VOLUME 1">GODHAND VOLUME 1</h3>
+                            <p class="release-card-artist">GODHANDUSA</p>
+                            <p class="release-card-date">SEP 11, 2024</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/7CW4FfVZu66BPrBrq5buza', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(120, 8, 16, 0.85); border-color: rgba(120, 8, 16, 0.5);">10 TRACKS</span>
+                            <span class="release-badge duration-badge">25m 12s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2731217237ef3d5aae918fa76dd" alt="GODHAND VOLUME 0 album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=GODHAND%20VOLUME%200&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="GODHAND VOLUME 0">GODHAND VOLUME 0</h3>
+                            <p class="release-card-artist">GODHANDUSA</p>
+                            <p class="release-card-date">AUG 31, 2024</p>
+                        </div>
+                    </div>
+                        </div>
+                    </div>
+                    <div class="releases-section">
+                        <h2 class="releases-heading">Singles</h2>
+                        <div class="releases-grid">
+                            
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/3A47GgDbKSUIASrbiV6FHA', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(117, 73, 0, 0.85); border-color: rgba(117, 73, 0, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">3m 7s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273cabea7208af3c23418014d28" alt="MAKIN' STANG album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=MAKIN'%20STANG&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="MAKIN' STANG">MAKIN' STANG</h3>
+                            <p class="release-card-artist">GODHANDUSA</p>
+                            <p class="release-card-date">JUN 3, 2026</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/0E1v0BdcnaBOWGCT1gQU7f', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(83, 83, 90, 0.85); border-color: rgba(83, 83, 90, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">3m 30s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273cf1119d74009d00c269e77a4" alt="GANG SHIT SWAG album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=GANG%20SHIT%20SWAG&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="GANG SHIT SWAG">GANG SHIT SWAG</h3>
+                            <p class="release-card-artist">GODHANDUSA</p>
+                            <p class="release-card-date">MAY 20, 2026</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/3Z6Nlc4IpIGa7jquBF5m3f', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(64, 80, 72, 0.85); border-color: rgba(64, 80, 72, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">2m 31s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273a1e1ee907f7373c97d2785c7" alt="CAN'T TAKE THAT AWAY FROM ME album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=CAN'T%20TAKE%20THAT%20AWAY%20FROM%20ME&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="CAN'T TAKE THAT AWAY FROM ME">CAN'T TAKE THAT AWAY FROM ME</h3>
+                            <p class="release-card-artist">GODHANDUSA</p>
+                            <p class="release-card-date">MAY 6, 2026</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/2gkG4LAhhlQdVQ6n0cyLma', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(0, 88, 123, 0.85); border-color: rgba(0, 88, 123, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">3m 48s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2732b6b37d975dc1eb90b39f3b4" alt="SUFFA album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=SUFFA&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="SUFFA">SUFFA</h3>
+                            <p class="release-card-artist">GODHANDUSA</p>
+                            <p class="release-card-date">APR 29, 2026</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/3NcaTHIkFuzZaBFguBlNh9', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(159, 0, 0, 0.85); border-color: rgba(159, 0, 0, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">3m 28s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27356479698c8389bdce9ba837b" alt="HOME TO ME album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=HOME%20TO%20ME&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="HOME TO ME">HOME TO ME</h3>
+                            <p class="release-card-artist">GODHANDUSA</p>
+                            <p class="release-card-date">APR 22, 2026</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/7Lw3b9lkNV9SuLGOfHAMxV', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(152, 36, 0, 0.85); border-color: rgba(152, 36, 0, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">2m 54s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2730fcc81fff031b238bfdf4de7" alt="THE GIFT OF PAIN album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=THE%20GIFT%20OF%20PAIN&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="THE GIFT OF PAIN">THE GIFT OF PAIN</h3>
+                            <p class="release-card-artist">GODHANDUSA</p>
+                            <p class="release-card-date">APR 8, 2026</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/2dZhZqPfpzXhh2PCisb0se', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(159, 0, 0, 0.85); border-color: rgba(159, 0, 0, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">1m 37s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273f1bd00ea6778a9026e42934a" alt="WOP WOP album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=WOP%20WOP&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="WOP WOP">WOP WOP</h3>
+                            <p class="release-card-artist">GODHANDUSA</p>
+                            <p class="release-card-date">MAR 25, 2026</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/547cjoSfMIjnEXEDPG9I2q', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(83, 83, 83, 0.85); border-color: rgba(83, 83, 83, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">3m 15s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27347719d060b9b92132cd773cc" alt="AIN'T SHIT CHANGE album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=AIN'T%20SHIT%20CHANGE&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="AIN'T SHIT CHANGE">AIN'T SHIT CHANGE</h3>
+                            <p class="release-card-artist">GODHANDUSA</p>
+                            <p class="release-card-date">NOV 26, 2025</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/4YzFxhWtP97GIlqKq096zo', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(135, 59, 0, 0.85); border-color: rgba(135, 59, 0, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">4m 10s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27349ec2aad751f10acb3090b2f" alt="DOORKICKAZ album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=DOORKICKAZ&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="DOORKICKAZ">DOORKICKAZ</h3>
+                            <p class="release-card-artist">GODHANDUSA</p>
+                            <p class="release-card-date">NOV 19, 2025</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/2i2obyzsrt5UiZcOnU90EL', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(64, 64, 64, 0.85); border-color: rgba(64, 64, 64, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">2m 16s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273be0712fe882bba8a88bfe67b" alt="DIE FOR THIS SHIT album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=DIE%20FOR%20THIS%20SHIT&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="DIE FOR THIS SHIT">DIE FOR THIS SHIT</h3>
+                            <p class="release-card-artist">GODHANDUSA</p>
+                            <p class="release-card-date">NOV 12, 2025</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/0tLnUCRwWhxcAerR5Wyna5', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(159, 0, 0, 0.85); border-color: rgba(159, 0, 0, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">3m 12s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2735c4ffb70c8a067a49d5b2dd2" alt="OUTLAW album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=OUTLAW&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="OUTLAW">OUTLAW</h3>
+                            <p class="release-card-artist">GODHANDUSA</p>
+                            <p class="release-card-date">JUL 9, 2025</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/1jyo01HuaIQo2fMfWBLg1R', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(127, 66, 0, 0.85); border-color: rgba(127, 66, 0, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">3m 48s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273313976bf209f333fbc5a9521" alt="IT'S STILL FUCK EVERYBODY album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=IT'S%20STILL%20FUCK%20EVERYBODY&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="IT'S STILL FUCK EVERYBODY">IT'S STILL FUCK EVERYBODY</h3>
+                            <p class="release-card-artist">GODHANDUSA</p>
+                            <p class="release-card-date">JUL 2, 2025</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/4s8YvRodJh6bGtx5qHSd7R', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(159, 0, 0, 0.85); border-color: rgba(159, 0, 0, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">3m 28s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2732b04cac1220efccd59a104da" alt="GODHANDUK album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=GODHANDUK&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="GODHANDUK">GODHANDUK</h3>
+                            <p class="release-card-artist">GODHANDUSA</p>
+                            <p class="release-card-date">JUN 25, 2025</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/0bFT0tQeFZC73j5OaDOLKD', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(158, 16, 0, 0.85); border-color: rgba(158, 16, 0, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">3m 4s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273993671385a8406fcd93e3e78" alt="SWANGIN' album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=SWANGIN'&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="SWANGIN'">SWANGIN'</h3>
+                            <p class="release-card-artist">GODHANDUSA</p>
+                            <p class="release-card-date">JUN 18, 2025</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/7dGSEgVLuD2NyDl0HvB4Lc', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(48, 56, 80, 0.85); border-color: rgba(48, 56, 80, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">2m 30s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2730c0d1b3c18407816b4b9061c" alt="MICHAEL JACKSON album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=MICHAEL%20JACKSON&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="MICHAEL JACKSON">MICHAEL JACKSON</h3>
+                            <p class="release-card-artist">GODHANDUSA</p>
+                            <p class="release-card-date">JUN 11, 2025</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/3CKklPQEUgJeP8ijfRfEDO', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(154, 31, 0, 0.85); border-color: rgba(154, 31, 0, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">3m 51s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27314fb8bcf6d6cc43688de5ca2" alt="MÃOS DE DEUS album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=M%C3%83OS%20DE%20DEUS&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="MÃOS DE DEUS">MÃOS DE DEUS</h3>
+                            <p class="release-card-artist">GODHANDUSA</p>
+                            <p class="release-card-date">FEB 19, 2025</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/1mU034zumR5Otnp8COb32Z', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(155, 0, 70, 0.85); border-color: rgba(155, 0, 70, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">2m 8s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27358cc239cae7816f8c7d71dda" alt="I HATE YOU album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=I%20HATE%20YOU&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="I HATE YOU">I HATE YOU</h3>
+                            <p class="release-card-artist">GODHANDUSA</p>
+                            <p class="release-card-date">FEB 12, 2025</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/56R8upRk37Ae96bUJkMTCd', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(159, 0, 1, 0.85); border-color: rgba(159, 0, 1, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">2m 54s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273fbe8223bc75b707efde80c52" alt="FUCK EVERYBODY album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=FUCK%20EVERYBODY&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="FUCK EVERYBODY">FUCK EVERYBODY</h3>
+                            <p class="release-card-artist">GODHANDUSA</p>
+                            <p class="release-card-date">FEB 5, 2025</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/55UzcH5VZa4go3aoYycRCj', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(148, 44, 0, 0.85); border-color: rgba(148, 44, 0, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">2m 16s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27359abbe551cf966963273bd50" alt="THAT'S THE GOD LAW album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=THAT'S%20THE%20GOD%20LAW&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="THAT'S THE GOD LAW">THAT'S THE GOD LAW</h3>
+                            <p class="release-card-artist">GODHANDUSA</p>
+                            <p class="release-card-date">JAN 29, 2025</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/4BZJoeAa2XhpAYcIIv9JcZ', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(150, 40, 0, 0.85); border-color: rgba(150, 40, 0, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">2m 49s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27346d708a2a33f9f55418829f3" alt="POP BANDS album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=POP%20BANDS&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="POP BANDS">POP BANDS</h3>
+                            <p class="release-card-artist">GODHANDUSA</p>
+                            <p class="release-card-date">NOV 20, 2024</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/4iI9aWIms4WrinfD9PVXWS', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(83, 83, 83, 0.85); border-color: rgba(83, 83, 83, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">1m 30s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273c164188e98eed735af3afecf" alt="COP CAR album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=COP%20CAR&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="COP CAR">COP CAR</h3>
+                            <p class="release-card-artist">GODHANDUSA</p>
+                            <p class="release-card-date">OCT 9, 2024</p>
+                        </div>
+                    </div>
+                        </div>
+                    </div>
+        <div class="similar-section hr-glass" style="margin-top: 40px;">
             <h2>Similar Artists</h2>
             <p style="line-height: 1.8;"><a href="https://www.horrorcore-reshare.com/artists/kill-dyll" style="color: #ffcc00; text-decoration: underline;">Kill Dyll</a>, <a href="https://www.horrorcore-reshare.com/artists/witchouse-40k" style="color: #ffcc00; text-decoration: underline;">Witchouse 40k</a>, <a href="https://www.horrorcore-reshare.com/artists/kamaara" style="color: #ffcc00; text-decoration: underline;">KAMAARA</a></p>
         </div>
-        <div class="bio-section hr-glass">
+        <div class="bio-section hr-glass" style="margin-top: 30px;">
             <h2>Genre Tags</h2>
             <p><a href="https://www.horrorcore-reshare.com/genres/dark-trap" style="color: #ffcc00; text-decoration: underline;">dark trap</a>, <a href="https://www.horrorcore-reshare.com/genres/underground-rap" style="color: #ffcc00; text-decoration: underline;">underground rap</a></p>
         </div>
@@ -119,7 +551,7 @@
                 <a href="/discord">Discord</a> <a href="/services">Services</a>
                 <a href="/follow">Follow</a> <a href="/page-audit">Page Audit</a> <a href="/privacy">Privacy</a>
             </nav>
-            <p>&copy; 2024-2026 Horrorcore Reshare | Update 001 | Maintained by Luna Serafina</p>
+            <p>&copy; 2024-2026 Horrorcore Reshare | Maintained by Luna Serafina</p>
         </div>
     </footer>
 </body>

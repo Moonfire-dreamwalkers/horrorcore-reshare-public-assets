@@ -12,10 +12,16 @@
     <meta property="og:image" content="https://i.scdn.co/image/ab6761610000e5ebb8700b15b310e2f1f0fdae1f">
     <meta property="og:site_name" content="Horrorcore Reshare">
     <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Kill Dyll | Horrorcore Reshare Underground Artist">
+    <meta name="twitter:description" content="Kill Dyll is a Denver-based trap metal artist, producer, and visual creator who has built one of the more distinctive identities in the underground scen...">
+    <meta name="twitter:image" content="https://i.scdn.co/image/ab6761610000e5ebb8700b15b310e2f1f0fdae1f">
     <title>Kill Dyll | Horrorcore Reshare Underground Artist Profile</title>
     <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/Moonfire-dreamwalkers/horrorcore-reshare-public-assets/main/images/hr-icon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://i.scdn.co">
+    <link rel="preconnect" href="https://i2o.scdn.co">
+    <link rel="preconnect" href="https://image-cdn-fa.spotifycdn.com">
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Inter:wght@300;400;800&family=Orbitron:wght@400;900&family=Share+Tech+Mono&display=swap" rel="stylesheet">
     <style>
         :root { --hr-blood: #8b0000; --hr-crimson: #cc2222; --hr-crimson-glow: rgba(204,34,34,0.6); --hr-text-muted: rgba(255,255,255,0.55); --hr-font-classic: "Orbitron",sans-serif; }
@@ -30,18 +36,33 @@
         .genre-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 20px; }
         .genre-tag { background: rgba(255,0,60,0.15); border: 1px solid rgba(255,0,60,0.3); padding: 4px 12px; border-radius: 4px; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 1px; color: #fff; }
         .bio-section { line-height: 1.9; font-size: 1rem; color: rgba(255,255,255,0.85); }
-        .bio-section h2, .similar-section h2 { font-family: "Orbitron",sans-serif; color: #ff003c; letter-spacing: 2px; font-size: 1.5rem; margin-bottom: 15px; border-bottom: 1px solid rgba(255,0,60,0.3); padding-bottom: 10px; }
+        .bio-section h2, .similar-section h2, .releases-heading { font-family: "Orbitron",sans-serif; color: #ff003c; letter-spacing: 2px; font-size: 1.5rem; margin-bottom: 15px; border-bottom: 1px solid rgba(255,0,60,0.3); padding-bottom: 10px; }
         .links-row { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 30px; }
         .social-btn { display: inline-block; padding: 10px 20px; text-decoration: none; font-family: "Share Tech Mono",monospace; border-radius: 4px; color: #fff; transition: 0.3s; }
         .spotify-btn { background: #1DB954; border: 1px solid #1DB954; }
         .insta-btn { background: rgba(255,0,60,0.2); border: 1px solid rgba(255,0,60,0.4); }
         .web-btn { background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.15); }
         .social-btn:hover { filter: brightness(1.2); }
-        .releases-list { list-style: none; display: flex; flex-direction: column; gap: 8px; }
-        .releases-list li { padding: 8px 12px; background: rgba(255,255,255,0.03); border-left: 2px solid rgba(255,0,60,0.4); border-radius: 0 4px 4px 0; font-size: 0.9rem; }
+        .releases-section { margin-top: 40px; }
+        .releases-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 20px; }
+        .release-card { display: flex; flex-direction: column; border-radius: 12px; overflow: hidden; background: rgba(10,10,10,0.85); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.08); transition: all 0.3s ease; cursor: pointer; position: relative; }
+        .release-card:hover { border-color: rgba(139,0,0,0.4); box-shadow: 0 8px 25px rgba(139,0,0,0.25); transform: translateY(-2px); }
+        .release-card-badges { position: absolute; top: 10px; left: 10px; z-index: 10; display: flex; gap: 6px; flex-wrap: wrap; }
+        .release-badge { font-family: "Share Tech Mono",monospace; font-size: 0.6rem; padding: 2px 7px; border-radius: 3px; font-weight: bold; letter-spacing: 1px; color: #fff; }
+        .tracks-badge { border: 1px solid transparent; }
+        .duration-badge { background: rgba(0,0,0,0.7); color: #ffcc00; border: 1px solid rgba(255,204,0,0.3); }
+        .pre-release { background: rgba(255,204,0,0.15); color: #ffcc00; border: 1px solid rgba(255,204,0,0.4); }
+        .release-card-cover-wrap { position: relative; width: 100%; aspect-ratio: 1; overflow: hidden; border-bottom: 1px solid rgba(139,0,0,0.1); }
+        .release-card-cover { width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s ease; }
+        .release-card:hover .release-card-cover { transform: scale(1.05); }
+        .release-card-info { padding: 16px; flex-grow: 1; display: flex; flex-direction: column; gap: 6px; }
+        .release-card-title { font-family: "Orbitron",sans-serif; font-size: 0.85rem; color: #fff; margin: 0; letter-spacing: 1px; line-height: 1.35; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+        .release-card-artist { font-family: "Share Tech Mono",monospace; color: #8b0000; font-size: 0.7rem; margin: 0; font-weight: bold; letter-spacing: 0.5px; }
+        .release-card-date { font-family: "Share Tech Mono",monospace; color: rgba(255,255,255,0.45); font-size: 0.65rem; margin: 0; letter-spacing: 0.5px; }
+        .releases-section .bio-section { padding: 0; background: none; backdrop-filter: none; border: none; border-radius: 0; margin-top: 20px; }
         .footer-nav { border-top: 1px solid rgba(255,0,60,0.2); padding: 30px 20px; text-align: center; font-size: 0.85rem; color: rgba(255,255,255,0.6); }
         .footer-nav a { color: #fff; text-decoration: none; margin: 0 10px; }
-        @media (max-width: 600px) { .artist-header { flex-direction: column; align-items: center; text-align: center; } .artist-img { width: 150px; height: 150px; } }
+        @media (max-width: 600px) { .artist-header { flex-direction: column; align-items: center; text-align: center; } .artist-img { width: 150px; height: 150px; } .releases-grid { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 14px; } .hr-glass { padding: 24px; } }
     </style>
     <script type="application/ld+json">
     {
@@ -52,7 +73,8 @@
         "image": "https://i.scdn.co/image/ab6761610000e5ebb8700b15b310e2f1f0fdae1f",
         "description": "Kill Dyll is a Denver-based trap metal artist, producer, and visual creator who has built one of the more distinctive identities in the underground scene. Starting out as a drummer, he eventually began producing his own beats, rapping over them, and shaping a persona he describes as an artistic inte",
         "genre": ["dark trap","horrorcore","industrial hip hop"],
-        "sameAs": ["https://open.spotify.com/artist/1r5YzslA0QwyIZISgHJrU7","https://www.instagram.com/killxdyll/"]
+        "sameAs": ["https://open.spotify.com/artist/1r5YzslA0QwyIZISgHJrU7","https://www.instagram.com/killxdyll/"],
+        "album": [{"@type":"MusicAlbum","name":"ACT HUMAN, not god","url":"https://open.spotify.com/album/2L5UXxpRR0au82NbHDtxuT","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273b8207d80915fafcbcdeb7692","datePublished":"2025-07-11","numTracks":8},{"@type":"MusicAlbum","name":"BRAINDEAD","url":"https://open.spotify.com/album/4xACBGqzOhJ8A0YJzqAvEn","image":"https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2735ae71c81729544aff763be2b","datePublished":"2024-10-25","numTracks":13},{"@type":"MusicAlbum","name":"EMBRACE THE CHAOS, VOL. 1","url":"https://open.spotify.com/album/2Ut99Lzl7p2JWWE7ACN9vg","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2737339fc63704c238b8d25774e","datePublished":"2024-04-26","numTracks":4},{"@type":"MusicAlbum","name":"ANTAGONIST","url":"https://open.spotify.com/album/21RBXYEl4j5anWHKQjvMvf","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2730ef44ac07b9fb5301c513878","datePublished":"2024-02-23","numTracks":6},{"@type":"MusicAlbum","name":"dont touch me.","url":"https://open.spotify.com/album/75vPJKIGknbHtlbePsRUgy","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2739673a71f8c482ce7e77be48f","datePublished":"2023-07-14","numTracks":6},{"@type":"MusicAlbum","name":"Halloween.","url":"https://open.spotify.com/album/0ZqlNg55XUnkbqYAA1FpLu","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273a5afac688f4ac020481e22f3","datePublished":"2022-10-28","numTracks":2},{"@type":"MusicAlbum","name":"NOSE BLEED FM.","url":"https://open.spotify.com/album/1nglfqOPCbFAJBYQCMjJvB","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2732477f051069a83a27b6bcef0","datePublished":"2022-07-01","numTracks":4},{"@type":"MusicAlbum","name":"sixty se7en.","url":"https://open.spotify.com/album/1Rt6nfCZCW7DBHJbQErFZW","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273ae36714cb42c7cd94afbd096","datePublished":"2022-04-22","numTracks":7},{"@type":"MusicAlbum","name":"Nothing","url":"https://open.spotify.com/album/5ofCVTeAyVGwPj6z9m1P7X","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2739fb5d1c3b3f692b55ca8e5d5","datePublished":"2026-02-13","numTracks":1},{"@type":"MusicAlbum","name":"My Grave","url":"https://open.spotify.com/album/2i08mMiFf51QxvDTJlhq2J","image":"https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273d0d91b0b8081e44a270927c8","datePublished":"2025-11-21","numTracks":1},{"@type":"MusicAlbum","name":"Nightmare","url":"https://open.spotify.com/album/7MEHRApivqwtI0cHij0nW8","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273f22977c16a9d79f979f87d2f","datePublished":"2025-10-17","numTracks":1},{"@type":"MusicAlbum","name":"OBSIDIAN","url":"https://open.spotify.com/album/6T0OU2OF3jcMKs5pkUjsgy","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2734cc926a3b3cdc38079862c74","datePublished":"2025-08-22","numTracks":1},{"@type":"MusicAlbum","name":"WILTED ROSE","url":"https://open.spotify.com/album/4XQCQ0pqXOY7Yf43HsodK9","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273ac273044b932cb084d375fc4","datePublished":"2025-05-09","numTracks":1},{"@type":"MusicAlbum","name":"THE COST","url":"https://open.spotify.com/album/3QAvdHz2tHhudtH6gmywd4","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2731f881d7e2434176f836df16a","datePublished":"2025-04-04","numTracks":1},{"@type":"MusicAlbum","name":"START TO BLEED","url":"https://open.spotify.com/album/4JCeiarWdfm1WV86ZsNa1b","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273f801dee67401199b4eae9d98","datePublished":"2025-03-07","numTracks":1},{"@type":"MusicAlbum","name":"AMERICAN ANARCHIST!","url":"https://open.spotify.com/album/433a3JCXuGFttadC5LAQmF","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273979edc778536aa483b2886f5","datePublished":"2024-12-13","numTracks":1},{"@type":"MusicAlbum","name":"DIVINE WARRIOR","url":"https://open.spotify.com/album/5mkkXvKZxkiwJNlWkNaksW","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2736c5b2f40d28f5275c919131f","datePublished":"2024-08-23","numTracks":1},{"@type":"MusicAlbum","name":"Cat Nap","url":"https://open.spotify.com/album/1vqmwhaB1zeMb0WlexCbUK","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273200b5ac2e4bdb73abc7a778b","datePublished":"2024-06-21","numTracks":1},{"@type":"MusicAlbum","name":"Gas Chamber","url":"https://open.spotify.com/album/1LZL49eCQaK33GI1JOVNfD","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273b102f76d00f4b85086bed85a","datePublished":"2024-05-24","numTracks":1},{"@type":"MusicAlbum","name":"F U IN ADVANCE!","url":"https://open.spotify.com/album/3VPdcSoaLisWUhljemXBe6","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273704e50fcfa5d1b752233bb04","datePublished":"2024-04-05","numTracks":1},{"@type":"MusicAlbum","name":"God's Failed Experiment","url":"https://open.spotify.com/album/3oPCmFvO7oTZz1tNHEdy6I","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273176931a1814bab10c073b72e","datePublished":"2024-03-22","numTracks":1},{"@type":"MusicAlbum","name":"I Saw Jesus Christ In a Parking Lot","url":"https://open.spotify.com/album/4qtGOyxc4MfopoH9b8xuYd","image":"https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27342e91f284ef5be72e4d67fd4","datePublished":"2024-03-08","numTracks":1},{"@type":"MusicAlbum","name":"FEAST","url":"https://open.spotify.com/album/2YIXE4N8I8zZ5y0IXT4q2v","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2736dc3746ae05f2658c2666a78","datePublished":"2024-01-26","numTracks":1},{"@type":"MusicAlbum","name":"Paranoia","url":"https://open.spotify.com/album/7be4xm8QKyrU69PnkD3XTF","image":"https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27357ea1ab3e77cece5b598ad67","datePublished":"2024-01-05","numTracks":1},{"@type":"MusicAlbum","name":"JFK","url":"https://open.spotify.com/album/01S0x2Qp6CODlQko0MPo0y","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273937bece2176bfb7633378ebf","datePublished":"2023-12-09","numTracks":1},{"@type":"MusicAlbum","name":"TIMMY","url":"https://open.spotify.com/album/4OqEKSK9aSeTvXJFBC8Jbl","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2732fe11dc344650f689c01d06e","datePublished":"2023-12-01","numTracks":1},{"@type":"MusicAlbum","name":"Dead By Daylight","url":"https://open.spotify.com/album/3G4Pv4Gi9uYaUjh1x0vXia","image":"https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273dd72654699f351b199bc3ecc","datePublished":"2023-10-27","numTracks":1},{"@type":"MusicAlbum","name":"2001","url":"https://open.spotify.com/album/4uQJLwPsc62jnR5U2MOOsb","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2732bac220c002b27743b6c3cc5","datePublished":"2023-09-22","numTracks":1},{"@type":"MusicAlbum","name":"BAKI // ROT (feat. Gashum)","url":"https://open.spotify.com/album/6nQyYMaYNecW1Z509oxuwz","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273a48e22a0e1807ebb2d7c7708","datePublished":"2023-08-25","numTracks":1},{"@type":"MusicAlbum","name":"TRUST NO ONE! (feat. ruzlxn)","url":"https://open.spotify.com/album/0LGT47XCH61BWvIOGJNNr6","image":"https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273a6b447e078984e01186a4128","datePublished":"2023-08-11","numTracks":1},{"@type":"MusicAlbum","name":"NX FACE. (feat. PABLO!)","url":"https://open.spotify.com/album/2UHyycPzeP2HPvh32dcMHT","image":"https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27314d11ab7ae50df7494340914","datePublished":"2023-06-09","numTracks":1},{"@type":"MusicAlbum","name":"PSYCHO!","url":"https://open.spotify.com/album/2NtXF40V1KiF9v7v42gek1","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27393d0f9714faa832b8b526c64","datePublished":"2023-05-27","numTracks":1},{"@type":"MusicAlbum","name":"TOKYO GHOUL!","url":"https://open.spotify.com/album/4noSgxGI4MVIQEKYSOjN5F","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27345a2bb24139d304c046632b6","datePublished":"2023-05-05","numTracks":1},{"@type":"MusicAlbum","name":"hell.","url":"https://open.spotify.com/album/45JlvYTmw091d5NtnJMOAq","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273bd985653024ad38fc0b749f2","datePublished":"2023-04-21","numTracks":1},{"@type":"MusicAlbum","name":"NVMB.","url":"https://open.spotify.com/album/3SnR5AxkMmqsUz7pILA3HD","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273583e45214ad73ef60cdde933","datePublished":"2023-02-24","numTracks":1},{"@type":"MusicAlbum","name":"S!CK FVCK","url":"https://open.spotify.com/album/1jjnLhhCwqr0mUzsQUlSsT","image":"https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273ea3eed636ff20c57d3f4b083","datePublished":"2023-02-03","numTracks":1},{"@type":"MusicAlbum","name":"CRAWL. (feat. Gashum)","url":"https://open.spotify.com/album/5YATkYRxFToKLTwBMALL5X","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273c007907818c53ee813a53e1b","datePublished":"2022-11-18","numTracks":1},{"@type":"MusicAlbum","name":"I. Poppyseeds","url":"https://open.spotify.com/album/6A8cGDoUcSHqnOOttflLFt","image":"https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2737225aa9ee7d0508125d2890d","datePublished":"2022-10-30","numTracks":1},{"@type":"MusicAlbum","name":"SPINELESS. (feat. PRXJEK)","url":"https://open.spotify.com/album/3lMDnVJaKnjP0GekAa8tS4","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273bedf39a52145a80cea7bbd00","datePublished":"2022-10-07","numTracks":1},{"@type":"MusicAlbum","name":"TERRY!","url":"https://open.spotify.com/album/5wGr6XiuA1v4d65FUzrUX0","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273dee97d2a928ebe5b4d30c9c7","datePublished":"2022-09-02","numTracks":1},{"@type":"MusicAlbum","name":"bleed 2 gether.","url":"https://open.spotify.com/album/6ObpmdMIeOz98Ha2zfiBZR","image":"https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273fa77007a624e4f2b8adbbd64","datePublished":"2022-08-19","numTracks":1},{"@type":"MusicAlbum","name":"POISON.","url":"https://open.spotify.com/album/77SqvVMbpuK2smFEA0Q3GP","image":"https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273b17cd7be52d9a9c5be285caf","datePublished":"2022-08-05","numTracks":1},{"@type":"MusicAlbum","name":"D13.","url":"https://open.spotify.com/album/0i5pRuu74MuyPrIjbsW6MI","image":"https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273b3bb99e0575b5f609a573964","datePublished":"2022-07-08","numTracks":1},{"@type":"MusicAlbum","name":"FVCK LIFE.","url":"https://open.spotify.com/album/1a5NiGJynAPGKyGU1cYqtE","image":"https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273bf9cc2f7edb082bc6188b293","datePublished":"2022-06-10","numTracks":1},{"@type":"MusicAlbum","name":"FALL ASLEEP","url":"https://open.spotify.com/album/2OYkWtc3PfBVi7u0u267fF","image":"https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273901fa58e766ae71044ca028e","datePublished":"2021-03-10","numTracks":1},{"@type":"MusicAlbum","name":"BubblegumSkies","url":"https://open.spotify.com/album/2rVweRPrGG5dugtZKHcD0U","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273a38c0a9ba8409ae07967e2d2","datePublished":"2021-02-19","numTracks":1},{"@type":"MusicAlbum","name":"happyness.","url":"https://open.spotify.com/album/1qa5QExQKR4mKfqaoSh5Ac","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273fe6c9710ea9781c6b49b1a7e","datePublished":"2021-01-29","numTracks":1},{"@type":"MusicAlbum","name":"<digital*nebula>","url":"https://open.spotify.com/album/2sQH8kavnWueFKhcBc2wGr","image":"https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27393826d21ea712012d9dd271d","datePublished":"2021-01-21","numTracks":1},{"@type":"MusicAlbum","name":"KILLTHEPHARAOH","url":"https://open.spotify.com/album/1tYsU3bWcIwiCP159az1ip","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27313596bde28b4b19882ecd7cf","datePublished":"2021-01-15","numTracks":1},{"@type":"MusicAlbum","name":"106.mph","url":"https://open.spotify.com/album/2ceKtUIRPkQU7u8MCgs8cP","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273e1871ae930e309dfdeb1a634","datePublished":"2021-01-08","numTracks":1},{"@type":"MusicAlbum","name":"XvX","url":"https://open.spotify.com/album/1KjXGmwRCkzdFCtyvyX5hm","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273a384e08a2efca82a25aa341f","datePublished":"2020-12-18","numTracks":1},{"@type":"MusicAlbum","name":"L 'Appel Du Vide","url":"https://open.spotify.com/album/7sdjC5ysJhNOEkOaoh6hHy","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273800daba32361303d33ecea78","datePublished":"2020-12-05","numTracks":1},{"@type":"MusicAlbum","name":"FVCKED UP","url":"https://open.spotify.com/album/5hvL4lijECGPrZLmOLuyYh","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2732864e4f06721a48a7eca41cb","datePublished":"2020-11-27","numTracks":1},{"@type":"MusicAlbum","name":"PaperSunset.","url":"https://open.spotify.com/album/0A2F5SGHMxAaoJNz82r4o2","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273461896f6e01a258313511e17","datePublished":"2020-11-20","numTracks":1},{"@type":"MusicAlbum","name":"Intermission II.","url":"https://open.spotify.com/album/5U2tJZGSGeShKkh3ifnuqu","image":"https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2734644304062b26659197144a5","datePublished":"2020-11-20","numTracks":1},{"@type":"MusicAlbum","name":"TREE$","url":"https://open.spotify.com/album/6XMNiPYdh3X5oNYSR0lOZ2","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2731242a9f1bcc8874c25142440","datePublished":"2020-11-06","numTracks":1},{"@type":"MusicAlbum","name":"Mr. Clean","url":"https://open.spotify.com/album/2oz6q9Kj0tB5nMEZkrQdOV","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273866bea92a22065e50582bc24","datePublished":"2020-10-23","numTracks":1},{"@type":"MusicAlbum","name":"Amput8","url":"https://open.spotify.com/album/5ZlXMimK427p7AorUHqwh1","image":"https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273d8c4e17692ca7bb7c44a58e0","datePublished":"2020-10-16","numTracks":1},{"@type":"MusicAlbum","name":"Mollywood","url":"https://open.spotify.com/album/5csDfvRZxbelCk8T2tJnu9","image":"https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273313b4aa242e4c8adda49533c","datePublished":"2020-09-18","numTracks":1},{"@type":"MusicAlbum","name":"Intermission","url":"https://open.spotify.com/album/5LISdolYhKiSeh3FmyJGoj","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273d837021558884ed719e6b330","datePublished":"2020-07-31","numTracks":1},{"@type":"MusicAlbum","name":"Bankruptt","url":"https://open.spotify.com/album/1LZ4q2eIrKjzHkPE019FWw","image":"https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2739e6c745c6032516927a82ccd","datePublished":"2020-07-22","numTracks":1},{"@type":"MusicAlbum","name":"Rew!nd","url":"https://open.spotify.com/album/4dlCZi6Nj17NZy4v8AzpiF","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27346b43886e69b96ce02f7f7e3","datePublished":"2020-07-01","numTracks":1}]
     }
     </script>
     <script type="application/ld+json">
@@ -70,11 +92,13 @@
     <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-YGTD782ZEK");</script>
 </head>
 <body>
-    <main class="page-main">
+    <main class="page-main" itemscope itemtype="https://schema.org/MusicGroup">
+        <meta itemprop="name" content="Kill Dyll">
+        <meta itemprop="url" content="https://www.horrorcore-reshare.com/artists/kill-dyll">
         <div class="artist-header hr-glass">
-            <img src="https://i.scdn.co/image/ab6761610000e5ebb8700b15b310e2f1f0fdae1f" alt="Kill Dyll underground horrorcore artist photo" class="artist-img" loading="lazy">
+            <img src="https://i.scdn.co/image/ab6761610000e5ebb8700b15b310e2f1f0fdae1f" alt="Kill Dyll underground horrorcore artist photo" class="artist-img" loading="lazy" itemprop="image">
             <div class="artist-info">
-                <h1>Kill Dyll</h1>
+                <h1 itemprop="name">Kill Dyll</h1>
                 <div class="genre-tags">
 <span class="genre-tag">dark trap</span>
 <span class="genre-tag">horrorcore</span>
@@ -86,25 +110,958 @@
 </div>
             </div>
         </div>
-        <div class="bio-section hr-glass">
+        <div class="bio-section hr-glass" itemprop="description">
             <h2>Artist Biography</h2>
             <p>Kill Dyll is a Denver-based trap metal artist, producer, and visual creator who has built one of the more distinctive identities in the underground scene. Starting out as a drummer, he eventually began producing his own beats, rapping over them, and shaping a persona he describes as an artistic interpretation of ego in America. The result is a sound rooted in heavy bass, distorted vocals, and confrontational energy that pulls from hip-hop, metal, rock, and industrial. Everything about the project is self-contained. He produces his own music, directs his own videos, and makes his own handmade masks, the horror-themed face coverings that have become his calling card. That contrast between the unsettling visuals and his more reserved off-stage personality is a big part of what resonates with his fanbase. His discography moved fast once things clicked. sixty se7en and JFK in 2022, dont touch me. in 2023, and a run of releases in 2024 including Antagonist, EMBRACE THE CHAOS VOL.1, and the Warner Records-backed mixtape BRAINDEAD. Most recently he dropped ACT HUMAN, not god in 2025. With a rapidly growing fanbase and major label backing already in the picture, Kill Dyll is one of the scene's fastest rising names.</p>
         </div>
-        <div class="bio-section hr-glass">
-            <h2>Latest Releases</h2>
-            <ul class="releases-list">
-<li><a href="https://open.spotify.com/album/2L5UXxpRR0au82NbHDtxuT" target="_blank" rel="noopener noreferrer" style="color: #ffcc00;">Spotify Release 2L5UXxpRR0au82NbHDtxuT</a></li>
-<li><a href="https://open.spotify.com/album/4xACBGqzOhJ8A0YJzqAvEn" target="_blank" rel="noopener noreferrer" style="color: #ffcc00;">Spotify Release 4xACBGqzOhJ8A0YJzqAvEn</a></li>
-<li><a href="https://open.spotify.com/album/5ofCVTeAyVGwPj6z9m1P7X" target="_blank" rel="noopener noreferrer" style="color: #ffcc00;">Spotify Release 5ofCVTeAyVGwPj6z9m1P7X</a></li>
-<li><a href="https://open.spotify.com/album/2i08mMiFf51QxvDTJlhq2J" target="_blank" rel="noopener noreferrer" style="color: #ffcc00;">Spotify Release 2i08mMiFf51QxvDTJlhq2J</a></li>
-<li><a href="https://open.spotify.com/album/7MEHRApivqwtI0cHij0nW8" target="_blank" rel="noopener noreferrer" style="color: #ffcc00;">Spotify Release 7MEHRApivqwtI0cHij0nW8</a></li>
-</ul>
-        </div>
-        <div class="similar-section hr-glass">
+        
+                    <div class="releases-section">
+                        <h2 class="releases-heading">Albums & EPs</h2>
+                        <div class="releases-grid">
+                            
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/2L5UXxpRR0au82NbHDtxuT', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(136, 24, 8, 0.85); border-color: rgba(136, 24, 8, 0.5);">8 TRACKS</span>
+                            <span class="release-badge duration-badge">19m 21s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273b8207d80915fafcbcdeb7692" alt="ACT HUMAN, not god album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=ACT%20HUMAN%2C%20not%20god&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="ACT HUMAN, not god">ACT HUMAN, not god</h3>
+                            <p class="release-card-artist">KILL DYLL</p>
+                            <p class="release-card-date">JUL 11, 2025</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/4xACBGqzOhJ8A0YJzqAvEn', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(159, 0, 0, 0.85); border-color: rgba(159, 0, 0, 0.5);">13 TRACKS</span>
+                            <span class="release-badge duration-badge">27m 27s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2735ae71c81729544aff763be2b" alt="BRAINDEAD album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=BRAINDEAD&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="BRAINDEAD">BRAINDEAD</h3>
+                            <p class="release-card-artist">KILL DYLL</p>
+                            <p class="release-card-date">OCT 25, 2024</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/2Ut99Lzl7p2JWWE7ACN9vg', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(159, 0, 0, 0.85); border-color: rgba(159, 0, 0, 0.5);">4 TRACKS</span>
+                            <span class="release-badge duration-badge">8m 57s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2737339fc63704c238b8d25774e" alt="EMBRACE THE CHAOS, VOL. 1 album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=EMBRACE%20THE%20CHAOS%2C%20VOL.%201&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="EMBRACE THE CHAOS, VOL. 1">EMBRACE THE CHAOS, VOL. 1</h3>
+                            <p class="release-card-artist">KILL DYLL</p>
+                            <p class="release-card-date">APR 26, 2024</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/21RBXYEl4j5anWHKQjvMvf', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(80, 16, 8, 0.85); border-color: rgba(80, 16, 8, 0.5);">6 TRACKS</span>
+                            <span class="release-badge duration-badge">10m 22s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2730ef44ac07b9fb5301c513878" alt="ANTAGONIST album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=ANTAGONIST&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="ANTAGONIST">ANTAGONIST</h3>
+                            <p class="release-card-artist">KILL DYLL</p>
+                            <p class="release-card-date">FEB 23, 2024</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/75vPJKIGknbHtlbePsRUgy', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(83, 83, 83, 0.85); border-color: rgba(83, 83, 83, 0.5);">6 TRACKS</span>
+                            <span class="release-badge duration-badge">13m 24s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2739673a71f8c482ce7e77be48f" alt="dont touch me. album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=dont%20touch%20me.&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="dont touch me.">dont touch me.</h3>
+                            <p class="release-card-artist">KILL DYLL</p>
+                            <p class="release-card-date">JUL 14, 2023</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/0ZqlNg55XUnkbqYAA1FpLu', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(73, 88, 58, 0.85); border-color: rgba(73, 88, 58, 0.5);">2 TRACKS</span>
+                            <span class="release-badge duration-badge">5m 41s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273a5afac688f4ac020481e22f3" alt="Halloween. album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=Halloween.&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="Halloween.">Halloween.</h3>
+                            <p class="release-card-artist">KILL DYLL</p>
+                            <p class="release-card-date">OCT 28, 2022</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/1nglfqOPCbFAJBYQCMjJvB', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(56, 48, 48, 0.85); border-color: rgba(56, 48, 48, 0.5);">4 TRACKS</span>
+                            <span class="release-badge duration-badge">8m 54s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2732477f051069a83a27b6bcef0" alt="NOSE BLEED FM. album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=NOSE%20BLEED%20FM.&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="NOSE BLEED FM.">NOSE BLEED FM.</h3>
+                            <p class="release-card-artist">KILL DYLL</p>
+                            <p class="release-card-date">JUL 1, 2022</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/1Rt6nfCZCW7DBHJbQErFZW', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(56, 64, 64, 0.85); border-color: rgba(56, 64, 64, 0.5);">7 TRACKS</span>
+                            <span class="release-badge duration-badge">15m 57s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273ae36714cb42c7cd94afbd096" alt="sixty se7en. album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=sixty%20se7en.&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="sixty se7en.">sixty se7en.</h3>
+                            <p class="release-card-artist">KILL DYLL</p>
+                            <p class="release-card-date">APR 22, 2022</p>
+                        </div>
+                    </div>
+                        </div>
+                    </div>
+                    <div class="releases-section">
+                        <h2 class="releases-heading">Singles</h2>
+                        <div class="releases-grid">
+                            
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/5ofCVTeAyVGwPj6z9m1P7X', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(159, 0, 8, 0.85); border-color: rgba(159, 0, 8, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">2m 11s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2739fb5d1c3b3f692b55ca8e5d5" alt="Nothing album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=Nothing&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="Nothing">Nothing</h3>
+                            <p class="release-card-artist">KILL DYLL</p>
+                            <p class="release-card-date">FEB 13, 2026</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/2i08mMiFf51QxvDTJlhq2J', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(16, 72, 144, 0.85); border-color: rgba(16, 72, 144, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">2m 0s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273d0d91b0b8081e44a270927c8" alt="My Grave album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=My%20Grave&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="My Grave">My Grave</h3>
+                            <p class="release-card-artist">KILL DYLL</p>
+                            <p class="release-card-date">NOV 21, 2025</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/7MEHRApivqwtI0cHij0nW8', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(159, 0, 16, 0.85); border-color: rgba(159, 0, 16, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">2m 19s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273f22977c16a9d79f979f87d2f" alt="Nightmare album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=Nightmare&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="Nightmare">Nightmare</h3>
+                            <p class="release-card-artist">KILL DYLL</p>
+                            <p class="release-card-date">OCT 17, 2025</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/6T0OU2OF3jcMKs5pkUjsgy', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(83, 83, 83, 0.85); border-color: rgba(83, 83, 83, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">2m 36s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2734cc926a3b3cdc38079862c74" alt="OBSIDIAN album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=OBSIDIAN&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="OBSIDIAN">OBSIDIAN</h3>
+                            <p class="release-card-artist">KILL DYLL</p>
+                            <p class="release-card-date">AUG 22, 2025</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/4XQCQ0pqXOY7Yf43HsodK9', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(58, 80, 141, 0.85); border-color: rgba(58, 80, 141, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">3m 21s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273ac273044b932cb084d375fc4" alt="WILTED ROSE album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=WILTED%20ROSE&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="WILTED ROSE">WILTED ROSE</h3>
+                            <p class="release-card-artist">KILL DYLL</p>
+                            <p class="release-card-date">MAY 9, 2025</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/3QAvdHz2tHhudtH6gmywd4', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(57, 85, 113, 0.85); border-color: rgba(57, 85, 113, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">2m 24s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2731f881d7e2434176f836df16a" alt="THE COST album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=THE%20COST&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="THE COST">THE COST</h3>
+                            <p class="release-card-artist">KILL DYLL</p>
+                            <p class="release-card-date">APR 4, 2025</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/4JCeiarWdfm1WV86ZsNa1b', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(83, 83, 83, 0.85); border-color: rgba(83, 83, 83, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">2m 37s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273f801dee67401199b4eae9d98" alt="START TO BLEED album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=START%20TO%20BLEED&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="START TO BLEED">START TO BLEED</h3>
+                            <p class="release-card-artist">KILL DYLL</p>
+                            <p class="release-card-date">MAR 7, 2025</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/433a3JCXuGFttadC5LAQmF', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(159, 0, 0, 0.85); border-color: rgba(159, 0, 0, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">2m 21s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273979edc778536aa483b2886f5" alt="AMERICAN ANARCHIST! album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=AMERICAN%20ANARCHIST!&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="AMERICAN ANARCHIST!">AMERICAN ANARCHIST!</h3>
+                            <p class="release-card-artist">KILL DYLL</p>
+                            <p class="release-card-date">DEC 13, 2024</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/5mkkXvKZxkiwJNlWkNaksW', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(83, 83, 89, 0.85); border-color: rgba(83, 83, 89, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">3m 28s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2736c5b2f40d28f5275c919131f" alt="DIVINE WARRIOR album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=DIVINE%20WARRIOR&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="DIVINE WARRIOR">DIVINE WARRIOR</h3>
+                            <p class="release-card-artist">KILL DYLL</p>
+                            <p class="release-card-date">AUG 23, 2024</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/1vqmwhaB1zeMb0WlexCbUK', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(49, 92, 51, 0.85); border-color: rgba(49, 92, 51, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">2m 38s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273200b5ac2e4bdb73abc7a778b" alt="Cat Nap album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=Cat%20Nap&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="Cat Nap">Cat Nap</h3>
+                            <p class="release-card-artist">KILL DYLL</p>
+                            <p class="release-card-date">JUN 21, 2024</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/1LZL49eCQaK33GI1JOVNfD', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(53, 90, 83, 0.85); border-color: rgba(53, 90, 83, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">2m 8s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273b102f76d00f4b85086bed85a" alt="Gas Chamber album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=Gas%20Chamber&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="Gas Chamber">Gas Chamber</h3>
+                            <p class="release-card-artist">KILL DYLL</p>
+                            <p class="release-card-date">MAY 24, 2024</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/3VPdcSoaLisWUhljemXBe6', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(140, 54, 39, 0.85); border-color: rgba(140, 54, 39, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">1m 30s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273704e50fcfa5d1b752233bb04" alt="F U IN ADVANCE! album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=F%20U%20IN%20ADVANCE!&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="F U IN ADVANCE!">F U IN ADVANCE!</h3>
+                            <p class="release-card-artist">KILL DYLL</p>
+                            <p class="release-card-date">APR 5, 2024</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/3oPCmFvO7oTZz1tNHEdy6I', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(56, 56, 40, 0.85); border-color: rgba(56, 56, 40, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">2m 42s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273176931a1814bab10c073b72e" alt="God's Failed Experiment album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=God's%20Failed%20Experiment&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="God's Failed Experiment">God's Failed Experiment</h3>
+                            <p class="release-card-artist">KILL DYLL</p>
+                            <p class="release-card-date">MAR 22, 2024</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/4qtGOyxc4MfopoH9b8xuYd', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(64, 24, 24, 0.85); border-color: rgba(64, 24, 24, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">1m 30s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27342e91f284ef5be72e4d67fd4" alt="I Saw Jesus Christ In a Parking Lot album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=I%20Saw%20Jesus%20Christ%20In%20a%20Parking%20Lot&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="I Saw Jesus Christ In a Parking Lot">I Saw Jesus Christ In a Parking Lot</h3>
+                            <p class="release-card-artist">KILL DYLL</p>
+                            <p class="release-card-date">MAR 8, 2024</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/2YIXE4N8I8zZ5y0IXT4q2v', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(90, 82, 68, 0.85); border-color: rgba(90, 82, 68, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">2m 14s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2736dc3746ae05f2658c2666a78" alt="FEAST album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=FEAST&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="FEAST">FEAST</h3>
+                            <p class="release-card-artist">KILL DYLL</p>
+                            <p class="release-card-date">JAN 26, 2024</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/7be4xm8QKyrU69PnkD3XTF', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(147, 43, 44, 0.85); border-color: rgba(147, 43, 44, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">1m 30s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27357ea1ab3e77cece5b598ad67" alt="Paranoia album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=Paranoia&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="Paranoia">Paranoia</h3>
+                            <p class="release-card-artist">KILL DYLL</p>
+                            <p class="release-card-date">JAN 5, 2024</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/01S0x2Qp6CODlQko0MPo0y', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(83, 83, 83, 0.85); border-color: rgba(83, 83, 83, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">2m 54s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273937bece2176bfb7633378ebf" alt="JFK album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=JFK&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="JFK">JFK</h3>
+                            <p class="release-card-artist">KILL DYLL</p>
+                            <p class="release-card-date">DEC 9, 2023</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/4OqEKSK9aSeTvXJFBC8Jbl', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(44, 92, 69, 0.85); border-color: rgba(44, 92, 69, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">1m 49s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2732fe11dc344650f689c01d06e" alt="TIMMY album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=TIMMY&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="TIMMY">TIMMY</h3>
+                            <p class="release-card-artist">KILL DYLL</p>
+                            <p class="release-card-date">DEC 1, 2023</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/3G4Pv4Gi9uYaUjh1x0vXia', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(150, 39, 34, 0.85); border-color: rgba(150, 39, 34, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">2m 58s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273dd72654699f351b199bc3ecc" alt="Dead By Daylight album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=Dead%20By%20Daylight&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="Dead By Daylight">Dead By Daylight</h3>
+                            <p class="release-card-artist">KILL DYLL</p>
+                            <p class="release-card-date">OCT 27, 2023</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/4uQJLwPsc62jnR5U2MOOsb', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(112, 56, 48, 0.85); border-color: rgba(112, 56, 48, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">3m 7s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2732bac220c002b27743b6c3cc5" alt="2001 album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=2001&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="2001">2001</h3>
+                            <p class="release-card-artist">KILL DYLL</p>
+                            <p class="release-card-date">SEP 22, 2023</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/6nQyYMaYNecW1Z509oxuwz', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(64, 32, 32, 0.85); border-color: rgba(64, 32, 32, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">3m 10s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273a48e22a0e1807ebb2d7c7708" alt="BAKI // ROT (feat. Gashum) album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=BAKI%20%2F%2F%20ROT%20(feat.%20Gashum)&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="BAKI // ROT (feat. Gashum)">BAKI // ROT (feat. Gashum)</h3>
+                            <p class="release-card-artist">KILL DYLL</p>
+                            <p class="release-card-date">AUG 25, 2023</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/0LGT47XCH61BWvIOGJNNr6', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(94, 80, 80, 0.85); border-color: rgba(94, 80, 80, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">3m 2s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273a6b447e078984e01186a4128" alt="TRUST NO ONE! (feat. ruzlxn) album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=TRUST%20NO%20ONE!%20(feat.%20ruzlxn)&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="TRUST NO ONE! (feat. ruzlxn)">TRUST NO ONE! (feat. ruzlxn)</h3>
+                            <p class="release-card-artist">KILL DYLL</p>
+                            <p class="release-card-date">AUG 11, 2023</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/2UHyycPzeP2HPvh32dcMHT', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(136, 40, 24, 0.85); border-color: rgba(136, 40, 24, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">2m 8s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27314d11ab7ae50df7494340914" alt="NX FACE. (feat. PABLO!) album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=NX%20FACE.%20(feat.%20PABLO!)&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="NX FACE. (feat. PABLO!)">NX FACE. (feat. PABLO!)</h3>
+                            <p class="release-card-artist">KILL DYLL</p>
+                            <p class="release-card-date">JUN 9, 2023</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/2NtXF40V1KiF9v7v42gek1', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(56, 16, 16, 0.85); border-color: rgba(56, 16, 16, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">1m 51s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27393d0f9714faa832b8b526c64" alt="PSYCHO! album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=PSYCHO!&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="PSYCHO!">PSYCHO!</h3>
+                            <p class="release-card-artist">KILL DYLL</p>
+                            <p class="release-card-date">MAY 27, 2023</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/4noSgxGI4MVIQEKYSOjN5F', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(120, 48, 104, 0.85); border-color: rgba(120, 48, 104, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">2m 5s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27345a2bb24139d304c046632b6" alt="TOKYO GHOUL! album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=TOKYO%20GHOUL!&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="TOKYO GHOUL!">TOKYO GHOUL!</h3>
+                            <p class="release-card-artist">KILL DYLL</p>
+                            <p class="release-card-date">MAY 5, 2023</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/45JlvYTmw091d5NtnJMOAq', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(142, 52, 0, 0.85); border-color: rgba(142, 52, 0, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">2m 13s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273bd985653024ad38fc0b749f2" alt="hell. album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=hell.&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="hell.">hell.</h3>
+                            <p class="release-card-artist">KILL DYLL</p>
+                            <p class="release-card-date">APR 21, 2023</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/3SnR5AxkMmqsUz7pILA3HD', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(0, 89, 119, 0.85); border-color: rgba(0, 89, 119, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">2m 50s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273583e45214ad73ef60cdde933" alt="NVMB. album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=NVMB.&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="NVMB.">NVMB.</h3>
+                            <p class="release-card-artist">KILL DYLL</p>
+                            <p class="release-card-date">FEB 24, 2023</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/1jjnLhhCwqr0mUzsQUlSsT', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(83, 83, 83, 0.85); border-color: rgba(83, 83, 83, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">2m 7s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273ea3eed636ff20c57d3f4b083" alt="S!CK FVCK album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=S!CK%20FVCK&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="S!CK FVCK">S!CK FVCK</h3>
+                            <p class="release-card-artist">KILL DYLL</p>
+                            <p class="release-card-date">FEB 3, 2023</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/5YATkYRxFToKLTwBMALL5X', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(63, 86, 102, 0.85); border-color: rgba(63, 86, 102, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">2m 9s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273c007907818c53ee813a53e1b" alt="CRAWL. (feat. Gashum) album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=CRAWL.%20(feat.%20Gashum)&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="CRAWL. (feat. Gashum)">CRAWL. (feat. Gashum)</h3>
+                            <p class="release-card-artist">KILL DYLL</p>
+                            <p class="release-card-date">NOV 18, 2022</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/6A8cGDoUcSHqnOOttflLFt', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(136, 58, 0, 0.85); border-color: rgba(136, 58, 0, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">1m 45s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2737225aa9ee7d0508125d2890d" alt="I. Poppyseeds album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=I.%20Poppyseeds&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="I. Poppyseeds">I. Poppyseeds</h3>
+                            <p class="release-card-artist">KILL DYLL</p>
+                            <p class="release-card-date">OCT 30, 2022</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/3lMDnVJaKnjP0GekAa8tS4', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(159, 0, 16, 0.85); border-color: rgba(159, 0, 16, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">2m 25s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273bedf39a52145a80cea7bbd00" alt="SPINELESS. (feat. PRXJEK) album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=SPINELESS.%20(feat.%20PRXJEK)&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="SPINELESS. (feat. PRXJEK)">SPINELESS. (feat. PRXJEK)</h3>
+                            <p class="release-card-artist">KILL DYLL</p>
+                            <p class="release-card-date">OCT 7, 2022</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/5wGr6XiuA1v4d65FUzrUX0', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(76, 83, 99, 0.85); border-color: rgba(76, 83, 99, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">2m 8s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273dee97d2a928ebe5b4d30c9c7" alt="TERRY! album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=TERRY!&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="TERRY!">TERRY!</h3>
+                            <p class="release-card-artist">KILL DYLL</p>
+                            <p class="release-card-date">SEP 2, 2022</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/6ObpmdMIeOz98Ha2zfiBZR', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(83, 83, 83, 0.85); border-color: rgba(83, 83, 83, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">2m 22s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273fa77007a624e4f2b8adbbd64" alt="bleed 2 gether. album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=bleed%202%20gether.&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="bleed 2 gether.">bleed 2 gether.</h3>
+                            <p class="release-card-artist">KILL DYLL</p>
+                            <p class="release-card-date">AUG 19, 2022</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/77SqvVMbpuK2smFEA0Q3GP', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(0, 96, 0, 0.85); border-color: rgba(0, 96, 0, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">2m 59s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273b17cd7be52d9a9c5be285caf" alt="POISON. album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=POISON.&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="POISON.">POISON.</h3>
+                            <p class="release-card-artist">KILL DYLL</p>
+                            <p class="release-card-date">AUG 5, 2022</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/0i5pRuu74MuyPrIjbsW6MI', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(112, 24, 24, 0.85); border-color: rgba(112, 24, 24, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">2m 30s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273b3bb99e0575b5f609a573964" alt="D13. album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=D13.&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="D13.">D13.</h3>
+                            <p class="release-card-artist">KILL DYLL</p>
+                            <p class="release-card-date">JUL 8, 2022</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/1a5NiGJynAPGKyGU1cYqtE', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(83, 83, 90, 0.85); border-color: rgba(83, 83, 90, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">2m 49s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273bf9cc2f7edb082bc6188b293" alt="FVCK LIFE. album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=FVCK%20LIFE.&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="FVCK LIFE.">FVCK LIFE.</h3>
+                            <p class="release-card-artist">KILL DYLL</p>
+                            <p class="release-card-date">JUN 10, 2022</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/2OYkWtc3PfBVi7u0u267fF', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(156, 25, 0, 0.85); border-color: rgba(156, 25, 0, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">1m 40s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273901fa58e766ae71044ca028e" alt="FALL ASLEEP album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=FALL%20ASLEEP&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="FALL ASLEEP">FALL ASLEEP</h3>
+                            <p class="release-card-artist">KILL DYLL</p>
+                            <p class="release-card-date">MAR 10, 2021</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/2rVweRPrGG5dugtZKHcD0U', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(110, 21, 195, 0.85); border-color: rgba(110, 21, 195, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">1m 53s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273a38c0a9ba8409ae07967e2d2" alt="BubblegumSkies album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=BubblegumSkies&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="BubblegumSkies">BubblegumSkies</h3>
+                            <p class="release-card-artist">KILL DYLL</p>
+                            <p class="release-card-date">FEB 19, 2021</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/1qa5QExQKR4mKfqaoSh5Ac', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(0, 89, 117, 0.85); border-color: rgba(0, 89, 117, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">2m 20s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273fe6c9710ea9781c6b49b1a7e" alt="happyness. album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=happyness.&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="happyness.">happyness.</h3>
+                            <p class="release-card-artist">KILL DYLL</p>
+                            <p class="release-card-date">JAN 29, 2021</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/2sQH8kavnWueFKhcBc2wGr', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(83, 83, 83, 0.85); border-color: rgba(83, 83, 83, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">1m 30s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27393826d21ea712012d9dd271d" alt="<digital*nebula> album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=%3Cdigital*nebula%3E&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="<digital*nebula>"><digital*nebula></h3>
+                            <p class="release-card-artist">KILL DYLL</p>
+                            <p class="release-card-date">JAN 21, 2021</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/1tYsU3bWcIwiCP159az1ip', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(145, 0, 124, 0.85); border-color: rgba(145, 0, 124, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">1m 47s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27313596bde28b4b19882ecd7cf" alt="KILLTHEPHARAOH album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=KILLTHEPHARAOH&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="KILLTHEPHARAOH">KILLTHEPHARAOH</h3>
+                            <p class="release-card-artist">KILL DYLL</p>
+                            <p class="release-card-date">JAN 15, 2021</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/2ceKtUIRPkQU7u8MCgs8cP', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(0, 59, 212, 0.85); border-color: rgba(0, 59, 212, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">1m 38s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273e1871ae930e309dfdeb1a634" alt="106.mph album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=106.mph&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="106.mph">106.mph</h3>
+                            <p class="release-card-artist">KILL DYLL</p>
+                            <p class="release-card-date">JAN 8, 2021</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/1KjXGmwRCkzdFCtyvyX5hm', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(142, 0, 137, 0.85); border-color: rgba(142, 0, 137, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">1m 31s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273a384e08a2efca82a25aa341f" alt="XvX album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=XvX&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="XvX">XvX</h3>
+                            <p class="release-card-artist">KILL DYLL</p>
+                            <p class="release-card-date">DEC 18, 2020</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/7sdjC5ysJhNOEkOaoh6hHy', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(64, 80, 80, 0.85); border-color: rgba(64, 80, 80, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">1m 53s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273800daba32361303d33ecea78" alt="L 'Appel Du Vide album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=L%20'Appel%20Du%20Vide&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="L 'Appel Du Vide">L 'Appel Du Vide</h3>
+                            <p class="release-card-artist">KILL DYLL</p>
+                            <p class="release-card-date">DEC 5, 2020</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/5hvL4lijECGPrZLmOLuyYh', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(80, 80, 80, 0.85); border-color: rgba(80, 80, 80, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">2m 33s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2732864e4f06721a48a7eca41cb" alt="FVCKED UP album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=FVCKED%20UP&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="FVCKED UP">FVCKED UP</h3>
+                            <p class="release-card-artist">KILL DYLL</p>
+                            <p class="release-card-date">NOV 27, 2020</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/0A2F5SGHMxAaoJNz82r4o2', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(115, 74, 0, 0.85); border-color: rgba(115, 74, 0, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">1m 44s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273461896f6e01a258313511e17" alt="PaperSunset. album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=PaperSunset.&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="PaperSunset.">PaperSunset.</h3>
+                            <p class="release-card-artist">KILL DYLL</p>
+                            <p class="release-card-date">NOV 20, 2020</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/5U2tJZGSGeShKkh3ifnuqu', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(83, 83, 83, 0.85); border-color: rgba(83, 83, 83, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">2m 16s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2734644304062b26659197144a5" alt="Intermission II. album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=Intermission%20II.&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="Intermission II.">Intermission II.</h3>
+                            <p class="release-card-artist">KILL DYLL</p>
+                            <p class="release-card-date">NOV 20, 2020</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/6XMNiPYdh3X5oNYSR0lOZ2', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(8, 0, 64, 0.85); border-color: rgba(8, 0, 64, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">2m 25s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2731242a9f1bcc8874c25142440" alt="TREE$ album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=TREE%24&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="TREE$">TREE$</h3>
+                            <p class="release-card-artist">KILL DYLL</p>
+                            <p class="release-card-date">NOV 6, 2020</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/2oz6q9Kj0tB5nMEZkrQdOV', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(159, 0, 0, 0.85); border-color: rgba(159, 0, 0, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">1m 15s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273866bea92a22065e50582bc24" alt="Mr. Clean album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=Mr.%20Clean&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="Mr. Clean">Mr. Clean</h3>
+                            <p class="release-card-artist">KILL DYLL</p>
+                            <p class="release-card-date">OCT 23, 2020</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/5ZlXMimK427p7AorUHqwh1', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(16, 16, 240, 0.85); border-color: rgba(16, 16, 240, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">2m 23s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273d8c4e17692ca7bb7c44a58e0" alt="Amput8 album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=Amput8&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="Amput8">Amput8</h3>
+                            <p class="release-card-artist">KILL DYLL</p>
+                            <p class="release-card-date">OCT 16, 2020</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/5csDfvRZxbelCk8T2tJnu9', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(0, 0, 200, 0.85); border-color: rgba(0, 0, 200, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">2m 14s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273313b4aa242e4c8adda49533c" alt="Mollywood album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=Mollywood&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="Mollywood">Mollywood</h3>
+                            <p class="release-card-artist">KILL DYLL</p>
+                            <p class="release-card-date">SEP 18, 2020</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/5LISdolYhKiSeh3FmyJGoj', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(88, 81, 88, 0.85); border-color: rgba(88, 81, 88, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">1m 23s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273d837021558884ed719e6b330" alt="Intermission album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=Intermission&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="Intermission">Intermission</h3>
+                            <p class="release-card-artist">KILL DYLL</p>
+                            <p class="release-card-date">JUL 31, 2020</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/1LZ4q2eIrKjzHkPE019FWw', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(71, 85, 99, 0.85); border-color: rgba(71, 85, 99, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">1m 42s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2739e6c745c6032516927a82ccd" alt="Bankruptt album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=Bankruptt&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="Bankruptt">Bankruptt</h3>
+                            <p class="release-card-artist">KILL DYLL</p>
+                            <p class="release-card-date">JUL 22, 2020</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/4dlCZi6Nj17NZy4v8AzpiF', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(81, 81, 104, 0.85); border-color: rgba(81, 81, 104, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">2m 24s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27346b43886e69b96ce02f7f7e3" alt="Rew!nd album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=Rew!nd&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="Rew!nd">Rew!nd</h3>
+                            <p class="release-card-artist">KILL DYLL</p>
+                            <p class="release-card-date">JUL 1, 2020</p>
+                        </div>
+                    </div>
+                        </div>
+                    </div>
+        <div class="similar-section hr-glass" style="margin-top: 40px;">
             <h2>Similar Artists</h2>
             <p style="line-height: 1.8;"><a href="https://www.horrorcore-reshare.com/artists/godhandusa" style="color: #ffcc00; text-decoration: underline;">GODHANDUSA</a>, <a href="https://www.horrorcore-reshare.com/artists/grim-salvo" style="color: #ffcc00; text-decoration: underline;">Grim Salvo</a>, <a href="https://www.horrorcore-reshare.com/artists/witchouse-40k" style="color: #ffcc00; text-decoration: underline;">Witchouse 40k</a>, <a href="https://www.horrorcore-reshare.com/artists/kamaara" style="color: #ffcc00; text-decoration: underline;">KAMAARA</a></p>
         </div>
-        <div class="bio-section hr-glass">
+        <div class="bio-section hr-glass" style="margin-top: 30px;">
             <h2>Genre Tags</h2>
             <p><a href="https://www.horrorcore-reshare.com/genres/dark-trap" style="color: #ffcc00; text-decoration: underline;">dark trap</a>, <a href="https://www.horrorcore-reshare.com/genres/horrorcore" style="color: #ffcc00; text-decoration: underline;">horrorcore</a>, <a href="https://www.horrorcore-reshare.com/genres/industrial-hip-hop" style="color: #ffcc00; text-decoration: underline;">industrial hip hop</a></p>
         </div>
@@ -119,7 +1076,7 @@
                 <a href="/discord">Discord</a> <a href="/services">Services</a>
                 <a href="/follow">Follow</a> <a href="/page-audit">Page Audit</a> <a href="/privacy">Privacy</a>
             </nav>
-            <p>&copy; 2024-2026 Horrorcore Reshare | Update 001 | Maintained by Luna Serafina</p>
+            <p>&copy; 2024-2026 Horrorcore Reshare | Maintained by Luna Serafina</p>
         </div>
     </footer>
 </body>

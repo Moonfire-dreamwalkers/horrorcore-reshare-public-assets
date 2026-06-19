@@ -12,10 +12,16 @@
     <meta property="og:image" content="https://i2o.scdn.co/image/ab67618600001667b9a5723ab39fecfdd06f281c">
     <meta property="og:site_name" content="Horrorcore Reshare">
     <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="LuLuYam | Horrorcore Reshare Underground Artist">
+    <meta name="twitter:description" content="LuLuYam is a Florida-based rapper, producer, and visual artist carving out her own lane with a self-coined genre she calls Nightmare Pop. Blending hyper...">
+    <meta name="twitter:image" content="https://i2o.scdn.co/image/ab67618600001667b9a5723ab39fecfdd06f281c">
     <title>LuLuYam | Horrorcore Reshare Underground Artist Profile</title>
     <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/Moonfire-dreamwalkers/horrorcore-reshare-public-assets/main/images/hr-icon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://i.scdn.co">
+    <link rel="preconnect" href="https://i2o.scdn.co">
+    <link rel="preconnect" href="https://image-cdn-fa.spotifycdn.com">
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Inter:wght@300;400;800&family=Orbitron:wght@400;900&family=Share+Tech+Mono&display=swap" rel="stylesheet">
     <style>
         :root { --hr-blood: #8b0000; --hr-crimson: #cc2222; --hr-crimson-glow: rgba(204,34,34,0.6); --hr-text-muted: rgba(255,255,255,0.55); --hr-font-classic: "Orbitron",sans-serif; }
@@ -30,18 +36,33 @@
         .genre-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 20px; }
         .genre-tag { background: rgba(255,0,60,0.15); border: 1px solid rgba(255,0,60,0.3); padding: 4px 12px; border-radius: 4px; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 1px; color: #fff; }
         .bio-section { line-height: 1.9; font-size: 1rem; color: rgba(255,255,255,0.85); }
-        .bio-section h2, .similar-section h2 { font-family: "Orbitron",sans-serif; color: #ff003c; letter-spacing: 2px; font-size: 1.5rem; margin-bottom: 15px; border-bottom: 1px solid rgba(255,0,60,0.3); padding-bottom: 10px; }
+        .bio-section h2, .similar-section h2, .releases-heading { font-family: "Orbitron",sans-serif; color: #ff003c; letter-spacing: 2px; font-size: 1.5rem; margin-bottom: 15px; border-bottom: 1px solid rgba(255,0,60,0.3); padding-bottom: 10px; }
         .links-row { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 30px; }
         .social-btn { display: inline-block; padding: 10px 20px; text-decoration: none; font-family: "Share Tech Mono",monospace; border-radius: 4px; color: #fff; transition: 0.3s; }
         .spotify-btn { background: #1DB954; border: 1px solid #1DB954; }
         .insta-btn { background: rgba(255,0,60,0.2); border: 1px solid rgba(255,0,60,0.4); }
         .web-btn { background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.15); }
         .social-btn:hover { filter: brightness(1.2); }
-        .releases-list { list-style: none; display: flex; flex-direction: column; gap: 8px; }
-        .releases-list li { padding: 8px 12px; background: rgba(255,255,255,0.03); border-left: 2px solid rgba(255,0,60,0.4); border-radius: 0 4px 4px 0; font-size: 0.9rem; }
+        .releases-section { margin-top: 40px; }
+        .releases-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 20px; }
+        .release-card { display: flex; flex-direction: column; border-radius: 12px; overflow: hidden; background: rgba(10,10,10,0.85); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.08); transition: all 0.3s ease; cursor: pointer; position: relative; }
+        .release-card:hover { border-color: rgba(139,0,0,0.4); box-shadow: 0 8px 25px rgba(139,0,0,0.25); transform: translateY(-2px); }
+        .release-card-badges { position: absolute; top: 10px; left: 10px; z-index: 10; display: flex; gap: 6px; flex-wrap: wrap; }
+        .release-badge { font-family: "Share Tech Mono",monospace; font-size: 0.6rem; padding: 2px 7px; border-radius: 3px; font-weight: bold; letter-spacing: 1px; color: #fff; }
+        .tracks-badge { border: 1px solid transparent; }
+        .duration-badge { background: rgba(0,0,0,0.7); color: #ffcc00; border: 1px solid rgba(255,204,0,0.3); }
+        .pre-release { background: rgba(255,204,0,0.15); color: #ffcc00; border: 1px solid rgba(255,204,0,0.4); }
+        .release-card-cover-wrap { position: relative; width: 100%; aspect-ratio: 1; overflow: hidden; border-bottom: 1px solid rgba(139,0,0,0.1); }
+        .release-card-cover { width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s ease; }
+        .release-card:hover .release-card-cover { transform: scale(1.05); }
+        .release-card-info { padding: 16px; flex-grow: 1; display: flex; flex-direction: column; gap: 6px; }
+        .release-card-title { font-family: "Orbitron",sans-serif; font-size: 0.85rem; color: #fff; margin: 0; letter-spacing: 1px; line-height: 1.35; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+        .release-card-artist { font-family: "Share Tech Mono",monospace; color: #8b0000; font-size: 0.7rem; margin: 0; font-weight: bold; letter-spacing: 0.5px; }
+        .release-card-date { font-family: "Share Tech Mono",monospace; color: rgba(255,255,255,0.45); font-size: 0.65rem; margin: 0; letter-spacing: 0.5px; }
+        .releases-section .bio-section { padding: 0; background: none; backdrop-filter: none; border: none; border-radius: 0; margin-top: 20px; }
         .footer-nav { border-top: 1px solid rgba(255,0,60,0.2); padding: 30px 20px; text-align: center; font-size: 0.85rem; color: rgba(255,255,255,0.6); }
         .footer-nav a { color: #fff; text-decoration: none; margin: 0 10px; }
-        @media (max-width: 600px) { .artist-header { flex-direction: column; align-items: center; text-align: center; } .artist-img { width: 150px; height: 150px; } }
+        @media (max-width: 600px) { .artist-header { flex-direction: column; align-items: center; text-align: center; } .artist-img { width: 150px; height: 150px; } .releases-grid { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 14px; } .hr-glass { padding: 24px; } }
     </style>
     <script type="application/ld+json">
     {
@@ -52,7 +73,8 @@
         "image": "https://i2o.scdn.co/image/ab67618600001667b9a5723ab39fecfdd06f281c",
         "description": "LuLuYam is a Florida-based rapper, producer, and visual artist carving out her own lane with a self-coined genre she calls Nightmare Pop. Blending hyperpop, hip-hop, and dark experimental sound design, her music is deeply personal, tackling mental illness, trauma, and the fractured inner self throug",
         "genre": ["horrorcore","dark trap","underground rap"],
-        "sameAs": ["https://open.spotify.com/artist/4TAg5ckpTlxXLPTJW4eDMo","https://www.instagram.com/luluyammusic/","https://www.luluyam.com/"]
+        "sameAs": ["https://open.spotify.com/artist/4TAg5ckpTlxXLPTJW4eDMo","https://www.instagram.com/luluyammusic/","https://www.luluyam.com/"],
+        "album": [{"@type":"MusicAlbum","name":"BURNOUT","url":"https://open.spotify.com/album/0i2YrxbwlJb3eUzvSVqSXI","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2732be643fae17717d216358db4","datePublished":"2025-01-03","numTracks":6},{"@type":"MusicAlbum","name":"Tulips","url":"https://open.spotify.com/album/4piPwqBGxq8hlWONUMMrf4","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273ac4c9d79854b92b619ab8acf","datePublished":"2026-05-22","numTracks":1},{"@type":"MusicAlbum","name":"Just Enough","url":"https://open.spotify.com/album/2KzRFjVkEQwvvyWOqBEEkJ","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2737825e890cdb6fda92f000509","datePublished":"2026-04-01","numTracks":1},{"@type":"MusicAlbum","name":"Skin and Bones","url":"https://open.spotify.com/album/0ACs6agGjx6xMoGpOTcWxp","image":"https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2733570b62d5ec0814774c45507","datePublished":"2026-02-14","numTracks":1},{"@type":"MusicAlbum","name":"How bout now?","url":"https://open.spotify.com/album/0wo2bZpG7z27ROlQYPAmlK","image":"https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273866671e7d2edcaa61a7d2c14","datePublished":"2026-01-02","numTracks":1},{"@type":"MusicAlbum","name":"Die Anyway","url":"https://open.spotify.com/album/11qLcN5HgjgAlFUnrUB52h","image":"https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273ace892d9d4ba0eb1bfb6a691","datePublished":"2025-10-06","numTracks":1},{"@type":"MusicAlbum","name":"AMALGAMATION","url":"https://open.spotify.com/album/52BWb269m7R4b4BebgB00p","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273c8a4b478c077312c17cc750d","datePublished":"2025-07-31","numTracks":1},{"@type":"MusicAlbum","name":"Lights Go Out","url":"https://open.spotify.com/album/4LRPCa3wyfSuuFgPxeytRx","image":"https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273df3a7e3ad1a3702519bb5f43","datePublished":"2025-04-11","numTracks":1},{"@type":"MusicAlbum","name":"FREAK","url":"https://open.spotify.com/album/7xab77w0mqH4ahD3jlzF1D","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273ad2963374667e1dcdfb1891c","datePublished":"2024-08-30","numTracks":1},{"@type":"MusicAlbum","name":"DIVINE CEO","url":"https://open.spotify.com/album/53byhoZELZngPlPwbpOyWb","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273394d4b4a21a6db2adbefd854","datePublished":"2024-06-21","numTracks":1},{"@type":"MusicAlbum","name":"Return To Sender","url":"https://open.spotify.com/album/2FjusBhEyTYXc1rbJxwnRM","image":"https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2730e92c13a406b1724306bdd12","datePublished":"2024-04-19","numTracks":1},{"@type":"MusicAlbum","name":"Moth To The Flame","url":"https://open.spotify.com/album/5a4mIKRec73w5gFAHXnbuH","image":"https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2738bf44ba94a146de97b8e404e","datePublished":"2024-02-14","numTracks":1},{"@type":"MusicAlbum","name":"ROACHES","url":"https://open.spotify.com/album/48WOPGbBqSDsePdqOGi1V0","image":"https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2734092cd36055ca4f871b80c2c","datePublished":"2023-12-22","numTracks":1},{"@type":"MusicAlbum","name":"Sympathy","url":"https://open.spotify.com/album/0pPaKLsaZLn7Pm1HUs17v9","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273d33343c92b0dbc232cf1ef34","datePublished":"2023-10-31","numTracks":1},{"@type":"MusicAlbum","name":"EVERYTHING","url":"https://open.spotify.com/album/7zs6FxgG82tR3RSbDFltvF","image":"https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273bb16b8e061f68e8c27233b8b","datePublished":"2023-09-22","numTracks":1},{"@type":"MusicAlbum","name":"Poison","url":"https://open.spotify.com/album/49NXGz55zTSV1fWkuiFTwW","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273d11a16c5f018f97b5b7ea153","datePublished":"2023-06-12","numTracks":1},{"@type":"MusicAlbum","name":"Cemetery Blues","url":"https://open.spotify.com/album/0LRCaA44CyRwCbCpVkK3oY","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27357678f220d299614de52d283","datePublished":"2023-04-30","numTracks":1},{"@type":"MusicAlbum","name":"Light It Up","url":"https://open.spotify.com/album/1xjoYxM29c910GWC7BBAah","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2737dba185ae15acc839ce7240c","datePublished":"2023-04-06","numTracks":1},{"@type":"MusicAlbum","name":"ALIEN","url":"https://open.spotify.com/album/6gGBBnCivtdZAKcWVzPgTk","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2736ecfc5e35551af155e19432b","datePublished":"2023-03-10","numTracks":1},{"@type":"MusicAlbum","name":"Backstabber","url":"https://open.spotify.com/album/5h2ii0AQ2fSE0Bdz99BXVR","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273584b63fa8a4a37af2c5d35db","datePublished":"2023-02-14","numTracks":1},{"@type":"MusicAlbum","name":"Rest of my Life (DEMO)","url":"https://open.spotify.com/album/7iAdx6ehqVtLUMaRi0k6TH","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273b4841ea9d65207b161e45de3","datePublished":"2023-01-05","numTracks":1}]
     }
     </script>
     <script type="application/ld+json">
@@ -70,11 +92,13 @@
     <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-YGTD782ZEK");</script>
 </head>
 <body>
-    <main class="page-main">
+    <main class="page-main" itemscope itemtype="https://schema.org/MusicGroup">
+        <meta itemprop="name" content="LuLuYam">
+        <meta itemprop="url" content="https://www.horrorcore-reshare.com/artists/luluyam">
         <div class="artist-header hr-glass">
-            <img src="https://i2o.scdn.co/image/ab67618600001667b9a5723ab39fecfdd06f281c" alt="LuLuYam underground horrorcore artist photo" class="artist-img" loading="lazy">
+            <img src="https://i2o.scdn.co/image/ab67618600001667b9a5723ab39fecfdd06f281c" alt="LuLuYam underground horrorcore artist photo" class="artist-img" loading="lazy" itemprop="image">
             <div class="artist-info">
-                <h1>LuLuYam</h1>
+                <h1 itemprop="name">LuLuYam</h1>
                 <div class="genre-tags">
 <span class="genre-tag">horrorcore</span>
 <span class="genre-tag">dark trap</span>
@@ -87,25 +111,343 @@
 </div>
             </div>
         </div>
-        <div class="bio-section hr-glass">
+        <div class="bio-section hr-glass" itemprop="description">
             <h2>Artist Biography</h2>
             <p>LuLuYam is a Florida-based rapper, producer, and visual artist carving out her own lane with a self-coined genre she calls Nightmare Pop. Blending hyperpop, hip-hop, and dark experimental sound design, her music is deeply personal, tackling mental illness, trauma, and the fractured inner self through a horror-tinged lens that is entirely her own. At the center of her work is Lucifer Lucifer, an ambitious multimedia project that ties her music to an original story and cast of characters set in a nightmare realm called the Nightmare. What began as a comic series has since evolved into a planned visual novel format, with LuLuYam building out a fully fleshed lore-driven universe alongside her discography. The project is entirely self-made, from the music and production to the artwork and character design. Managed by zombAe and fully independent, LuLuYam has built a dedicated fanbase drawn to the depth and cohesion of her creative world. One of the underground's most genuinely original voices.</p>
         </div>
-        <div class="bio-section hr-glass">
-            <h2>Latest Releases</h2>
-            <ul class="releases-list">
-<li><a href="https://open.spotify.com/album/0i2YrxbwlJb3eUzvSVqSXI" target="_blank" rel="noopener noreferrer" style="color: #ffcc00;">Spotify Release 0i2YrxbwlJb3eUzvSVqSXI</a></li>
-<li><a href="https://open.spotify.com/album/4piPwqBGxq8hlWONUMMrf4" target="_blank" rel="noopener noreferrer" style="color: #ffcc00;">Spotify Release 4piPwqBGxq8hlWONUMMrf4</a></li>
-<li><a href="https://open.spotify.com/album/2KzRFjVkEQwvvyWOqBEEkJ" target="_blank" rel="noopener noreferrer" style="color: #ffcc00;">Spotify Release 2KzRFjVkEQwvvyWOqBEEkJ</a></li>
-<li><a href="https://open.spotify.com/album/0ACs6agGjx6xMoGpOTcWxp" target="_blank" rel="noopener noreferrer" style="color: #ffcc00;">Spotify Release 0ACs6agGjx6xMoGpOTcWxp</a></li>
-<li><a href="https://open.spotify.com/album/1p3et41krclrEPRo004AHN" target="_blank" rel="noopener noreferrer" style="color: #ffcc00;">Spotify Release 1p3et41krclrEPRo004AHN</a></li>
-</ul>
-        </div>
-        <div class="similar-section hr-glass">
+        
+                    <div class="releases-section">
+                        <h2 class="releases-heading">Albums & EPs</h2>
+                        <div class="releases-grid">
+                            
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/0i2YrxbwlJb3eUzvSVqSXI', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(155, 26, 36, 0.85); border-color: rgba(155, 26, 36, 0.5);">6 TRACKS</span>
+                            <span class="release-badge duration-badge">23m 23s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2732be643fae17717d216358db4" alt="BURNOUT album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=BURNOUT&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="BURNOUT">BURNOUT</h3>
+                            <p class="release-card-artist">LULUYAM</p>
+                            <p class="release-card-date">JAN 3, 2025</p>
+                        </div>
+                    </div>
+                        </div>
+                    </div>
+                    <div class="releases-section">
+                        <h2 class="releases-heading">Singles</h2>
+                        <div class="releases-grid">
+                            
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/4piPwqBGxq8hlWONUMMrf4', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(158, 0, 18, 0.85); border-color: rgba(158, 0, 18, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">4m 17s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273ac4c9d79854b92b619ab8acf" alt="Tulips album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=Tulips&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="Tulips">Tulips</h3>
+                            <p class="release-card-artist">LULUYAM</p>
+                            <p class="release-card-date">MAY 22, 2026</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/2KzRFjVkEQwvvyWOqBEEkJ', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(144, 32, 32, 0.85); border-color: rgba(144, 32, 32, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">4m 3s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2737825e890cdb6fda92f000509" alt="Just Enough album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=Just%20Enough&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="Just Enough">Just Enough</h3>
+                            <p class="release-card-artist">LULUYAM</p>
+                            <p class="release-card-date">APR 1, 2026</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/0ACs6agGjx6xMoGpOTcWxp', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(136, 40, 40, 0.85); border-color: rgba(136, 40, 40, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">3m 44s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2733570b62d5ec0814774c45507" alt="Skin and Bones album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=Skin%20and%20Bones&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="Skin and Bones">Skin and Bones</h3>
+                            <p class="release-card-artist">LULUYAM</p>
+                            <p class="release-card-date">FEB 14, 2026</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/0wo2bZpG7z27ROlQYPAmlK', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(83, 83, 83, 0.85); border-color: rgba(83, 83, 83, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">4m 37s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273866671e7d2edcaa61a7d2c14" alt="How bout now? album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=How%20bout%20now%3F&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="How bout now?">How bout now?</h3>
+                            <p class="release-card-artist">LULUYAM</p>
+                            <p class="release-card-date">JAN 2, 2026</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/11qLcN5HgjgAlFUnrUB52h', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(159, 0, 0, 0.85); border-color: rgba(159, 0, 0, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">3m 33s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273ace892d9d4ba0eb1bfb6a691" alt="Die Anyway album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=Die%20Anyway&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="Die Anyway">Die Anyway</h3>
+                            <p class="release-card-artist">LULUYAM</p>
+                            <p class="release-card-date">OCT 6, 2025</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/52BWb269m7R4b4BebgB00p', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(147, 44, 36, 0.85); border-color: rgba(147, 44, 36, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">4m 14s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273c8a4b478c077312c17cc750d" alt="AMALGAMATION album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=AMALGAMATION&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="AMALGAMATION">AMALGAMATION</h3>
+                            <p class="release-card-artist">LULUYAM</p>
+                            <p class="release-card-date">JUL 31, 2025</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/4LRPCa3wyfSuuFgPxeytRx', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(117, 73, 0, 0.85); border-color: rgba(117, 73, 0, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">3m 36s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273df3a7e3ad1a3702519bb5f43" alt="Lights Go Out album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=Lights%20Go%20Out&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="Lights Go Out">Lights Go Out</h3>
+                            <p class="release-card-artist">LULUYAM</p>
+                            <p class="release-card-date">APR 11, 2025</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/7xab77w0mqH4ahD3jlzF1D', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(0, 85, 140, 0.85); border-color: rgba(0, 85, 140, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">3m 45s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273ad2963374667e1dcdfb1891c" alt="FREAK album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=FREAK&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="FREAK">FREAK</h3>
+                            <p class="release-card-artist">LULUYAM</p>
+                            <p class="release-card-date">AUG 30, 2024</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/53byhoZELZngPlPwbpOyWb', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(24, 16, 72, 0.85); border-color: rgba(24, 16, 72, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">3m 41s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273394d4b4a21a6db2adbefd854" alt="DIVINE CEO album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=DIVINE%20CEO&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="DIVINE CEO">DIVINE CEO</h3>
+                            <p class="release-card-artist">LULUYAM</p>
+                            <p class="release-card-date">JUN 21, 2024</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/2FjusBhEyTYXc1rbJxwnRM', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(159, 0, 0, 0.85); border-color: rgba(159, 0, 0, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">3m 54s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2730e92c13a406b1724306bdd12" alt="Return To Sender album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=Return%20To%20Sender&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="Return To Sender">Return To Sender</h3>
+                            <p class="release-card-artist">LULUYAM</p>
+                            <p class="release-card-date">APR 19, 2024</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/5a4mIKRec73w5gFAHXnbuH', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(159, 0, 0, 0.85); border-color: rgba(159, 0, 0, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">4m 4s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2738bf44ba94a146de97b8e404e" alt="Moth To The Flame album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=Moth%20To%20The%20Flame&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="Moth To The Flame">Moth To The Flame</h3>
+                            <p class="release-card-artist">LULUYAM</p>
+                            <p class="release-card-date">FEB 14, 2024</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/48WOPGbBqSDsePdqOGi1V0', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(159, 0, 3, 0.85); border-color: rgba(159, 0, 3, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">3m 54s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2734092cd36055ca4f871b80c2c" alt="ROACHES album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=ROACHES&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="ROACHES">ROACHES</h3>
+                            <p class="release-card-artist">LULUYAM</p>
+                            <p class="release-card-date">DEC 22, 2023</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/0pPaKLsaZLn7Pm1HUs17v9', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(136, 32, 32, 0.85); border-color: rgba(136, 32, 32, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">4m 19s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273d33343c92b0dbc232cf1ef34" alt="Sympathy album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=Sympathy&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="Sympathy">Sympathy</h3>
+                            <p class="release-card-artist">LULUYAM</p>
+                            <p class="release-card-date">OCT 31, 2023</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/7zs6FxgG82tR3RSbDFltvF', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(159, 0, 0, 0.85); border-color: rgba(159, 0, 0, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">3m 48s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273bb16b8e061f68e8c27233b8b" alt="EVERYTHING album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=EVERYTHING&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="EVERYTHING">EVERYTHING</h3>
+                            <p class="release-card-artist">LULUYAM</p>
+                            <p class="release-card-date">SEP 22, 2023</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/49NXGz55zTSV1fWkuiFTwW', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(158, 12, 30, 0.85); border-color: rgba(158, 12, 30, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">4m 17s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273d11a16c5f018f97b5b7ea153" alt="Poison album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=Poison&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="Poison">Poison</h3>
+                            <p class="release-card-artist">LULUYAM</p>
+                            <p class="release-card-date">JUN 12, 2023</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/0LRCaA44CyRwCbCpVkK3oY', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(158, 12, 30, 0.85); border-color: rgba(158, 12, 30, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">4m 1s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27357678f220d299614de52d283" alt="Cemetery Blues album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=Cemetery%20Blues&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="Cemetery Blues">Cemetery Blues</h3>
+                            <p class="release-card-artist">LULUYAM</p>
+                            <p class="release-card-date">APR 30, 2023</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/1xjoYxM29c910GWC7BBAah', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(144, 0, 24, 0.85); border-color: rgba(144, 0, 24, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">2m 31s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2737dba185ae15acc839ce7240c" alt="Light It Up album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=Light%20It%20Up&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="Light It Up">Light It Up</h3>
+                            <p class="release-card-artist">LULUYAM</p>
+                            <p class="release-card-date">APR 6, 2023</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/6gGBBnCivtdZAKcWVzPgTk', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(158, 12, 30, 0.85); border-color: rgba(158, 12, 30, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">3m 8s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2736ecfc5e35551af155e19432b" alt="ALIEN album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=ALIEN&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="ALIEN">ALIEN</h3>
+                            <p class="release-card-artist">LULUYAM</p>
+                            <p class="release-card-date">MAR 10, 2023</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/5h2ii0AQ2fSE0Bdz99BXVR', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(158, 12, 30, 0.85); border-color: rgba(158, 12, 30, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">2m 33s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273584b63fa8a4a37af2c5d35db" alt="Backstabber album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=Backstabber&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="Backstabber">Backstabber</h3>
+                            <p class="release-card-artist">LULUYAM</p>
+                            <p class="release-card-date">FEB 14, 2023</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/7iAdx6ehqVtLUMaRi0k6TH', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(158, 12, 30, 0.85); border-color: rgba(158, 12, 30, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">3m 43s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273b4841ea9d65207b161e45de3" alt="Rest of my Life (DEMO) album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=Rest%20of%20my%20Life%20(DEMO)&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="Rest of my Life (DEMO)">Rest of my Life (DEMO)</h3>
+                            <p class="release-card-artist">LULUYAM</p>
+                            <p class="release-card-date">JAN 5, 2023</p>
+                        </div>
+                    </div>
+                        </div>
+                    </div>
+        <div class="similar-section hr-glass" style="margin-top: 40px;">
             <h2>Similar Artists</h2>
             <p style="line-height: 1.8;"><a href="https://www.horrorcore-reshare.com/artists/elita" style="color: #ffcc00; text-decoration: underline;">Elita</a>, <a href="https://www.horrorcore-reshare.com/artists/moonvampire" style="color: #ffcc00; text-decoration: underline;">Moonvampire</a>, <a href="https://www.horrorcore-reshare.com/artists/istasha" style="color: #ffcc00; text-decoration: underline;">Istasha</a></p>
         </div>
-        <div class="bio-section hr-glass">
+        <div class="bio-section hr-glass" style="margin-top: 30px;">
             <h2>Genre Tags</h2>
             <p><a href="https://www.horrorcore-reshare.com/genres/horrorcore" style="color: #ffcc00; text-decoration: underline;">horrorcore</a>, <a href="https://www.horrorcore-reshare.com/genres/dark-trap" style="color: #ffcc00; text-decoration: underline;">dark trap</a>, <a href="https://www.horrorcore-reshare.com/genres/underground-rap" style="color: #ffcc00; text-decoration: underline;">underground rap</a></p>
         </div>
@@ -120,7 +462,7 @@
                 <a href="/discord">Discord</a> <a href="/services">Services</a>
                 <a href="/follow">Follow</a> <a href="/page-audit">Page Audit</a> <a href="/privacy">Privacy</a>
             </nav>
-            <p>&copy; 2024-2026 Horrorcore Reshare | Update 001 | Maintained by Luna Serafina</p>
+            <p>&copy; 2024-2026 Horrorcore Reshare | Maintained by Luna Serafina</p>
         </div>
     </footer>
 </body>

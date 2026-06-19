@@ -12,10 +12,16 @@
     <meta property="og:image" content="https://i2o.scdn.co/image/ab676186000016673371bb7f4dfab63aff08ba93">
     <meta property="og:site_name" content="Horrorcore Reshare">
     <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Alla Xul Elu | Horrorcore Reshare Underground Artist">
+    <meta name="twitter:description" content="Alla Xul Elu is a horrorcore trio out of Portsmouth, Ohio, made up of Billy Obey, Joey Black, and Lee Carver, three H.P. Lovecraft and Evil Dead devotee...">
+    <meta name="twitter:image" content="https://i2o.scdn.co/image/ab676186000016673371bb7f4dfab63aff08ba93">
     <title>Alla Xul Elu | Horrorcore Reshare Underground Artist Profile</title>
     <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/Moonfire-dreamwalkers/horrorcore-reshare-public-assets/main/images/hr-icon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://i.scdn.co">
+    <link rel="preconnect" href="https://i2o.scdn.co">
+    <link rel="preconnect" href="https://image-cdn-fa.spotifycdn.com">
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Inter:wght@300;400;800&family=Orbitron:wght@400;900&family=Share+Tech+Mono&display=swap" rel="stylesheet">
     <style>
         :root { --hr-blood: #8b0000; --hr-crimson: #cc2222; --hr-crimson-glow: rgba(204,34,34,0.6); --hr-text-muted: rgba(255,255,255,0.55); --hr-font-classic: "Orbitron",sans-serif; }
@@ -30,18 +36,33 @@
         .genre-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 20px; }
         .genre-tag { background: rgba(255,0,60,0.15); border: 1px solid rgba(255,0,60,0.3); padding: 4px 12px; border-radius: 4px; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 1px; color: #fff; }
         .bio-section { line-height: 1.9; font-size: 1rem; color: rgba(255,255,255,0.85); }
-        .bio-section h2, .similar-section h2 { font-family: "Orbitron",sans-serif; color: #ff003c; letter-spacing: 2px; font-size: 1.5rem; margin-bottom: 15px; border-bottom: 1px solid rgba(255,0,60,0.3); padding-bottom: 10px; }
+        .bio-section h2, .similar-section h2, .releases-heading { font-family: "Orbitron",sans-serif; color: #ff003c; letter-spacing: 2px; font-size: 1.5rem; margin-bottom: 15px; border-bottom: 1px solid rgba(255,0,60,0.3); padding-bottom: 10px; }
         .links-row { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 30px; }
         .social-btn { display: inline-block; padding: 10px 20px; text-decoration: none; font-family: "Share Tech Mono",monospace; border-radius: 4px; color: #fff; transition: 0.3s; }
         .spotify-btn { background: #1DB954; border: 1px solid #1DB954; }
         .insta-btn { background: rgba(255,0,60,0.2); border: 1px solid rgba(255,0,60,0.4); }
         .web-btn { background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.15); }
         .social-btn:hover { filter: brightness(1.2); }
-        .releases-list { list-style: none; display: flex; flex-direction: column; gap: 8px; }
-        .releases-list li { padding: 8px 12px; background: rgba(255,255,255,0.03); border-left: 2px solid rgba(255,0,60,0.4); border-radius: 0 4px 4px 0; font-size: 0.9rem; }
+        .releases-section { margin-top: 40px; }
+        .releases-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 20px; }
+        .release-card { display: flex; flex-direction: column; border-radius: 12px; overflow: hidden; background: rgba(10,10,10,0.85); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.08); transition: all 0.3s ease; cursor: pointer; position: relative; }
+        .release-card:hover { border-color: rgba(139,0,0,0.4); box-shadow: 0 8px 25px rgba(139,0,0,0.25); transform: translateY(-2px); }
+        .release-card-badges { position: absolute; top: 10px; left: 10px; z-index: 10; display: flex; gap: 6px; flex-wrap: wrap; }
+        .release-badge { font-family: "Share Tech Mono",monospace; font-size: 0.6rem; padding: 2px 7px; border-radius: 3px; font-weight: bold; letter-spacing: 1px; color: #fff; }
+        .tracks-badge { border: 1px solid transparent; }
+        .duration-badge { background: rgba(0,0,0,0.7); color: #ffcc00; border: 1px solid rgba(255,204,0,0.3); }
+        .pre-release { background: rgba(255,204,0,0.15); color: #ffcc00; border: 1px solid rgba(255,204,0,0.4); }
+        .release-card-cover-wrap { position: relative; width: 100%; aspect-ratio: 1; overflow: hidden; border-bottom: 1px solid rgba(139,0,0,0.1); }
+        .release-card-cover { width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s ease; }
+        .release-card:hover .release-card-cover { transform: scale(1.05); }
+        .release-card-info { padding: 16px; flex-grow: 1; display: flex; flex-direction: column; gap: 6px; }
+        .release-card-title { font-family: "Orbitron",sans-serif; font-size: 0.85rem; color: #fff; margin: 0; letter-spacing: 1px; line-height: 1.35; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+        .release-card-artist { font-family: "Share Tech Mono",monospace; color: #8b0000; font-size: 0.7rem; margin: 0; font-weight: bold; letter-spacing: 0.5px; }
+        .release-card-date { font-family: "Share Tech Mono",monospace; color: rgba(255,255,255,0.45); font-size: 0.65rem; margin: 0; letter-spacing: 0.5px; }
+        .releases-section .bio-section { padding: 0; background: none; backdrop-filter: none; border: none; border-radius: 0; margin-top: 20px; }
         .footer-nav { border-top: 1px solid rgba(255,0,60,0.2); padding: 30px 20px; text-align: center; font-size: 0.85rem; color: rgba(255,255,255,0.6); }
         .footer-nav a { color: #fff; text-decoration: none; margin: 0 10px; }
-        @media (max-width: 600px) { .artist-header { flex-direction: column; align-items: center; text-align: center; } .artist-img { width: 150px; height: 150px; } }
+        @media (max-width: 600px) { .artist-header { flex-direction: column; align-items: center; text-align: center; } .artist-img { width: 150px; height: 150px; } .releases-grid { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 14px; } .hr-glass { padding: 24px; } }
     </style>
     <script type="application/ld+json">
     {
@@ -52,7 +73,8 @@
         "image": "https://i2o.scdn.co/image/ab676186000016673371bb7f4dfab63aff08ba93",
         "description": "Alla Xul Elu is a horrorcore trio out of Portsmouth, Ohio, made up of Billy Obey, Joey Black, and Lee Carver, three H.P. Lovecraft and Evil Dead devotees who perform behind grotesque handmade masks and preach a doctrine of wicked humor, dark mythology, and horror-soaked boom bap. They are also the f",
         "genre": ["horrorcore","underground rap"],
-        "sameAs": ["https://open.spotify.com/artist/4UbfOzADuGCBOkt2e7CNCV","https://www.instagram.com/allaxulelu/","https://longliveevil.bigcartel.com/"]
+        "sameAs": ["https://open.spotify.com/artist/4UbfOzADuGCBOkt2e7CNCV","https://www.instagram.com/allaxulelu/","https://longliveevil.bigcartel.com/"],
+        "album": [{"@type":"MusicAlbum","name":"NO MASTERS","url":"https://open.spotify.com/album/35Mk9i727TtXV8hxt1EDWg","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27380bc3129aebcdcc11c776120","datePublished":"2026-01-30","numTracks":19},{"@type":"MusicAlbum","name":"Gods of Evil Rise","url":"https://open.spotify.com/album/5B8VDpyIrQrBtt8eyaezUq","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27341bd111e2d758d5429339b28","datePublished":"2025-05-09","numTracks":15},{"@type":"MusicAlbum","name":"Horns Over Halos","url":"https://open.spotify.com/album/5QsaGCJtfNNaDNcwvHsPwG","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273c8be0ea88e748127501efb9f","datePublished":"2025-04-18","numTracks":2},{"@type":"MusicAlbum","name":"The Magic Xul Bus","url":"https://open.spotify.com/album/5LRpvNBXDU7yZyVJ31tasI","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2733a901a4252f285f16f34af8d","datePublished":"2024-06-14","numTracks":4},{"@type":"MusicAlbum","name":"Lost Lake Estates","url":"https://open.spotify.com/album/0pXXDy8VCpGdyOIYT7OU0r","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273abda366dad36203db4058735","datePublished":"2023-09-29","numTracks":17},{"@type":"MusicAlbum","name":"Necronomichron 2: Dead By Bong","url":"https://open.spotify.com/album/2VGBOXewJwckHS2scvmWPG","image":"https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273d765cd12474e4d20520c09be","datePublished":"2021-04-20","numTracks":13},{"@type":"MusicAlbum","name":"Mauxuleum","url":"https://open.spotify.com/album/1LJ1sb84K84TBvW9SVX5G8","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2732be3576fe964b6877914ef0a","datePublished":"2020-10-16","numTracks":13},{"@type":"MusicAlbum","name":"MauXULeum","url":"https://open.spotify.com/album/3NRjjsV6W2PqKIXNtVHOha","image":"https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273322f377e70c819d2ebda7329","datePublished":"2020-10-16","numTracks":13},{"@type":"MusicAlbum","name":"Church of XUL","url":"https://open.spotify.com/album/6QDwdeEygZkEClwhPDzwR4","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273daf679168708ec87ab654244","datePublished":"2019-12-18","numTracks":7},{"@type":"MusicAlbum","name":"Church of Xul","url":"https://open.spotify.com/album/2VZsxwj7m0bpaHULUkJtOU","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2736acf6e6301a0caa8ea7c0d7d","datePublished":"2019-04-26","numTracks":7},{"@type":"MusicAlbum","name":"The Almighty","url":"https://open.spotify.com/album/4Pc8nnAU0gMuZlLQ3eanpR","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27377aabbb536b56e671be602cf","datePublished":"2018-09-28","numTracks":20},{"@type":"MusicAlbum","name":"Necronomichron","url":"https://open.spotify.com/album/287ewtMjm3BrL6we2FyVWf","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2730ac21d2b7530793308f9bad5","datePublished":"2017-04-20","numTracks":9},{"@type":"MusicAlbum","name":"Sci Co, Vol. 1","url":"https://open.spotify.com/album/0BaUzfEXFI5DKMDxP0utli","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273e6b038212cb8b643c92f4cb6","datePublished":"2015-10-16","numTracks":21},{"@type":"MusicAlbum","name":"Head of Horns","url":"https://open.spotify.com/album/4SXJUzAIf92r350TYT2nzQ","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27348d25cb9cc075115a36e292e","datePublished":"2015-02-01","numTracks":14},{"@type":"MusicAlbum","name":"Extinction Event","url":"https://open.spotify.com/album/0RwuFd48IvGM8pyL5RCjEY","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2732d6e2484fbb1fd5cb37db380","datePublished":"2025-11-28","numTracks":1},{"@type":"MusicAlbum","name":"Wackula","url":"https://open.spotify.com/album/4WlGkBCv00rTAX2piNsJ7W","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2739e6bf9c37ef00ee72e21b405","datePublished":"2025-10-03","numTracks":1},{"@type":"MusicAlbum","name":"Evidence of Evil","url":"https://open.spotify.com/album/1D137Iz5N3BvXGshKyV5Rk","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273b0e1fdae5f0e823816c57f3b","datePublished":"2025-08-22","numTracks":1},{"@type":"MusicAlbum","name":"canDIED heART","url":"https://open.spotify.com/album/0V3Ep5DUWhlOSIGAxhl533","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273704a7741c5cb2b4189452dc9","datePublished":"2025-02-09","numTracks":1},{"@type":"MusicAlbum","name":"Gift of Death","url":"https://open.spotify.com/album/5Gu41Wd2AuqxsACX4NQTk4","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27313868e4ee212e003ab0f6101","datePublished":"2024-12-13","numTracks":1},{"@type":"MusicAlbum","name":"Yung Turkey","url":"https://open.spotify.com/album/4B3AiFEnXrpq8NDQGmpfkr","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2731706e4a870ceca1439666963","datePublished":"2024-11-28","numTracks":1},{"@type":"MusicAlbum","name":"Freakenstein","url":"https://open.spotify.com/album/5n9KZORTDCI544umR8nGcY","image":"https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27301ad9bb36bc588ceee33b358","datePublished":"2024-10-18","numTracks":1},{"@type":"MusicAlbum","name":"Christmas Trees","url":"https://open.spotify.com/album/6eumzjeuHU83r37yT3V49U","image":"https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2735855e47772c33830d3d818f0","datePublished":"2023-12-15","numTracks":1},{"@type":"MusicAlbum","name":"Monster in My Pocket","url":"https://open.spotify.com/album/6AuEfrEDWAoD5ohY7ZIKkQ","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2732e4fbe2ad83bfac631b9c815","datePublished":"2023-10-30","numTracks":1},{"@type":"MusicAlbum","name":"Murder Simulator","url":"https://open.spotify.com/album/4LeeV9kXOa09I1PzzDRe9D","image":"https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273f417a2d0e862583659af1a6a","datePublished":"2023-10-29","numTracks":1},{"@type":"MusicAlbum","name":"12 Foot Skeleton","url":"https://open.spotify.com/album/77D9TaW9yvbe0qInzzu4I2","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2737f17f1cb0c5d618c778ad754","datePublished":"2023-10-28","numTracks":1},{"@type":"MusicAlbum","name":"Say Goodbye","url":"https://open.spotify.com/album/1pRERqhIIRhXee8g6mFsAA","image":"https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273ec876d9aafc0888ac9098b8c","datePublished":"2021-03-05","numTracks":1}]
     }
     </script>
     <script type="application/ld+json">
@@ -70,11 +92,13 @@
     <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-YGTD782ZEK");</script>
 </head>
 <body>
-    <main class="page-main">
+    <main class="page-main" itemscope itemtype="https://schema.org/MusicGroup">
+        <meta itemprop="name" content="Alla Xul Elu">
+        <meta itemprop="url" content="https://www.horrorcore-reshare.com/artists/alla-xul-elu">
         <div class="artist-header hr-glass">
-            <img src="https://i2o.scdn.co/image/ab676186000016673371bb7f4dfab63aff08ba93" alt="Alla Xul Elu underground horrorcore artist photo" class="artist-img" loading="lazy">
+            <img src="https://i2o.scdn.co/image/ab676186000016673371bb7f4dfab63aff08ba93" alt="Alla Xul Elu underground horrorcore artist photo" class="artist-img" loading="lazy" itemprop="image">
             <div class="artist-info">
-                <h1>Alla Xul Elu</h1>
+                <h1 itemprop="name">Alla Xul Elu</h1>
                 <div class="genre-tags">
 <span class="genre-tag">horrorcore</span>
 <span class="genre-tag">underground rap</span>
@@ -86,25 +110,418 @@
 </div>
             </div>
         </div>
-        <div class="bio-section hr-glass">
+        <div class="bio-section hr-glass" itemprop="description">
             <h2>Artist Biography</h2>
             <p>Alla Xul Elu is a horrorcore trio out of Portsmouth, Ohio, made up of Billy Obey, Joey Black, and Lee Carver, three H.P. Lovecraft and Evil Dead devotees who perform behind grotesque handmade masks and preach a doctrine of wicked humor, dark mythology, and horror-soaked boom bap. They are also the founders of Long Live Evil, one of the most respected independent labels in the underground horror rap scene today. Billy and Joe broke out in 2015 as a duo, dropping Head of Horns and Sci-Co the same year, then added Lee Carver to the lineup and dropped the weed-and-Cthulhu concept EP Necronomichron in 2017. From there things accelerated quickly, with The Almighty (2018), Church of Xul (2019), Mauxuleum (2020), and Gods of Evil Rise (2022) cementing them as one of the premier acts in horrorcore. Now fully independent under Long Live Evil, they dropped Lost Lake Estates in 2023 and their seventh LP No Masters in January 2026. Their sound has evolved over the years, moving between classic horror boom bap, industrial hip-hop, and trap metal, but the identity has never wavered. The Xul Boys answer to no one.</p>
         </div>
-        <div class="bio-section hr-glass">
-            <h2>Latest Releases</h2>
-            <ul class="releases-list">
-<li><a href="https://open.spotify.com/album/35Mk9i727TtXV8hxt1EDWg" target="_blank" rel="noopener noreferrer" style="color: #ffcc00;">Spotify Release 35Mk9i727TtXV8hxt1EDWg</a></li>
-<li><a href="https://open.spotify.com/album/5B8VDpyIrQrBtt8eyaezUq" target="_blank" rel="noopener noreferrer" style="color: #ffcc00;">Spotify Release 5B8VDpyIrQrBtt8eyaezUq</a></li>
-<li><a href="https://open.spotify.com/album/0pXXDy8VCpGdyOIYT7OU0r" target="_blank" rel="noopener noreferrer" style="color: #ffcc00;">Spotify Release 0pXXDy8VCpGdyOIYT7OU0r</a></li>
-<li><a href="https://open.spotify.com/album/2VGBOXewJwckHS2scvmWPG" target="_blank" rel="noopener noreferrer" style="color: #ffcc00;">Spotify Release 2VGBOXewJwckHS2scvmWPG</a></li>
-<li><a href="https://open.spotify.com/album/1LJ1sb84K84TBvW9SVX5G8" target="_blank" rel="noopener noreferrer" style="color: #ffcc00;">Spotify Release 1LJ1sb84K84TBvW9SVX5G8</a></li>
-</ul>
-        </div>
-        <div class="similar-section hr-glass">
+        
+                    <div class="releases-section">
+                        <h2 class="releases-heading">Albums & EPs</h2>
+                        <div class="releases-grid">
+                            
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/35Mk9i727TtXV8hxt1EDWg', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(159, 0, 0, 0.85); border-color: rgba(159, 0, 0, 0.5);">19 TRACKS</span>
+                            <span class="release-badge duration-badge">59m 24s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27380bc3129aebcdcc11c776120" alt="NO MASTERS album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=NO%20MASTERS&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="NO MASTERS">NO MASTERS</h3>
+                            <p class="release-card-artist">ALLA XUL ELU</p>
+                            <p class="release-card-date">JAN 30, 2026</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/5B8VDpyIrQrBtt8eyaezUq', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(158, 17, 0, 0.85); border-color: rgba(158, 17, 0, 0.5);">15 TRACKS</span>
+                            <span class="release-badge duration-badge">55m 25s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27341bd111e2d758d5429339b28" alt="Gods of Evil Rise album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=Gods%20of%20Evil%20Rise&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="Gods of Evil Rise">Gods of Evil Rise</h3>
+                            <p class="release-card-artist">ALLA XUL ELU</p>
+                            <p class="release-card-date">MAY 9, 2025</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/5QsaGCJtfNNaDNcwvHsPwG', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(158, 12, 14, 0.85); border-color: rgba(158, 12, 14, 0.5);">2 TRACKS</span>
+                            <span class="release-badge duration-badge">6m 48s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273c8be0ea88e748127501efb9f" alt="Horns Over Halos album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=Horns%20Over%20Halos&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="Horns Over Halos">Horns Over Halos</h3>
+                            <p class="release-card-artist">ALLA XUL ELU</p>
+                            <p class="release-card-date">APR 18, 2025</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/5LRpvNBXDU7yZyVJ31tasI', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(16, 72, 128, 0.85); border-color: rgba(16, 72, 128, 0.5);">4 TRACKS</span>
+                            <span class="release-badge duration-badge">12m 29s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2733a901a4252f285f16f34af8d" alt="The Magic Xul Bus album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=The%20Magic%20Xul%20Bus&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="The Magic Xul Bus">The Magic Xul Bus</h3>
+                            <p class="release-card-artist">ALLA XUL ELU</p>
+                            <p class="release-card-date">JUN 14, 2024</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/0pXXDy8VCpGdyOIYT7OU0r', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(83, 83, 83, 0.85); border-color: rgba(83, 83, 83, 0.5);">17 TRACKS</span>
+                            <span class="release-badge duration-badge">64m 40s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273abda366dad36203db4058735" alt="Lost Lake Estates album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=Lost%20Lake%20Estates&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="Lost Lake Estates">Lost Lake Estates</h3>
+                            <p class="release-card-artist">ALLA XUL ELU</p>
+                            <p class="release-card-date">SEP 29, 2023</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/2VGBOXewJwckHS2scvmWPG', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(158, 14, 0, 0.85); border-color: rgba(158, 14, 0, 0.5);">13 TRACKS</span>
+                            <span class="release-badge duration-badge">48m 52s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273d765cd12474e4d20520c09be" alt="Necronomichron 2: Dead By Bong album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=Necronomichron%202%3A%20Dead%20By%20Bong&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="Necronomichron 2: Dead By Bong">Necronomichron 2: Dead By Bong</h3>
+                            <p class="release-card-artist">ALLA XUL ELU</p>
+                            <p class="release-card-date">APR 20, 2021</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/1LJ1sb84K84TBvW9SVX5G8', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(56, 56, 56, 0.85); border-color: rgba(56, 56, 56, 0.5);">13 TRACKS</span>
+                            <span class="release-badge duration-badge">48m 39s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2732be3576fe964b6877914ef0a" alt="Mauxuleum album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=Mauxuleum&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="Mauxuleum">Mauxuleum</h3>
+                            <p class="release-card-artist">ALLA XUL ELU</p>
+                            <p class="release-card-date">OCT 16, 2020</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/3NRjjsV6W2PqKIXNtVHOha', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(96, 48, 144, 0.85); border-color: rgba(96, 48, 144, 0.5);">13 TRACKS</span>
+                            <span class="release-badge duration-badge">48m 39s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273322f377e70c819d2ebda7329" alt="MauXULeum album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=MauXULeum&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="MauXULeum">MauXULeum</h3>
+                            <p class="release-card-artist">ALLA XUL ELU</p>
+                            <p class="release-card-date">OCT 16, 2020</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/6QDwdeEygZkEClwhPDzwR4', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(83, 83, 83, 0.85); border-color: rgba(83, 83, 83, 0.5);">7 TRACKS</span>
+                            <span class="release-badge duration-badge">24m 5s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273daf679168708ec87ab654244" alt="Church of XUL album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=Church%20of%20XUL&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="Church of XUL">Church of XUL</h3>
+                            <p class="release-card-artist">ALLA XUL ELU</p>
+                            <p class="release-card-date">DEC 18, 2019</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/2VZsxwj7m0bpaHULUkJtOU', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(83, 83, 83, 0.85); border-color: rgba(83, 83, 83, 0.5);">7 TRACKS</span>
+                            <span class="release-badge duration-badge">24m 5s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2736acf6e6301a0caa8ea7c0d7d" alt="Church of Xul album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=Church%20of%20Xul&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="Church of Xul">Church of Xul</h3>
+                            <p class="release-card-artist">ALLA XUL ELU</p>
+                            <p class="release-card-date">APR 26, 2019</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/4Pc8nnAU0gMuZlLQ3eanpR', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(139, 55, 0, 0.85); border-color: rgba(139, 55, 0, 0.5);">20 TRACKS</span>
+                            <span class="release-badge duration-badge">73m 19s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27377aabbb536b56e671be602cf" alt="The Almighty album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=The%20Almighty&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="The Almighty">The Almighty</h3>
+                            <p class="release-card-artist">ALLA XUL ELU</p>
+                            <p class="release-card-date">SEP 28, 2018</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/287ewtMjm3BrL6we2FyVWf', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(0, 81, 157, 0.85); border-color: rgba(0, 81, 157, 0.5);">9 TRACKS</span>
+                            <span class="release-badge duration-badge">22m 25s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2730ac21d2b7530793308f9bad5" alt="Necronomichron album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=Necronomichron&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="Necronomichron">Necronomichron</h3>
+                            <p class="release-card-artist">ALLA XUL ELU</p>
+                            <p class="release-card-date">APR 20, 2017</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/0BaUzfEXFI5DKMDxP0utli', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(157, 17, 12, 0.85); border-color: rgba(157, 17, 12, 0.5);">21 TRACKS</span>
+                            <span class="release-badge duration-badge">70m 16s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273e6b038212cb8b643c92f4cb6" alt="Sci Co, Vol. 1 album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=Sci%20Co%2C%20Vol.%201&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="Sci Co, Vol. 1">Sci Co, Vol. 1</h3>
+                            <p class="release-card-artist">ALLA XUL ELU</p>
+                            <p class="release-card-date">OCT 16, 2015</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/4SXJUzAIf92r350TYT2nzQ', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(72, 8, 8, 0.85); border-color: rgba(72, 8, 8, 0.5);">14 TRACKS</span>
+                            <span class="release-badge duration-badge">51m 51s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27348d25cb9cc075115a36e292e" alt="Head of Horns album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=Head%20of%20Horns&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="Head of Horns">Head of Horns</h3>
+                            <p class="release-card-artist">ALLA XUL ELU</p>
+                            <p class="release-card-date">FEB 1, 2015</p>
+                        </div>
+                    </div>
+                        </div>
+                    </div>
+                    <div class="releases-section">
+                        <h2 class="releases-heading">Singles</h2>
+                        <div class="releases-grid">
+                            
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/0RwuFd48IvGM8pyL5RCjEY', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(149, 42, 0, 0.85); border-color: rgba(149, 42, 0, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">4m 0s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2732d6e2484fbb1fd5cb37db380" alt="Extinction Event album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=Extinction%20Event&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="Extinction Event">Extinction Event</h3>
+                            <p class="release-card-artist">ALLA XUL ELU</p>
+                            <p class="release-card-date">NOV 28, 2025</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/4WlGkBCv00rTAX2piNsJ7W', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(96, 0, 8, 0.85); border-color: rgba(96, 0, 8, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">3m 45s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2739e6bf9c37ef00ee72e21b405" alt="Wackula album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=Wackula&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="Wackula">Wackula</h3>
+                            <p class="release-card-artist">ALLA XUL ELU</p>
+                            <p class="release-card-date">OCT 3, 2025</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/1D137Iz5N3BvXGshKyV5Rk', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(159, 0, 0, 0.85); border-color: rgba(159, 0, 0, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">6m 22s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273b0e1fdae5f0e823816c57f3b" alt="Evidence of Evil album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=Evidence%20of%20Evil&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="Evidence of Evil">Evidence of Evil</h3>
+                            <p class="release-card-artist">ALLA XUL ELU</p>
+                            <p class="release-card-date">AUG 22, 2025</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/0V3Ep5DUWhlOSIGAxhl533', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(159, 0, 0, 0.85); border-color: rgba(159, 0, 0, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">3m 50s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273704a7741c5cb2b4189452dc9" alt="canDIED heART album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=canDIED%20heART&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="canDIED heART">canDIED heART</h3>
+                            <p class="release-card-artist">ALLA XUL ELU</p>
+                            <p class="release-card-date">FEB 9, 2025</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/5Gu41Wd2AuqxsACX4NQTk4', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(159, 0, 0, 0.85); border-color: rgba(159, 0, 0, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">4m 16s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27313868e4ee212e003ab0f6101" alt="Gift of Death album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=Gift%20of%20Death&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="Gift of Death">Gift of Death</h3>
+                            <p class="release-card-artist">ALLA XUL ELU</p>
+                            <p class="release-card-date">DEC 13, 2024</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/4B3AiFEnXrpq8NDQGmpfkr', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(148, 45, 0, 0.85); border-color: rgba(148, 45, 0, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">2m 10s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2731706e4a870ceca1439666963" alt="Yung Turkey album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=Yung%20Turkey&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="Yung Turkey">Yung Turkey</h3>
+                            <p class="release-card-artist">ALLA XUL ELU</p>
+                            <p class="release-card-date">NOV 28, 2024</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/5n9KZORTDCI544umR8nGcY', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(51, 93, 0, 0.85); border-color: rgba(51, 93, 0, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">3m 36s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27301ad9bb36bc588ceee33b358" alt="Freakenstein album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=Freakenstein&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="Freakenstein">Freakenstein</h3>
+                            <p class="release-card-artist">ALLA XUL ELU</p>
+                            <p class="release-card-date">OCT 18, 2024</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/6eumzjeuHU83r37yT3V49U', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(159, 0, 0, 0.85); border-color: rgba(159, 0, 0, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">4m 24s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2735855e47772c33830d3d818f0" alt="Christmas Trees album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=Christmas%20Trees&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="Christmas Trees">Christmas Trees</h3>
+                            <p class="release-card-artist">ALLA XUL ELU</p>
+                            <p class="release-card-date">DEC 15, 2023</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/6AuEfrEDWAoD5ohY7ZIKkQ', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(40, 72, 112, 0.85); border-color: rgba(40, 72, 112, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">4m 11s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2732e4fbe2ad83bfac631b9c815" alt="Monster in My Pocket album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=Monster%20in%20My%20Pocket&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="Monster in My Pocket">Monster in My Pocket</h3>
+                            <p class="release-card-artist">ALLA XUL ELU</p>
+                            <p class="release-card-date">OCT 30, 2023</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/4LeeV9kXOa09I1PzzDRe9D', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(56, 56, 56, 0.85); border-color: rgba(56, 56, 56, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">3m 48s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273f417a2d0e862583659af1a6a" alt="Murder Simulator album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=Murder%20Simulator&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="Murder Simulator">Murder Simulator</h3>
+                            <p class="release-card-artist">ALLA XUL ELU</p>
+                            <p class="release-card-date">OCT 29, 2023</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/77D9TaW9yvbe0qInzzu4I2', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(159, 0, 0, 0.85); border-color: rgba(159, 0, 0, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">3m 37s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2737f17f1cb0c5d618c778ad754" alt="12 Foot Skeleton album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=12%20Foot%20Skeleton&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="12 Foot Skeleton">12 Foot Skeleton</h3>
+                            <p class="release-card-artist">ALLA XUL ELU</p>
+                            <p class="release-card-date">OCT 28, 2023</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/1pRERqhIIRhXee8g6mFsAA', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(78, 85, 78, 0.85); border-color: rgba(78, 85, 78, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">5m 33s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273ec876d9aafc0888ac9098b8c" alt="Say Goodbye album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=Say%20Goodbye&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="Say Goodbye">Say Goodbye</h3>
+                            <p class="release-card-artist">ALLA XUL ELU</p>
+                            <p class="release-card-date">MAR 5, 2021</p>
+                        </div>
+                    </div>
+                        </div>
+                    </div>
+        <div class="similar-section hr-glass" style="margin-top: 40px;">
             <h2>Similar Artists</h2>
             <p style="line-height: 1.8;"><a href="https://www.horrorcore-reshare.com/artists/lo-key" style="color: #ffcc00; text-decoration: underline;">Lo Key</a>, <a href="https://www.horrorcore-reshare.com/artists/something-outta-nothing" style="color: #ffcc00; text-decoration: underline;">Something Outta Nothing</a>, <a href="https://www.horrorcore-reshare.com/artists/doc-gruesome" style="color: #ffcc00; text-decoration: underline;">Doc Gruesome</a>, <a href="https://www.horrorcore-reshare.com/artists/blood-of-the-beloved" style="color: #ffcc00; text-decoration: underline;">Blood of the Beloved</a></p>
         </div>
-        <div class="bio-section hr-glass">
+        <div class="bio-section hr-glass" style="margin-top: 30px;">
             <h2>Genre Tags</h2>
             <p><a href="https://www.horrorcore-reshare.com/genres/horrorcore" style="color: #ffcc00; text-decoration: underline;">horrorcore</a>, <a href="https://www.horrorcore-reshare.com/genres/underground-rap" style="color: #ffcc00; text-decoration: underline;">underground rap</a></p>
         </div>
@@ -119,7 +536,7 @@
                 <a href="/discord">Discord</a> <a href="/services">Services</a>
                 <a href="/follow">Follow</a> <a href="/page-audit">Page Audit</a> <a href="/privacy">Privacy</a>
             </nav>
-            <p>&copy; 2024-2026 Horrorcore Reshare | Update 001 | Maintained by Luna Serafina</p>
+            <p>&copy; 2024-2026 Horrorcore Reshare | Maintained by Luna Serafina</p>
         </div>
     </footer>
 </body>

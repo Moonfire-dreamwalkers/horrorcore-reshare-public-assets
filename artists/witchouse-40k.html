@@ -12,10 +12,16 @@
     <meta property="og:image" content="https://i2o.scdn.co/image/ab67618600001667ba193ab32dfcf3ed59a0be3e">
     <meta property="og:site_name" content="Horrorcore Reshare">
     <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Witchouse 40k | Horrorcore Reshare Underground Artist">
+    <meta name="twitter:description" content="Witchouse 40k is a trap metal and shadow rap artist born and based in Portland, Oregon, whose name was inspired by the Warhammer 40k universe, a fitting...">
+    <meta name="twitter:image" content="https://i2o.scdn.co/image/ab67618600001667ba193ab32dfcf3ed59a0be3e">
     <title>Witchouse 40k | Horrorcore Reshare Underground Artist Profile</title>
     <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/Moonfire-dreamwalkers/horrorcore-reshare-public-assets/main/images/hr-icon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://i.scdn.co">
+    <link rel="preconnect" href="https://i2o.scdn.co">
+    <link rel="preconnect" href="https://image-cdn-fa.spotifycdn.com">
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Inter:wght@300;400;800&family=Orbitron:wght@400;900&family=Share+Tech+Mono&display=swap" rel="stylesheet">
     <style>
         :root { --hr-blood: #8b0000; --hr-crimson: #cc2222; --hr-crimson-glow: rgba(204,34,34,0.6); --hr-text-muted: rgba(255,255,255,0.55); --hr-font-classic: "Orbitron",sans-serif; }
@@ -30,18 +36,33 @@
         .genre-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 20px; }
         .genre-tag { background: rgba(255,0,60,0.15); border: 1px solid rgba(255,0,60,0.3); padding: 4px 12px; border-radius: 4px; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 1px; color: #fff; }
         .bio-section { line-height: 1.9; font-size: 1rem; color: rgba(255,255,255,0.85); }
-        .bio-section h2, .similar-section h2 { font-family: "Orbitron",sans-serif; color: #ff003c; letter-spacing: 2px; font-size: 1.5rem; margin-bottom: 15px; border-bottom: 1px solid rgba(255,0,60,0.3); padding-bottom: 10px; }
+        .bio-section h2, .similar-section h2, .releases-heading { font-family: "Orbitron",sans-serif; color: #ff003c; letter-spacing: 2px; font-size: 1.5rem; margin-bottom: 15px; border-bottom: 1px solid rgba(255,0,60,0.3); padding-bottom: 10px; }
         .links-row { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 30px; }
         .social-btn { display: inline-block; padding: 10px 20px; text-decoration: none; font-family: "Share Tech Mono",monospace; border-radius: 4px; color: #fff; transition: 0.3s; }
         .spotify-btn { background: #1DB954; border: 1px solid #1DB954; }
         .insta-btn { background: rgba(255,0,60,0.2); border: 1px solid rgba(255,0,60,0.4); }
         .web-btn { background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.15); }
         .social-btn:hover { filter: brightness(1.2); }
-        .releases-list { list-style: none; display: flex; flex-direction: column; gap: 8px; }
-        .releases-list li { padding: 8px 12px; background: rgba(255,255,255,0.03); border-left: 2px solid rgba(255,0,60,0.4); border-radius: 0 4px 4px 0; font-size: 0.9rem; }
+        .releases-section { margin-top: 40px; }
+        .releases-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 20px; }
+        .release-card { display: flex; flex-direction: column; border-radius: 12px; overflow: hidden; background: rgba(10,10,10,0.85); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.08); transition: all 0.3s ease; cursor: pointer; position: relative; }
+        .release-card:hover { border-color: rgba(139,0,0,0.4); box-shadow: 0 8px 25px rgba(139,0,0,0.25); transform: translateY(-2px); }
+        .release-card-badges { position: absolute; top: 10px; left: 10px; z-index: 10; display: flex; gap: 6px; flex-wrap: wrap; }
+        .release-badge { font-family: "Share Tech Mono",monospace; font-size: 0.6rem; padding: 2px 7px; border-radius: 3px; font-weight: bold; letter-spacing: 1px; color: #fff; }
+        .tracks-badge { border: 1px solid transparent; }
+        .duration-badge { background: rgba(0,0,0,0.7); color: #ffcc00; border: 1px solid rgba(255,204,0,0.3); }
+        .pre-release { background: rgba(255,204,0,0.15); color: #ffcc00; border: 1px solid rgba(255,204,0,0.4); }
+        .release-card-cover-wrap { position: relative; width: 100%; aspect-ratio: 1; overflow: hidden; border-bottom: 1px solid rgba(139,0,0,0.1); }
+        .release-card-cover { width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s ease; }
+        .release-card:hover .release-card-cover { transform: scale(1.05); }
+        .release-card-info { padding: 16px; flex-grow: 1; display: flex; flex-direction: column; gap: 6px; }
+        .release-card-title { font-family: "Orbitron",sans-serif; font-size: 0.85rem; color: #fff; margin: 0; letter-spacing: 1px; line-height: 1.35; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+        .release-card-artist { font-family: "Share Tech Mono",monospace; color: #8b0000; font-size: 0.7rem; margin: 0; font-weight: bold; letter-spacing: 0.5px; }
+        .release-card-date { font-family: "Share Tech Mono",monospace; color: rgba(255,255,255,0.45); font-size: 0.65rem; margin: 0; letter-spacing: 0.5px; }
+        .releases-section .bio-section { padding: 0; background: none; backdrop-filter: none; border: none; border-radius: 0; margin-top: 20px; }
         .footer-nav { border-top: 1px solid rgba(255,0,60,0.2); padding: 30px 20px; text-align: center; font-size: 0.85rem; color: rgba(255,255,255,0.6); }
         .footer-nav a { color: #fff; text-decoration: none; margin: 0 10px; }
-        @media (max-width: 600px) { .artist-header { flex-direction: column; align-items: center; text-align: center; } .artist-img { width: 150px; height: 150px; } }
+        @media (max-width: 600px) { .artist-header { flex-direction: column; align-items: center; text-align: center; } .artist-img { width: 150px; height: 150px; } .releases-grid { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 14px; } .hr-glass { padding: 24px; } }
     </style>
     <script type="application/ld+json">
     {
@@ -52,7 +73,8 @@
         "image": "https://i2o.scdn.co/image/ab67618600001667ba193ab32dfcf3ed59a0be3e",
         "description": "Witchouse 40k is a trap metal and shadow rap artist born and based in Portland, Oregon, whose name was inspired by the Warhammer 40k universe, a fitting reference for someone who builds his sound like a siege. Rooted in his earlier days playing in punk bands and a long obsession with dark undergroun",
         "genre": ["dark trap","horrorcore","industrial hip hop"],
-        "sameAs": ["https://open.spotify.com/artist/7chdPv6Kx0frN0lKfppD2J","https://www.instagram.com/witchouse40k/"]
+        "sameAs": ["https://open.spotify.com/artist/7chdPv6Kx0frN0lKfppD2J","https://www.instagram.com/witchouse40k/"],
+        "album": [{"@type":"MusicAlbum","name":"GHOSTLANDS","url":"https://open.spotify.com/album/2n90ugazhgrJYNwgKCSp5B","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273bcc63417c53ed6c1eac2d591","datePublished":"2025-05-23","numTracks":10},{"@type":"MusicAlbum","name":"Blood Bender Mixtape","url":"https://open.spotify.com/album/5kmHIqA1ob3LDF2D2IKVmu","image":"https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273a54a17f714407531fa97da4e","datePublished":"2020-09-15","numTracks":4},{"@type":"MusicAlbum","name":"BAD Strains Mixtape","url":"https://open.spotify.com/album/1yA6vwEQ9SNPpz5giz9Gkj","image":"https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273981beca3711e265a8cf492e0","datePublished":"2020-04-22","numTracks":3},{"@type":"MusicAlbum","name":"40 Years of Rain","url":"https://open.spotify.com/album/6vBTSKtAv1wbXL0IURUao2","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2738382d142976ef3b9b3346751","datePublished":"2020-01-01","numTracks":4},{"@type":"MusicAlbum","name":"Killradical","url":"https://open.spotify.com/album/7B4MGFxPlw4UwqQdRiQyoG","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2736b96d927b961373ff9da1c9f","datePublished":"2019-02-12","numTracks":3},{"@type":"MusicAlbum","name":"Ant!virxs","url":"https://open.spotify.com/album/4uJwnX2JxBSZ07Ey0IDyrO","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273d1e3d285e71003c12ab04593","datePublished":"2018-12-15","numTracks":2},{"@type":"MusicAlbum","name":"WARHAMMER","url":"https://open.spotify.com/album/3gX86OMXW1EyqZvWwQE0eD","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2732044e81c5a1a54318d045aa7","datePublished":"2018-10-29","numTracks":5},{"@type":"MusicAlbum","name":"LEFT FOR DEAD","url":"https://open.spotify.com/album/7ICcTCaT1S0q7mgQXVWwd0","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2735998288e1872ce5f5e9c7d02","datePublished":"2023-12-09","numTracks":1},{"@type":"MusicAlbum","name":"BONEYARD","url":"https://open.spotify.com/album/6sNS7e4Hj0gQapOdWAC7g8","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273eef1fa6e6de27f15d8a36a67","datePublished":"2023-10-13","numTracks":1},{"@type":"MusicAlbum","name":"HOLLOWBONES","url":"https://open.spotify.com/album/7tBwhgKcp1DFJ4f0Au0Jdh","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2736de8bad1dafb0affdc0ee7da","datePublished":"2023-06-01","numTracks":1},{"@type":"MusicAlbum","name":"LOCUST EFFECT","url":"https://open.spotify.com/album/3doXPRLa4oDDDxOdrBir5X","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2732f1d2643176591d26b8472f1","datePublished":"2022-12-10","numTracks":1},{"@type":"MusicAlbum","name":"GRAVEDIGGER","url":"https://open.spotify.com/album/7xBKaxKoh1UjuEHbjG2MqM","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273da5d01469b35f3050d321eac","datePublished":"2022-08-13","numTracks":1},{"@type":"MusicAlbum","name":"HOBGOBLIN","url":"https://open.spotify.com/album/3FZ08nXmg4K74lhpDj9s1s","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273ddad9264756b7315ddfc9356","datePublished":"2022-04-22","numTracks":1},{"@type":"MusicAlbum","name":"GARGOYLE","url":"https://open.spotify.com/album/4PsteQRrsRlx1wZJJ0DTWP","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27349af0fd8b55e9edd45de9779","datePublished":"2022-02-20","numTracks":1},{"@type":"MusicAlbum","name":"SPIDERBLOOD 2: ROTTEN","url":"https://open.spotify.com/album/6nG7XjSnNuNcZDlkjgag9T","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27351fa7f9e4e3bf129be22c31e","datePublished":"2021-12-04","numTracks":1},{"@type":"MusicAlbum","name":"SOUL SNATCH","url":"https://open.spotify.com/album/67ANrS3XLSDDqVPzwaJZHk","image":"https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273b553f7ea243a27902de02573","datePublished":"2021-07-17","numTracks":1},{"@type":"MusicAlbum","name":"APPALACHIA","url":"https://open.spotify.com/album/1dW8xore3BEE2Og1sK5APV","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2735744d1a74fa6dbeb90c4141a","datePublished":"2021-05-08","numTracks":1},{"@type":"MusicAlbum","name":"993","url":"https://open.spotify.com/album/2Y4cqH1wKDTz5MhQNQMRZZ","image":"https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273d2d8308dea111ccd80ca3445","datePublished":"2021-04-03","numTracks":1},{"@type":"MusicAlbum","name":"SPIDERBLOOD","url":"https://open.spotify.com/album/128fgsPnKu0PvGQ3kSz4pu","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2739163658770c4c699f801a2d7","datePublished":"2021-02-27","numTracks":1},{"@type":"MusicAlbum","name":"SKULLY","url":"https://open.spotify.com/album/5KqBTaEHatU048ag3ZULf8","image":"https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273ce832834b3bdcdc6d92ce4e7","datePublished":"2021-01-23","numTracks":1},{"@type":"MusicAlbum","name":"Egodeath","url":"https://open.spotify.com/album/6IE24khelgX8f9rKZHkBdn","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2732cd0d525bf1701dfeed27b95","datePublished":"2020-06-11","numTracks":1},{"@type":"MusicAlbum","name":"Snowpiercer","url":"https://open.spotify.com/album/5ImXsScMSy7MKK8G64tgHf","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27315734693aa596036a32e5430","datePublished":"2020-03-09","numTracks":1},{"@type":"MusicAlbum","name":"Trip on a Spiderweb","url":"https://open.spotify.com/album/4ksd5ffgM8wkzPTR8hBcNq","image":"https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273365197f6a455e736897f69f4","datePublished":"2019-11-08","numTracks":1},{"@type":"MusicAlbum","name":"Headaches","url":"https://open.spotify.com/album/2AWoaZJ8741KegDiILjtwS","image":"https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27311f5b0ecc2e115b59c8513cf","datePublished":"2019-10-05","numTracks":1},{"@type":"MusicAlbum","name":"Baraka","url":"https://open.spotify.com/album/6yy54UJRMkbmlvU2RQGz7l","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2737929f87bf1dcf45f3a1b090e","datePublished":"2019-09-13","numTracks":1},{"@type":"MusicAlbum","name":"Bulletbag (feat. Sinizter)","url":"https://open.spotify.com/album/10bd4S3KbsFm3MbCgwP77g","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273d5efc8690fbefa114fcdd158","datePublished":"2019-09-01","numTracks":1},{"@type":"MusicAlbum","name":"Halos (feat. NA$tii)","url":"https://open.spotify.com/album/6KJWgH2GfWbXJdYKc8HKGT","image":"https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273d671f99190e92c8a2cb4b6b8","datePublished":"2019-08-15","numTracks":1},{"@type":"MusicAlbum","name":"G666n","url":"https://open.spotify.com/album/09XRQPXPr5jAlF2JbZYWte","image":"https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273442e9ac5d48ba1779e5610eb","datePublished":"2019-07-31","numTracks":1},{"@type":"MusicAlbum","name":"Casperflip (feat. Bearded Legend)","url":"https://open.spotify.com/album/3W8wD45K36l58i5Ir8wBd8","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2737f1118f7a515f65a6b3de8b1","datePublished":"2019-07-23","numTracks":1},{"@type":"MusicAlbum","name":"Venvm","url":"https://open.spotify.com/album/4YXEVWDGMMT7EJbEjvIC7L","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27344b548544a1cd1eac78bad5d","datePublished":"2019-05-20","numTracks":1},{"@type":"MusicAlbum","name":"40kaliber","url":"https://open.spotify.com/album/3TiCkaJXGgL2Kr6cRgrWKs","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273b0fbf78c104006aafaa52c57","datePublished":"2019-05-01","numTracks":1},{"@type":"MusicAlbum","name":"BoneGrip (feat. 83hades)","url":"https://open.spotify.com/album/5uc18oyH3QtNhO5PLjF6Sk","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273dc6f767748b95d08d919c787","datePublished":"2019-01-31","numTracks":1},{"@type":"MusicAlbum","name":"Idontflinch","url":"https://open.spotify.com/album/2r8iRbuipPmy2NRX3kgS9E","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2738415adc54250bdd6a3967494","datePublished":"2019-01-02","numTracks":1},{"@type":"MusicAlbum","name":"Broken Knuckles","url":"https://open.spotify.com/album/4a0lfNarYME4cdRx3EyN6z","image":"https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273a1c19d789c308dbbe80cd97d","datePublished":"2018-12-01","numTracks":1}]
     }
     </script>
     <script type="application/ld+json">
@@ -70,11 +92,13 @@
     <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-YGTD782ZEK");</script>
 </head>
 <body>
-    <main class="page-main">
+    <main class="page-main" itemscope itemtype="https://schema.org/MusicGroup">
+        <meta itemprop="name" content="Witchouse 40k">
+        <meta itemprop="url" content="https://www.horrorcore-reshare.com/artists/witchouse-40k">
         <div class="artist-header hr-glass">
-            <img src="https://i2o.scdn.co/image/ab67618600001667ba193ab32dfcf3ed59a0be3e" alt="Witchouse 40k underground horrorcore artist photo" class="artist-img" loading="lazy">
+            <img src="https://i2o.scdn.co/image/ab67618600001667ba193ab32dfcf3ed59a0be3e" alt="Witchouse 40k underground horrorcore artist photo" class="artist-img" loading="lazy" itemprop="image">
             <div class="artist-info">
-                <h1>Witchouse 40k</h1>
+                <h1 itemprop="name">Witchouse 40k</h1>
                 <div class="genre-tags">
 <span class="genre-tag">dark trap</span>
 <span class="genre-tag">horrorcore</span>
@@ -86,25 +110,538 @@
 </div>
             </div>
         </div>
-        <div class="bio-section hr-glass">
+        <div class="bio-section hr-glass" itemprop="description">
             <h2>Artist Biography</h2>
             <p>Witchouse 40k is a trap metal and shadow rap artist born and based in Portland, Oregon, whose name was inspired by the Warhammer 40k universe, a fitting reference for someone who builds his sound like a siege. Rooted in his earlier days playing in punk bands and a long obsession with dark underground music, he brings a gritty, atmospheric intensity to everything he makes, layering horror themes over eerie, heavy production with a voice that is immediately recognizable. He debuted in 2018 with Warhammer and has been relentless since, building out a deep catalog that includes KILLRADICAL (2019), 40 Years of Rain, Bad Strains Tape, and Blood Bender Mixtape (all 2020), LEFT FOR DEAD (2023), and his 2025 full-length Ghostlands. Beyond his solo work he is a founding member of the Haunted House collective, founder of Hellhound Militia, and the leader of the SWARM movement, making him one of the more organizationally central figures in the dark underground rap scene on the West Coast.</p>
         </div>
-        <div class="bio-section hr-glass">
-            <h2>Latest Releases</h2>
-            <ul class="releases-list">
-<li><a href="https://open.spotify.com/album/2n90ugazhgrJYNwgKCSp5B" target="_blank" rel="noopener noreferrer" style="color: #ffcc00;">Spotify Release 2n90ugazhgrJYNwgKCSp5B</a></li>
-<li><a href="https://open.spotify.com/album/5iSsvkysEm4sjAWzLZvYBq" target="_blank" rel="noopener noreferrer" style="color: #ffcc00;">Spotify Release 5iSsvkysEm4sjAWzLZvYBq</a></li>
-<li><a href="https://open.spotify.com/album/5K3ZioWTtEeVj90pZIye5W" target="_blank" rel="noopener noreferrer" style="color: #ffcc00;">Spotify Release 5K3ZioWTtEeVj90pZIye5W</a></li>
-<li><a href="https://open.spotify.com/album/2KwCTJylW9PWCj1u6mPK1n" target="_blank" rel="noopener noreferrer" style="color: #ffcc00;">Spotify Release 2KwCTJylW9PWCj1u6mPK1n</a></li>
-<li><a href="https://open.spotify.com/album/48rUMdvw5W4u5NiHyq4owg" target="_blank" rel="noopener noreferrer" style="color: #ffcc00;">Spotify Release 48rUMdvw5W4u5NiHyq4owg</a></li>
-</ul>
-        </div>
-        <div class="similar-section hr-glass">
+        
+                    <div class="releases-section">
+                        <h2 class="releases-heading">Albums & EPs</h2>
+                        <div class="releases-grid">
+                            
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/2n90ugazhgrJYNwgKCSp5B', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(159, 0, 0, 0.85); border-color: rgba(159, 0, 0, 0.5);">10 TRACKS</span>
+                            <span class="release-badge duration-badge">33m 53s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273bcc63417c53ed6c1eac2d591" alt="GHOSTLANDS album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=GHOSTLANDS&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="GHOSTLANDS">GHOSTLANDS</h3>
+                            <p class="release-card-artist">WITCHOUSE 40K</p>
+                            <p class="release-card-date">MAY 23, 2025</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/5kmHIqA1ob3LDF2D2IKVmu', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(153, 32, 44, 0.85); border-color: rgba(153, 32, 44, 0.5);">4 TRACKS</span>
+                            <span class="release-badge duration-badge">11m 37s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273a54a17f714407531fa97da4e" alt="Blood Bender Mixtape album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=Blood%20Bender%20Mixtape&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="Blood Bender Mixtape">Blood Bender Mixtape</h3>
+                            <p class="release-card-artist">WITCHOUSE 40K</p>
+                            <p class="release-card-date">SEP 15, 2020</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/1yA6vwEQ9SNPpz5giz9Gkj', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(159, 0, 0, 0.85); border-color: rgba(159, 0, 0, 0.5);">3 TRACKS</span>
+                            <span class="release-badge duration-badge">6m 1s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273981beca3711e265a8cf492e0" alt="BAD Strains Mixtape album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=BAD%20Strains%20Mixtape&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="BAD Strains Mixtape">BAD Strains Mixtape</h3>
+                            <p class="release-card-artist">WITCHOUSE 40K</p>
+                            <p class="release-card-date">APR 22, 2020</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/6vBTSKtAv1wbXL0IURUao2', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(83, 83, 83, 0.85); border-color: rgba(83, 83, 83, 0.5);">4 TRACKS</span>
+                            <span class="release-badge duration-badge">9m 7s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2738382d142976ef3b9b3346751" alt="40 Years of Rain album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=40%20Years%20of%20Rain&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="40 Years of Rain">40 Years of Rain</h3>
+                            <p class="release-card-artist">WITCHOUSE 40K</p>
+                            <p class="release-card-date">JAN 1, 2020</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/7B4MGFxPlw4UwqQdRiQyoG', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(8, 56, 112, 0.85); border-color: rgba(8, 56, 112, 0.5);">3 TRACKS</span>
+                            <span class="release-badge duration-badge">6m 15s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2736b96d927b961373ff9da1c9f" alt="Killradical album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=Killradical&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="Killradical">Killradical</h3>
+                            <p class="release-card-artist">WITCHOUSE 40K</p>
+                            <p class="release-card-date">FEB 12, 2019</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/4uJwnX2JxBSZ07Ey0IDyrO', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(64, 16, 40, 0.85); border-color: rgba(64, 16, 40, 0.5);">2 TRACKS</span>
+                            <span class="release-badge duration-badge">4m 39s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273d1e3d285e71003c12ab04593" alt="Ant!virxs album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=Ant!virxs&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="Ant!virxs">Ant!virxs</h3>
+                            <p class="release-card-artist">WITCHOUSE 40K</p>
+                            <p class="release-card-date">DEC 15, 2018</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/3gX86OMXW1EyqZvWwQE0eD', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(112, 48, 72, 0.85); border-color: rgba(112, 48, 72, 0.5);">5 TRACKS</span>
+                            <span class="release-badge duration-badge">14m 19s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2732044e81c5a1a54318d045aa7" alt="WARHAMMER album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=WARHAMMER&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="WARHAMMER">WARHAMMER</h3>
+                            <p class="release-card-artist">WITCHOUSE 40K</p>
+                            <p class="release-card-date">OCT 29, 2018</p>
+                        </div>
+                    </div>
+                        </div>
+                    </div>
+                    <div class="releases-section">
+                        <h2 class="releases-heading">Singles</h2>
+                        <div class="releases-grid">
+                            
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/7ICcTCaT1S0q7mgQXVWwd0', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(50, 87, 109, 0.85); border-color: rgba(50, 87, 109, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">3m 3s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2735998288e1872ce5f5e9c7d02" alt="LEFT FOR DEAD album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=LEFT%20FOR%20DEAD&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="LEFT FOR DEAD">LEFT FOR DEAD</h3>
+                            <p class="release-card-artist">WITCHOUSE 40K</p>
+                            <p class="release-card-date">DEC 9, 2023</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/6sNS7e4Hj0gQapOdWAC7g8', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(77, 85, 85, 0.85); border-color: rgba(77, 85, 85, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">3m 21s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273eef1fa6e6de27f15d8a36a67" alt="BONEYARD album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=BONEYARD&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="BONEYARD">BONEYARD</h3>
+                            <p class="release-card-artist">WITCHOUSE 40K</p>
+                            <p class="release-card-date">OCT 13, 2023</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/7tBwhgKcp1DFJ4f0Au0Jdh', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(70, 85, 100, 0.85); border-color: rgba(70, 85, 100, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">4m 0s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2736de8bad1dafb0affdc0ee7da" alt="HOLLOWBONES album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=HOLLOWBONES&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="HOLLOWBONES">HOLLOWBONES</h3>
+                            <p class="release-card-artist">WITCHOUSE 40K</p>
+                            <p class="release-card-date">JUN 1, 2023</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/3doXPRLa4oDDDxOdrBir5X', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(70, 86, 86, 0.85); border-color: rgba(70, 86, 86, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">4m 31s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2732f1d2643176591d26b8472f1" alt="LOCUST EFFECT album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=LOCUST%20EFFECT&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="LOCUST EFFECT">LOCUST EFFECT</h3>
+                            <p class="release-card-artist">WITCHOUSE 40K</p>
+                            <p class="release-card-date">DEC 10, 2022</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/7xBKaxKoh1UjuEHbjG2MqM', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(72, 85, 92, 0.85); border-color: rgba(72, 85, 92, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">2m 51s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273da5d01469b35f3050d321eac" alt="GRAVEDIGGER album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=GRAVEDIGGER&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="GRAVEDIGGER">GRAVEDIGGER</h3>
+                            <p class="release-card-artist">WITCHOUSE 40K</p>
+                            <p class="release-card-date">AUG 13, 2022</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/3FZ08nXmg4K74lhpDj9s1s', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(148, 45, 0, 0.85); border-color: rgba(148, 45, 0, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">3m 26s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273ddad9264756b7315ddfc9356" alt="HOBGOBLIN album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=HOBGOBLIN&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="HOBGOBLIN">HOBGOBLIN</h3>
+                            <p class="release-card-artist">WITCHOUSE 40K</p>
+                            <p class="release-card-date">APR 22, 2022</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/4PsteQRrsRlx1wZJJ0DTWP', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(40, 32, 64, 0.85); border-color: rgba(40, 32, 64, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">3m 39s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27349af0fd8b55e9edd45de9779" alt="GARGOYLE album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=GARGOYLE&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="GARGOYLE">GARGOYLE</h3>
+                            <p class="release-card-artist">WITCHOUSE 40K</p>
+                            <p class="release-card-date">FEB 20, 2022</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/6nG7XjSnNuNcZDlkjgag9T', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(159, 0, 5, 0.85); border-color: rgba(159, 0, 5, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">3m 31s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27351fa7f9e4e3bf129be22c31e" alt="SPIDERBLOOD 2: ROTTEN album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=SPIDERBLOOD%202%3A%20ROTTEN&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="SPIDERBLOOD 2: ROTTEN">SPIDERBLOOD 2: ROTTEN</h3>
+                            <p class="release-card-artist">WITCHOUSE 40K</p>
+                            <p class="release-card-date">DEC 4, 2021</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/67ANrS3XLSDDqVPzwaJZHk', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(159, 1, 0, 0.85); border-color: rgba(159, 1, 0, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">2m 46s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273b553f7ea243a27902de02573" alt="SOUL SNATCH album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=SOUL%20SNATCH&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="SOUL SNATCH">SOUL SNATCH</h3>
+                            <p class="release-card-artist">WITCHOUSE 40K</p>
+                            <p class="release-card-date">JUL 17, 2021</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/1dW8xore3BEE2Og1sK5APV', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(56, 64, 72, 0.85); border-color: rgba(56, 64, 72, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">2m 21s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2735744d1a74fa6dbeb90c4141a" alt="APPALACHIA album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=APPALACHIA&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="APPALACHIA">APPALACHIA</h3>
+                            <p class="release-card-artist">WITCHOUSE 40K</p>
+                            <p class="release-card-date">MAY 8, 2021</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/2Y4cqH1wKDTz5MhQNQMRZZ', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(158, 0, 19, 0.85); border-color: rgba(158, 0, 19, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">2m 34s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273d2d8308dea111ccd80ca3445" alt="993 album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=993&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="993">993</h3>
+                            <p class="release-card-artist">WITCHOUSE 40K</p>
+                            <p class="release-card-date">APR 3, 2021</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/128fgsPnKu0PvGQ3kSz4pu', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(159, 0, 0, 0.85); border-color: rgba(159, 0, 0, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">3m 31s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2739163658770c4c699f801a2d7" alt="SPIDERBLOOD album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=SPIDERBLOOD&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="SPIDERBLOOD">SPIDERBLOOD</h3>
+                            <p class="release-card-artist">WITCHOUSE 40K</p>
+                            <p class="release-card-date">FEB 27, 2021</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/5KqBTaEHatU048ag3ZULf8', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(56, 64, 40, 0.85); border-color: rgba(56, 64, 40, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">3m 14s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273ce832834b3bdcdc6d92ce4e7" alt="SKULLY album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=SKULLY&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="SKULLY">SKULLY</h3>
+                            <p class="release-card-artist">WITCHOUSE 40K</p>
+                            <p class="release-card-date">JAN 23, 2021</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/6IE24khelgX8f9rKZHkBdn', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(0, 89, 113, 0.85); border-color: rgba(0, 89, 113, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">2m 1s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2732cd0d525bf1701dfeed27b95" alt="Egodeath album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=Egodeath&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="Egodeath">Egodeath</h3>
+                            <p class="release-card-artist">WITCHOUSE 40K</p>
+                            <p class="release-card-date">JUN 11, 2020</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/5ImXsScMSy7MKK8G64tgHf', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(159, 0, 5, 0.85); border-color: rgba(159, 0, 5, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">1m 51s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27315734693aa596036a32e5430" alt="Snowpiercer album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=Snowpiercer&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="Snowpiercer">Snowpiercer</h3>
+                            <p class="release-card-artist">WITCHOUSE 40K</p>
+                            <p class="release-card-date">MAR 9, 2020</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/4ksd5ffgM8wkzPTR8hBcNq', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(159, 0, 0, 0.85); border-color: rgba(159, 0, 0, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">2m 5s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273365197f6a455e736897f69f4" alt="Trip on a Spiderweb album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=Trip%20on%20a%20Spiderweb&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="Trip on a Spiderweb">Trip on a Spiderweb</h3>
+                            <p class="release-card-artist">WITCHOUSE 40K</p>
+                            <p class="release-card-date">NOV 8, 2019</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/2AWoaZJ8741KegDiILjtwS', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(83, 83, 83, 0.85); border-color: rgba(83, 83, 83, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">2m 0s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27311f5b0ecc2e115b59c8513cf" alt="Headaches album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=Headaches&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="Headaches">Headaches</h3>
+                            <p class="release-card-artist">WITCHOUSE 40K</p>
+                            <p class="release-card-date">OCT 5, 2019</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/6yy54UJRMkbmlvU2RQGz7l', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(143, 19, 127, 0.85); border-color: rgba(143, 19, 127, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">1m 58s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2737929f87bf1dcf45f3a1b090e" alt="Baraka album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=Baraka&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="Baraka">Baraka</h3>
+                            <p class="release-card-artist">WITCHOUSE 40K</p>
+                            <p class="release-card-date">SEP 13, 2019</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/10bd4S3KbsFm3MbCgwP77g', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(7, 93, 79, 0.85); border-color: rgba(7, 93, 79, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">3m 13s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273d5efc8690fbefa114fcdd158" alt="Bulletbag (feat. Sinizter) album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=Bulletbag%20(feat.%20Sinizter)&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="Bulletbag (feat. Sinizter)">Bulletbag (feat. Sinizter)</h3>
+                            <p class="release-card-artist">WITCHOUSE 40K</p>
+                            <p class="release-card-date">SEP 1, 2019</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/6KJWgH2GfWbXJdYKc8HKGT', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(0, 79, 163, 0.85); border-color: rgba(0, 79, 163, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">2m 33s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273d671f99190e92c8a2cb4b6b8" alt="Halos (feat. NA$tii) album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=Halos%20(feat.%20NA%24tii)&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="Halos (feat. NA$tii)">Halos (feat. NA$tii)</h3>
+                            <p class="release-card-artist">WITCHOUSE 40K</p>
+                            <p class="release-card-date">AUG 15, 2019</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/09XRQPXPr5jAlF2JbZYWte', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(66, 81, 127, 0.85); border-color: rgba(66, 81, 127, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">1m 52s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273442e9ac5d48ba1779e5610eb" alt="G666n album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=G666n&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="G666n">G666n</h3>
+                            <p class="release-card-artist">WITCHOUSE 40K</p>
+                            <p class="release-card-date">JUL 31, 2019</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/3W8wD45K36l58i5Ir8wBd8', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(56, 72, 80, 0.85); border-color: rgba(56, 72, 80, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">2m 17s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2737f1118f7a515f65a6b3de8b1" alt="Casperflip (feat. Bearded Legend) album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=Casperflip%20(feat.%20Bearded%20Legend)&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="Casperflip (feat. Bearded Legend)">Casperflip (feat. Bearded Legend)</h3>
+                            <p class="release-card-artist">WITCHOUSE 40K</p>
+                            <p class="release-card-date">JUL 23, 2019</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/4YXEVWDGMMT7EJbEjvIC7L', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(104, 32, 128, 0.85); border-color: rgba(104, 32, 128, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">2m 45s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27344b548544a1cd1eac78bad5d" alt="Venvm album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=Venvm&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="Venvm">Venvm</h3>
+                            <p class="release-card-artist">WITCHOUSE 40K</p>
+                            <p class="release-card-date">MAY 20, 2019</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/3TiCkaJXGgL2Kr6cRgrWKs', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(0, 56, 88, 0.85); border-color: rgba(0, 56, 88, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">1m 35s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273b0fbf78c104006aafaa52c57" alt="40kaliber album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=40kaliber&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="40kaliber">40kaliber</h3>
+                            <p class="release-card-artist">WITCHOUSE 40K</p>
+                            <p class="release-card-date">MAY 1, 2019</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/5uc18oyH3QtNhO5PLjF6Sk', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(130, 61, 70, 0.85); border-color: rgba(130, 61, 70, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">2m 25s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273dc6f767748b95d08d919c787" alt="BoneGrip (feat. 83hades) album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=BoneGrip%20(feat.%2083hades)&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="BoneGrip (feat. 83hades)">BoneGrip (feat. 83hades)</h3>
+                            <p class="release-card-artist">WITCHOUSE 40K</p>
+                            <p class="release-card-date">JAN 31, 2019</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/2r8iRbuipPmy2NRX3kgS9E', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(159, 0, 0, 0.85); border-color: rgba(159, 0, 0, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">2m 39s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2738415adc54250bdd6a3967494" alt="Idontflinch album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=Idontflinch&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="Idontflinch">Idontflinch</h3>
+                            <p class="release-card-artist">WITCHOUSE 40K</p>
+                            <p class="release-card-date">JAN 2, 2019</p>
+                        </div>
+                    </div>
+                    <div class="release-card" onclick="window.open('https://open.spotify.com/album/4a0lfNarYME4cdRx3EyN6z', '_blank', 'noopener,noreferrer')">
+                        <div class="release-card-badges" onclick="event.stopPropagation()">
+                            <span class="release-badge tracks-badge" style="background: rgba(88, 56, 160, 0.85); border-color: rgba(88, 56, 160, 0.5);">1 TRACK</span>
+                            <span class="release-badge duration-badge">2m 27s</span>
+                            
+                        </div>
+                        <div class="release-card-cover-wrap">
+                            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273a1c19d789c308dbbe80cd97d" alt="Broken Knuckles album cover art" class="release-card-cover" loading="lazy" onerror="this.src='https://api.dicebear.com/7.x/shapes/svg?seed=Broken%20Knuckles&backgroundColor=050505&shape1Color=8b0000'">
+                        </div>
+                        <div class="release-card-info">
+                            <h3 class="release-card-title" title="Broken Knuckles">Broken Knuckles</h3>
+                            <p class="release-card-artist">WITCHOUSE 40K</p>
+                            <p class="release-card-date">DEC 1, 2018</p>
+                        </div>
+                    </div>
+                        </div>
+                    </div>
+        <div class="similar-section hr-glass" style="margin-top: 40px;">
             <h2>Similar Artists</h2>
             <p style="line-height: 1.8;"><a href="https://www.horrorcore-reshare.com/artists/kamaara" style="color: #ffcc00; text-decoration: underline;">KAMAARA</a>, <a href="https://www.horrorcore-reshare.com/artists/kill-dyll" style="color: #ffcc00; text-decoration: underline;">Kill Dyll</a>, <a href="https://www.horrorcore-reshare.com/artists/grim-salvo" style="color: #ffcc00; text-decoration: underline;">Grim Salvo</a>, <a href="https://www.horrorcore-reshare.com/artists/godhandusa" style="color: #ffcc00; text-decoration: underline;">GODHANDUSA</a></p>
         </div>
-        <div class="bio-section hr-glass">
+        <div class="bio-section hr-glass" style="margin-top: 30px;">
             <h2>Genre Tags</h2>
             <p><a href="https://www.horrorcore-reshare.com/genres/dark-trap" style="color: #ffcc00; text-decoration: underline;">dark trap</a>, <a href="https://www.horrorcore-reshare.com/genres/horrorcore" style="color: #ffcc00; text-decoration: underline;">horrorcore</a>, <a href="https://www.horrorcore-reshare.com/genres/industrial-hip-hop" style="color: #ffcc00; text-decoration: underline;">industrial hip hop</a></p>
         </div>
@@ -119,7 +656,7 @@
                 <a href="/discord">Discord</a> <a href="/services">Services</a>
                 <a href="/follow">Follow</a> <a href="/page-audit">Page Audit</a> <a href="/privacy">Privacy</a>
             </nav>
-            <p>&copy; 2024-2026 Horrorcore Reshare | Update 001 | Maintained by Luna Serafina</p>
+            <p>&copy; 2024-2026 Horrorcore Reshare | Maintained by Luna Serafina</p>
         </div>
     </footer>
 </body>
