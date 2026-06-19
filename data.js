@@ -1,3 +1,4 @@
+// 🤖 Deploy test — 2026-06-18 20:02 EST — Zero Vercel rebuild
 const artistData = [
     {
         "name": "Doc Gruesome",
