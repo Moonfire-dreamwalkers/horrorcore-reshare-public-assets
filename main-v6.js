@@ -187,7 +187,7 @@ function injectHeader() {
             <a href="${isLocalhost ? 'flyer-builder.html' : '/flyer-builder'}">Flyer Builder</a>
             <a href="${isLocalhost ? 'discord.html' : '/discord'}">Discord</a>
             <a href="${isLocalhost ? 'services.html' : '/services'}">Services</a>
-<a href="#" onclick="return false" style="cursor: default;">UPDATE 001</a>
+<a href="#" onclick="return false" style="cursor: default;" id="nav-build-version">UPDATE</a>
         </nav>
     `;
 
@@ -1601,6 +1601,14 @@ function renderGlobalAlbumGrid() {
 initCanvas();
 injectHeader();
 injectFooter();
+
+// Set nav bar version from CDN build version (set by bootloader)
+(function setNavVersion() {
+    var el = document.getElementById('nav-build-version');
+    if (el && window.HR_BUILD_VERSION && window.HR_BUILD_VERSION !== 'local') {
+        el.textContent = 'v' + window.HR_BUILD_VERSION;
+    }
+})();
 injectArtists();
 
 if (document.querySelector('.ytm-shell')) {
