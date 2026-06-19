@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Cinzel+Decorative:wght@400;700;900&family=Inter:wght@300;400;600;800&family=Orbitron:wght@400;700;900&family=Outfit:wght@300;400;600;700;900&family=Share+Tech+Mono&display=swap');
+/* Fonts loaded via <link rel="preload"> in HTML for non-blocking load */
 
 :root {
     --hr-void: #000000;
@@ -48,7 +48,7 @@ body {
     height: 100%;
     z-index: -1;
     pointer-events: none;
-    mix-blend-mode: screen;
+    /* mix-blend-mode removed: perf -- canvas draws lighter colors natively */
 }
 
 /* Header */
@@ -62,8 +62,7 @@ body {
     position: sticky;
     top: 0;
     z-index: 100;
-    background: rgba(5, 5, 5, 0.95);
-    backdrop-filter: blur(15px);
+    background: rgba(5, 5, 5, 0.96);
     border-bottom: 1px solid var(--hr-glass-border);
 }
 
@@ -100,8 +99,8 @@ body {
     width: 100%;
     height: 100%;
     z-index: -4;
-    background: radial-gradient(circle at 50% 50%, rgba(168, 85, 247, 0.05) 0%, rgba(217, 28, 28, 0.05) 100%);
-    mix-blend-mode: color-dodge;
+    background: radial-gradient(circle at 50% 50%, rgba(180, 100, 255, 0.07) 0%, rgba(255, 40, 40, 0.06) 100%);
+    /* mix-blend-mode: color-dodge removed for perf -- gradient alpha adjusted to compensate */
 }
 
 .mr-hypnotic-overlay {
@@ -111,8 +110,7 @@ body {
     width: 100%;
     height: 100%;
     z-index: -3;
-    background: url('https://doc-gruesome.vercel.app/noise.svg');
-    opacity: 0.1;
+    background: none;
     pointer-events: none;
 }
 
@@ -280,9 +278,7 @@ html {
 
 /* Glassmorphism Cards */
 .hr-glass {
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.02) 40%, rgba(0, 0, 0, 0.7) 40%, rgba(0, 0, 0, 0.85) 100%);
-    backdrop-filter: blur(25px);
-    -webkit-backdrop-filter: blur(25px);
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.02) 40%, rgba(0, 0, 0, 0.85) 40%, rgba(0, 0, 0, 0.92) 100%);
     border: 1px solid var(--hr-glass-border);
     border-radius: 12px;
     transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
@@ -931,9 +927,7 @@ html {
     text-align: center;
     gap: 1.5rem;
     border-radius: 22px;
-    background: linear-gradient(135deg, rgba(20, 5, 25, 0.85) 0%, rgba(5, 0, 10, 0.95) 100%);
-    backdrop-filter: blur(24px);
-    -webkit-backdrop-filter: blur(24px);
+    background: linear-gradient(135deg, rgba(20, 5, 25, 0.88) 0%, rgba(5, 0, 10, 0.96) 100%);
     border: 1px solid rgba(255, 255, 255, 0.1);
     box-shadow: 0 0 60px rgba(0, 0, 0, 0.5), 0 15px 40px rgba(0, 0, 0, 0.6);
     padding: 2.5rem 3rem;
@@ -1392,8 +1386,7 @@ html {
 }
 
 .dg-card {
-    background: var(--dg-glass);
-    backdrop-filter: blur(10px);
+    background: rgba(5, 1, 2, 0.88);
     border: 1px solid var(--dg-glass-border);
     padding: 30px;
     border-radius: 4px;
@@ -1481,7 +1474,6 @@ html {
 
     .hr-glass {
         padding: 20px !important;
-        backdrop-filter: blur(10px);
     }
 
     .hr-container {
@@ -2970,9 +2962,7 @@ html {
 /* bottom persistent player bar styling */
 .ytm-bottom-bar {
     grid-area: bottom;
-    background: rgba(10, 10, 10, 0.85);
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
+    background: rgba(10, 10, 10, 0.92);
     border-top: 1px solid rgba(255, 0, 60, 0.15);
     box-shadow: 0 -5px 25px rgba(0, 0, 0, 0.8);
     display: flex;
@@ -3309,9 +3299,7 @@ html {
     align-items: center;
     text-align: center;
     padding: 24px;
-    background: rgba(10, 5, 6, 0.5);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+    background: rgba(10, 5, 6, 0.65);
     border: 1px solid rgba(255, 0, 51, 0.12);
     border-radius: 16px;
     cursor: pointer;
@@ -3582,7 +3570,7 @@ html {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    filter: blur(20px) brightness(0.2) contrast(1.1);
+    filter: blur(10px) brightness(0.2) contrast(1.05);
     transform: scale(1.1);
     transition: all 0.5s ease;
 }
@@ -3762,7 +3750,7 @@ html {
     height: 100%;
     background-size: cover;
     background-position: center;
-    filter: blur(80px) opacity(0.12);
+    filter: blur(20px) opacity(0.15);
     z-index: 1;
     pointer-events: none;
     transition: background-image 0.8s ease-in-out;
@@ -4038,10 +4026,8 @@ html {
     z-index: 5;
     width: 100%;
     max-width: 580px;
-    background: rgba(6, 1, 2, 0.6);
+    background: rgba(6, 1, 2, 0.8);
     border: 1px solid rgba(255, 0, 60, 0.15);
-    backdrop-filter: blur(15px);
-    -webkit-backdrop-filter: blur(15px);
     border-radius: 16px;
     padding: 12px 16px;
     box-sizing: border-box;
@@ -4339,9 +4325,7 @@ html {
 
 /* Platform Specific Styles — Themed Glass Buttons */
 .artist-profile-btn {
-    background: rgba(0, 0, 0, 0.55);
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
+    background: rgba(0, 0, 0, 0.65);
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.05);
 }
 
@@ -4580,7 +4564,6 @@ html {
 .player-header-title-scroll {
     display: inline-flex;
     animation: marquee-scroll var(--marquee-duration, 45s) linear infinite;
-    will-change: transform;
     flex-shrink: 0;
 }
 

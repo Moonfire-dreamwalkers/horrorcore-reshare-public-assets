@@ -33,19 +33,21 @@ self.addEventListener('fetch', (e) => {
   const url = new URL(e.request.url);
 
   // 1. Bypass Service Worker cache completely for local development
-  if (url.hostname === 'localhost' || 
-      url.hostname === '127.0.0.1' || 
-      url.hostname === '[::1]' || 
-      url.hostname.startsWith('192.168.')) {
+  if (url.hostname === 'localhost' ||
+    url.hostname === '127.0.0.1' ||
+    url.hostname === '[::1]' ||
+    url.hostname.startsWith('192.168.')) {
     return;
   }
 
-  // Skip non-GET, extensions, analytics, and build version check file
-  if (e.request.method !== 'GET' || 
-      url.protocol === 'chrome-extension:' || 
-      url.hostname.includes('google-analytics') || 
-      url.hostname.includes('googletagmanager') ||
-      url.pathname.includes('build-version.json')) {
+  // Skip non-GET, extensions, analytics, build version check, and non-http(s)
+  if (e.request.method !== 'GET' ||
+    url.protocol === 'chrome-extension:' ||
+    url.protocol === 'moz-extension:' ||
+    !url.protocol.startsWith('http') ||
+    url.hostname.includes('google-analytics') ||
+    url.hostname.includes('googletagmanager') ||
+    url.pathname.includes('build-version.json')) {
     return;
   }
 
@@ -120,7 +122,7 @@ self.addEventListener('fetch', (e) => {
           caches.open(CACHE_NAME).then(cache => cache.put(e.request, clone));
         }
         return networkResponse;
-      }).catch(() => {});
+      }).catch(() => { });
       return cached || networkFetch;
     })
   );
