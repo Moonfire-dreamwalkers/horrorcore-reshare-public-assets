@@ -1609,6 +1609,173 @@ if (document.querySelector('.ytm-shell')) {
 }
 
 // =========================================================================
+// DYNAMIC CDN BUILD MISMATCH DETECTION & UPDATE NOTIFICATION SYSTEM
+// =========================================================================
+(function initUpdateChecker() {
+    // Skip if running locally
+    if (window.location.hostname === 'localhost' || 
+        window.location.hostname === '127.0.0.1' || 
+        window.location.hostname === '[::1]' ||
+        window.location.hostname.match(/^192\.168\./) ||
+        window.HR_BUILD_VERSION === 'local') {
+        return;
+    }
+
+    let lastCheckTime = Date.now();
+
+    async function checkForUpdates() {
+        try {
+            const res = await fetch('https://cdn.jsdelivr.net/gh/Moonfire-dreamwalkers/horrorcore-reshare-public-assets@main/build-version.json?t=' + Date.now(), { cache: 'no-store' });
+            if (!res.ok) return;
+
+            const data = await res.json();
+            if (data && data.version) {
+                const currentVersion = window.HR_BUILD_VERSION || localStorage.getItem('hr_active_build_version') || 'main';
+                if (currentVersion !== 'main' && data.version !== currentVersion) {
+                    showUpdateNotification(data.version);
+                }
+            }
+        } catch (err) {
+            console.warn('Failed to fetch latest build version for update check:', err);
+        }
+    }
+
+    function showUpdateNotification(newVersion) {
+        if (document.getElementById('hr-update-toast')) return;
+
+        const toast = document.createElement('div');
+        toast.id = 'hr-update-toast';
+        toast.style.cssText = `
+            position: fixed;
+            bottom: 90px; /* Above the persistent bottom player bar */
+            left: 50%;
+            transform: translateX(-50%) translateY(100px);
+            background: rgba(15, 10, 10, 0.85);
+            backdrop-filter: blur(15px);
+            -webkit-backdrop-filter: blur(15px);
+            border: 1px solid rgba(255, 0, 60, 0.45);
+            border-radius: 8px;
+            padding: 12px 20px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            z-index: 99999;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.9), 0 0 15px rgba(255, 0, 60, 0.25);
+            transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.3s ease;
+            opacity: 0;
+            font-family: 'Share Tech Mono', monospace;
+        `;
+
+        const icon = document.createElement('span');
+        icon.innerHTML = '⚡';
+        icon.style.cssText = `
+            font-size: 1.2rem;
+            animation: hr-pulse-glow 1.5s infinite alternate;
+        `;
+
+        const text = document.createElement('span');
+        text.textContent = 'New music curation updates are live!';
+        text.style.cssText = `
+            color: #fff;
+            font-size: 0.9rem;
+            letter-spacing: 0.5px;
+            white-space: nowrap;
+        `;
+
+        const btn = document.createElement('button');
+        btn.textContent = 'UPDATE NOW';
+        btn.style.cssText = `
+            background: #ff003c;
+            color: #fff;
+            border: none;
+            padding: 6px 12px;
+            border-radius: 4px;
+            font-family: 'Orbitron', sans-serif;
+            font-size: 0.75rem;
+            font-weight: bold;
+            letter-spacing: 1px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            box-shadow: 0 0 10px rgba(255, 0, 60, 0.5);
+        `;
+
+        btn.onmouseover = () => {
+            btn.style.background = '#ff3366';
+            btn.style.boxShadow = '0 0 15px rgba(255, 0, 60, 0.8)';
+            btn.style.transform = 'scale(1.05)';
+        };
+        btn.onmouseout = () => {
+            btn.style.background = '#ff003c';
+            btn.style.boxShadow = '0 0 10px rgba(255, 0, 60, 0.5)';
+            btn.style.transform = 'scale(1)';
+        };
+
+        btn.onclick = async () => {
+            btn.disabled = true;
+            btn.textContent = 'UPDATING...';
+            try {
+                if ('caches' in window) {
+                    const keys = await caches.keys();
+                    await Promise.all(keys.map(key => caches.delete(key)));
+                }
+                localStorage.setItem('hr_active_build_version', newVersion);
+                if ('serviceWorker' in navigator) {
+                    const regs = await navigator.serviceWorker.getRegistrations();
+                    for (let r of regs) {
+                        await r.update();
+                    }
+                }
+                window.location.reload(true);
+            } catch (e) {
+                console.error('Failed to clear cache on button click:', e);
+                window.location.reload(true);
+            }
+        };
+
+        toast.appendChild(icon);
+        toast.appendChild(text);
+        toast.appendChild(btn);
+        document.body.appendChild(toast);
+
+        // Inject keyframes style if it doesn't exist
+        if (!document.getElementById('hr-update-animations')) {
+            const styleSheet = document.createElement('style');
+            styleSheet.id = 'hr-update-animations';
+            styleSheet.textContent = `
+                @keyframes hr-pulse-glow {
+                    from { text-shadow: 0 0 2px rgba(255, 0, 60, 0.5); transform: scale(1); }
+                    to { text-shadow: 0 0 10px rgba(255, 0, 60, 0.9), 0 0 20px rgba(255, 0, 60, 0.6); transform: scale(1.1); }
+                }
+            `;
+            document.head.appendChild(styleSheet);
+        }
+
+        // Animate in
+        requestAnimationFrame(() => {
+            toast.style.opacity = '1';
+            toast.style.transform = 'translateX(-50%) translateY(0)';
+        });
+    }
+
+    // Run initial check after 5 seconds
+    setTimeout(checkForUpdates, 5000);
+
+    // Periodically check every 5 minutes
+    setInterval(checkForUpdates, 300000);
+
+    // Check on visibility change (throttled to at least 1 minute)
+    document.addEventListener('visibilitychange', () => {
+        if (document.visibilityState === 'visible') {
+            const now = Date.now();
+            if (now - lastCheckTime >= 60000) {
+                lastCheckTime = now;
+                checkForUpdates();
+            }
+        }
+    });
+})();
+
+// =========================================================================
 // DIAGNOSTIC LOGGING — verifies CDN pipeline is working
 // =========================================================================
 (function logDiagnostics() {

@@ -32,8 +32,12 @@ self.addEventListener('activate', (e) => {
 self.addEventListener('fetch', (e) => {
   const url = new URL(e.request.url);
 
-  // Skip non-GET, extensions, analytics
-  if (e.request.method !== 'GET' || url.protocol === 'chrome-extension:' || url.hostname.includes('google-analytics') || url.hostname.includes('googletagmanager')) {
+  // Skip non-GET, extensions, analytics, and build version check file
+  if (e.request.method !== 'GET' || 
+      url.protocol === 'chrome-extension:' || 
+      url.hostname.includes('google-analytics') || 
+      url.hostname.includes('googletagmanager') ||
+      url.pathname.includes('build-version.json')) {
     return;
   }
 
