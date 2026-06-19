@@ -4,7 +4,7 @@ const albumData = {
     "uri": "spotify:album:47GuUjsSYymeK8NLC29834",
     "title": "The Feeding of Neculai",
     "artist": "Lo Key",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e028e2111be1d547ed2f3e0ede3",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2738e2111be1d547ed2f3e0ede3",
     "tracksCount": 10,
     "type": "album",
     "isExplicit": false,
@@ -47,7 +47,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e028e2111be1d547ed2f3e0ede3",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2738e2111be1d547ed2f3e0ede3",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -203,7 +203,7 @@ const albumData = {
     "uri": "spotify:album:5im4cZzeuxYHUk3KKhXNWK",
     "title": "RELEASE 4",
     "artist": "Lo Key",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02c1666ca7b94912fd5b9146e5",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273c1666ca7b94912fd5b9146e5",
     "tracksCount": 14,
     "type": "album",
     "isExplicit": false,
@@ -246,7 +246,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02c1666ca7b94912fd5b9146e5",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273c1666ca7b94912fd5b9146e5",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -482,7 +482,7 @@ const albumData = {
     "uri": "spotify:album:7tmcsWICAd1XnxlhJk8Kgm",
     "title": "Cabal: The Watchers",
     "artist": "Bukshot",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02539590a938a73327027790bd",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273539590a938a73327027790bd",
     "tracksCount": 13,
     "type": "album",
     "isExplicit": false,
@@ -525,7 +525,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02539590a938a73327027790bd",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273539590a938a73327027790bd",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -746,7 +746,7 @@ const albumData = {
     "uri": "spotify:album:22NgUDcyZkuGeu4A95dwKz",
     "title": "Metanoia",
     "artist": "Lo Key",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e027ba0ab0e833e63c219f544af",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2737ba0ab0e833e63c219f544af",
     "tracksCount": 7,
     "type": "album",
     "isExplicit": false,
@@ -789,7 +789,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e027ba0ab0e833e63c219f544af",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2737ba0ab0e833e63c219f544af",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -906,7 +906,7 @@ const albumData = {
     "uri": "spotify:album:2W13QJoZ5PlXysGlWQwIKu",
     "title": "The Eyes of Parasuva",
     "artist": "Lo Key",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02f9e27cffb6c1bc04db32df1e",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273f9e27cffb6c1bc04db32df1e",
     "tracksCount": 18,
     "type": "album",
     "isExplicit": false,
@@ -949,7 +949,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02f9e27cffb6c1bc04db32df1e",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273f9e27cffb6c1bc04db32df1e",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -1209,7 +1209,7 @@ const albumData = {
     "uri": "spotify:album:7qRcHSSEHjyfycPeLP8ToS",
     "title": "Candycorn & Coversongs 2",
     "artist": "Lo Key",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e023fe4f1d35100e6dbf6ada7e4",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2733fe4f1d35100e6dbf6ada7e4",
     "tracksCount": 10,
     "type": "album",
     "isExplicit": false,
@@ -1252,7 +1252,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e023fe4f1d35100e6dbf6ada7e4",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2733fe4f1d35100e6dbf6ada7e4",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -1408,7 +1408,7 @@ const albumData = {
     "uri": "spotify:album:41n0KyuMdmImESXnV5xL8u",
     "title": "Release 3",
     "artist": "Lo Key",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e029a548d2b5680440fc20082d6",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2739a548d2b5680440fc20082d6",
     "tracksCount": 17,
     "type": "album",
     "isExplicit": false,
@@ -1451,7 +1451,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e029a548d2b5680440fc20082d6",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2739a548d2b5680440fc20082d6",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -1698,7 +1698,7 @@ const albumData = {
     "uri": "spotify:album:1FWsC4RZol50Z2BNaKwgwp",
     "title": "The Blood of Izu",
     "artist": "Lo Key",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e028c2c8861e81f2f7258608c9f",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2738c2c8861e81f2f7258608c9f",
     "tracksCount": 9,
     "type": "album",
     "isExplicit": false,
@@ -1741,7 +1741,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e028c2c8861e81f2f7258608c9f",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2738c2c8861e81f2f7258608c9f",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -1888,7 +1888,7 @@ const albumData = {
     "uri": "spotify:album:680vUEJmBijs3JjlQVUhit",
     "title": "Nightcrawlers",
     "artist": "Lo Key",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02681064dc700cdb6dfdba2c0d",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273681064dc700cdb6dfdba2c0d",
     "tracksCount": 20,
     "type": "album",
     "isExplicit": false,
@@ -1931,7 +1931,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02681064dc700cdb6dfdba2c0d",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273681064dc700cdb6dfdba2c0d",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -2257,7 +2257,7 @@ const albumData = {
     "uri": "spotify:album:2GYmZR5WjBULVsGftcNmoY",
     "title": "The Book of Time (Alternate Dimension Edition)",
     "artist": "Lo Key",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02933dc733cd7e92475da4d994",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273933dc733cd7e92475da4d994",
     "tracksCount": 9,
     "type": "album",
     "isExplicit": false,
@@ -2300,7 +2300,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02933dc733cd7e92475da4d994",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273933dc733cd7e92475da4d994",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -2443,7 +2443,7 @@ const albumData = {
     "uri": "spotify:album:3HkmnG5veATUWIrkVjaI8m",
     "title": "The Book of Time",
     "artist": "Lo Key",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02b66d0d467340ac9417db97d4",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273b66d0d467340ac9417db97d4",
     "tracksCount": 9,
     "type": "album",
     "isExplicit": false,
@@ -2486,7 +2486,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02b66d0d467340ac9417db97d4",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273b66d0d467340ac9417db97d4",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -2629,7 +2629,7 @@ const albumData = {
     "uri": "spotify:album:6Qr8AIKYc1f3jO1VLtNww0",
     "title": "Lets Get Violent",
     "artist": "Lo Key",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0281bf9657c9ebfab970c83c54",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27381bf9657c9ebfab970c83c54",
     "tracksCount": 8,
     "type": "album",
     "isExplicit": false,
@@ -2672,7 +2672,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0281bf9657c9ebfab970c83c54",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27381bf9657c9ebfab970c83c54",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -2818,7 +2818,7 @@ const albumData = {
     "uri": "spotify:album:0ak4VkZvF2bm9Iu9eXOsnE",
     "title": "Chamiliatic Remixes",
     "artist": "Lo Key",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02eb6cbf5830c444def9c09930",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273eb6cbf5830c444def9c09930",
     "tracksCount": 10,
     "type": "album",
     "isExplicit": false,
@@ -2861,7 +2861,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02eb6cbf5830c444def9c09930",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273eb6cbf5830c444def9c09930",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -3017,7 +3017,7 @@ const albumData = {
     "uri": "spotify:album:6eRG9Pj4csG4UDizTPZiUK",
     "title": "American Monster",
     "artist": "Lo Key",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0272544beec29d9aab15bfe9d5",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27372544beec29d9aab15bfe9d5",
     "tracksCount": 7,
     "type": "album",
     "isExplicit": false,
@@ -3060,7 +3060,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0272544beec29d9aab15bfe9d5",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27372544beec29d9aab15bfe9d5",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -3191,7 +3191,7 @@ const albumData = {
     "uri": "spotify:album:6jt5yQsBmCbuiLbm2217FU",
     "title": "ShadowLand",
     "artist": "Lo Key",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02d1eba93c4cab3d34f9aa0c6d",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273d1eba93c4cab3d34f9aa0c6d",
     "tracksCount": 10,
     "type": "album",
     "isExplicit": false,
@@ -3234,7 +3234,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02d1eba93c4cab3d34f9aa0c6d",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273d1eba93c4cab3d34f9aa0c6d",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -3410,7 +3410,7 @@ const albumData = {
     "uri": "spotify:album:5Nhl5uwh14VvwZqNToxmcd",
     "title": "Release 2",
     "artist": "Lo Key",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e021c38b8000c70322857aecf1b",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2731c38b8000c70322857aecf1b",
     "tracksCount": 25,
     "type": "album",
     "isExplicit": false,
@@ -3453,7 +3453,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e021c38b8000c70322857aecf1b",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2731c38b8000c70322857aecf1b",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -3804,7 +3804,7 @@ const albumData = {
     "uri": "spotify:album:0rZ1PXMEP25GPzqUfPOJBO",
     "title": "Chamiliatic",
     "artist": "Lo Key",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e028b9b71b47d8fbe3f3310528e",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2738b9b71b47d8fbe3f3310528e",
     "tracksCount": 10,
     "type": "album",
     "isExplicit": false,
@@ -3847,7 +3847,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e028b9b71b47d8fbe3f3310528e",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2738b9b71b47d8fbe3f3310528e",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -4023,7 +4023,7 @@ const albumData = {
     "uri": "spotify:album:5FhAJizj7O8BuroDzsbhkn",
     "title": "Release!",
     "artist": "Lo Key",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0231ec0c0a216c8b314cbfa3a8",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27331ec0c0a216c8b314cbfa3a8",
     "tracksCount": 15,
     "type": "album",
     "isExplicit": false,
@@ -4066,7 +4066,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0231ec0c0a216c8b314cbfa3a8",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27331ec0c0a216c8b314cbfa3a8",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -4317,7 +4317,7 @@ const albumData = {
     "uri": "spotify:album:4NMUzFjPcCL6bNlssYbn5l",
     "title": "SO-LO",
     "artist": "Lo Key",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02553463059bf655a95076755f",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273553463059bf655a95076755f",
     "tracksCount": 24,
     "type": "album",
     "isExplicit": false,
@@ -4360,7 +4360,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02553463059bf655a95076755f",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273553463059bf655a95076755f",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -4746,7 +4746,7 @@ const albumData = {
     "uri": "spotify:album:05Aos3Pyt0zS2hZ1neqCaO",
     "title": "Jack Yo Beatz Volume 1",
     "artist": "Lo Key",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e020e3860fe2a019e8f495a9597",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2730e3860fe2a019e8f495a9597",
     "tracksCount": 7,
     "type": "album",
     "isExplicit": false,
@@ -4789,7 +4789,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e020e3860fe2a019e8f495a9597",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2730e3860fe2a019e8f495a9597",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -4920,7 +4920,7 @@ const albumData = {
     "uri": "spotify:album:5aq0A8TGeGQUWg0NvOYWv0",
     "title": "$CRIPTKEEPER",
     "artist": "Doc Gruesome",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e029fc389d35c43b51e7a96eec0",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2739fc389d35c43b51e7a96eec0",
     "tracksCount": 17,
     "type": "album",
     "isExplicit": false,
@@ -4963,7 +4963,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e029fc389d35c43b51e7a96eec0",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2739fc389d35c43b51e7a96eec0",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -5244,7 +5244,7 @@ const albumData = {
     "uri": "spotify:album:1JUOl4ys0bO4zonRkOqwX2",
     "title": "2 Late 4 Love Songs",
     "artist": "Doc Gruesome",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02fd20fefd07afce88ff3833dc",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273fd20fefd07afce88ff3833dc",
     "tracksCount": 13,
     "type": "album",
     "isExplicit": false,
@@ -5287,7 +5287,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02fd20fefd07afce88ff3833dc",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273fd20fefd07afce88ff3833dc",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -5508,7 +5508,7 @@ const albumData = {
     "uri": "spotify:album:3L1oJZXHtEDU45iQ9yp1Ul",
     "title": "The Great Mortality",
     "artist": "Doc Gruesome",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02a1e139c55c9d0465d105a38d",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273a1e139c55c9d0465d105a38d",
     "tracksCount": 17,
     "type": "album",
     "isExplicit": false,
@@ -5551,7 +5551,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02a1e139c55c9d0465d105a38d",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273a1e139c55c9d0465d105a38d",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -5832,7 +5832,7 @@ const albumData = {
     "uri": "spotify:album:3cubaKd12QpQxk1F3nlKJ2",
     "title": "The King in Yellow",
     "artist": "Doc Gruesome",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02e6b123faf4399b20fba00083",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273e6b123faf4399b20fba00083",
     "tracksCount": 18,
     "type": "album",
     "isExplicit": false,
@@ -5875,7 +5875,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02e6b123faf4399b20fba00083",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273e6b123faf4399b20fba00083",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -6171,7 +6171,7 @@ const albumData = {
     "uri": "spotify:album:1jcjsSVw3il2vH4NDZXm2t",
     "title": "DEVTH GXWDS",
     "artist": "Odprophet",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0238e52837f005a8177dd5f7e5",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27338e52837f005a8177dd5f7e5",
     "tracksCount": 9,
     "type": "album",
     "isExplicit": false,
@@ -6214,7 +6214,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0238e52837f005a8177dd5f7e5",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27338e52837f005a8177dd5f7e5",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -6375,7 +6375,7 @@ const albumData = {
     "uri": "spotify:album:2blba2gfdloaSkaA1fWCBK",
     "title": "Four Horns",
     "artist": "EJ Prophet",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0287ad4236349b5b05e1b4db72",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27387ad4236349b5b05e1b4db72",
     "tracksCount": 14,
     "type": "album",
     "isExplicit": false,
@@ -6418,7 +6418,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0287ad4236349b5b05e1b4db72",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27387ad4236349b5b05e1b4db72",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -6654,7 +6654,7 @@ const albumData = {
     "uri": "spotify:album:5PSluJmJRAHP4P4KXMpNx3",
     "title": "Self Titled",
     "artist": "Doc Gruesome",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02151d8da8b87fc0752930df3c",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273151d8da8b87fc0752930df3c",
     "tracksCount": 18,
     "type": "album",
     "isExplicit": false,
@@ -6697,7 +6697,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02151d8da8b87fc0752930df3c",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273151d8da8b87fc0752930df3c",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -6993,7 +6993,7 @@ const albumData = {
     "uri": "spotify:album:5iSsvkysEm4sjAWzLZvYBq",
     "title": "VOIDST★R",
     "artist": "Grim Salvo",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0232fdc484f7e59b8e4cfcfad1",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27332fdc484f7e59b8e4cfcfad1",
     "tracksCount": 12,
     "type": "album",
     "isExplicit": false,
@@ -7036,7 +7036,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0232fdc484f7e59b8e4cfcfad1",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27332fdc484f7e59b8e4cfcfad1",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -7242,7 +7242,7 @@ const albumData = {
     "uri": "spotify:album:3jae2GNwWp7557szjtj0ke",
     "title": "MILDRED DECOMPOSED (Instrumental)",
     "artist": "Grim Salvo",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0299b6a354dc54024e2b6d49e4",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27399b6a354dc54024e2b6d49e4",
     "tracksCount": 10,
     "type": "album",
     "isExplicit": false,
@@ -7285,7 +7285,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0299b6a354dc54024e2b6d49e4",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27399b6a354dc54024e2b6d49e4",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -7441,7 +7441,7 @@ const albumData = {
     "uri": "spotify:album:5OBtYdpWmoyEVWPllhrVKj",
     "title": "MILDRED",
     "artist": "Grim Salvo",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e023d9e704bf94a4568d97d42ee",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2733d9e704bf94a4568d97d42ee",
     "tracksCount": 10,
     "type": "album",
     "isExplicit": false,
@@ -7484,7 +7484,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e023d9e704bf94a4568d97d42ee",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2733d9e704bf94a4568d97d42ee",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -7650,7 +7650,7 @@ const albumData = {
     "uri": "spotify:album:0XPZj7cckuT6tQ0BQeSfYI",
     "title": "GODHAND VOLUME 3",
     "artist": "GODHANDUSA",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02af80e3866ae92ddbec911d4f",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273af80e3866ae92ddbec911d4f",
     "tracksCount": 14,
     "type": "album",
     "isExplicit": false,
@@ -7693,7 +7693,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02af80e3866ae92ddbec911d4f",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273af80e3866ae92ddbec911d4f",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -7929,7 +7929,7 @@ const albumData = {
     "uri": "spotify:album:2PKM1ic0L8LyhrkwMa4Tom",
     "title": "IGNORANCE IS BLISS (THE MIXTAPE)",
     "artist": "GODHANDUSA",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e023bc0284359f9f2118d7adcb7",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2733bc0284359f9f2118d7adcb7",
     "tracksCount": 10,
     "type": "album",
     "isExplicit": false,
@@ -7972,7 +7972,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e023bc0284359f9f2118d7adcb7",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2733bc0284359f9f2118d7adcb7",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -8148,7 +8148,7 @@ const albumData = {
     "uri": "spotify:album:0AxuZuHTIPO0tcJ3xjnWjl",
     "title": "GODHAND VOLUME 2: THE WORLD IS A LIVING HELL",
     "artist": "GODHANDUSA",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e021a59407cfac625d25f7d07e3",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2731a59407cfac625d25f7d07e3",
     "tracksCount": 20,
     "type": "album",
     "isExplicit": false,
@@ -8191,7 +8191,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e021a59407cfac625d25f7d07e3",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2731a59407cfac625d25f7d07e3",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -8517,7 +8517,7 @@ const albumData = {
     "uri": "spotify:album:0Wvhhn3mHQaBeS9a3M77dX",
     "title": "GODHAND VOLUME 2",
     "artist": "GODHANDUSA",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02f40eb5d3e4262739e1cfb5b2",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273f40eb5d3e4262739e1cfb5b2",
     "tracksCount": 15,
     "type": "album",
     "isExplicit": false,
@@ -8560,7 +8560,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02f40eb5d3e4262739e1cfb5b2",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273f40eb5d3e4262739e1cfb5b2",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -8811,7 +8811,7 @@ const albumData = {
     "uri": "spotify:album:1sAr7ylbTfTyPnNT17ZwZI",
     "title": "GODHAND VOLUME 1",
     "artist": "GODHANDUSA",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02421b9ef5d002063edc4e1c2a",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273421b9ef5d002063edc4e1c2a",
     "tracksCount": 14,
     "type": "album",
     "isExplicit": false,
@@ -8854,7 +8854,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02421b9ef5d002063edc4e1c2a",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273421b9ef5d002063edc4e1c2a",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -9090,7 +9090,7 @@ const albumData = {
     "uri": "spotify:album:7CW4FfVZu66BPrBrq5buza",
     "title": "GODHAND VOLUME 0",
     "artist": "GODHANDUSA",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e021217237ef3d5aae918fa76dd",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2731217237ef3d5aae918fa76dd",
     "tracksCount": 10,
     "type": "album",
     "isExplicit": false,
@@ -9133,7 +9133,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e021217237ef3d5aae918fa76dd",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2731217237ef3d5aae918fa76dd",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -9309,7 +9309,7 @@ const albumData = {
     "uri": "spotify:album:5gQKJ9Pp5JZwTVTJn0BH5e",
     "title": "The Bastard Son",
     "artist": "Somethin Outta Nothin",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02ce5c581fa1b2ea98ab59b65d",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273ce5c581fa1b2ea98ab59b65d",
     "tracksCount": 15,
     "type": "album",
     "isExplicit": false,
@@ -9352,7 +9352,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02ce5c581fa1b2ea98ab59b65d",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273ce5c581fa1b2ea98ab59b65d",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -9591,7 +9591,7 @@ const albumData = {
     "uri": "spotify:album:6IOEnuQXPIEvsQEbakPDrg",
     "title": "Grant Us Eyes",
     "artist": "Somethin Outta Nothin",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02fdb4757bdc503ef04674e1f5",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273fdb4757bdc503ef04674e1f5",
     "tracksCount": 15,
     "type": "album",
     "isExplicit": false,
@@ -9634,7 +9634,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02fdb4757bdc503ef04674e1f5",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273fdb4757bdc503ef04674e1f5",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -9873,7 +9873,7 @@ const albumData = {
     "uri": "spotify:album:2L5UXxpRR0au82NbHDtxuT",
     "title": "ACT HUMAN, not god",
     "artist": "Kill Dyll",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02b8207d80915fafcbcdeb7692",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273b8207d80915fafcbcdeb7692",
     "tracksCount": 8,
     "type": "album",
     "isExplicit": false,
@@ -9916,7 +9916,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02b8207d80915fafcbcdeb7692",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273b8207d80915fafcbcdeb7692",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -10050,7 +10050,7 @@ const albumData = {
     "uri": "spotify:album:4xACBGqzOhJ8A0YJzqAvEn",
     "title": "BRAINDEAD",
     "artist": "Kill Dyll",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e025ae71c81729544aff763be2b",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2735ae71c81729544aff763be2b",
     "tracksCount": 13,
     "type": "album",
     "isExplicit": false,
@@ -10093,7 +10093,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e025ae71c81729544aff763be2b",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2735ae71c81729544aff763be2b",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -10310,7 +10310,7 @@ const albumData = {
     "uri": "spotify:album:0i2YrxbwlJb3eUzvSVqSXI",
     "title": "BURNOUT",
     "artist": "LuLuYam",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e022be643fae17717d216358db4",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2732be643fae17717d216358db4",
     "tracksCount": 6,
     "type": "album",
     "isExplicit": false,
@@ -10353,7 +10353,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e022be643fae17717d216358db4",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2732be643fae17717d216358db4",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -10463,7 +10463,7 @@ const albumData = {
     "uri": "spotify:album:57juRrWQFS24QXtRNcQN4f",
     "title": "Rent A Friend",
     "artist": "Klokwerk E",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e025d20697c7178da340c7cba9b",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2735d20697c7178da340c7cba9b",
     "tracksCount": 8,
     "type": "album",
     "isExplicit": false,
@@ -10506,7 +10506,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e025d20697c7178da340c7cba9b",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2735d20697c7178da340c7cba9b",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -10652,7 +10652,7 @@ const albumData = {
     "uri": "spotify:album:7dsmX0EMNXim5EMwC5BuIB",
     "title": "Bukkake Mukbang Extravaganza",
     "artist": "Klokwerk E",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02d7405c675a3fc2688d79576f",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273d7405c675a3fc2688d79576f",
     "tracksCount": 9,
     "type": "album",
     "isExplicit": false,
@@ -10695,7 +10695,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02d7405c675a3fc2688d79576f",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273d7405c675a3fc2688d79576f",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -10856,7 +10856,7 @@ const albumData = {
     "uri": "spotify:album:5PWECdOnou8X3kVbC78iCh",
     "title": "Anubis",
     "artist": "Klokwerk E",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e028fc18672d67808c3ba58ad4f",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2738fc18672d67808c3ba58ad4f",
     "tracksCount": 16,
     "type": "album",
     "isExplicit": false,
@@ -10899,7 +10899,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e028fc18672d67808c3ba58ad4f",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2738fc18672d67808c3ba58ad4f",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -11165,7 +11165,7 @@ const albumData = {
     "uri": "spotify:album:25HM5S9LjuGxuGhVi5a9U9",
     "title": "Will Boof 4 Rent",
     "artist": "Klokwerk E",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e023ee93515011bdd751ce019ad",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2733ee93515011bdd751ce019ad",
     "tracksCount": 7,
     "type": "album",
     "isExplicit": false,
@@ -11208,7 +11208,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e023ee93515011bdd751ce019ad",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2733ee93515011bdd751ce019ad",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -11339,7 +11339,7 @@ const albumData = {
     "uri": "spotify:album:3VHV4aX2FkesuiNIbd09uQ",
     "title": "The Emerald Tablets",
     "artist": "Klokwerk E",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02d9b54992a7677222ab3b36d3",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273d9b54992a7677222ab3b36d3",
     "tracksCount": 12,
     "type": "album",
     "isExplicit": false,
@@ -11382,7 +11382,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02d9b54992a7677222ab3b36d3",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273d9b54992a7677222ab3b36d3",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -11588,7 +11588,7 @@ const albumData = {
     "uri": "spotify:album:3bOQee5U3riUBMIRC8rvy0",
     "title": "State of Decay",
     "artist": "Blood of the Beloved",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02d4fc225894b72078e3e2f97e",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273d4fc225894b72078e3e2f97e",
     "tracksCount": 10,
     "type": "album",
     "isExplicit": false,
@@ -11631,7 +11631,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02d4fc225894b72078e3e2f97e",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273d4fc225894b72078e3e2f97e",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -11797,7 +11797,7 @@ const albumData = {
     "uri": "spotify:album:4LrAv3rKELg7vJpBcOAgDi",
     "title": "Advocatus Diaboli (DeadMaster)",
     "artist": "Blood of the Beloved",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e024f2677d257c39ad6712203d9",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2734f2677d257c39ad6712203d9",
     "tracksCount": 16,
     "type": "album",
     "isExplicit": false,
@@ -11840,7 +11840,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e024f2677d257c39ad6712203d9",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2734f2677d257c39ad6712203d9",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -12098,7 +12098,7 @@ const albumData = {
     "uri": "spotify:album:7HBvZsMl1myghoqVY0xYBI",
     "title": "Benevolence and Brutality",
     "artist": "Blood of the Beloved",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02fbbc171d5287ad33d80aa43f",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273fbbc171d5287ad33d80aa43f",
     "tracksCount": 7,
     "type": "album",
     "isExplicit": false,
@@ -12141,7 +12141,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02fbbc171d5287ad33d80aa43f",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273fbbc171d5287ad33d80aa43f",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -12272,7 +12272,7 @@ const albumData = {
     "uri": "spotify:album:6uXRVaXBnIe1w1H3XaWxEu",
     "title": "Dystopia: Orphaned World",
     "artist": "Blood of the Beloved",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e027c68e2e558d8582cf158464f",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2737c68e2e558d8582cf158464f",
     "tracksCount": 7,
     "type": "album",
     "isExplicit": false,
@@ -12315,7 +12315,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e027c68e2e558d8582cf158464f",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2737c68e2e558d8582cf158464f",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -12446,7 +12446,7 @@ const albumData = {
     "uri": "spotify:album:2eCRJJY5jeWPedpps6EoWu",
     "title": "Advocatus Diaboli",
     "artist": "Blood of the Beloved",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02c4730113f795fc54373ccf30",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273c4730113f795fc54373ccf30",
     "tracksCount": 16,
     "type": "album",
     "isExplicit": false,
@@ -12489,7 +12489,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02c4730113f795fc54373ccf30",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273c4730113f795fc54373ccf30",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -12747,7 +12747,7 @@ const albumData = {
     "uri": "spotify:album:3of56j2BnYbsNkg1VUpaRy",
     "title": "Circling Terror",
     "artist": "KAMAARA",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02e2b366b84f9014f1f040cf1a",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273e2b366b84f9014f1f040cf1a",
     "tracksCount": 8,
     "type": "album",
     "isExplicit": false,
@@ -12790,7 +12790,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02e2b366b84f9014f1f040cf1a",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273e2b366b84f9014f1f040cf1a",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -12936,7 +12936,7 @@ const albumData = {
     "uri": "spotify:album:3lKy1Ddnt6Jov2ALre3Cao",
     "title": "in my restless dreams, i see you",
     "artist": "Savage Ga$p",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02ff57977e773d6c47b9bc7ef9",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273ff57977e773d6c47b9bc7ef9",
     "tracksCount": 8,
     "type": "album",
     "isExplicit": false,
@@ -12979,7 +12979,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02ff57977e773d6c47b9bc7ef9",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273ff57977e773d6c47b9bc7ef9",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -13125,7 +13125,7 @@ const albumData = {
     "uri": "spotify:album:0Vfy5ukBUXEVzArLDIE8Ye",
     "title": "TrenchBoy||",
     "artist": "KAMAARA",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0246510c76dd2cffc9dfc86e5e",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27346510c76dd2cffc9dfc86e5e",
     "tracksCount": 13,
     "type": "album",
     "isExplicit": false,
@@ -13168,7 +13168,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0246510c76dd2cffc9dfc86e5e",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27346510c76dd2cffc9dfc86e5e",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -13389,7 +13389,7 @@ const albumData = {
     "uri": "spotify:album:6mfq6WTN6KbkQADZGGPDL5",
     "title": "Cowboy Cutie",
     "artist": "KAMAARA",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e025f133de54de5927810425784",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2735f133de54de5927810425784",
     "tracksCount": 13,
     "type": "album",
     "isExplicit": false,
@@ -13432,7 +13432,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e025f133de54de5927810425784",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2735f133de54de5927810425784",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -13653,7 +13653,7 @@ const albumData = {
     "uri": "spotify:album:5SRhjLtuq84q8wLvSazmpS",
     "title": "Next Time You See Me I'll Be Dead on Your Doorstep",
     "artist": "KAMAARA",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e027f9420a19859b23cc6690011",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2737f9420a19859b23cc6690011",
     "tracksCount": 11,
     "type": "album",
     "isExplicit": false,
@@ -13696,7 +13696,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e027f9420a19859b23cc6690011",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2737f9420a19859b23cc6690011",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -13887,7 +13887,7 @@ const albumData = {
     "uri": "spotify:album:2n90ugazhgrJYNwgKCSp5B",
     "title": "GHOSTLANDS",
     "artist": "Witchouse 40k",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02bcc63417c53ed6c1eac2d591",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273bcc63417c53ed6c1eac2d591",
     "tracksCount": 10,
     "type": "album",
     "isExplicit": false,
@@ -13930,7 +13930,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02bcc63417c53ed6c1eac2d591",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273bcc63417c53ed6c1eac2d591",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -14100,7 +14100,7 @@ const albumData = {
     "uri": "spotify:album:6gGlDgErEuvdbkzLYZWBaE",
     "title": "The Distortion That Creates Them",
     "artist": "Istasha",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02d29620b4eb2a373a8ae19f8c",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273d29620b4eb2a373a8ae19f8c",
     "tracksCount": 10,
     "type": "album",
     "isExplicit": false,
@@ -14143,7 +14143,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02d29620b4eb2a373a8ae19f8c",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273d29620b4eb2a373a8ae19f8c",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -14319,7 +14319,7 @@ const albumData = {
     "uri": "spotify:album:1HzoO0rTvuZFVMxHY3JK27",
     "title": "Swallowing Centipedes",
     "artist": "Istasha",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0258037e08d6dceb11615e0614",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27358037e08d6dceb11615e0614",
     "tracksCount": 10,
     "type": "album",
     "isExplicit": false,
@@ -14362,7 +14362,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0258037e08d6dceb11615e0614",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27358037e08d6dceb11615e0614",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -14538,7 +14538,7 @@ const albumData = {
     "uri": "spotify:album:5O2RH0uuR3GMPz1WkIprNv",
     "title": "Djuphavsgraven",
     "artist": "Istasha",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e026e5d5bf438de439e13dff52c",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2736e5d5bf438de439e13dff52c",
     "tracksCount": 11,
     "type": "album",
     "isExplicit": false,
@@ -14581,7 +14581,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e026e5d5bf438de439e13dff52c",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2736e5d5bf438de439e13dff52c",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -14768,7 +14768,7 @@ const albumData = {
     "uri": "spotify:album:5VyaWlfC6avaMJhNeQnKn5",
     "title": "Haute Couture / Red Light District",
     "artist": "Istasha",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e028df302010653187b7ee68eb4",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2738df302010653187b7ee68eb4",
     "tracksCount": 12,
     "type": "album",
     "isExplicit": false,
@@ -14811,7 +14811,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e028df302010653187b7ee68eb4",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2738df302010653187b7ee68eb4",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -15013,7 +15013,7 @@ const albumData = {
     "uri": "spotify:album:6xIT6dGlBmQTAKhKgAkrRC",
     "title": "Down the Infinite Well",
     "artist": "Istasha",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02501a00cbcf6771fe9d9300c6",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273501a00cbcf6771fe9d9300c6",
     "tracksCount": 8,
     "type": "album",
     "isExplicit": false,
@@ -15056,7 +15056,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02501a00cbcf6771fe9d9300c6",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273501a00cbcf6771fe9d9300c6",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -15202,7 +15202,7 @@ const albumData = {
     "uri": "spotify:album:4lx3fQXW63THfBWd7sykQ3",
     "title": "Scrub Tape",
     "artist": "Istasha",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02d2af8f245ece5d2bcec3acdd",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273d2af8f245ece5d2bcec3acdd",
     "tracksCount": 7,
     "type": "album",
     "isExplicit": false,
@@ -15245,7 +15245,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02d2af8f245ece5d2bcec3acdd",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273d2af8f245ece5d2bcec3acdd",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -15376,7 +15376,7 @@ const albumData = {
     "uri": "spotify:album:35Mk9i727TtXV8hxt1EDWg",
     "title": "NO MASTERS",
     "artist": "Alla Xul Elu",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0280bc3129aebcdcc11c776120",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27380bc3129aebcdcc11c776120",
     "tracksCount": 19,
     "type": "album",
     "isExplicit": false,
@@ -15419,7 +15419,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0280bc3129aebcdcc11c776120",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27380bc3129aebcdcc11c776120",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -15730,7 +15730,7 @@ const albumData = {
     "uri": "spotify:album:5B8VDpyIrQrBtt8eyaezUq",
     "title": "Gods of Evil Rise",
     "artist": "Alla Xul Elu",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0241bd111e2d758d5429339b28",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27341bd111e2d758d5429339b28",
     "tracksCount": 15,
     "type": "album",
     "isExplicit": false,
@@ -15773,7 +15773,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0241bd111e2d758d5429339b28",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27341bd111e2d758d5429339b28",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -16024,7 +16024,7 @@ const albumData = {
     "uri": "spotify:album:0pXXDy8VCpGdyOIYT7OU0r",
     "title": "Lost Lake Estates",
     "artist": "Alla Xul Elu",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02abda366dad36203db4058735",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273abda366dad36203db4058735",
     "tracksCount": 17,
     "type": "album",
     "isExplicit": false,
@@ -16067,7 +16067,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02abda366dad36203db4058735",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273abda366dad36203db4058735",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -16348,7 +16348,7 @@ const albumData = {
     "uri": "spotify:album:2VGBOXewJwckHS2scvmWPG",
     "title": "Necronomichron 2: Dead By Bong",
     "artist": "Alla Xul Elu",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02d765cd12474e4d20520c09be",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273d765cd12474e4d20520c09be",
     "tracksCount": 13,
     "type": "album",
     "isExplicit": false,
@@ -16391,7 +16391,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02d765cd12474e4d20520c09be",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273d765cd12474e4d20520c09be",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -16612,7 +16612,7 @@ const albumData = {
     "uri": "spotify:album:1LJ1sb84K84TBvW9SVX5G8",
     "title": "Mauxuleum",
     "artist": "Alla Xul Elu",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e022be3576fe964b6877914ef0a",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2732be3576fe964b6877914ef0a",
     "tracksCount": 13,
     "type": "album",
     "isExplicit": false,
@@ -16655,7 +16655,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e022be3576fe964b6877914ef0a",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2732be3576fe964b6877914ef0a",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -16876,7 +16876,7 @@ const albumData = {
     "uri": "spotify:album:2VZsxwj7m0bpaHULUkJtOU",
     "title": "Church of Xul",
     "artist": "Alla Xul Elu",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e026acf6e6301a0caa8ea7c0d7d",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2736acf6e6301a0caa8ea7c0d7d",
     "tracksCount": 7,
     "type": "album",
     "isExplicit": false,
@@ -16919,7 +16919,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e026acf6e6301a0caa8ea7c0d7d",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2736acf6e6301a0caa8ea7c0d7d",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -17050,7 +17050,7 @@ const albumData = {
     "uri": "spotify:album:4Pc8nnAU0gMuZlLQ3eanpR",
     "title": "The Almighty",
     "artist": "Alla Xul Elu",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0277aabbb536b56e671be602cf",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27377aabbb536b56e671be602cf",
     "tracksCount": 20,
     "type": "album",
     "isExplicit": false,
@@ -17093,7 +17093,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0277aabbb536b56e671be602cf",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27377aabbb536b56e671be602cf",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -17419,7 +17419,7 @@ const albumData = {
     "uri": "spotify:album:287ewtMjm3BrL6we2FyVWf",
     "title": "Necronomichron",
     "artist": "Alla Xul Elu",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e020ac21d2b7530793308f9bad5",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2730ac21d2b7530793308f9bad5",
     "tracksCount": 9,
     "type": "album",
     "isExplicit": false,
@@ -17462,7 +17462,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e020ac21d2b7530793308f9bad5",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2730ac21d2b7530793308f9bad5",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -17623,7 +17623,7 @@ const albumData = {
     "uri": "spotify:album:0BaUzfEXFI5DKMDxP0utli",
     "title": "Sci Co, Vol. 1",
     "artist": "Alla Xul Elu",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02e6b038212cb8b643c92f4cb6",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273e6b038212cb8b643c92f4cb6",
     "tracksCount": 21,
     "type": "album",
     "isExplicit": false,
@@ -17666,7 +17666,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02e6b038212cb8b643c92f4cb6",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273e6b038212cb8b643c92f4cb6",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -18007,7 +18007,7 @@ const albumData = {
     "uri": "spotify:album:4SXJUzAIf92r350TYT2nzQ",
     "title": "Head of Horns",
     "artist": "Alla Xul Elu",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0248d25cb9cc075115a36e292e",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27348d25cb9cc075115a36e292e",
     "tracksCount": 14,
     "type": "album",
     "isExplicit": false,
@@ -18050,7 +18050,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0248d25cb9cc075115a36e292e",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27348d25cb9cc075115a36e292e",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -18286,7 +18286,7 @@ const albumData = {
     "uri": "spotify:album:2tRtRaXxmi3xJVKBWVZoBD",
     "title": "001",
     "artist": "Neon Sermon",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02ed55dbba54a30a9f97b3fed4",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273ed55dbba54a30a9f97b3fed4",
     "tracksCount": 8,
     "type": "album",
     "isExplicit": false,
@@ -18329,7 +18329,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02ed55dbba54a30a9f97b3fed4",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273ed55dbba54a30a9f97b3fed4",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -18475,7 +18475,7 @@ const albumData = {
     "uri": "spotify:album:0tGAwqNwlgYb1AaZQd8hqg",
     "title": "Fall From Grace",
     "artist": "BatiBatt",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02e24c8a4bab7fa1e09f5c93f5",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273e24c8a4bab7fa1e09f5c93f5",
     "tracksCount": 8,
     "type": "album",
     "isExplicit": false,
@@ -18518,7 +18518,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02e24c8a4bab7fa1e09f5c93f5",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273e24c8a4bab7fa1e09f5c93f5",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -18648,7 +18648,7 @@ const albumData = {
     "uri": "spotify:album:5Uh4tlrunkEKQ04WXue7Ou",
     "title": "Virago",
     "artist": "BatiBatt",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02505607bb629eab843eeed581",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273505607bb629eab843eeed581",
     "tracksCount": 8,
     "type": "album",
     "isExplicit": false,
@@ -18691,7 +18691,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02505607bb629eab843eeed581",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273505607bb629eab843eeed581",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -18821,7 +18821,7 @@ const albumData = {
     "uri": "spotify:album:7KJtjq7YfLI4kACOIdcHaW",
     "title": "Hell Hill",
     "artist": "Elita",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02392382dddd166d238025ac1f",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273392382dddd166d238025ac1f",
     "tracksCount": 13,
     "type": "album",
     "isExplicit": false,
@@ -18864,7 +18864,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02392382dddd166d238025ac1f",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273392382dddd166d238025ac1f",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -19067,7 +19067,7 @@ const albumData = {
     "uri": "spotify:album:31fM7MbZkDMt1zn51QJ9ap",
     "title": "Dysania",
     "artist": "Elita",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e028d1f764df92a5c1dd249abda",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2738d1f764df92a5c1dd249abda",
     "tracksCount": 11,
     "type": "album",
     "isExplicit": false,
@@ -19110,7 +19110,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e028d1f764df92a5c1dd249abda",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2738d1f764df92a5c1dd249abda",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -19289,7 +19289,7 @@ const albumData = {
     "uri": "spotify:album:5Hnlxca2tKpaW6Q9lTaZO8",
     "title": "Eclipse",
     "artist": "moonvampire",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e024cb2f30f83cf714a34b1827f",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2734cb2f30f83cf714a34b1827f",
     "tracksCount": 7,
     "type": "album",
     "isExplicit": false,
@@ -19332,7 +19332,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e024cb2f30f83cf714a34b1827f",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2734cb2f30f83cf714a34b1827f",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -19451,7 +19451,7 @@ const albumData = {
     "uri": "spotify:album:0xUE98VHRPcg4OvFv2EwHM",
     "title": "situationshipcore",
     "artist": "moonvampire",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e029e270952c1311b7af0dafd02",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2739e270952c1311b7af0dafd02",
     "tracksCount": 7,
     "type": "album",
     "isExplicit": false,
@@ -19494,7 +19494,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e029e270952c1311b7af0dafd02",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2739e270952c1311b7af0dafd02",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -19613,7 +19613,7 @@ const albumData = {
     "uri": "spotify:album:0MDvWsOneowZlFjWit4mbH",
     "title": "XXV",
     "artist": "moonvampire",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e021f27d46bba66dbd02692b06a",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2731f27d46bba66dbd02692b06a",
     "tracksCount": 8,
     "type": "album",
     "isExplicit": false,
@@ -19656,7 +19656,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e021f27d46bba66dbd02692b06a",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2731f27d46bba66dbd02692b06a",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -19788,7 +19788,7 @@ const albumData = {
     "uri": "spotify:album:4JcTM0i8Sbrw4H43yN1ngh",
     "title": "Bogema",
     "artist": "moonvampire",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02bbc3486c9bec5f4c7893e77e",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273bbc3486c9bec5f4c7893e77e",
     "tracksCount": 10,
     "type": "album",
     "isExplicit": false,
@@ -19831,7 +19831,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02bbc3486c9bec5f4c7893e77e",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273bbc3486c9bec5f4c7893e77e",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -19987,7 +19987,7 @@ const albumData = {
     "uri": "spotify:album:4nX7aNRxdsFWhr3tbTMphD",
     "title": "Black Canyon City",
     "artist": "MOSSBACK",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02403c54eaa8e6c3eb3e31c78f",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273403c54eaa8e6c3eb3e31c78f",
     "tracksCount": 14,
     "type": "album",
     "isExplicit": false,
@@ -20030,7 +20030,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02403c54eaa8e6c3eb3e31c78f",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273403c54eaa8e6c3eb3e31c78f",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -20238,7 +20238,7 @@ const albumData = {
     "uri": "spotify:album:7BRGKpnbl43wFOxFCFVZfX",
     "title": "Skinwalker Social Club",
     "artist": "MOSSBACK",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e020c4b62ed2dbc5bb71a983f2b",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2730c4b62ed2dbc5bb71a983f2b",
     "tracksCount": 8,
     "type": "album",
     "isExplicit": false,
@@ -20281,7 +20281,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e020c4b62ed2dbc5bb71a983f2b",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2730c4b62ed2dbc5bb71a983f2b",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -20413,7 +20413,7 @@ const albumData = {
     "uri": "spotify:album:5jETWden01jtholLQbwyuC",
     "title": "Broken Garden",
     "artist": "Lo Key",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0281abe80cbf8b919d574ba06a",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27381abe80cbf8b919d574ba06a",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -20456,7 +20456,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0281abe80cbf8b919d574ba06a",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27381abe80cbf8b919d574ba06a",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -20495,7 +20495,7 @@ const albumData = {
     "uri": "spotify:album:1ds732vdeIMrOTDXWVnwE5",
     "title": "Bullets & Spraypaint",
     "artist": "Lo Key",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02a7f2f3b6ad214ecbc7f238c6",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273a7f2f3b6ad214ecbc7f238c6",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -20538,7 +20538,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02a7f2f3b6ad214ecbc7f238c6",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273a7f2f3b6ad214ecbc7f238c6",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -20579,7 +20579,7 @@ const albumData = {
     "uri": "spotify:album:0jb5FOrMGRT2KxlbFifwFG",
     "title": "AlkaRythm",
     "artist": "Lo Key",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02c36db846fcc43972a3cfcbc5",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273c36db846fcc43972a3cfcbc5",
     "tracksCount": 5,
     "type": "album",
     "isExplicit": false,
@@ -20622,7 +20622,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02c36db846fcc43972a3cfcbc5",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273c36db846fcc43972a3cfcbc5",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -20713,7 +20713,7 @@ const albumData = {
     "uri": "spotify:album:2QRr0OYXNscHKjYg3C1dyL",
     "title": "The Ones Who Are Left",
     "artist": "Lo Key",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0212f932d4fd56a627bff92c15",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27312f932d4fd56a627bff92c15",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -20756,7 +20756,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0212f932d4fd56a627bff92c15",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27312f932d4fd56a627bff92c15",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -20795,7 +20795,7 @@ const albumData = {
     "uri": "spotify:album:7LVvCjQywCrYaZGtnlsbta",
     "title": "Digital Ritual",
     "artist": "Lo Key",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e022481f24a7eb173355b99ef98",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2732481f24a7eb173355b99ef98",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -20838,7 +20838,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e022481f24a7eb173355b99ef98",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2732481f24a7eb173355b99ef98",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -20877,7 +20877,7 @@ const albumData = {
     "uri": "spotify:album:3wHyHoL1WUfSA4rMq4YmkQ",
     "title": "The Machine",
     "artist": "Lo Key",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0237fdfb41cbc615327e8b3a37",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27337fdfb41cbc615327e8b3a37",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -20920,7 +20920,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0237fdfb41cbc615327e8b3a37",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27337fdfb41cbc615327e8b3a37",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -20959,7 +20959,7 @@ const albumData = {
     "uri": "spotify:album:1oGAc0AjZxUCaWn8ybyNT0",
     "title": "LXVE",
     "artist": "Lo Key",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02114a15d623b0d1057efdf70c",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273114a15d623b0d1057efdf70c",
     "tracksCount": 5,
     "type": "album",
     "isExplicit": false,
@@ -21002,7 +21002,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02114a15d623b0d1057efdf70c",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273114a15d623b0d1057efdf70c",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -21103,7 +21103,7 @@ const albumData = {
     "uri": "spotify:album:2djb6nctQpleS2arcmUctN",
     "title": "American Monster (Remix)",
     "artist": "Lo Key",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02619692f8866f3bab89c3aa33",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273619692f8866f3bab89c3aa33",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -21146,7 +21146,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02619692f8866f3bab89c3aa33",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273619692f8866f3bab89c3aa33",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -21187,7 +21187,7 @@ const albumData = {
     "uri": "spotify:album:51QozhAptdwz7DrY8572FY",
     "title": "The Devil Tree (Dreamwalker Mix)",
     "artist": "Lo Key",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e020a2bbb50488c40ede019f9a7",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2730a2bbb50488c40ede019f9a7",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -21230,7 +21230,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e020a2bbb50488c40ede019f9a7",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2730a2bbb50488c40ede019f9a7",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -21269,7 +21269,7 @@ const albumData = {
     "uri": "spotify:album:1cGAIwTY7iipzLGgNthOxJ",
     "title": "Hole In The Sky (Pulse Mix)",
     "artist": "Lo Key",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02bdba39b4cf679c83d0442b8a",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273bdba39b4cf679c83d0442b8a",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -21312,7 +21312,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02bdba39b4cf679c83d0442b8a",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273bdba39b4cf679c83d0442b8a",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -21351,7 +21351,7 @@ const albumData = {
     "uri": "spotify:album:6oRR14EYIKjSCrpWlwj3u3",
     "title": "Portraits of Horror",
     "artist": "Lo Key",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02448ffaef40b0acd37c85e77c",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273448ffaef40b0acd37c85e77c",
     "tracksCount": 6,
     "type": "album",
     "isExplicit": false,
@@ -21394,7 +21394,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02448ffaef40b0acd37c85e77c",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273448ffaef40b0acd37c85e77c",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -21510,7 +21510,7 @@ const albumData = {
     "uri": "spotify:album:3pTiQkUoNUVLwRaL9TWetH",
     "title": "OMWTKYB",
     "artist": "Lo Key",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02ed45adf0d0a328425e1487ce",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273ed45adf0d0a328425e1487ce",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -21553,7 +21553,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02ed45adf0d0a328425e1487ce",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273ed45adf0d0a328425e1487ce",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -21594,7 +21594,7 @@ const albumData = {
     "uri": "spotify:album:3Am8KaV1Lab3H4szg1t0QD",
     "title": "Parasitic",
     "artist": "Lo Key",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02c469d919447d7097991f9374",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273c469d919447d7097991f9374",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -21637,7 +21637,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02c469d919447d7097991f9374",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273c469d919447d7097991f9374",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -21678,7 +21678,7 @@ const albumData = {
     "uri": "spotify:album:6cfK4X81Yh9nmWI8y06NUr",
     "title": "Remote Control",
     "artist": "Lo Key",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e022fa43036fbc52c3988e92859",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2732fa43036fbc52c3988e92859",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -21721,7 +21721,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e022fa43036fbc52c3988e92859",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2732fa43036fbc52c3988e92859",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -21762,7 +21762,7 @@ const albumData = {
     "uri": "spotify:album:03oClSoVns6EpsK8CW9tG5",
     "title": "The Box",
     "artist": "Lo Key",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02c88f08633d3a17501426ddc9",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273c88f08633d3a17501426ddc9",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -21805,7 +21805,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02c88f08633d3a17501426ddc9",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273c88f08633d3a17501426ddc9",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -21846,7 +21846,7 @@ const albumData = {
     "uri": "spotify:album:7a4ftmG3YUTlQHDHHQWgRo",
     "title": "You're My Everything",
     "artist": "Lo Key",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02a70e8ddc78a0559cb3215e48",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273a70e8ddc78a0559cb3215e48",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -21889,7 +21889,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02a70e8ddc78a0559cb3215e48",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273a70e8ddc78a0559cb3215e48",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -21930,7 +21930,7 @@ const albumData = {
     "uri": "spotify:album:7vJvsyUD4Sj5eWBM2LWqm1",
     "title": "Burn The Witch",
     "artist": "Lo Key",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e023230385ca8fc2ba96cd1df8f",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2733230385ca8fc2ba96cd1df8f",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -21973,7 +21973,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e023230385ca8fc2ba96cd1df8f",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2733230385ca8fc2ba96cd1df8f",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -22014,7 +22014,7 @@ const albumData = {
     "uri": "spotify:album:4lIhWriQ8MjyFphVzj1XcV",
     "title": "VILLAINOUS",
     "artist": "Lo Key",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02ec20f165b471bcdcac61422a",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273ec20f165b471bcdcac61422a",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -22057,7 +22057,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02ec20f165b471bcdcac61422a",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273ec20f165b471bcdcac61422a",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -22098,7 +22098,7 @@ const albumData = {
     "uri": "spotify:album:0Er1zUj2CXxCH2Wi4LzLSG",
     "title": "UNBREAKXBLE",
     "artist": "Lo Key",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02e5e76658d222727280284623",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273e5e76658d222727280284623",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -22141,7 +22141,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02e5e76658d222727280284623",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273e5e76658d222727280284623",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -22182,7 +22182,7 @@ const albumData = {
     "uri": "spotify:album:0LFHHV1kmVEfrxvVFp8fXa",
     "title": "DXMINATE",
     "artist": "Lo Key",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02299edc7852815771a40ead4d",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273299edc7852815771a40ead4d",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -22225,7 +22225,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02299edc7852815771a40ead4d",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273299edc7852815771a40ead4d",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -22266,7 +22266,7 @@ const albumData = {
     "uri": "spotify:album:0MQJFWzIqMffnXg2GxKrpC",
     "title": "Blood Rush",
     "artist": "Lo Key",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02f3e2aeab1b1ebe6dca7494ce",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273f3e2aeab1b1ebe6dca7494ce",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -22309,7 +22309,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02f3e2aeab1b1ebe6dca7494ce",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273f3e2aeab1b1ebe6dca7494ce",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -22350,7 +22350,7 @@ const albumData = {
     "uri": "spotify:album:2DaQBaPWFcnmaaWZjZAPEg",
     "title": "Jack Yo Beatz, Vol. 4",
     "artist": "Lo Key",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0207b0436a87b6522cb4d9fd0a",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27307b0436a87b6522cb4d9fd0a",
     "tracksCount": 5,
     "type": "album",
     "isExplicit": false,
@@ -22393,7 +22393,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0207b0436a87b6522cb4d9fd0a",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27307b0436a87b6522cb4d9fd0a",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -22494,7 +22494,7 @@ const albumData = {
     "uri": "spotify:album:1GjUeW517s1aXQRFY6MzI3",
     "title": "Candycorn & Coversongs",
     "artist": "Lo Key",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e025e68367e8dd559d2a84d6ec7",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2735e68367e8dd559d2a84d6ec7",
     "tracksCount": 6,
     "type": "album",
     "isExplicit": false,
@@ -22537,7 +22537,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e025e68367e8dd559d2a84d6ec7",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2735e68367e8dd559d2a84d6ec7",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -22645,7 +22645,7 @@ const albumData = {
     "uri": "spotify:album:6s1MIeN70bj2RmVI33BubC",
     "title": "Demon Days",
     "artist": "Lo Key",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02250929b2e1ac611c150ff97a",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273250929b2e1ac611c150ff97a",
     "tracksCount": 5,
     "type": "album",
     "isExplicit": false,
@@ -22688,7 +22688,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02250929b2e1ac611c150ff97a",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273250929b2e1ac611c150ff97a",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -22787,7 +22787,7 @@ const albumData = {
     "uri": "spotify:album:3eoeq5Z3tiCjaOqxxb0Lb2",
     "title": "Jack Yo Beatz, Vol. 3",
     "artist": "Lo Key",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02235cde34fe6297fc925b15d5",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273235cde34fe6297fc925b15d5",
     "tracksCount": 5,
     "type": "album",
     "isExplicit": false,
@@ -22830,7 +22830,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02235cde34fe6297fc925b15d5",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273235cde34fe6297fc925b15d5",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -22931,7 +22931,7 @@ const albumData = {
     "uri": "spotify:album:4fbULd49Ia48nnb1gzfqDt",
     "title": "Dedicated",
     "artist": "Lo Key",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0292fd40f15f91d2da7b82ebfd",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27392fd40f15f91d2da7b82ebfd",
     "tracksCount": 5,
     "type": "album",
     "isExplicit": false,
@@ -22974,7 +22974,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0292fd40f15f91d2da7b82ebfd",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27392fd40f15f91d2da7b82ebfd",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -23075,7 +23075,7 @@ const albumData = {
     "uri": "spotify:album:3BIWgcUPW0D5XDG6mNiw18",
     "title": "Jack Yo Beatz Volume 2",
     "artist": "Lo Key",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0247ce7630caae5c1b882c8ef7",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27347ce7630caae5c1b882c8ef7",
     "tracksCount": 5,
     "type": "album",
     "isExplicit": false,
@@ -23118,7 +23118,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0247ce7630caae5c1b882c8ef7",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27347ce7630caae5c1b882c8ef7",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -23219,7 +23219,7 @@ const albumData = {
     "uri": "spotify:album:26JYI5W9GiWOe61GAMJw9h",
     "title": "The House Remixes",
     "artist": "Lo Key",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0285f17065d637b8303f4b8562",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27385f17065d637b8303f4b8562",
     "tracksCount": 5,
     "type": "album",
     "isExplicit": false,
@@ -23262,7 +23262,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0285f17065d637b8303f4b8562",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27385f17065d637b8303f4b8562",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -23363,7 +23363,7 @@ const albumData = {
     "uri": "spotify:album:3OF32zpSYJG6iErG1QTptA",
     "title": "The House 2",
     "artist": "Lo Key",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e026c3b401a295581ff2e805276",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2736c3b401a295581ff2e805276",
     "tracksCount": 5,
     "type": "album",
     "isExplicit": false,
@@ -23406,7 +23406,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e026c3b401a295581ff2e805276",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2736c3b401a295581ff2e805276",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -23497,7 +23497,7 @@ const albumData = {
     "uri": "spotify:album:6IsFCZWzkNjQYn9ISkkLwa",
     "title": "The House",
     "artist": "Lo Key",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e022decea5a409a38b1d1132c04",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2732decea5a409a38b1d1132c04",
     "tracksCount": 5,
     "type": "album",
     "isExplicit": false,
@@ -23540,7 +23540,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e022decea5a409a38b1d1132c04",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2732decea5a409a38b1d1132c04",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -23641,7 +23641,7 @@ const albumData = {
     "uri": "spotify:album:0zHkCx0RHrzcwLW7aFh9fO",
     "title": "Follow Me",
     "artist": "Lo Key",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e022daad041b62abe54e5cb0092",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2732daad041b62abe54e5cb0092",
     "tracksCount": 5,
     "type": "album",
     "isExplicit": false,
@@ -23684,7 +23684,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e022daad041b62abe54e5cb0092",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2732daad041b62abe54e5cb0092",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -23785,7 +23785,7 @@ const albumData = {
     "uri": "spotify:album:50Ryi1a1WnLJRRVKQF4RR1",
     "title": "SUDDENDEATH",
     "artist": "Doc Gruesome",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02bbaad0fc1e64d45d5f1f458a",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273bbaad0fc1e64d45d5f1f458a",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -23828,7 +23828,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02bbaad0fc1e64d45d5f1f458a",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273bbaad0fc1e64d45d5f1f458a",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -23869,7 +23869,7 @@ const albumData = {
     "uri": "spotify:album:5dFxzhmCNhBK2cLn2YXXMn",
     "title": "SELF IMMOLATION",
     "artist": "Doc Gruesome",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02927189c9978063f9888e0f92",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273927189c9978063f9888e0f92",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -23912,7 +23912,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02927189c9978063f9888e0f92",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273927189c9978063f9888e0f92",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -23953,7 +23953,7 @@ const albumData = {
     "uri": "spotify:album:1PvIrEDstIHNVC3HIUCiLK",
     "title": "PANICROOM",
     "artist": "Doc Gruesome",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0277fb4bb745decd9a6cacad18",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27377fb4bb745decd9a6cacad18",
     "tracksCount": 6,
     "type": "album",
     "isExplicit": false,
@@ -23996,7 +23996,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0277fb4bb745decd9a6cacad18",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27377fb4bb745decd9a6cacad18",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -24113,7 +24113,7 @@ const albumData = {
     "uri": "spotify:album:14mWn6fvNm7URamrIMwrW5",
     "title": "L3MONAD3",
     "artist": "Doc Gruesome",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02cd958af6b7c9c430ae6eb8ac",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273cd958af6b7c9c430ae6eb8ac",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -24156,7 +24156,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02cd958af6b7c9c430ae6eb8ac",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273cd958af6b7c9c430ae6eb8ac",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -24197,7 +24197,7 @@ const albumData = {
     "uri": "spotify:album:4v5GAqh9ml8ZpmagbWFRyf",
     "title": "Bank Hard Beats Certified #003: Creepshow",
     "artist": "Bank Hard Beats",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02767139161e13475ecc30fac8",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273767139161e13475ecc30fac8",
     "tracksCount": 2,
     "type": "album",
     "isExplicit": false,
@@ -24240,7 +24240,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02767139161e13475ecc30fac8",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273767139161e13475ecc30fac8",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -24294,7 +24294,7 @@ const albumData = {
     "uri": "spotify:album:66T1grK4kb4BcI96K50iJX",
     "title": "When I Die...throw Me in the Trash...",
     "artist": "Doc Gruesome",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e022a84dabc5737d6685a7cf8f6",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2732a84dabc5737d6685a7cf8f6",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -24337,7 +24337,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e022a84dabc5737d6685a7cf8f6",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2732a84dabc5737d6685a7cf8f6",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -24378,7 +24378,7 @@ const albumData = {
     "uri": "spotify:album:0uFKhntrwCcIH8x8rYeyKh",
     "title": "Pain in $tereo",
     "artist": "Doc Gruesome",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e022591f2c4ecf26e2050fd8399",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2732591f2c4ecf26e2050fd8399",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -24421,7 +24421,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e022591f2c4ecf26e2050fd8399",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2732591f2c4ecf26e2050fd8399",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -24462,7 +24462,7 @@ const albumData = {
     "uri": "spotify:album:6353chwQXvQHc4ehqxNgM6",
     "title": "$OULREAVER",
     "artist": "Doc Gruesome",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02e105b78b8d90bc3f2ddd7f77",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273e105b78b8d90bc3f2ddd7f77",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -24505,7 +24505,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02e105b78b8d90bc3f2ddd7f77",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273e105b78b8d90bc3f2ddd7f77",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -24546,7 +24546,7 @@ const albumData = {
     "uri": "spotify:album:4GHKbYZnqsGLx7V8qtJ3V6",
     "title": "BRANE DED",
     "artist": "Doc Gruesome",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02feadb3cb6cc87a2a9723de95",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273feadb3cb6cc87a2a9723de95",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -24589,7 +24589,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02feadb3cb6cc87a2a9723de95",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273feadb3cb6cc87a2a9723de95",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -24630,7 +24630,7 @@ const albumData = {
     "uri": "spotify:album:3iLyNh8YIKEPCWSKRgLMbC",
     "title": "CRVSHOUT",
     "artist": "Doc Gruesome",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e028d3c5deebec767882b119630",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2738d3c5deebec767882b119630",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -24673,7 +24673,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e028d3c5deebec767882b119630",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2738d3c5deebec767882b119630",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -24714,7 +24714,7 @@ const albumData = {
     "uri": "spotify:album:6OHXnBFxvn4fMApZ1jcvJo",
     "title": "TH3 BACKR00MS",
     "artist": "Doc Gruesome",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e027e8f0632456df011bb91bbb2",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2737e8f0632456df011bb91bbb2",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -24757,7 +24757,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e027e8f0632456df011bb91bbb2",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2737e8f0632456df011bb91bbb2",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -24798,7 +24798,7 @@ const albumData = {
     "uri": "spotify:album:0Td4zAiqZpR4Xwyogxw9nr",
     "title": "Glock on My Dxck",
     "artist": "Doc Gruesome",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02b1617d1595aa165603c6d8b2",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273b1617d1595aa165603c6d8b2",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -24841,7 +24841,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02b1617d1595aa165603c6d8b2",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273b1617d1595aa165603c6d8b2",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -24882,7 +24882,7 @@ const albumData = {
     "uri": "spotify:album:0ktNkeqYXP4eZ2FReAMYnm",
     "title": "Pure Misanthropy",
     "artist": "Doc Gruesome",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e028d7ff31f319f69124a0e2652",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2738d7ff31f319f69124a0e2652",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -24925,7 +24925,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e028d7ff31f319f69124a0e2652",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2738d7ff31f319f69124a0e2652",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -24966,7 +24966,7 @@ const albumData = {
     "uri": "spotify:album:1chK1WAaXirggFmUqXKb6W",
     "title": "Fvck L1f3",
     "artist": "Doc Gruesome",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02cfa90920cc9482cdf372315e",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273cfa90920cc9482cdf372315e",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -25009,7 +25009,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02cfa90920cc9482cdf372315e",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273cfa90920cc9482cdf372315e",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -25050,7 +25050,7 @@ const albumData = {
     "uri": "spotify:album:6TLIx8cQJuHQH1uRUglf5Y",
     "title": "KICK DOE",
     "artist": "omgitssuuu",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02607d512fd827f93024da21df",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273607d512fd827f93024da21df",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -25093,7 +25093,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02607d512fd827f93024da21df",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273607d512fd827f93024da21df",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -25134,7 +25134,7 @@ const albumData = {
     "uri": "spotify:album:7IqyPDbLepAN3Td9GzSRtL",
     "title": "Fvce Ov Devth",
     "artist": "Doc Gruesome",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0264761ee3bc6c639b6076c242",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27364761ee3bc6c639b6076c242",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -25177,7 +25177,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0264761ee3bc6c639b6076c242",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27364761ee3bc6c639b6076c242",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -25218,7 +25218,7 @@ const albumData = {
     "uri": "spotify:album:34FgR2kzRKEGYQQ7QrbDB0",
     "title": "Tempter",
     "artist": "Doc Gruesome",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0288d49eaf9e0eceebc2666f45",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27388d49eaf9e0eceebc2666f45",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -25261,7 +25261,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0288d49eaf9e0eceebc2666f45",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27388d49eaf9e0eceebc2666f45",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -25302,7 +25302,7 @@ const albumData = {
     "uri": "spotify:album:1WGK4p9N4RMPaDMJstYKVQ",
     "title": "Lxve Hvte",
     "artist": "Doc Gruesome",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02bb90df92f885f1d498853a7e",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273bb90df92f885f1d498853a7e",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -25345,7 +25345,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02bb90df92f885f1d498853a7e",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273bb90df92f885f1d498853a7e",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -25386,7 +25386,7 @@ const albumData = {
     "uri": "spotify:album:1JUkrBhgJiVFmKltxXuGba",
     "title": "CARCO$A",
     "artist": "Doc Gruesome",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02766eed0d541d5b76e3ea53b0",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273766eed0d541d5b76e3ea53b0",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -25429,7 +25429,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02766eed0d541d5b76e3ea53b0",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273766eed0d541d5b76e3ea53b0",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -25470,7 +25470,7 @@ const albumData = {
     "uri": "spotify:album:2QMQpFlg1LfDRmbgvd4rpo",
     "title": "Sxlf Svbotvge",
     "artist": "Doc Gruesome",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02c6b39988cdbef859dc28df78",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273c6b39988cdbef859dc28df78",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -25513,7 +25513,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02c6b39988cdbef859dc28df78",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273c6b39988cdbef859dc28df78",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -25554,7 +25554,7 @@ const albumData = {
     "uri": "spotify:album:4aHnWG1UG2sSBD2kZt4eQx",
     "title": "Draino",
     "artist": "Odprophet",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02e4244a294bd72a0a093c3ad2",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273e4244a294bd72a0a093c3ad2",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -25597,7 +25597,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02e4244a294bd72a0a093c3ad2",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273e4244a294bd72a0a093c3ad2",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -25638,7 +25638,7 @@ const albumData = {
     "uri": "spotify:album:3Lzsb5rWPqkAdHDBVsK4rL",
     "title": "Glock17",
     "artist": "Doc Gruesome",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e024b5a8aa4d92d50415f456c9e",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2734b5a8aa4d92d50415f456c9e",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -25681,7 +25681,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e024b5a8aa4d92d50415f456c9e",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2734b5a8aa4d92d50415f456c9e",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -25722,7 +25722,7 @@ const albumData = {
     "uri": "spotify:album:11txnt9CD3r9GFqG1ZNdXp",
     "title": "In the Dark",
     "artist": "Doc Gruesome",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e028c34ad21857bcf094707827b",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2738c34ad21857bcf094707827b",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -25765,7 +25765,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e028c34ad21857bcf094707827b",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2738c34ad21857bcf094707827b",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -25806,7 +25806,7 @@ const albumData = {
     "uri": "spotify:album:0MPuvlyrftIcvtS24ZSssF",
     "title": "Bleed",
     "artist": "EJ Prophet",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02a07157dc7535a3a49fcd3903",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273a07157dc7535a3a49fcd3903",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -25849,7 +25849,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02a07157dc7535a3a49fcd3903",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273a07157dc7535a3a49fcd3903",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -25890,7 +25890,7 @@ const albumData = {
     "uri": "spotify:album:0lGpGvDsLiuzfVYsD9E7ao",
     "title": "P.O.S.",
     "artist": "EJ Prophet",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e027947ed3a40e9fe11f08ba256",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2737947ed3a40e9fe11f08ba256",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -25933,7 +25933,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e027947ed3a40e9fe11f08ba256",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2737947ed3a40e9fe11f08ba256",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -25974,7 +25974,7 @@ const albumData = {
     "uri": "spotify:album:4sKOyUoTzfTdYKlQJMfMdL",
     "title": "Dirty Sprite",
     "artist": "EJ Prophet",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e020144fc76a8ae17eb5101e27b",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2730144fc76a8ae17eb5101e27b",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -26017,7 +26017,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e020144fc76a8ae17eb5101e27b",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2730144fc76a8ae17eb5101e27b",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -26058,7 +26058,7 @@ const albumData = {
     "uri": "spotify:album:3b9UDyxhYHJLrpI8ZbCymp",
     "title": "Runaway",
     "artist": "Doc Gruesome",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e029b706241eab41b1ee1db1a42",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2739b706241eab41b1ee1db1a42",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -26101,7 +26101,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e029b706241eab41b1ee1db1a42",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2739b706241eab41b1ee1db1a42",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -26142,7 +26142,7 @@ const albumData = {
     "uri": "spotify:album:2oX90D1WCxNChBbC0V9YRr",
     "title": "S!CK",
     "artist": "Odprophet",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e023c5e6234a18fc1cc0dec9bc1",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2733c5e6234a18fc1cc0dec9bc1",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -26185,7 +26185,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e023c5e6234a18fc1cc0dec9bc1",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2733c5e6234a18fc1cc0dec9bc1",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -26226,7 +26226,7 @@ const albumData = {
     "uri": "spotify:album:4VCfjBnaFwq3RVt0xVuWZA",
     "title": "Uma Thurman",
     "artist": "Doc Gruesome",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02566a8c502940c0518f6fcd23",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273566a8c502940c0518f6fcd23",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -26269,7 +26269,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02566a8c502940c0518f6fcd23",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273566a8c502940c0518f6fcd23",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -26310,7 +26310,7 @@ const albumData = {
     "uri": "spotify:album:6JAQX1ahy2oMOovPWZOZP8",
     "title": "Split Personality",
     "artist": "EJ Prophet",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02c1e354997b5aa07f993bc448",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273c1e354997b5aa07f993bc448",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -26353,7 +26353,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02c1e354997b5aa07f993bc448",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273c1e354997b5aa07f993bc448",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -26394,7 +26394,7 @@ const albumData = {
     "uri": "spotify:album:2x5jz5SzkVcX3MbUwKJl4j",
     "title": "Four Horns",
     "artist": "EJ Prophet",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e027d1431a729d77371d55b399d",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2737d1431a729d77371d55b399d",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -26437,7 +26437,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e027d1431a729d77371d55b399d",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2737d1431a729d77371d55b399d",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -26478,7 +26478,7 @@ const albumData = {
     "uri": "spotify:album:1gObCauVStp7COocjaULjd",
     "title": "Firestarter",
     "artist": "EJ Prophet",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e022fdfc3c2f9a0f56ad3036845",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2732fdfc3c2f9a0f56ad3036845",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -26521,7 +26521,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e022fdfc3c2f9a0f56ad3036845",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2732fdfc3c2f9a0f56ad3036845",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -26562,7 +26562,7 @@ const albumData = {
     "uri": "spotify:album:5QWEjVzLAt4AwnyG8QIXIk",
     "title": "Wrist Break",
     "artist": "EJ Prophet",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02b65373210de929de55a715b5",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273b65373210de929de55a715b5",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -26605,7 +26605,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02b65373210de929de55a715b5",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273b65373210de929de55a715b5",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -26646,7 +26646,7 @@ const albumData = {
     "uri": "spotify:album:0QYVyQ3O5ktx3rdpwN0xmx",
     "title": "Luda",
     "artist": "Doc Gruesome",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02f983847b7e24db21d3ddba81",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273f983847b7e24db21d3ddba81",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -26689,7 +26689,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02f983847b7e24db21d3ddba81",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273f983847b7e24db21d3ddba81",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -26730,7 +26730,7 @@ const albumData = {
     "uri": "spotify:album:2aD1KWYSKC4M9xPr44Miy6",
     "title": "You Better Run!",
     "artist": "Chuckklez",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e022db564fff23f1cf063e63761",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2732db564fff23f1cf063e63761",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -26773,7 +26773,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e022db564fff23f1cf063e63761",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2732db564fff23f1cf063e63761",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -26814,7 +26814,7 @@ const albumData = {
     "uri": "spotify:album:0tE8tltsZGqI8rLgFa8SyO",
     "title": "Exorcist",
     "artist": "Doc Gruesome",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e021f4b9d94a505f9f23ef8b446",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2731f4b9d94a505f9f23ef8b446",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -26857,7 +26857,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e021f4b9d94a505f9f23ef8b446",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2731f4b9d94a505f9f23ef8b446",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -26898,7 +26898,7 @@ const albumData = {
     "uri": "spotify:album:7EnricwDZlUWQn5lY7Fjcg",
     "title": "Crucified",
     "artist": "Doc Gruesome",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e023d05f25fe4c60dc3f4481a82",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2733d05f25fe4c60dc3f4481a82",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -26941,7 +26941,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e023d05f25fe4c60dc3f4481a82",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2733d05f25fe4c60dc3f4481a82",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -26982,7 +26982,7 @@ const albumData = {
     "uri": "spotify:album:2jC81nkw0jEfuTOMdLX5Rp",
     "title": "Playa Hata$",
     "artist": "Doc Gruesome",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0247a564e456c47c69d7d4efe4",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27347a564e456c47c69d7d4efe4",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -27025,7 +27025,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0247a564e456c47c69d7d4efe4",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27347a564e456c47c69d7d4efe4",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -27066,7 +27066,7 @@ const albumData = {
     "uri": "spotify:album:0Os5BGfi17Vs8mE2kFKEvy",
     "title": "Overbearing",
     "artist": "2hk-Tinted Light",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02ede9cb3e1c788550edbaf8cd",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273ede9cb3e1c788550edbaf8cd",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -27109,7 +27109,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02ede9cb3e1c788550edbaf8cd",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273ede9cb3e1c788550edbaf8cd",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -27150,7 +27150,7 @@ const albumData = {
     "uri": "spotify:album:7ksPxrBTs9H35LoGia5zq3",
     "title": "orb.weaver",
     "artist": "Grim Salvo",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e028b15d85e11d27c06e2b43378",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2738b15d85e11d27c06e2b43378",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -27193,7 +27193,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e028b15d85e11d27c06e2b43378",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2738b15d85e11d27c06e2b43378",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -27232,7 +27232,7 @@ const albumData = {
     "uri": "spotify:album:6D8mIYnzouehNA0S0E3qvB",
     "title": "30 DAYS OF NIGHT",
     "artist": "Grim Salvo",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02872a24a38a9fc02f0876156a",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273872a24a38a9fc02f0876156a",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -27275,7 +27275,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02872a24a38a9fc02f0876156a",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273872a24a38a9fc02f0876156a",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -27314,7 +27314,7 @@ const albumData = {
     "uri": "spotify:album:2KwCTJylW9PWCj1u6mPK1n",
     "title": "Roses In the Attic",
     "artist": "Grim Salvo",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0286f4945ba2ab189869436118",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27386f4945ba2ab189869436118",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -27357,7 +27357,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0286f4945ba2ab189869436118",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27386f4945ba2ab189869436118",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -27398,7 +27398,7 @@ const albumData = {
     "uri": "spotify:album:48rUMdvw5W4u5NiHyq4owg",
     "title": "THE GIVER",
     "artist": "Grim Salvo",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0210a7e11d00b1c9d96661c867",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27310a7e11d00b1c9d96661c867",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -27441,7 +27441,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0210a7e11d00b1c9d96661c867",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27310a7e11d00b1c9d96661c867",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -27482,7 +27482,7 @@ const albumData = {
     "uri": "spotify:album:2RhHXm0yH8GzrgWftESz4Z",
     "title": "BAPHOMET",
     "artist": "Grim Salvo",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02dcaf2861a426ba6b0e852a50",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273dcaf2861a426ba6b0e852a50",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -27525,7 +27525,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02dcaf2861a426ba6b0e852a50",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273dcaf2861a426ba6b0e852a50",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -27566,7 +27566,7 @@ const albumData = {
     "uri": "spotify:album:1RGXboLcIwKf1aYwchqZNk",
     "title": "in your darkest nightmares, you'll see me",
     "artist": "Savage Ga$p",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e028794842d5968c5d565e38f40",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2738794842d5968c5d565e38f40",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -27609,7 +27609,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e028794842d5968c5d565e38f40",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2738794842d5968c5d565e38f40",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -27650,7 +27650,7 @@ const albumData = {
     "uri": "spotify:album:6shFiJsED3fVGbiOULhtKz",
     "title": "why do I still care?",
     "artist": "Grim Salvo",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02c0ea6f55336ce94e67e54390",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273c0ea6f55336ce94e67e54390",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -27693,7 +27693,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02c0ea6f55336ce94e67e54390",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273c0ea6f55336ce94e67e54390",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -27734,7 +27734,7 @@ const albumData = {
     "uri": "spotify:album:0y8IEMDd1kM48mkvsBBj3U",
     "title": "Feasting.On.The.Guts.Of.Angels.",
     "artist": "Grim Salvo",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0292fcd8ea17fcbbf861da92f1",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27392fcd8ea17fcbbf861da92f1",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -27777,7 +27777,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0292fcd8ea17fcbbf861da92f1",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27392fcd8ea17fcbbf861da92f1",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -27818,7 +27818,7 @@ const albumData = {
     "uri": "spotify:album:6RDAulwV1Iq52DhOnjIoFp",
     "title": "CLOSE TIES",
     "artist": "Grim Salvo",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0204093f5f8eb42dfb4e848d66",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27304093f5f8eb42dfb4e848d66",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -27861,7 +27861,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0204093f5f8eb42dfb4e848d66",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27304093f5f8eb42dfb4e848d66",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -27902,7 +27902,7 @@ const albumData = {
     "uri": "spotify:album:2I7HLr0sUFrdDOalAlWE7L",
     "title": "Boysenberry Sepsis",
     "artist": "Grim Salvo",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02b5415b9657a2d85b5945dc46",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273b5415b9657a2d85b5945dc46",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -27945,7 +27945,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02b5415b9657a2d85b5945dc46",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273b5415b9657a2d85b5945dc46",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -27986,7 +27986,7 @@ const albumData = {
     "uri": "spotify:album:5eYGi5ty7PfqXZ9JzpdIvC",
     "title": "SKEET MODE",
     "artist": "Grim Salvo",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e028e52516e8b605aa7a55ca1ad",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2738e52516e8b605aa7a55ca1ad",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -28029,7 +28029,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e028e52516e8b605aa7a55ca1ad",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2738e52516e8b605aa7a55ca1ad",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -28070,7 +28070,7 @@ const albumData = {
     "uri": "spotify:album:5sU6Ljpr6EwKXoThSkh2Ye",
     "title": "Dolores",
     "artist": "Grim Salvo",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02f1f7f8ec673ce29d0d3ae30f",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273f1f7f8ec673ce29d0d3ae30f",
     "tracksCount": 5,
     "type": "album",
     "isExplicit": false,
@@ -28113,7 +28113,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02f1f7f8ec673ce29d0d3ae30f",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273f1f7f8ec673ce29d0d3ae30f",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -28212,7 +28212,7 @@ const albumData = {
     "uri": "spotify:album:1TWl96DZQW2A8ii4n5Esai",
     "title": "10:1 Ikejime",
     "artist": "Grim Salvo",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02454c1f83920a3fba75a82045",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273454c1f83920a3fba75a82045",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -28255,7 +28255,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02454c1f83920a3fba75a82045",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273454c1f83920a3fba75a82045",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -28296,7 +28296,7 @@ const albumData = {
     "uri": "spotify:album:0GwyHBG0Urb5I5058pN1Gj",
     "title": "Lurch.Lung",
     "artist": "Grim Salvo",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e021b3b27081020115690f7e0a2",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2731b3b27081020115690f7e0a2",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -28339,7 +28339,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e021b3b27081020115690f7e0a2",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2731b3b27081020115690f7e0a2",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -28380,7 +28380,7 @@ const albumData = {
     "uri": "spotify:album:3TfJe0gRUYcH8nECv4RJnt",
     "title": "Tropic of Sarin",
     "artist": "Grim Salvo",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02cc9e8272bd8c0b00dc6a67c9",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273cc9e8272bd8c0b00dc6a67c9",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -28423,7 +28423,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02cc9e8272bd8c0b00dc6a67c9",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273cc9e8272bd8c0b00dc6a67c9",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -28462,7 +28462,7 @@ const albumData = {
     "uri": "spotify:album:1tN4GEEdKH7cwAg2t5LqWh",
     "title": "Eye.Sink",
     "artist": "Grim Salvo",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e024a47620e434060ec67f9311c",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2734a47620e434060ec67f9311c",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -28505,7 +28505,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e024a47620e434060ec67f9311c",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2734a47620e434060ec67f9311c",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -28546,7 +28546,7 @@ const albumData = {
     "uri": "spotify:album:25317HDefIRr0bbooOLUiu",
     "title": "Grey.Link",
     "artist": "Grim Salvo",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0225f906b7f6bf4a57ebbea679",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27325f906b7f6bf4a57ebbea679",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -28589,7 +28589,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0225f906b7f6bf4a57ebbea679",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27325f906b7f6bf4a57ebbea679",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -28630,7 +28630,7 @@ const albumData = {
     "uri": "spotify:album:0ZbethZRzM03ZxAiAR8EPJ",
     "title": "Burnside",
     "artist": "Grim Salvo",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0243b4f3e84b8238d798d33f72",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27343b4f3e84b8238d798d33f72",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -28673,7 +28673,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0243b4f3e84b8238d798d33f72",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27343b4f3e84b8238d798d33f72",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -28714,7 +28714,7 @@ const albumData = {
     "uri": "spotify:album:47IEjkWlOdMr4OnA013haT",
     "title": "Smiles Are Weak",
     "artist": "Grim Salvo",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0202727cc5e47961fd6ca038f1",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27302727cc5e47961fd6ca038f1",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -28757,7 +28757,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0202727cc5e47961fd6ca038f1",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27302727cc5e47961fd6ca038f1",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -28796,7 +28796,7 @@ const albumData = {
     "uri": "spotify:album:2XkoHJNgp6s2jof0HxlP7q",
     "title": "Waste in the Shade.",
     "artist": "Grim Salvo",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02b5c92defeffea662e9bb2c6c",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273b5c92defeffea662e9bb2c6c",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -28839,7 +28839,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02b5c92defeffea662e9bb2c6c",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273b5c92defeffea662e9bb2c6c",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -28878,7 +28878,7 @@ const albumData = {
     "uri": "spotify:album:1HeyidK2eiHqD0b1lULyna",
     "title": "Guck",
     "artist": "Grim Salvo",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02aee3379b38d299de6bc7108f",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273aee3379b38d299de6bc7108f",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -28921,7 +28921,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02aee3379b38d299de6bc7108f",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273aee3379b38d299de6bc7108f",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -28962,7 +28962,7 @@ const albumData = {
     "uri": "spotify:album:3A47GgDbKSUIASrbiV6FHA",
     "title": "MAKIN' STANG",
     "artist": "GODHANDUSA",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02cabea7208af3c23418014d28",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273cabea7208af3c23418014d28",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -29005,7 +29005,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02cabea7208af3c23418014d28",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273cabea7208af3c23418014d28",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -29046,7 +29046,7 @@ const albumData = {
     "uri": "spotify:album:0E1v0BdcnaBOWGCT1gQU7f",
     "title": "GANG SHIT SWAG",
     "artist": "GODHANDUSA",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02cf1119d74009d00c269e77a4",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273cf1119d74009d00c269e77a4",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -29089,7 +29089,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02cf1119d74009d00c269e77a4",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273cf1119d74009d00c269e77a4",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -29130,7 +29130,7 @@ const albumData = {
     "uri": "spotify:album:3Z6Nlc4IpIGa7jquBF5m3f",
     "title": "CAN'T TAKE THAT AWAY FROM ME",
     "artist": "GODHANDUSA",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02a1e1ee907f7373c97d2785c7",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273a1e1ee907f7373c97d2785c7",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -29173,7 +29173,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02a1e1ee907f7373c97d2785c7",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273a1e1ee907f7373c97d2785c7",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -29214,7 +29214,7 @@ const albumData = {
     "uri": "spotify:album:2gkG4LAhhlQdVQ6n0cyLma",
     "title": "SUFFA",
     "artist": "GODHANDUSA",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e022b6b37d975dc1eb90b39f3b4",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2732b6b37d975dc1eb90b39f3b4",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -29257,7 +29257,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e022b6b37d975dc1eb90b39f3b4",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2732b6b37d975dc1eb90b39f3b4",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -29298,7 +29298,7 @@ const albumData = {
     "uri": "spotify:album:3NcaTHIkFuzZaBFguBlNh9",
     "title": "HOME TO ME",
     "artist": "GODHANDUSA",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0256479698c8389bdce9ba837b",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27356479698c8389bdce9ba837b",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -29341,7 +29341,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0256479698c8389bdce9ba837b",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27356479698c8389bdce9ba837b",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -29382,7 +29382,7 @@ const albumData = {
     "uri": "spotify:album:7Lw3b9lkNV9SuLGOfHAMxV",
     "title": "THE GIFT OF PAIN",
     "artist": "GODHANDUSA",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e020fcc81fff031b238bfdf4de7",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2730fcc81fff031b238bfdf4de7",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -29425,7 +29425,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e020fcc81fff031b238bfdf4de7",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2730fcc81fff031b238bfdf4de7",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -29466,7 +29466,7 @@ const albumData = {
     "uri": "spotify:album:2dZhZqPfpzXhh2PCisb0se",
     "title": "WOP WOP",
     "artist": "GODHANDUSA",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02f1bd00ea6778a9026e42934a",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273f1bd00ea6778a9026e42934a",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -29509,7 +29509,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02f1bd00ea6778a9026e42934a",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273f1bd00ea6778a9026e42934a",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -29550,7 +29550,7 @@ const albumData = {
     "uri": "spotify:album:3dpBKEUBqttAxShbmGzI0c",
     "title": "GOD'S HAND BECKONS ME TOWARD THE LIGHT",
     "artist": "GODHANDUSA",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02415136a5c7fd4ae489d465db",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273415136a5c7fd4ae489d465db",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -29593,7 +29593,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02415136a5c7fd4ae489d465db",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273415136a5c7fd4ae489d465db",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -29634,7 +29634,7 @@ const albumData = {
     "uri": "spotify:album:1NIw7Y24vIiYnzi0j3TVgu",
     "title": "THE DEVIL KNOWS MY NAME",
     "artist": "GODHANDUSA",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e025bcd798b2fa8d09800a47738",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2735bcd798b2fa8d09800a47738",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -29677,7 +29677,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e025bcd798b2fa8d09800a47738",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2735bcd798b2fa8d09800a47738",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -29718,7 +29718,7 @@ const albumData = {
     "uri": "spotify:album:20cDKHe9D7yJ5GhjPAKaEw",
     "title": "NO FUNNY SHIT",
     "artist": "GODHANDUSA",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02ec79e5595f80797e73271e45",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273ec79e5595f80797e73271e45",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -29761,7 +29761,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02ec79e5595f80797e73271e45",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273ec79e5595f80797e73271e45",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -29802,7 +29802,7 @@ const albumData = {
     "uri": "spotify:album:547cjoSfMIjnEXEDPG9I2q",
     "title": "AIN'T SHIT CHANGE",
     "artist": "GODHANDUSA",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0247719d060b9b92132cd773cc",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27347719d060b9b92132cd773cc",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -29845,7 +29845,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0247719d060b9b92132cd773cc",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27347719d060b9b92132cd773cc",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -29886,7 +29886,7 @@ const albumData = {
     "uri": "spotify:album:4YzFxhWtP97GIlqKq096zo",
     "title": "DOORKICKAZ",
     "artist": "GODHANDUSA",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0249ec2aad751f10acb3090b2f",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27349ec2aad751f10acb3090b2f",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -29929,7 +29929,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0249ec2aad751f10acb3090b2f",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27349ec2aad751f10acb3090b2f",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -29970,7 +29970,7 @@ const albumData = {
     "uri": "spotify:album:2i2obyzsrt5UiZcOnU90EL",
     "title": "DIE FOR THIS SHIT",
     "artist": "GODHANDUSA",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02be0712fe882bba8a88bfe67b",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273be0712fe882bba8a88bfe67b",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -30013,7 +30013,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02be0712fe882bba8a88bfe67b",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273be0712fe882bba8a88bfe67b",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -30054,7 +30054,7 @@ const albumData = {
     "uri": "spotify:album:7qK9WbHN6cvIRKrygKqANQ",
     "title": "ASSHOLE",
     "artist": "GODHANDUSA",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02bbb5835ab3cdaaa249985f26",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273bbb5835ab3cdaaa249985f26",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -30097,7 +30097,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02bbb5835ab3cdaaa249985f26",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273bbb5835ab3cdaaa249985f26",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -30138,7 +30138,7 @@ const albumData = {
     "uri": "spotify:album:0tLnUCRwWhxcAerR5Wyna5",
     "title": "OUTLAW",
     "artist": "GODHANDUSA",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e025c4ffb70c8a067a49d5b2dd2",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2735c4ffb70c8a067a49d5b2dd2",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -30181,7 +30181,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e025c4ffb70c8a067a49d5b2dd2",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2735c4ffb70c8a067a49d5b2dd2",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -30222,7 +30222,7 @@ const albumData = {
     "uri": "spotify:album:1jyo01HuaIQo2fMfWBLg1R",
     "title": "IT'S STILL FUCK EVERYBODY",
     "artist": "GODHANDUSA",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02313976bf209f333fbc5a9521",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273313976bf209f333fbc5a9521",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -30265,7 +30265,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02313976bf209f333fbc5a9521",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273313976bf209f333fbc5a9521",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -30306,7 +30306,7 @@ const albumData = {
     "uri": "spotify:album:4s8YvRodJh6bGtx5qHSd7R",
     "title": "GODHANDUK",
     "artist": "GODHANDUSA",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e022b04cac1220efccd59a104da",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2732b04cac1220efccd59a104da",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -30349,7 +30349,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e022b04cac1220efccd59a104da",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2732b04cac1220efccd59a104da",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -30390,7 +30390,7 @@ const albumData = {
     "uri": "spotify:album:0bFT0tQeFZC73j5OaDOLKD",
     "title": "SWANGIN'",
     "artist": "GODHANDUSA",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02993671385a8406fcd93e3e78",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273993671385a8406fcd93e3e78",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -30433,7 +30433,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02993671385a8406fcd93e3e78",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273993671385a8406fcd93e3e78",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -30474,7 +30474,7 @@ const albumData = {
     "uri": "spotify:album:7dGSEgVLuD2NyDl0HvB4Lc",
     "title": "MICHAEL JACKSON",
     "artist": "GODHANDUSA",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e020c0d1b3c18407816b4b9061c",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2730c0d1b3c18407816b4b9061c",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -30517,7 +30517,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e020c0d1b3c18407816b4b9061c",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2730c0d1b3c18407816b4b9061c",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -30558,7 +30558,7 @@ const albumData = {
     "uri": "spotify:album:2QaRddiOaOYjacDvuZ6j84",
     "title": "INDIGENOUS IMMIGRANT",
     "artist": "GODHANDUSA",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e025e491402322c0f35cccb7509",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2735e491402322c0f35cccb7509",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -30601,7 +30601,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e025e491402322c0f35cccb7509",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2735e491402322c0f35cccb7509",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -30642,7 +30642,7 @@ const albumData = {
     "uri": "spotify:album:71z8WjcL5la9jxieELSUhb",
     "title": "HOW YOU AIN'T GOT NO GUN?",
     "artist": "GODHANDUSA",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02d463777fd06befcb8d08e478",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273d463777fd06befcb8d08e478",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -30685,7 +30685,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02d463777fd06befcb8d08e478",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273d463777fd06befcb8d08e478",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -30726,7 +30726,7 @@ const albumData = {
     "uri": "spotify:album:0yoRCHrtLXPzlWAQ9qlgGp",
     "title": "HOP OFF THE PORCH",
     "artist": "GODHANDUSA",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02aade5bcbd3473f2717e8493b",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273aade5bcbd3473f2717e8493b",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -30769,7 +30769,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02aade5bcbd3473f2717e8493b",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273aade5bcbd3473f2717e8493b",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -30810,7 +30810,7 @@ const albumData = {
     "uri": "spotify:album:3CKklPQEUgJeP8ijfRfEDO",
     "title": "MÃOS DE DEUS",
     "artist": "GODHANDUSA",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0214fb8bcf6d6cc43688de5ca2",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27314fb8bcf6d6cc43688de5ca2",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -30853,7 +30853,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0214fb8bcf6d6cc43688de5ca2",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27314fb8bcf6d6cc43688de5ca2",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -30894,7 +30894,7 @@ const albumData = {
     "uri": "spotify:album:1mU034zumR5Otnp8COb32Z",
     "title": "I HATE YOU",
     "artist": "GODHANDUSA",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0258cc239cae7816f8c7d71dda",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27358cc239cae7816f8c7d71dda",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -30937,7 +30937,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0258cc239cae7816f8c7d71dda",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27358cc239cae7816f8c7d71dda",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -30978,7 +30978,7 @@ const albumData = {
     "uri": "spotify:album:56R8upRk37Ae96bUJkMTCd",
     "title": "FUCK EVERYBODY",
     "artist": "GODHANDUSA",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02fbe8223bc75b707efde80c52",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273fbe8223bc75b707efde80c52",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -31021,7 +31021,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02fbe8223bc75b707efde80c52",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273fbe8223bc75b707efde80c52",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -31062,7 +31062,7 @@ const albumData = {
     "uri": "spotify:album:55UzcH5VZa4go3aoYycRCj",
     "title": "THAT'S THE GOD LAW",
     "artist": "GODHANDUSA",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0259abbe551cf966963273bd50",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27359abbe551cf966963273bd50",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -31105,7 +31105,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0259abbe551cf966963273bd50",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27359abbe551cf966963273bd50",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -31146,7 +31146,7 @@ const albumData = {
     "uri": "spotify:album:4BZJoeAa2XhpAYcIIv9JcZ",
     "title": "POP BANDS",
     "artist": "GODHANDUSA",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0246d708a2a33f9f55418829f3",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27346d708a2a33f9f55418829f3",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -31189,7 +31189,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0246d708a2a33f9f55418829f3",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27346d708a2a33f9f55418829f3",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -31230,7 +31230,7 @@ const albumData = {
     "uri": "spotify:album:3iiaoDbegf42GdVGpl7HXc",
     "title": "HAND OF GOD",
     "artist": "Savage Ga$p",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e022f3a3f2909d6700b98b73591",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2732f3a3f2909d6700b98b73591",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -31273,7 +31273,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e022f3a3f2909d6700b98b73591",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2732f3a3f2909d6700b98b73591",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -31314,7 +31314,7 @@ const albumData = {
     "uri": "spotify:album:3hURqHm84t7XF1QyfNDJSb",
     "title": "GORT ES EL MEJOR ARTISTA",
     "artist": "GORT",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02b6b95e0e44cb62d85624f329",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273b6b95e0e44cb62d85624f329",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -31357,7 +31357,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02b6b95e0e44cb62d85624f329",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273b6b95e0e44cb62d85624f329",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -31398,7 +31398,7 @@ const albumData = {
     "uri": "spotify:album:4iI9aWIms4WrinfD9PVXWS",
     "title": "COP CAR",
     "artist": "GODHANDUSA",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02c164188e98eed735af3afecf",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273c164188e98eed735af3afecf",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -31441,7 +31441,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02c164188e98eed735af3afecf",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273c164188e98eed735af3afecf",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -31482,7 +31482,7 @@ const albumData = {
     "uri": "spotify:album:1l3CAWGdNgUKAsIbjZv6eJ",
     "title": "DEVIL IN MY DREAMS",
     "artist": "GODHANDUSA",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02f7bf59bdbcd6c3ac80471a67",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273f7bf59bdbcd6c3ac80471a67",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -31525,7 +31525,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02f7bf59bdbcd6c3ac80471a67",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273f7bf59bdbcd6c3ac80471a67",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -31566,7 +31566,7 @@ const albumData = {
     "uri": "spotify:album:3va1MM5woCDa37w65LkPlN",
     "title": "9MM (KURT COBAIN)",
     "artist": "GODHANDUSA",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02caac7b6ef780d47b81d9478e",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273caac7b6ef780d47b81d9478e",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -31609,7 +31609,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02caac7b6ef780d47b81d9478e",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273caac7b6ef780d47b81d9478e",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -31650,7 +31650,7 @@ const albumData = {
     "uri": "spotify:album:1rn9L3Wj1Kn5iF2yV4XjhF",
     "title": "εїз ☆ MEMPHIS_SWAG_BOUNCE_REMIX.logicx ☆ εїз",
     "artist": "GODHANDUSA",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02320abb6905b2d16e56c10440",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273320abb6905b2d16e56c10440",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -31693,7 +31693,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02320abb6905b2d16e56c10440",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273320abb6905b2d16e56c10440",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -31734,7 +31734,7 @@ const albumData = {
     "uri": "spotify:album:09XqiaEbU6AtTNO7FVoG0u",
     "title": "MURDA MELODIES",
     "artist": "GODHANDUSA",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0212bab13a44cd9001ca646c4f",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27312bab13a44cd9001ca646c4f",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -31777,7 +31777,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0212bab13a44cd9001ca646c4f",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27312bab13a44cd9001ca646c4f",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -31818,7 +31818,7 @@ const albumData = {
     "uri": "spotify:album:01jPGExQNGUrCmPyAVskFi",
     "title": "NIGHTMARES",
     "artist": "GODHANDUSA",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02c7d851da11e5d255f3fef27e",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273c7d851da11e5d255f3fef27e",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -31861,7 +31861,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02c7d851da11e5d255f3fef27e",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273c7d851da11e5d255f3fef27e",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -31902,7 +31902,7 @@ const albumData = {
     "uri": "spotify:album:0ULwwzPKvLx6wfskASI75k",
     "title": "SHIT THE BED",
     "artist": "GODHANDUSA",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02918c2609075df66b29e665a4",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273918c2609075df66b29e665a4",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -31945,7 +31945,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02918c2609075df66b29e665a4",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273918c2609075df66b29e665a4",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -31986,7 +31986,7 @@ const albumData = {
     "uri": "spotify:album:6n9ogm11pwvYAvqcqgUO4l",
     "title": "IN DA BANK",
     "artist": "GODHANDUSA",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e021a22dcf3d9e2b1b5c9aca8a9",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2731a22dcf3d9e2b1b5c9aca8a9",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -32029,7 +32029,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e021a22dcf3d9e2b1b5c9aca8a9",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2731a22dcf3d9e2b1b5c9aca8a9",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -32070,7 +32070,7 @@ const albumData = {
     "uri": "spotify:album:19XTZVP9PSnL0TXpMIVA7o",
     "title": "WE DOIN' FINE",
     "artist": "GODHANDUSA",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e021acdc3f56b5eef482a6e7acb",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2731acdc3f56b5eef482a6e7acb",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -32113,7 +32113,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e021acdc3f56b5eef482a6e7acb",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2731acdc3f56b5eef482a6e7acb",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -32154,7 +32154,7 @@ const albumData = {
     "uri": "spotify:album:53FcxHisVbhWOni4jkP3Ax",
     "title": "SADHAND",
     "artist": "GODHANDUSA",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0225b790fd33814989164a19cf",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27325b790fd33814989164a19cf",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -32197,7 +32197,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0225b790fd33814989164a19cf",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27325b790fd33814989164a19cf",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -32238,7 +32238,7 @@ const albumData = {
     "uri": "spotify:album:0eVpnYFAllG1E9lWWUdJMZ",
     "title": "RIDIN' IN THE WHIP",
     "artist": "GODHANDUSA",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0218ccf7b2905a46d3e41cacf5",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27318ccf7b2905a46d3e41cacf5",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -32281,7 +32281,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0218ccf7b2905a46d3e41cacf5",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27318ccf7b2905a46d3e41cacf5",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -32322,7 +32322,7 @@ const albumData = {
     "uri": "spotify:album:1ztgi4s0tAk2kqeaPAUDu3",
     "title": "GODHAND",
     "artist": "GODHANDUSA",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02add0d214b34f3e0d0d107614",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273add0d214b34f3e0d0d107614",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -32365,7 +32365,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02add0d214b34f3e0d0d107614",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273add0d214b34f3e0d0d107614",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -32406,7 +32406,7 @@ const albumData = {
     "uri": "spotify:album:1qIEzQVayQMOBN0vRE5tkr",
     "title": "FINGER ON THE TRIGGER",
     "artist": "GODHANDUSA",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e020813f203a1efcfb2b5d639b2",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2730813f203a1efcfb2b5d639b2",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -32449,7 +32449,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e020813f203a1efcfb2b5d639b2",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2730813f203a1efcfb2b5d639b2",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -32490,7 +32490,7 @@ const albumData = {
     "uri": "spotify:album:26hQzsmzKvs3HyItJwdEvb",
     "title": "THOUGHT HE WUZ",
     "artist": "GODHANDUSA",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02fbfa0f11405259a4a9af48a8",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273fbfa0f11405259a4a9af48a8",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -32533,7 +32533,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02fbfa0f11405259a4a9af48a8",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273fbfa0f11405259a4a9af48a8",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -32574,7 +32574,7 @@ const albumData = {
     "uri": "spotify:album:0JQg7eikxPPHrBwDnYtJjw",
     "title": "Wolfmane!",
     "artist": "Keagan Grimm",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02f1244081cee2f0eccd0cc274",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273f1244081cee2f0eccd0cc274",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -32617,7 +32617,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02f1244081cee2f0eccd0cc274",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273f1244081cee2f0eccd0cc274",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -32658,7 +32658,7 @@ const albumData = {
     "uri": "spotify:album:7eZEzjnLCcjAv7RnvLLrGv",
     "title": "Gary Christmas 2",
     "artist": "Keagan Grimm",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0245e41964c559982b85d1bfb7",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27345e41964c559982b85d1bfb7",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -32701,7 +32701,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0245e41964c559982b85d1bfb7",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27345e41964c559982b85d1bfb7",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -32742,7 +32742,7 @@ const albumData = {
     "uri": "spotify:album:5TVl98AqB1soKNB9RLsR4i",
     "title": "Gary Christmas",
     "artist": "Keagan Grimm",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0259c91492cb0396a1dea7287f",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27359c91492cb0396a1dea7287f",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -32785,7 +32785,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0259c91492cb0396a1dea7287f",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27359c91492cb0396a1dea7287f",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -32826,7 +32826,7 @@ const albumData = {
     "uri": "spotify:album:1I2HA3tI9TqLS7ZUxd5plQ",
     "title": "Eclipse",
     "artist": "Somethin Outta Nothin",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e023c2f4541f8b2de02cb4aeee9",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2733c2f4541f8b2de02cb4aeee9",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -32869,7 +32869,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e023c2f4541f8b2de02cb4aeee9",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2733c2f4541f8b2de02cb4aeee9",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -32910,7 +32910,7 @@ const albumData = {
     "uri": "spotify:album:5ofCVTeAyVGwPj6z9m1P7X",
     "title": "Nothing",
     "artist": "Kill Dyll",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e029fb5d1c3b3f692b55ca8e5d5",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2739fb5d1c3b3f692b55ca8e5d5",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -32953,7 +32953,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e029fb5d1c3b3f692b55ca8e5d5",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2739fb5d1c3b3f692b55ca8e5d5",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -32992,7 +32992,7 @@ const albumData = {
     "uri": "spotify:album:2i08mMiFf51QxvDTJlhq2J",
     "title": "My Grave",
     "artist": "Kill Dyll",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02d0d91b0b8081e44a270927c8",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273d0d91b0b8081e44a270927c8",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -33035,7 +33035,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02d0d91b0b8081e44a270927c8",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273d0d91b0b8081e44a270927c8",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -33076,7 +33076,7 @@ const albumData = {
     "uri": "spotify:album:7MEHRApivqwtI0cHij0nW8",
     "title": "Nightmare",
     "artist": "Kill Dyll",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02f22977c16a9d79f979f87d2f",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273f22977c16a9d79f979f87d2f",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -33119,7 +33119,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02f22977c16a9d79f979f87d2f",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273f22977c16a9d79f979f87d2f",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -33160,7 +33160,7 @@ const albumData = {
     "uri": "spotify:album:6T0OU2OF3jcMKs5pkUjsgy",
     "title": "OBSIDIAN",
     "artist": "Kill Dyll",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e024cc926a3b3cdc38079862c74",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2734cc926a3b3cdc38079862c74",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -33203,7 +33203,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e024cc926a3b3cdc38079862c74",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2734cc926a3b3cdc38079862c74",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -33244,7 +33244,7 @@ const albumData = {
     "uri": "spotify:album:7z4bOVyff5FTaDeIIjPXXs",
     "title": "PARASOCIAL",
     "artist": "Kill Dyll",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02383f465a23dffd5c6e197252",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273383f465a23dffd5c6e197252",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -33287,7 +33287,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02383f465a23dffd5c6e197252",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273383f465a23dffd5c6e197252",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -33326,7 +33326,7 @@ const albumData = {
     "uri": "spotify:album:4XQCQ0pqXOY7Yf43HsodK9",
     "title": "WILTED ROSE",
     "artist": "Kill Dyll",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02ac273044b932cb084d375fc4",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273ac273044b932cb084d375fc4",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -33369,7 +33369,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02ac273044b932cb084d375fc4",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273ac273044b932cb084d375fc4",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -33408,7 +33408,7 @@ const albumData = {
     "uri": "spotify:album:3QAvdHz2tHhudtH6gmywd4",
     "title": "THE COST",
     "artist": "Kill Dyll",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e021f881d7e2434176f836df16a",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2731f881d7e2434176f836df16a",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -33451,7 +33451,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e021f881d7e2434176f836df16a",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2731f881d7e2434176f836df16a",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -33492,7 +33492,7 @@ const albumData = {
     "uri": "spotify:album:4JCeiarWdfm1WV86ZsNa1b",
     "title": "START TO BLEED",
     "artist": "Kill Dyll",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02f801dee67401199b4eae9d98",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273f801dee67401199b4eae9d98",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -33535,7 +33535,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02f801dee67401199b4eae9d98",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273f801dee67401199b4eae9d98",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -33574,7 +33574,7 @@ const albumData = {
     "uri": "spotify:album:0mtCMvqtnCTM2cYhVVtKUn",
     "title": "TITANIC",
     "artist": "Pranav.Wav",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e025c2b51a4a9fe63b5ac03485a",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2735c2b51a4a9fe63b5ac03485a",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -33617,7 +33617,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e025c2b51a4a9fe63b5ac03485a",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2735c2b51a4a9fe63b5ac03485a",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -33656,7 +33656,7 @@ const albumData = {
     "uri": "spotify:album:433a3JCXuGFttadC5LAQmF",
     "title": "AMERICAN ANARCHIST!",
     "artist": "Kill Dyll",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02979edc778536aa483b2886f5",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273979edc778536aa483b2886f5",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -33699,7 +33699,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02979edc778536aa483b2886f5",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273979edc778536aa483b2886f5",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -33740,7 +33740,7 @@ const albumData = {
     "uri": "spotify:album:3xicMBqt5AQ3ywWdi7ahfA",
     "title": "Loot My Corpse!",
     "artist": "Warlord Colossus",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e022013920a5715e053d62abec5",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2732013920a5715e053d62abec5",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -33783,7 +33783,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e022013920a5715e053d62abec5",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2732013920a5715e053d62abec5",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -33824,7 +33824,7 @@ const albumData = {
     "uri": "spotify:album:3C4ldrZddMtPQRUFKS43Zk",
     "title": "FATALITY",
     "artist": "Kill Dyll",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0242a3a465210a17280aaa8c8d",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27342a3a465210a17280aaa8c8d",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -33867,7 +33867,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0242a3a465210a17280aaa8c8d",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27342a3a465210a17280aaa8c8d",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -33908,7 +33908,7 @@ const albumData = {
     "uri": "spotify:album:6TwVVL61TxuFiQGDFMBXql",
     "title": "SUICIDE",
     "artist": "Kill Dyll",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02bd3c709750979bf08e560ccb",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273bd3c709750979bf08e560ccb",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -33951,7 +33951,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02bd3c709750979bf08e560ccb",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273bd3c709750979bf08e560ccb",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -33992,7 +33992,7 @@ const albumData = {
     "uri": "spotify:album:5mkkXvKZxkiwJNlWkNaksW",
     "title": "DIVINE WARRIOR",
     "artist": "Kill Dyll",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e026c5b2f40d28f5275c919131f",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2736c5b2f40d28f5275c919131f",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -34035,7 +34035,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e026c5b2f40d28f5275c919131f",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2736c5b2f40d28f5275c919131f",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -34076,7 +34076,7 @@ const albumData = {
     "uri": "spotify:album:40BLH68NAkViz0aeemrKFV",
     "title": "C4",
     "artist": "Kill Dyll",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02c00a4ed4971245b190bdbd98",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273c00a4ed4971245b190bdbd98",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -34119,7 +34119,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02c00a4ed4971245b190bdbd98",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273c00a4ed4971245b190bdbd98",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -34160,7 +34160,7 @@ const albumData = {
     "uri": "spotify:album:1vqmwhaB1zeMb0WlexCbUK",
     "title": "Cat Nap",
     "artist": "Kill Dyll",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02200b5ac2e4bdb73abc7a778b",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273200b5ac2e4bdb73abc7a778b",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -34203,7 +34203,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02200b5ac2e4bdb73abc7a778b",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273200b5ac2e4bdb73abc7a778b",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -34244,7 +34244,7 @@ const albumData = {
     "uri": "spotify:album:1LZL49eCQaK33GI1JOVNfD",
     "title": "Gas Chamber",
     "artist": "Kill Dyll",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02b102f76d00f4b85086bed85a",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273b102f76d00f4b85086bed85a",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -34287,7 +34287,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02b102f76d00f4b85086bed85a",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273b102f76d00f4b85086bed85a",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -34326,7 +34326,7 @@ const albumData = {
     "uri": "spotify:album:2Ut99Lzl7p2JWWE7ACN9vg",
     "title": "EMBRACE THE CHAOS, VOL. 1",
     "artist": "Kill Dyll",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e027339fc63704c238b8d25774e",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2737339fc63704c238b8d25774e",
     "tracksCount": 4,
     "type": "album",
     "isExplicit": false,
@@ -34369,7 +34369,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e027339fc63704c238b8d25774e",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2737339fc63704c238b8d25774e",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -34451,7 +34451,7 @@ const albumData = {
     "uri": "spotify:album:3VPdcSoaLisWUhljemXBe6",
     "title": "F U IN ADVANCE!",
     "artist": "Kill Dyll",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02704e50fcfa5d1b752233bb04",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273704e50fcfa5d1b752233bb04",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -34494,7 +34494,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02704e50fcfa5d1b752233bb04",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273704e50fcfa5d1b752233bb04",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -34535,7 +34535,7 @@ const albumData = {
     "uri": "spotify:album:3oPCmFvO7oTZz1tNHEdy6I",
     "title": "God's Failed Experiment",
     "artist": "Kill Dyll",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02176931a1814bab10c073b72e",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273176931a1814bab10c073b72e",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -34578,7 +34578,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02176931a1814bab10c073b72e",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273176931a1814bab10c073b72e",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -34619,7 +34619,7 @@ const albumData = {
     "uri": "spotify:album:4qtGOyxc4MfopoH9b8xuYd",
     "title": "I Saw Jesus Christ In a Parking Lot",
     "artist": "Kill Dyll",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0242e91f284ef5be72e4d67fd4",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27342e91f284ef5be72e4d67fd4",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -34662,7 +34662,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0242e91f284ef5be72e4d67fd4",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27342e91f284ef5be72e4d67fd4",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -34703,7 +34703,7 @@ const albumData = {
     "uri": "spotify:album:21RBXYEl4j5anWHKQjvMvf",
     "title": "ANTAGONIST",
     "artist": "Kill Dyll",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e020ef44ac07b9fb5301c513878",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2730ef44ac07b9fb5301c513878",
     "tracksCount": 6,
     "type": "album",
     "isExplicit": false,
@@ -34746,7 +34746,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e020ef44ac07b9fb5301c513878",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2730ef44ac07b9fb5301c513878",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -34862,7 +34862,7 @@ const albumData = {
     "uri": "spotify:album:3H8w7JNjMXAeOpuEUWck0G",
     "title": "VOID",
     "artist": "Kill Dyll",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02a5c228c5780c8eedc09f603a",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273a5c228c5780c8eedc09f603a",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -34905,7 +34905,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02a5c228c5780c8eedc09f603a",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273a5c228c5780c8eedc09f603a",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -34946,7 +34946,7 @@ const albumData = {
     "uri": "spotify:album:2YIXE4N8I8zZ5y0IXT4q2v",
     "title": "FEAST",
     "artist": "Kill Dyll",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e026dc3746ae05f2658c2666a78",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2736dc3746ae05f2658c2666a78",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -34989,7 +34989,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e026dc3746ae05f2658c2666a78",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2736dc3746ae05f2658c2666a78",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -35030,7 +35030,7 @@ const albumData = {
     "uri": "spotify:album:7be4xm8QKyrU69PnkD3XTF",
     "title": "Paranoia",
     "artist": "Kill Dyll",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0257ea1ab3e77cece5b598ad67",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27357ea1ab3e77cece5b598ad67",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -35073,7 +35073,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0257ea1ab3e77cece5b598ad67",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27357ea1ab3e77cece5b598ad67",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -35114,7 +35114,7 @@ const albumData = {
     "uri": "spotify:album:01S0x2Qp6CODlQko0MPo0y",
     "title": "JFK",
     "artist": "Kill Dyll",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02937bece2176bfb7633378ebf",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273937bece2176bfb7633378ebf",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -35157,7 +35157,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02937bece2176bfb7633378ebf",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273937bece2176bfb7633378ebf",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -35198,7 +35198,7 @@ const albumData = {
     "uri": "spotify:album:4OqEKSK9aSeTvXJFBC8Jbl",
     "title": "TIMMY",
     "artist": "Kill Dyll",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e022fe11dc344650f689c01d06e",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2732fe11dc344650f689c01d06e",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -35241,7 +35241,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e022fe11dc344650f689c01d06e",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2732fe11dc344650f689c01d06e",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -35282,7 +35282,7 @@ const albumData = {
     "uri": "spotify:album:3G4Pv4Gi9uYaUjh1x0vXia",
     "title": "Dead By Daylight",
     "artist": "Kill Dyll",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02dd72654699f351b199bc3ecc",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273dd72654699f351b199bc3ecc",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -35325,7 +35325,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02dd72654699f351b199bc3ecc",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273dd72654699f351b199bc3ecc",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -35366,7 +35366,7 @@ const albumData = {
     "uri": "spotify:album:4uQJLwPsc62jnR5U2MOOsb",
     "title": "2001",
     "artist": "Kill Dyll",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e022bac220c002b27743b6c3cc5",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2732bac220c002b27743b6c3cc5",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -35409,7 +35409,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e022bac220c002b27743b6c3cc5",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2732bac220c002b27743b6c3cc5",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -35450,7 +35450,7 @@ const albumData = {
     "uri": "spotify:album:6nQyYMaYNecW1Z509oxuwz",
     "title": "BAKI // ROT (feat. Gashum)",
     "artist": "Kill Dyll",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02a48e22a0e1807ebb2d7c7708",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273a48e22a0e1807ebb2d7c7708",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -35493,7 +35493,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02a48e22a0e1807ebb2d7c7708",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273a48e22a0e1807ebb2d7c7708",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -35534,7 +35534,7 @@ const albumData = {
     "uri": "spotify:album:0LGT47XCH61BWvIOGJNNr6",
     "title": "TRUST NO ONE! (feat. ruzlxn)",
     "artist": "Kill Dyll",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02a6b447e078984e01186a4128",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273a6b447e078984e01186a4128",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -35577,7 +35577,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02a6b447e078984e01186a4128",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273a6b447e078984e01186a4128",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -35618,7 +35618,7 @@ const albumData = {
     "uri": "spotify:album:73Bd2a8RysDAnvrL7OVUpN",
     "title": "HULU",
     "artist": "Kiraw",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e020865b71249e7a1e37c41febf",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2730865b71249e7a1e37c41febf",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -35661,7 +35661,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e020865b71249e7a1e37c41febf",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2730865b71249e7a1e37c41febf",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -35702,7 +35702,7 @@ const albumData = {
     "uri": "spotify:album:75vPJKIGknbHtlbePsRUgy",
     "title": "dont touch me.",
     "artist": "Kill Dyll",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e029673a71f8c482ce7e77be48f",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2739673a71f8c482ce7e77be48f",
     "tracksCount": 6,
     "type": "album",
     "isExplicit": false,
@@ -35745,7 +35745,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e029673a71f8c482ce7e77be48f",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2739673a71f8c482ce7e77be48f",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -35861,7 +35861,7 @@ const albumData = {
     "uri": "spotify:album:0UPDi5RpZMSflqSBnxldOh",
     "title": "KILL INC.",
     "artist": "ONI INC.",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02f7f5b3b11caff378b1ce2294",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273f7f5b3b11caff378b1ce2294",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -35904,7 +35904,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02f7f5b3b11caff378b1ce2294",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273f7f5b3b11caff378b1ce2294",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -35945,7 +35945,7 @@ const albumData = {
     "uri": "spotify:album:2UHyycPzeP2HPvh32dcMHT",
     "title": "NX FACE. (feat. PABLO!)",
     "artist": "Kill Dyll",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0214d11ab7ae50df7494340914",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27314d11ab7ae50df7494340914",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -35988,7 +35988,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0214d11ab7ae50df7494340914",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27314d11ab7ae50df7494340914",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -36029,7 +36029,7 @@ const albumData = {
     "uri": "spotify:album:2NtXF40V1KiF9v7v42gek1",
     "title": "PSYCHO!",
     "artist": "Kill Dyll",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0293d0f9714faa832b8b526c64",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27393d0f9714faa832b8b526c64",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -36072,7 +36072,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0293d0f9714faa832b8b526c64",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27393d0f9714faa832b8b526c64",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -36113,7 +36113,7 @@ const albumData = {
     "uri": "spotify:album:4noSgxGI4MVIQEKYSOjN5F",
     "title": "TOKYO GHOUL!",
     "artist": "Kill Dyll",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0245a2bb24139d304c046632b6",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27345a2bb24139d304c046632b6",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -36156,7 +36156,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0245a2bb24139d304c046632b6",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27345a2bb24139d304c046632b6",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -36197,7 +36197,7 @@ const albumData = {
     "uri": "spotify:album:45JlvYTmw091d5NtnJMOAq",
     "title": "hell.",
     "artist": "Kill Dyll",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02bd985653024ad38fc0b749f2",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273bd985653024ad38fc0b749f2",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -36240,7 +36240,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02bd985653024ad38fc0b749f2",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273bd985653024ad38fc0b749f2",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -36279,7 +36279,7 @@ const albumData = {
     "uri": "spotify:album:6vhncD53WbI2mjP3coH7Jo",
     "title": "Kill Dyll \"On The Radar\" Freestyle",
     "artist": "On The Radar",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02c16e797c93bb437f8732ef31",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273c16e797c93bb437f8732ef31",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -36322,7 +36322,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02c16e797c93bb437f8732ef31",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273c16e797c93bb437f8732ef31",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -36363,7 +36363,7 @@ const albumData = {
     "uri": "spotify:album:6R6YG6GzOrBGf8PB1OGXlY",
     "title": "SMOKE OPPS NOT CIGS",
     "artist": "Pranav.Wav",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e025951eae2b5de3a50fb78ea7e",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2735951eae2b5de3a50fb78ea7e",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -36406,7 +36406,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e025951eae2b5de3a50fb78ea7e",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2735951eae2b5de3a50fb78ea7e",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -36447,7 +36447,7 @@ const albumData = {
     "uri": "spotify:album:3SnR5AxkMmqsUz7pILA3HD",
     "title": "NVMB.",
     "artist": "Kill Dyll",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02583e45214ad73ef60cdde933",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273583e45214ad73ef60cdde933",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -36490,7 +36490,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02583e45214ad73ef60cdde933",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273583e45214ad73ef60cdde933",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -36531,7 +36531,7 @@ const albumData = {
     "uri": "spotify:album:1jjnLhhCwqr0mUzsQUlSsT",
     "title": "S!CK FVCK",
     "artist": "Kill Dyll",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02ea3eed636ff20c57d3f4b083",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273ea3eed636ff20c57d3f4b083",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -36574,7 +36574,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02ea3eed636ff20c57d3f4b083",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273ea3eed636ff20c57d3f4b083",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -36615,7 +36615,7 @@ const albumData = {
     "uri": "spotify:album:1ece0jN4ViEKMpqcl4ObjO",
     "title": "KILL ALL",
     "artist": "ZODIVK",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02da0bead4f06adf923e473968",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273da0bead4f06adf923e473968",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -36658,7 +36658,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02da0bead4f06adf923e473968",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273da0bead4f06adf923e473968",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -36699,7 +36699,7 @@ const albumData = {
     "uri": "spotify:album:5YATkYRxFToKLTwBMALL5X",
     "title": "CRAWL. (feat. Gashum)",
     "artist": "Kill Dyll",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02c007907818c53ee813a53e1b",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273c007907818c53ee813a53e1b",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -36742,7 +36742,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02c007907818c53ee813a53e1b",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273c007907818c53ee813a53e1b",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -36783,7 +36783,7 @@ const albumData = {
     "uri": "spotify:album:6A8cGDoUcSHqnOOttflLFt",
     "title": "I. Poppyseeds",
     "artist": "Kill Dyll",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e027225aa9ee7d0508125d2890d",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2737225aa9ee7d0508125d2890d",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -36826,7 +36826,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e027225aa9ee7d0508125d2890d",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2737225aa9ee7d0508125d2890d",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -36865,7 +36865,7 @@ const albumData = {
     "uri": "spotify:album:0ZqlNg55XUnkbqYAA1FpLu",
     "title": "Halloween.",
     "artist": "Kill Dyll",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02a5afac688f4ac020481e22f3",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273a5afac688f4ac020481e22f3",
     "tracksCount": 2,
     "type": "album",
     "isExplicit": false,
@@ -36908,7 +36908,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02a5afac688f4ac020481e22f3",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273a5afac688f4ac020481e22f3",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -36964,7 +36964,7 @@ const albumData = {
     "uri": "spotify:album:3lMDnVJaKnjP0GekAa8tS4",
     "title": "SPINELESS. (feat. PRXJEK)",
     "artist": "Kill Dyll",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02bedf39a52145a80cea7bbd00",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273bedf39a52145a80cea7bbd00",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -37007,7 +37007,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02bedf39a52145a80cea7bbd00",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273bedf39a52145a80cea7bbd00",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -37048,7 +37048,7 @@ const albumData = {
     "uri": "spotify:album:5wGr6XiuA1v4d65FUzrUX0",
     "title": "TERRY!",
     "artist": "Kill Dyll",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02dee97d2a928ebe5b4d30c9c7",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273dee97d2a928ebe5b4d30c9c7",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -37091,7 +37091,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02dee97d2a928ebe5b4d30c9c7",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273dee97d2a928ebe5b4d30c9c7",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -37132,7 +37132,7 @@ const albumData = {
     "uri": "spotify:album:6ObpmdMIeOz98Ha2zfiBZR",
     "title": "bleed 2 gether.",
     "artist": "Kill Dyll",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02fa77007a624e4f2b8adbbd64",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273fa77007a624e4f2b8adbbd64",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -37175,7 +37175,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02fa77007a624e4f2b8adbbd64",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273fa77007a624e4f2b8adbbd64",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -37216,7 +37216,7 @@ const albumData = {
     "uri": "spotify:album:77SqvVMbpuK2smFEA0Q3GP",
     "title": "POISON.",
     "artist": "Kill Dyll",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02b17cd7be52d9a9c5be285caf",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273b17cd7be52d9a9c5be285caf",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -37259,7 +37259,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02b17cd7be52d9a9c5be285caf",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273b17cd7be52d9a9c5be285caf",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -37300,7 +37300,7 @@ const albumData = {
     "uri": "spotify:album:0i5pRuu74MuyPrIjbsW6MI",
     "title": "D13.",
     "artist": "Kill Dyll",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02b3bb99e0575b5f609a573964",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273b3bb99e0575b5f609a573964",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -37343,7 +37343,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02b3bb99e0575b5f609a573964",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273b3bb99e0575b5f609a573964",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -37384,7 +37384,7 @@ const albumData = {
     "uri": "spotify:album:1nglfqOPCbFAJBYQCMjJvB",
     "title": "NOSE BLEED FM.",
     "artist": "Kill Dyll",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e022477f051069a83a27b6bcef0",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2732477f051069a83a27b6bcef0",
     "tracksCount": 4,
     "type": "album",
     "isExplicit": false,
@@ -37427,7 +37427,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e022477f051069a83a27b6bcef0",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2732477f051069a83a27b6bcef0",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -37513,7 +37513,7 @@ const albumData = {
     "uri": "spotify:album:1a5NiGJynAPGKyGU1cYqtE",
     "title": "FVCK LIFE.",
     "artist": "Kill Dyll",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02bf9cc2f7edb082bc6188b293",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273bf9cc2f7edb082bc6188b293",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -37556,7 +37556,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02bf9cc2f7edb082bc6188b293",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273bf9cc2f7edb082bc6188b293",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -37597,7 +37597,7 @@ const albumData = {
     "uri": "spotify:album:1Rt6nfCZCW7DBHJbQErFZW",
     "title": "sixty se7en.",
     "artist": "Kill Dyll",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02ae36714cb42c7cd94afbd096",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273ae36714cb42c7cd94afbd096",
     "tracksCount": 7,
     "type": "album",
     "isExplicit": false,
@@ -37640,7 +37640,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02ae36714cb42c7cd94afbd096",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273ae36714cb42c7cd94afbd096",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -37771,7 +37771,7 @@ const albumData = {
     "uri": "spotify:album:2OYkWtc3PfBVi7u0u267fF",
     "title": "FALL ASLEEP",
     "artist": "Kill Dyll",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02901fa58e766ae71044ca028e",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273901fa58e766ae71044ca028e",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -37814,7 +37814,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02901fa58e766ae71044ca028e",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273901fa58e766ae71044ca028e",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -37853,7 +37853,7 @@ const albumData = {
     "uri": "spotify:album:2rVweRPrGG5dugtZKHcD0U",
     "title": "BubblegumSkies",
     "artist": "Kill Dyll",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02a38c0a9ba8409ae07967e2d2",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273a38c0a9ba8409ae07967e2d2",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -37896,7 +37896,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02a38c0a9ba8409ae07967e2d2",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273a38c0a9ba8409ae07967e2d2",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -37937,7 +37937,7 @@ const albumData = {
     "uri": "spotify:album:1qa5QExQKR4mKfqaoSh5Ac",
     "title": "happyness.",
     "artist": "Kill Dyll",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02fe6c9710ea9781c6b49b1a7e",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273fe6c9710ea9781c6b49b1a7e",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -37980,7 +37980,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02fe6c9710ea9781c6b49b1a7e",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273fe6c9710ea9781c6b49b1a7e",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -38019,7 +38019,7 @@ const albumData = {
     "uri": "spotify:album:2sQH8kavnWueFKhcBc2wGr",
     "title": "<digital*nebula>",
     "artist": "Kill Dyll",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0293826d21ea712012d9dd271d",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27393826d21ea712012d9dd271d",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -38062,7 +38062,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0293826d21ea712012d9dd271d",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27393826d21ea712012d9dd271d",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -38101,7 +38101,7 @@ const albumData = {
     "uri": "spotify:album:1tYsU3bWcIwiCP159az1ip",
     "title": "KILLTHEPHARAOH",
     "artist": "Kill Dyll",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0213596bde28b4b19882ecd7cf",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27313596bde28b4b19882ecd7cf",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -38144,7 +38144,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0213596bde28b4b19882ecd7cf",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27313596bde28b4b19882ecd7cf",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -38185,7 +38185,7 @@ const albumData = {
     "uri": "spotify:album:2ceKtUIRPkQU7u8MCgs8cP",
     "title": "106.mph",
     "artist": "Kill Dyll",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02e1871ae930e309dfdeb1a634",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273e1871ae930e309dfdeb1a634",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -38228,7 +38228,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02e1871ae930e309dfdeb1a634",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273e1871ae930e309dfdeb1a634",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -38269,7 +38269,7 @@ const albumData = {
     "uri": "spotify:album:1KjXGmwRCkzdFCtyvyX5hm",
     "title": "XvX",
     "artist": "Kill Dyll",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02a384e08a2efca82a25aa341f",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273a384e08a2efca82a25aa341f",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -38312,7 +38312,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02a384e08a2efca82a25aa341f",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273a384e08a2efca82a25aa341f",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -38353,7 +38353,7 @@ const albumData = {
     "uri": "spotify:album:7sdjC5ysJhNOEkOaoh6hHy",
     "title": "L 'Appel Du Vide",
     "artist": "Kill Dyll",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02800daba32361303d33ecea78",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273800daba32361303d33ecea78",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -38396,7 +38396,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02800daba32361303d33ecea78",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273800daba32361303d33ecea78",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -38437,7 +38437,7 @@ const albumData = {
     "uri": "spotify:album:5hvL4lijECGPrZLmOLuyYh",
     "title": "FVCKED UP",
     "artist": "Kill Dyll",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e022864e4f06721a48a7eca41cb",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2732864e4f06721a48a7eca41cb",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -38480,7 +38480,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e022864e4f06721a48a7eca41cb",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2732864e4f06721a48a7eca41cb",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -38521,7 +38521,7 @@ const albumData = {
     "uri": "spotify:album:0A2F5SGHMxAaoJNz82r4o2",
     "title": "PaperSunset.",
     "artist": "Kill Dyll",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02461896f6e01a258313511e17",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273461896f6e01a258313511e17",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -38564,7 +38564,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02461896f6e01a258313511e17",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273461896f6e01a258313511e17",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -38603,7 +38603,7 @@ const albumData = {
     "uri": "spotify:album:5U2tJZGSGeShKkh3ifnuqu",
     "title": "Intermission II.",
     "artist": "Kill Dyll",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e024644304062b26659197144a5",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2734644304062b26659197144a5",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -38646,7 +38646,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e024644304062b26659197144a5",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2734644304062b26659197144a5",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -38685,7 +38685,7 @@ const albumData = {
     "uri": "spotify:album:6XMNiPYdh3X5oNYSR0lOZ2",
     "title": "TREE$",
     "artist": "Kill Dyll",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e021242a9f1bcc8874c25142440",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2731242a9f1bcc8874c25142440",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -38728,7 +38728,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e021242a9f1bcc8874c25142440",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2731242a9f1bcc8874c25142440",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -38767,7 +38767,7 @@ const albumData = {
     "uri": "spotify:album:2oz6q9Kj0tB5nMEZkrQdOV",
     "title": "Mr. Clean",
     "artist": "Kill Dyll",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02866bea92a22065e50582bc24",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273866bea92a22065e50582bc24",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -38810,7 +38810,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02866bea92a22065e50582bc24",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273866bea92a22065e50582bc24",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -38851,7 +38851,7 @@ const albumData = {
     "uri": "spotify:album:5ZlXMimK427p7AorUHqwh1",
     "title": "Amput8",
     "artist": "Kill Dyll",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02d8c4e17692ca7bb7c44a58e0",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273d8c4e17692ca7bb7c44a58e0",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -38894,7 +38894,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02d8c4e17692ca7bb7c44a58e0",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273d8c4e17692ca7bb7c44a58e0",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -38935,7 +38935,7 @@ const albumData = {
     "uri": "spotify:album:5csDfvRZxbelCk8T2tJnu9",
     "title": "Mollywood",
     "artist": "Kill Dyll",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02313b4aa242e4c8adda49533c",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273313b4aa242e4c8adda49533c",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -38978,7 +38978,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02313b4aa242e4c8adda49533c",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273313b4aa242e4c8adda49533c",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -39019,7 +39019,7 @@ const albumData = {
     "uri": "spotify:album:5LISdolYhKiSeh3FmyJGoj",
     "title": "Intermission",
     "artist": "Kill Dyll",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02d837021558884ed719e6b330",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273d837021558884ed719e6b330",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -39062,7 +39062,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02d837021558884ed719e6b330",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273d837021558884ed719e6b330",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -39101,7 +39101,7 @@ const albumData = {
     "uri": "spotify:album:1LZ4q2eIrKjzHkPE019FWw",
     "title": "Bankruptt",
     "artist": "Kill Dyll",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e029e6c745c6032516927a82ccd",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2739e6c745c6032516927a82ccd",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -39144,7 +39144,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e029e6c745c6032516927a82ccd",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2739e6c745c6032516927a82ccd",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -39185,7 +39185,7 @@ const albumData = {
     "uri": "spotify:album:4dlCZi6Nj17NZy4v8AzpiF",
     "title": "Rew!nd",
     "artist": "Kill Dyll",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0246b43886e69b96ce02f7f7e3",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27346b43886e69b96ce02f7f7e3",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -39228,7 +39228,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0246b43886e69b96ce02f7f7e3",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27346b43886e69b96ce02f7f7e3",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -39267,7 +39267,7 @@ const albumData = {
     "uri": "spotify:album:4piPwqBGxq8hlWONUMMrf4",
     "title": "Tulips",
     "artist": "LuLuYam",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02ac4c9d79854b92b619ab8acf",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273ac4c9d79854b92b619ab8acf",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -39310,7 +39310,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02ac4c9d79854b92b619ab8acf",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273ac4c9d79854b92b619ab8acf",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -39349,7 +39349,7 @@ const albumData = {
     "uri": "spotify:album:2KzRFjVkEQwvvyWOqBEEkJ",
     "title": "Just Enough",
     "artist": "LuLuYam",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e027825e890cdb6fda92f000509",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2737825e890cdb6fda92f000509",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -39392,7 +39392,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e027825e890cdb6fda92f000509",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2737825e890cdb6fda92f000509",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -39431,7 +39431,7 @@ const albumData = {
     "uri": "spotify:album:0ACs6agGjx6xMoGpOTcWxp",
     "title": "Skin and Bones",
     "artist": "LuLuYam",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e023570b62d5ec0814774c45507",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2733570b62d5ec0814774c45507",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -39474,7 +39474,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e023570b62d5ec0814774c45507",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2733570b62d5ec0814774c45507",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -39515,7 +39515,7 @@ const albumData = {
     "uri": "spotify:album:1p3et41krclrEPRo004AHN",
     "title": "50,000,000kHz SUICIDE",
     "artist": "astrid",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e028b0c799df103fd5beee8a209",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2738b0c799df103fd5beee8a209",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -39558,7 +39558,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e028b0c799df103fd5beee8a209",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2738b0c799df103fd5beee8a209",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -39599,7 +39599,7 @@ const albumData = {
     "uri": "spotify:album:0wo2bZpG7z27ROlQYPAmlK",
     "title": "How bout now?",
     "artist": "LuLuYam",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02866671e7d2edcaa61a7d2c14",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273866671e7d2edcaa61a7d2c14",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -39642,7 +39642,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02866671e7d2edcaa61a7d2c14",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273866671e7d2edcaa61a7d2c14",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -39681,7 +39681,7 @@ const albumData = {
     "uri": "spotify:album:0QlEmz0W8mNITbr3guElUM",
     "title": "You Know Me (Hazbin Hotel)",
     "artist": "Callie Mae",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02735f0cd6deffd3530939a56a",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273735f0cd6deffd3530939a56a",
     "tracksCount": 2,
     "type": "album",
     "isExplicit": false,
@@ -39724,7 +39724,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02735f0cd6deffd3530939a56a",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273735f0cd6deffd3530939a56a",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -39776,7 +39776,7 @@ const albumData = {
     "uri": "spotify:album:11qLcN5HgjgAlFUnrUB52h",
     "title": "Die Anyway",
     "artist": "LuLuYam",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02ace892d9d4ba0eb1bfb6a691",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273ace892d9d4ba0eb1bfb6a691",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -39819,7 +39819,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02ace892d9d4ba0eb1bfb6a691",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273ace892d9d4ba0eb1bfb6a691",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -39858,7 +39858,7 @@ const albumData = {
     "uri": "spotify:album:52BWb269m7R4b4BebgB00p",
     "title": "AMALGAMATION",
     "artist": "LuLuYam",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02c8a4b478c077312c17cc750d",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273c8a4b478c077312c17cc750d",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -39901,7 +39901,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02c8a4b478c077312c17cc750d",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273c8a4b478c077312c17cc750d",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -39942,7 +39942,7 @@ const albumData = {
     "uri": "spotify:album:4LRPCa3wyfSuuFgPxeytRx",
     "title": "Lights Go Out",
     "artist": "LuLuYam",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02df3a7e3ad1a3702519bb5f43",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273df3a7e3ad1a3702519bb5f43",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -39985,7 +39985,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02df3a7e3ad1a3702519bb5f43",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273df3a7e3ad1a3702519bb5f43",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -40026,7 +40026,7 @@ const albumData = {
     "uri": "spotify:album:7xab77w0mqH4ahD3jlzF1D",
     "title": "FREAK",
     "artist": "LuLuYam",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02ad2963374667e1dcdfb1891c",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273ad2963374667e1dcdfb1891c",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -40069,7 +40069,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02ad2963374667e1dcdfb1891c",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273ad2963374667e1dcdfb1891c",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -40110,7 +40110,7 @@ const albumData = {
     "uri": "spotify:album:53byhoZELZngPlPwbpOyWb",
     "title": "DIVINE CEO",
     "artist": "LuLuYam",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02394d4b4a21a6db2adbefd854",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273394d4b4a21a6db2adbefd854",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -40153,7 +40153,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02394d4b4a21a6db2adbefd854",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273394d4b4a21a6db2adbefd854",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -40194,7 +40194,7 @@ const albumData = {
     "uri": "spotify:album:2FjusBhEyTYXc1rbJxwnRM",
     "title": "Return To Sender",
     "artist": "LuLuYam",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e020e92c13a406b1724306bdd12",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2730e92c13a406b1724306bdd12",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -40237,7 +40237,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e020e92c13a406b1724306bdd12",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2730e92c13a406b1724306bdd12",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -40278,7 +40278,7 @@ const albumData = {
     "uri": "spotify:album:5a4mIKRec73w5gFAHXnbuH",
     "title": "Moth To The Flame",
     "artist": "LuLuYam",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e028bf44ba94a146de97b8e404e",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2738bf44ba94a146de97b8e404e",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -40321,7 +40321,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e028bf44ba94a146de97b8e404e",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2738bf44ba94a146de97b8e404e",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -40362,7 +40362,7 @@ const albumData = {
     "uri": "spotify:album:48WOPGbBqSDsePdqOGi1V0",
     "title": "ROACHES",
     "artist": "LuLuYam",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e024092cd36055ca4f871b80c2c",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2734092cd36055ca4f871b80c2c",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -40405,7 +40405,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e024092cd36055ca4f871b80c2c",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2734092cd36055ca4f871b80c2c",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -40446,7 +40446,7 @@ const albumData = {
     "uri": "spotify:album:0pPaKLsaZLn7Pm1HUs17v9",
     "title": "Sympathy",
     "artist": "LuLuYam",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02d33343c92b0dbc232cf1ef34",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273d33343c92b0dbc232cf1ef34",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -40489,7 +40489,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02d33343c92b0dbc232cf1ef34",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273d33343c92b0dbc232cf1ef34",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -40530,7 +40530,7 @@ const albumData = {
     "uri": "spotify:album:7zs6FxgG82tR3RSbDFltvF",
     "title": "EVERYTHING",
     "artist": "LuLuYam",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02bb16b8e061f68e8c27233b8b",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273bb16b8e061f68e8c27233b8b",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -40573,7 +40573,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02bb16b8e061f68e8c27233b8b",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273bb16b8e061f68e8c27233b8b",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -40614,7 +40614,7 @@ const albumData = {
     "uri": "spotify:album:49NXGz55zTSV1fWkuiFTwW",
     "title": "Poison",
     "artist": "LuLuYam",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02d11a16c5f018f97b5b7ea153",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273d11a16c5f018f97b5b7ea153",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -40657,7 +40657,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02d11a16c5f018f97b5b7ea153",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273d11a16c5f018f97b5b7ea153",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -40698,7 +40698,7 @@ const albumData = {
     "uri": "spotify:album:0LRCaA44CyRwCbCpVkK3oY",
     "title": "Cemetery Blues",
     "artist": "LuLuYam",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0257678f220d299614de52d283",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27357678f220d299614de52d283",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -40741,7 +40741,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0257678f220d299614de52d283",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27357678f220d299614de52d283",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -40782,7 +40782,7 @@ const albumData = {
     "uri": "spotify:album:1xjoYxM29c910GWC7BBAah",
     "title": "Light It Up",
     "artist": "LuLuYam",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e027dba185ae15acc839ce7240c",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2737dba185ae15acc839ce7240c",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -40825,7 +40825,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e027dba185ae15acc839ce7240c",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2737dba185ae15acc839ce7240c",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -40864,7 +40864,7 @@ const albumData = {
     "uri": "spotify:album:6gGBBnCivtdZAKcWVzPgTk",
     "title": "ALIEN",
     "artist": "LuLuYam",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e026ecfc5e35551af155e19432b",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2736ecfc5e35551af155e19432b",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -40907,7 +40907,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e026ecfc5e35551af155e19432b",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2736ecfc5e35551af155e19432b",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -40948,7 +40948,7 @@ const albumData = {
     "uri": "spotify:album:5h2ii0AQ2fSE0Bdz99BXVR",
     "title": "Backstabber",
     "artist": "LuLuYam",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02584b63fa8a4a37af2c5d35db",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273584b63fa8a4a37af2c5d35db",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -40991,7 +40991,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02584b63fa8a4a37af2c5d35db",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273584b63fa8a4a37af2c5d35db",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -41032,7 +41032,7 @@ const albumData = {
     "uri": "spotify:album:7iAdx6ehqVtLUMaRi0k6TH",
     "title": "Rest of my Life (DEMO)",
     "artist": "LuLuYam",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02b4841ea9d65207b161e45de3",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273b4841ea9d65207b161e45de3",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -41075,7 +41075,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02b4841ea9d65207b161e45de3",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273b4841ea9d65207b161e45de3",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -41114,7 +41114,7 @@ const albumData = {
     "uri": "spotify:album:6XI8FYFERtmAXJOSlKZfX6",
     "title": "Aneurysm",
     "artist": "Klokwerk E",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02e8348799d389257ccc430be2",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273e8348799d389257ccc430be2",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -41157,7 +41157,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02e8348799d389257ccc430be2",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273e8348799d389257ccc430be2",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -41198,7 +41198,7 @@ const albumData = {
     "uri": "spotify:album:42ReVOGNhQJISgbPZSe5d0",
     "title": "Dirty Dirt Bag",
     "artist": "Klokwerk E",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02f2e44ae740d10e9bb5b16874",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273f2e44ae740d10e9bb5b16874",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -41241,7 +41241,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02f2e44ae740d10e9bb5b16874",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273f2e44ae740d10e9bb5b16874",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -41282,7 +41282,7 @@ const albumData = {
     "uri": "spotify:album:0xcNqQOt0Ub7KKRabwYSGW",
     "title": "Night of the living Meth Heads",
     "artist": "Klokwerk E",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e028b0740be916410a608b98393",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2738b0740be916410a608b98393",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -41325,7 +41325,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e028b0740be916410a608b98393",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2738b0740be916410a608b98393",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -41366,7 +41366,7 @@ const albumData = {
     "uri": "spotify:album:1BVV7yNk76lGGHtdTmkcoy",
     "title": "Let Me Go",
     "artist": "Klokwerk E",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e025a0ba612947650ab4ce2add4",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2735a0ba612947650ab4ce2add4",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -41409,7 +41409,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e025a0ba612947650ab4ce2add4",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2735a0ba612947650ab4ce2add4",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -41450,7 +41450,7 @@ const albumData = {
     "uri": "spotify:album:6mS5DsaRRqIcfiha3UESEZ",
     "title": "Cemetery Girl (Re-Werk)",
     "artist": "Klokwerk E",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02930305d10be4f8a54de993e7",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273930305d10be4f8a54de993e7",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -41493,7 +41493,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02930305d10be4f8a54de993e7",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273930305d10be4f8a54de993e7",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -41534,7 +41534,7 @@ const albumData = {
     "uri": "spotify:album:2VkMZIZ6yampqjU4tV18Fg",
     "title": "Super 8",
     "artist": "Klokwerk E",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02d0dcf1e39a8d6e1c82996349",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273d0dcf1e39a8d6e1c82996349",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -41577,7 +41577,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02d0dcf1e39a8d6e1c82996349",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273d0dcf1e39a8d6e1c82996349",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -41618,7 +41618,7 @@ const albumData = {
     "uri": "spotify:album:7pwMsxN7pi55CWm89zY6hz",
     "title": "Ice Spice Freestyle",
     "artist": "Klokwerk E",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0230f6e4c7aa74152fe4a76904",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27330f6e4c7aa74152fe4a76904",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -41661,7 +41661,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0230f6e4c7aa74152fe4a76904",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27330f6e4c7aa74152fe4a76904",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -41702,7 +41702,7 @@ const albumData = {
     "uri": "spotify:album:0y9Oc6LfW51zzn3tqTefLZ",
     "title": "Juggalo Penis",
     "artist": "Klokwerk E",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02c9eddf32048af9dc8d4e4d18",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273c9eddf32048af9dc8d4e4d18",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -41745,7 +41745,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02c9eddf32048af9dc8d4e4d18",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273c9eddf32048af9dc8d4e4d18",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -41786,7 +41786,7 @@ const albumData = {
     "uri": "spotify:album:0RZ4W0ZbgcEEbRFtRIWgsM",
     "title": "Dahma Ya Mama",
     "artist": "Klokwerk E",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02338cee7817a670d2919e5da9",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273338cee7817a670d2919e5da9",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -41829,7 +41829,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02338cee7817a670d2919e5da9",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273338cee7817a670d2919e5da9",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -41870,7 +41870,7 @@ const albumData = {
     "uri": "spotify:album:4YKAAlMDm5WVwgB16WYwsG",
     "title": "Give me a show",
     "artist": "Klokwerk E",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0291f426e5dff7f9d5fb869d33",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27391f426e5dff7f9d5fb869d33",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -41913,7 +41913,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0291f426e5dff7f9d5fb869d33",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27391f426e5dff7f9d5fb869d33",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -41954,7 +41954,7 @@ const albumData = {
     "uri": "spotify:album:2rJMG4rxaYvXm92unsH3Vv",
     "title": "Y.C.F.W.U",
     "artist": "Klokwerk E",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02061e42506bb952e521a73b9a",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273061e42506bb952e521a73b9a",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -41997,7 +41997,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02061e42506bb952e521a73b9a",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273061e42506bb952e521a73b9a",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -42038,7 +42038,7 @@ const albumData = {
     "uri": "spotify:album:7GQ1uwTO12HBfePwOlX46C",
     "title": "Choke & Poke",
     "artist": "Klokwerk E",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0202ac19656a1d2455dc6d53a9",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27302ac19656a1d2455dc6d53a9",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -42081,7 +42081,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0202ac19656a1d2455dc6d53a9",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27302ac19656a1d2455dc6d53a9",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -42122,7 +42122,7 @@ const albumData = {
     "uri": "spotify:album:2Vlh3LzXqOuJoRc6xbsby1",
     "title": "Livin in My Head",
     "artist": "Klokwerk E",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e026596e150a60887321f5b56fc",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2736596e150a60887321f5b56fc",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -42165,7 +42165,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e026596e150a60887321f5b56fc",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2736596e150a60887321f5b56fc",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -42206,7 +42206,7 @@ const albumData = {
     "uri": "spotify:album:6jdH3mdZTlvzzySCr0Y5eW",
     "title": "Tear Jerker",
     "artist": "Klokwerk E",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02b9241b7167f33d0d30ec710b",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273b9241b7167f33d0d30ec710b",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -42249,7 +42249,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02b9241b7167f33d0d30ec710b",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273b9241b7167f33d0d30ec710b",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -42290,7 +42290,7 @@ const albumData = {
     "uri": "spotify:album:527TvChcbg5D6sWiZGIlnJ",
     "title": "Jim Jones",
     "artist": "Klokwerk E",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0234a786cd3c8f838de550cc92",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27334a786cd3c8f838de550cc92",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -42333,7 +42333,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0234a786cd3c8f838de550cc92",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27334a786cd3c8f838de550cc92",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -42374,7 +42374,7 @@ const albumData = {
     "uri": "spotify:album:6y2ecFplbFDy9tKjSCs3vH",
     "title": "Nasty Ass Bitch",
     "artist": "Klokwerk E",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e020b308b6c5c8be962303668ad",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2730b308b6c5c8be962303668ad",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -42417,7 +42417,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e020b308b6c5c8be962303668ad",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2730b308b6c5c8be962303668ad",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -42458,7 +42458,7 @@ const albumData = {
     "uri": "spotify:album:5tpT3WGVBMsPlxTN73UOGK",
     "title": "Crackheads",
     "artist": "Klokwerk E",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02490aba101c37a032047941b5",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273490aba101c37a032047941b5",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -42501,7 +42501,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02490aba101c37a032047941b5",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273490aba101c37a032047941b5",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -42542,7 +42542,7 @@ const albumData = {
     "uri": "spotify:album:5NpCvbAYQqca8d8jzDjH2f",
     "title": "Burn It All Down",
     "artist": "Klokwerk E",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02633257b5dce5a396662bfd9d",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273633257b5dce5a396662bfd9d",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -42585,7 +42585,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02633257b5dce5a396662bfd9d",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273633257b5dce5a396662bfd9d",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -42626,7 +42626,7 @@ const albumData = {
     "uri": "spotify:album:79DovyawHDs4doScoAU6e2",
     "title": "Pussy Aint Got No Face",
     "artist": "Klokwerk E",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e022a5fa3dd121aa0430dfe8b3a",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2732a5fa3dd121aa0430dfe8b3a",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -42669,7 +42669,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e022a5fa3dd121aa0430dfe8b3a",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2732a5fa3dd121aa0430dfe8b3a",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -42710,7 +42710,7 @@ const albumData = {
     "uri": "spotify:album:7llwDpqVKgcwUe46QsSqOe",
     "title": "Boof It",
     "artist": "Klokwerk E",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02cbd02c2871b7484ea36edc85",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273cbd02c2871b7484ea36edc85",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -42753,7 +42753,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02cbd02c2871b7484ea36edc85",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273cbd02c2871b7484ea36edc85",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -42794,7 +42794,7 @@ const albumData = {
     "uri": "spotify:album:3eNvcQMhek1krhgy56Pt6S",
     "title": "Smash",
     "artist": "Klokwerk E",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e027b6b7c991a85921f7eefb207",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2737b6b7c991a85921f7eefb207",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -42837,7 +42837,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e027b6b7c991a85921f7eefb207",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2737b6b7c991a85921f7eefb207",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -42878,7 +42878,7 @@ const albumData = {
     "uri": "spotify:album:1tyTj74itz6IYZ70gtp723",
     "title": "Maxed Out",
     "artist": "Klokwerk E",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e024b0943ad778ef60a39fcc8b8",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2734b0943ad778ef60a39fcc8b8",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -42921,7 +42921,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e024b0943ad778ef60a39fcc8b8",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2734b0943ad778ef60a39fcc8b8",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -42962,7 +42962,7 @@ const albumData = {
     "uri": "spotify:album:6mQytMCfck0gjhd8iuN8qj",
     "title": "You Dont Dance",
     "artist": "Klokwerk E",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02f4bca3febb53f2b6edb443cb",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273f4bca3febb53f2b6edb443cb",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -43005,7 +43005,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02f4bca3febb53f2b6edb443cb",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273f4bca3febb53f2b6edb443cb",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -43046,7 +43046,7 @@ const albumData = {
     "uri": "spotify:album:0UmuMsd500eNBtA7QjjvR2",
     "title": "Welcome to Whoopstock",
     "artist": "Klokwerk E",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e029ccd4dc069832cf3e647300b",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2739ccd4dc069832cf3e647300b",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -43089,7 +43089,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e029ccd4dc069832cf3e647300b",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2739ccd4dc069832cf3e647300b",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -43130,7 +43130,7 @@ const albumData = {
     "uri": "spotify:album:1bUDKRJPrDtVEJsbn0Uxzl",
     "title": "Life Alert",
     "artist": "Klokwerk E",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0208304d9085e0d3b5bf7e89e2",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27308304d9085e0d3b5bf7e89e2",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -43173,7 +43173,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0208304d9085e0d3b5bf7e89e2",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27308304d9085e0d3b5bf7e89e2",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -43214,7 +43214,7 @@ const albumData = {
     "uri": "spotify:album:5pNkd5ZnKy5GP9SBnrx77s",
     "title": "Moonlight",
     "artist": "Klokwerk E",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e023215722fd03d36e58d9c98e8",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2733215722fd03d36e58d9c98e8",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -43257,7 +43257,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e023215722fd03d36e58d9c98e8",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2733215722fd03d36e58d9c98e8",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -43298,7 +43298,7 @@ const albumData = {
     "uri": "spotify:album:25UEuY8a14cXYfozV33yHc",
     "title": "Space Gas",
     "artist": "Klokwerk E",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e029c28b144cbfe43e412e66a65",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2739c28b144cbfe43e412e66a65",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -43341,7 +43341,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e029c28b144cbfe43e412e66a65",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2739c28b144cbfe43e412e66a65",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -43382,7 +43382,7 @@ const albumData = {
     "uri": "spotify:album:41AKTMQXuhRlfwgw3gsXgf",
     "title": "Stain",
     "artist": "Klokwerk E",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e028cc3fffff43369d3a881a550",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2738cc3fffff43369d3a881a550",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -43425,7 +43425,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e028cc3fffff43369d3a881a550",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2738cc3fffff43369d3a881a550",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -43466,7 +43466,7 @@ const albumData = {
     "uri": "spotify:album:0vxSUBLaPrAextUEtdbvGY",
     "title": "Sweat",
     "artist": "Klokwerk E",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0284d781c860402528abffa119",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27384d781c860402528abffa119",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -43509,7 +43509,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0284d781c860402528abffa119",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27384d781c860402528abffa119",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -43550,7 +43550,7 @@ const albumData = {
     "uri": "spotify:album:3ri79iOePwwHCeBomVko9u",
     "title": "Lex Talionis",
     "artist": "Blood of the Beloved",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02d86f5ee656178365701a4d2a",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273d86f5ee656178365701a4d2a",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -43593,7 +43593,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02d86f5ee656178365701a4d2a",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273d86f5ee656178365701a4d2a",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -43634,7 +43634,7 @@ const albumData = {
     "uri": "spotify:album:27PNbaQZ2cege7vZWnVng4",
     "title": "Halloween",
     "artist": "Blood of the Beloved",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02e0f5cad197037424ad919822",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273e0f5cad197037424ad919822",
     "tracksCount": 2,
     "type": "album",
     "isExplicit": false,
@@ -43677,7 +43677,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02e0f5cad197037424ad919822",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273e0f5cad197037424ad919822",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -43731,7 +43731,7 @@ const albumData = {
     "uri": "spotify:album:5fijItn7QC7wMYLsQ8sdYr",
     "title": "Immolation",
     "artist": "Blood of the Beloved",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0278d3c5b53566940316d47f47",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27378d3c5b53566940316d47f47",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -43774,7 +43774,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0278d3c5b53566940316d47f47",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27378d3c5b53566940316d47f47",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -43815,7 +43815,7 @@ const albumData = {
     "uri": "spotify:album:6X49pMM3NeSFB7JEv9cSTg",
     "title": "S.T.F.U.",
     "artist": "Blood of the Beloved",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02b5dfaf34ac6e1b77ffd4014d",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273b5dfaf34ac6e1b77ffd4014d",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -43858,7 +43858,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02b5dfaf34ac6e1b77ffd4014d",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273b5dfaf34ac6e1b77ffd4014d",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -43899,7 +43899,7 @@ const albumData = {
     "uri": "spotify:album:4ayvv4RRuJynVQeKe9sLI8",
     "title": "Beautiful Rot",
     "artist": "Blood of the Beloved",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02397981310710231a9ee65ee4",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273397981310710231a9ee65ee4",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -43942,7 +43942,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02397981310710231a9ee65ee4",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273397981310710231a9ee65ee4",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -43983,7 +43983,7 @@ const albumData = {
     "uri": "spotify:album:1vuDNzTOugD90VzUVPS5TR",
     "title": "Letting Go",
     "artist": "Blood of the Beloved",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02d491588fc79754dcc53b66c2",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273d491588fc79754dcc53b66c2",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -44026,7 +44026,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02d491588fc79754dcc53b66c2",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273d491588fc79754dcc53b66c2",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -44067,7 +44067,7 @@ const albumData = {
     "uri": "spotify:album:4GY6YUjYB66VDYa3ZADDbR",
     "title": "M.F. Underground",
     "artist": "Blood of the Beloved",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e025d513124227b8ed9e6c388d2",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2735d513124227b8ed9e6c388d2",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -44110,7 +44110,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e025d513124227b8ed9e6c388d2",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2735d513124227b8ed9e6c388d2",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -44151,7 +44151,7 @@ const albumData = {
     "uri": "spotify:album:3DxlL80aTuRIvIaGspzZvS",
     "title": "Butterfly Exhibit",
     "artist": "Blood of the Beloved",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02d6943e26e56430d44af51d98",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273d6943e26e56430d44af51d98",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -44194,7 +44194,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02d6943e26e56430d44af51d98",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273d6943e26e56430d44af51d98",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -44235,7 +44235,7 @@ const albumData = {
     "uri": "spotify:album:6RVbq7zPsXT4xE4xas7J6A",
     "title": "Horsemen of Apocalypse",
     "artist": "Blood of the Beloved",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e026ae09a9e954ddd3f285be1a4",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2736ae09a9e954ddd3f285be1a4",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -44278,7 +44278,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e026ae09a9e954ddd3f285be1a4",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2736ae09a9e954ddd3f285be1a4",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -44319,7 +44319,7 @@ const albumData = {
     "uri": "spotify:album:1xG7Vm2gFh4zcdHinOGjXW",
     "title": "Don't Let Me Out",
     "artist": "Blood of the Beloved",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e024824f3ff5573134c0b8140f7",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2734824f3ff5573134c0b8140f7",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -44362,7 +44362,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e024824f3ff5573134c0b8140f7",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2734824f3ff5573134c0b8140f7",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -44403,7 +44403,7 @@ const albumData = {
     "uri": "spotify:album:3rclrKzJdEKeKvliPmJ5d8",
     "title": "Prepare for Impact",
     "artist": "Blood of the Beloved",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0227298bb3798dbaeaa876007d",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27327298bb3798dbaeaa876007d",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -44446,7 +44446,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0227298bb3798dbaeaa876007d",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27327298bb3798dbaeaa876007d",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -44487,7 +44487,7 @@ const albumData = {
     "uri": "spotify:album:70CbGCmXI8f0z1CiN6FlFT",
     "title": "Holy Fucking Hell",
     "artist": "Blood of the Beloved",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e025dd6bb5ab54b1836447d3a48",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2735dd6bb5ab54b1836447d3a48",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -44530,7 +44530,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e025dd6bb5ab54b1836447d3a48",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2735dd6bb5ab54b1836447d3a48",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -44571,7 +44571,7 @@ const albumData = {
     "uri": "spotify:album:7kZRNI784PcG7fQPosebeN",
     "title": "ColdBlood",
     "artist": "Blood of the Beloved",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e029352bff31db2107d242a8280",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2739352bff31db2107d242a8280",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -44614,7 +44614,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e029352bff31db2107d242a8280",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2739352bff31db2107d242a8280",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -44655,7 +44655,7 @@ const albumData = {
     "uri": "spotify:album:0vaJbQsRrtsGLJdLGCLNe4",
     "title": "Eidolon",
     "artist": "Blood of the Beloved",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02652e2880ff44988621465bb4",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273652e2880ff44988621465bb4",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -44698,7 +44698,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02652e2880ff44988621465bb4",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273652e2880ff44988621465bb4",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -44739,7 +44739,7 @@ const albumData = {
     "uri": "spotify:album:121qbS8gxE055XXVA6HCAF",
     "title": "Haunted",
     "artist": "Blood of the Beloved",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02b41fa992accb1e941b6b0810",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273b41fa992accb1e941b6b0810",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -44782,7 +44782,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02b41fa992accb1e941b6b0810",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273b41fa992accb1e941b6b0810",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -44821,7 +44821,7 @@ const albumData = {
     "uri": "spotify:album:3vrhXZHpxzGPttH5ppsKa6",
     "title": "Enemy",
     "artist": "Blood of the Beloved",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e020af9a0ffbe11a60f8666b53b",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2730af9a0ffbe11a60f8666b53b",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -44864,7 +44864,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e020af9a0ffbe11a60f8666b53b",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2730af9a0ffbe11a60f8666b53b",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -44905,7 +44905,7 @@ const albumData = {
     "uri": "spotify:album:3XRFu31WWlw6ccQLzUjfVp",
     "title": "ImaHorror",
     "artist": "Blood of the Beloved",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0239a9a0ac4d484d902c0173b1",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27339a9a0ac4d484d902c0173b1",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -44948,7 +44948,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0239a9a0ac4d484d902c0173b1",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27339a9a0ac4d484d902c0173b1",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -44989,7 +44989,7 @@ const albumData = {
     "uri": "spotify:album:3XYPkAkb3D2wqOjaJfYz1e",
     "title": "HollowMen",
     "artist": "Blood of the Beloved",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e027e197327d687158e483a56a8",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2737e197327d687158e483a56a8",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -45032,7 +45032,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e027e197327d687158e483a56a8",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2737e197327d687158e483a56a8",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -45073,7 +45073,7 @@ const albumData = {
     "uri": "spotify:album:0iOSfXcxc91MBucE67itHv",
     "title": "Hip Hop Heretics",
     "artist": "Blood of the Beloved",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02dc3e89f21cc60d291380d112",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273dc3e89f21cc60d291380d112",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -45116,7 +45116,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02dc3e89f21cc60d291380d112",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273dc3e89f21cc60d291380d112",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -45157,7 +45157,7 @@ const albumData = {
     "uri": "spotify:album:3JM9mSPgx8mXARl6ArwjeI",
     "title": "BlackOut",
     "artist": "Blood of the Beloved",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02393f5f0bf3fb81971d18cae8",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273393f5f0bf3fb81971d18cae8",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -45200,7 +45200,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02393f5f0bf3fb81971d18cae8",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273393f5f0bf3fb81971d18cae8",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -45241,7 +45241,7 @@ const albumData = {
     "uri": "spotify:album:69O3bm2T26nBvyQV7ImmaV",
     "title": "Born of Flame",
     "artist": "Blood of the Beloved",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02d94df8cfea556bd7c1da0854",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273d94df8cfea556bd7c1da0854",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -45284,7 +45284,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02d94df8cfea556bd7c1da0854",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273d94df8cfea556bd7c1da0854",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -45325,7 +45325,7 @@ const albumData = {
     "uri": "spotify:album:7iKnVWh4dHHRSnnqCK7C4T",
     "title": "Culling the Dark",
     "artist": "Blood of the Beloved",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e020310407740d763dd3bceacca",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2730310407740d763dd3bceacca",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -45368,7 +45368,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e020310407740d763dd3bceacca",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2730310407740d763dd3bceacca",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -45409,7 +45409,7 @@ const albumData = {
     "uri": "spotify:album:72paWGxAm9RzCkuzyBF1j8",
     "title": "I Saw The Devil",
     "artist": "Blood of the Beloved",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e020ed37dff4c3b4ae0ea6290d5",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2730ed37dff4c3b4ae0ea6290d5",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -45452,7 +45452,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e020ed37dff4c3b4ae0ea6290d5",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2730ed37dff4c3b4ae0ea6290d5",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -45493,7 +45493,7 @@ const albumData = {
     "uri": "spotify:album:1SRc1YVns1H0cuH3jqNab8",
     "title": "The Conjuring Cypher",
     "artist": "Blood of the Beloved",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02e978f4bee7259e78309f72b6",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273e978f4bee7259e78309f72b6",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -45536,7 +45536,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02e978f4bee7259e78309f72b6",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273e978f4bee7259e78309f72b6",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -45577,7 +45577,7 @@ const albumData = {
     "uri": "spotify:album:10VTwZasaH0S2Rp2ifieYY",
     "title": "Watch Them Fall",
     "artist": "Blood of the Beloved",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02eebb183eee644565e7fc1e83",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273eebb183eee644565e7fc1e83",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -45620,7 +45620,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02eebb183eee644565e7fc1e83",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273eebb183eee644565e7fc1e83",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -45661,7 +45661,7 @@ const albumData = {
     "uri": "spotify:album:1xQz9LLTwetskKpNMn11Ja",
     "title": "I Am Hell",
     "artist": "Blood of the Beloved",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0221fd4c71a5cff832ac745593",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27321fd4c71a5cff832ac745593",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -45704,7 +45704,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0221fd4c71a5cff832ac745593",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27321fd4c71a5cff832ac745593",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -45745,7 +45745,7 @@ const albumData = {
     "uri": "spotify:album:589kLkXaDZ4hbBQEGXLDo5",
     "title": "Run With The Coven",
     "artist": "Blood of the Beloved",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e021aeeb0df765a0824e7dedad5",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2731aeeb0df765a0824e7dedad5",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -45788,7 +45788,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e021aeeb0df765a0824e7dedad5",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2731aeeb0df765a0824e7dedad5",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -45829,7 +45829,7 @@ const albumData = {
     "uri": "spotify:album:3P20mv4bbLNQo4fDaw1xBB",
     "title": "I'll Come Back 2 Haunt You",
     "artist": "KAMAARA",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0226352f4dd2630430ae1ae601",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27326352f4dd2630430ae1ae601",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -45872,7 +45872,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0226352f4dd2630430ae1ae601",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27326352f4dd2630430ae1ae601",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -45913,7 +45913,7 @@ const albumData = {
     "uri": "spotify:album:0ryBgUnptNCupir6KF0Q6n",
     "title": "YOU MAKE THIS AFTERLIFE WORTH LIVING",
     "artist": "Savage Ga$p",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e023995892c5575443e6bbda015",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2733995892c5575443e6bbda015",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -45956,7 +45956,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e023995892c5575443e6bbda015",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2733995892c5575443e6bbda015",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -45997,7 +45997,7 @@ const albumData = {
     "uri": "spotify:album:6RgO0HKGiXgBhJbkVcm9lT",
     "title": "Scarlet Teeth",
     "artist": "KAMAARA",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e026d2eef379cd2fe6a8a0fb500",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2736d2eef379cd2fe6a8a0fb500",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -46040,7 +46040,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e026d2eef379cd2fe6a8a0fb500",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2736d2eef379cd2fe6a8a0fb500",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -46081,7 +46081,7 @@ const albumData = {
     "uri": "spotify:album:6xLqhaKRper2MaawxE7Edf",
     "title": "Tonal Dread",
     "artist": "KAMAARA",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0212035f7c1f266f569bd58cee",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27312035f7c1f266f569bd58cee",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -46124,7 +46124,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0212035f7c1f266f569bd58cee",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27312035f7c1f266f569bd58cee",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -46165,7 +46165,7 @@ const albumData = {
     "uri": "spotify:album:71ldCC4LYRGxMjMW36fQyw",
     "title": "Pit of Despair",
     "artist": "KAMAARA",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02dfe4315e49dceaf733a55c06",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273dfe4315e49dceaf733a55c06",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -46208,7 +46208,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02dfe4315e49dceaf733a55c06",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273dfe4315e49dceaf733a55c06",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -46249,7 +46249,7 @@ const albumData = {
     "uri": "spotify:album:0p6HOkxIjtAoiDpfSbvSHU",
     "title": "TortureInsideMyAmygdala",
     "artist": "KAMAARA",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e027cdf064b2102ae02e592f332",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2737cdf064b2102ae02e592f332",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -46292,7 +46292,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e027cdf064b2102ae02e592f332",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2737cdf064b2102ae02e592f332",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -46333,7 +46333,7 @@ const albumData = {
     "uri": "spotify:album:4Y5pBfHSb1Ojay1rLxj45C",
     "title": "PLEASE DON'T HAUNT ME",
     "artist": "Haunted House",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e028a2b78da1ade8c879fa72763",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2738a2b78da1ade8c879fa72763",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -46376,7 +46376,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e028a2b78da1ade8c879fa72763",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2738a2b78da1ade8c879fa72763",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -46417,7 +46417,7 @@ const albumData = {
     "uri": "spotify:album:59OFpC7J5h3OcyXG5NPf9Q",
     "title": "SIGNS",
     "artist": "KAMAARA",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02317ff2707a0c1d58181a1d69",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273317ff2707a0c1d58181a1d69",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -46460,7 +46460,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02317ff2707a0c1d58181a1d69",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273317ff2707a0c1d58181a1d69",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -46501,7 +46501,7 @@ const albumData = {
     "uri": "spotify:album:4PXrQD7Bd00EjJnyb6maH8",
     "title": "paranoia agent",
     "artist": "Savage Ga$p",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02287069a421ddbf349163c0db",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273287069a421ddbf349163c0db",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -46544,7 +46544,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02287069a421ddbf349163c0db",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273287069a421ddbf349163c0db",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -46583,7 +46583,7 @@ const albumData = {
     "uri": "spotify:album:4HAON7JRIvpZg5qMGqOMN2",
     "title": "ghost in the shell (feat. SXMPRA)",
     "artist": "Savage Ga$p",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0276ae234c3377cbe369ee8077",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27376ae234c3377cbe369ee8077",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -46626,7 +46626,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0276ae234c3377cbe369ee8077",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27376ae234c3377cbe369ee8077",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -46667,7 +46667,7 @@ const albumData = {
     "uri": "spotify:album:2ZSmQMtAl10dAyU1eneFbo",
     "title": "flowers by her grave",
     "artist": "Savage Ga$p",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02942c7e210f9fbafa3351f411",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273942c7e210f9fbafa3351f411",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -46710,7 +46710,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02942c7e210f9fbafa3351f411",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273942c7e210f9fbafa3351f411",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -46751,7 +46751,7 @@ const albumData = {
     "uri": "spotify:album:1rxIEvAI88gl1lBDsjvZqZ",
     "title": "Roach Latency",
     "artist": "Istasha",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02312cbc9f49facb7c1b3f44c3",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273312cbc9f49facb7c1b3f44c3",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -46794,7 +46794,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02312cbc9f49facb7c1b3f44c3",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273312cbc9f49facb7c1b3f44c3",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -46835,7 +46835,7 @@ const albumData = {
     "uri": "spotify:album:25oNU5hHbzv3GAF8UfLZUy",
     "title": "sorry im a haunted house",
     "artist": "Savage Ga$p",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02b98b7e5ed4ecc279bea58ee8",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273b98b7e5ed4ecc279bea58ee8",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -46878,7 +46878,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02b98b7e5ed4ecc279bea58ee8",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273b98b7e5ed4ecc279bea58ee8",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -46919,7 +46919,7 @@ const albumData = {
     "uri": "spotify:album:5paHLzewvgX7QCz1LP73MO",
     "title": "GauzeValley",
     "artist": "KAMAARA",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02584b2ea947947907c64b5c63",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273584b2ea947947907c64b5c63",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -46962,7 +46962,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02584b2ea947947907c64b5c63",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273584b2ea947947907c64b5c63",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -47003,7 +47003,7 @@ const albumData = {
     "uri": "spotify:album:6P79MWNcyqDUyXlB6ykiAT",
     "title": "CATACOMBS!",
     "artist": "KAMAARA",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0211b769a3ee7f2f503c63519e",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27311b769a3ee7f2f503c63519e",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -47046,7 +47046,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0211b769a3ee7f2f503c63519e",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27311b769a3ee7f2f503c63519e",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -47087,7 +47087,7 @@ const albumData = {
     "uri": "spotify:album:2BSWt8nsXXqEEFBlkfzqvm",
     "title": "heartRACE",
     "artist": "outsiderX",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e023f90ecd17c65b7754f26a3f2",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2733f90ecd17c65b7754f26a3f2",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -47130,7 +47130,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e023f90ecd17c65b7754f26a3f2",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2733f90ecd17c65b7754f26a3f2",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -47171,7 +47171,7 @@ const albumData = {
     "uri": "spotify:album:63mm4ZMw3FGmwW1nCtMy09",
     "title": "WeProbablyShouldn'ttalkanymore",
     "artist": "KAMAARA",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0233a652c592aa88b724edfb4c",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27333a652c592aa88b724edfb4c",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -47214,7 +47214,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0233a652c592aa88b724edfb4c",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27333a652c592aa88b724edfb4c",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -47255,7 +47255,7 @@ const albumData = {
     "uri": "spotify:album:3YEK8l1byfJUnRCvkywy0q",
     "title": "SorryItsVague",
     "artist": "KAMAARA",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e024150742e5d7a1d7e8e50e26d",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2734150742e5d7a1d7e8e50e26d",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -47298,7 +47298,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e024150742e5d7a1d7e8e50e26d",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2734150742e5d7a1d7e8e50e26d",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -47337,7 +47337,7 @@ const albumData = {
     "uri": "spotify:album:5UsQ3HlF9ztCzjt2k2OkeO",
     "title": "MyGothBitchCameWithaglock",
     "artist": "KAMAARA",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e020e2155fba51dd91679f4a6ad",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2730e2155fba51dd91679f4a6ad",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -47380,7 +47380,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e020e2155fba51dd91679f4a6ad",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2730e2155fba51dd91679f4a6ad",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -47421,7 +47421,7 @@ const albumData = {
     "uri": "spotify:album:18dLFncnmkXqgHeUkmXpwF",
     "title": "I Might Die Before I Detox",
     "artist": "KAMAARA",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02a1b98eb5f27507cda0412644",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273a1b98eb5f27507cda0412644",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -47464,7 +47464,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02a1b98eb5f27507cda0412644",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273a1b98eb5f27507cda0412644",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -47505,7 +47505,7 @@ const albumData = {
     "uri": "spotify:album:5K3ZioWTtEeVj90pZIye5W",
     "title": "DEVIL ON MY SHOULDER",
     "artist": "Witchouse 40k",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02926aae7800e709fe23197573",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273926aae7800e709fe23197573",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -47548,7 +47548,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02926aae7800e709fe23197573",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273926aae7800e709fe23197573",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -47589,7 +47589,7 @@ const albumData = {
     "uri": "spotify:album:7ICcTCaT1S0q7mgQXVWwd0",
     "title": "LEFT FOR DEAD",
     "artist": "Witchouse 40k",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e025998288e1872ce5f5e9c7d02",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2735998288e1872ce5f5e9c7d02",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -47632,7 +47632,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e025998288e1872ce5f5e9c7d02",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2735998288e1872ce5f5e9c7d02",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -47673,7 +47673,7 @@ const albumData = {
     "uri": "spotify:album:6sNS7e4Hj0gQapOdWAC7g8",
     "title": "BONEYARD",
     "artist": "Witchouse 40k",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02eef1fa6e6de27f15d8a36a67",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273eef1fa6e6de27f15d8a36a67",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -47716,7 +47716,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02eef1fa6e6de27f15d8a36a67",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273eef1fa6e6de27f15d8a36a67",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -47757,7 +47757,7 @@ const albumData = {
     "uri": "spotify:album:45nzVVJgYMJXfQVXPEYRLu",
     "title": "Cathedral Ward",
     "artist": "do not resurrect",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e024ec1a50a62db7bc71c12e2b2",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2734ec1a50a62db7bc71c12e2b2",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -47800,7 +47800,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e024ec1a50a62db7bc71c12e2b2",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2734ec1a50a62db7bc71c12e2b2",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -47841,7 +47841,7 @@ const albumData = {
     "uri": "spotify:album:7tBwhgKcp1DFJ4f0Au0Jdh",
     "title": "HOLLOWBONES",
     "artist": "Witchouse 40k",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e026de8bad1dafb0affdc0ee7da",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2736de8bad1dafb0affdc0ee7da",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -47884,7 +47884,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e026de8bad1dafb0affdc0ee7da",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2736de8bad1dafb0affdc0ee7da",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -47925,7 +47925,7 @@ const albumData = {
     "uri": "spotify:album:2ResyJBYR0ZSBN6WlyUeoR",
     "title": "GRAVEWORLD.TV/LIVE",
     "artist": "TWENTYTHREE",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e027ad6bcf696a6ad4051f70361",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2737ad6bcf696a6ad4051f70361",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -47968,7 +47968,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e027ad6bcf696a6ad4051f70361",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2737ad6bcf696a6ad4051f70361",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -48009,7 +48009,7 @@ const albumData = {
     "uri": "spotify:album:3B00Yjkqx81gqsV79wYqzZ",
     "title": "from up on silent hill",
     "artist": "Savage Ga$p",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e021d7eec4d820e2fd0d8e3d7bf",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2731d7eec4d820e2fd0d8e3d7bf",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -48052,7 +48052,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e021d7eec4d820e2fd0d8e3d7bf",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2731d7eec4d820e2fd0d8e3d7bf",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -48093,7 +48093,7 @@ const albumData = {
     "uri": "spotify:album:3doXPRLa4oDDDxOdrBir5X",
     "title": "LOCUST EFFECT",
     "artist": "Witchouse 40k",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e022f1d2643176591d26b8472f1",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2732f1d2643176591d26b8472f1",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -48136,7 +48136,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e022f1d2643176591d26b8472f1",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2732f1d2643176591d26b8472f1",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -48177,7 +48177,7 @@ const albumData = {
     "uri": "spotify:album:7xBKaxKoh1UjuEHbjG2MqM",
     "title": "GRAVEDIGGER",
     "artist": "Witchouse 40k",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02da5d01469b35f3050d321eac",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273da5d01469b35f3050d321eac",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -48220,7 +48220,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02da5d01469b35f3050d321eac",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273da5d01469b35f3050d321eac",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -48261,7 +48261,7 @@ const albumData = {
     "uri": "spotify:album:1eF11iEKjxErQm9jSIbDTL",
     "title": "NOCTURNAL",
     "artist": "CYBERDRIP$",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02e128c46424a12d8845349ddd",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273e128c46424a12d8845349ddd",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -48304,7 +48304,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02e128c46424a12d8845349ddd",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273e128c46424a12d8845349ddd",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -48345,7 +48345,7 @@ const albumData = {
     "uri": "spotify:album:3FZ08nXmg4K74lhpDj9s1s",
     "title": "HOBGOBLIN",
     "artist": "Witchouse 40k",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02ddad9264756b7315ddfc9356",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273ddad9264756b7315ddfc9356",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -48388,7 +48388,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02ddad9264756b7315ddfc9356",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273ddad9264756b7315ddfc9356",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -48429,7 +48429,7 @@ const albumData = {
     "uri": "spotify:album:4PsteQRrsRlx1wZJJ0DTWP",
     "title": "GARGOYLE",
     "artist": "Witchouse 40k",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0249af0fd8b55e9edd45de9779",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27349af0fd8b55e9edd45de9779",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -48472,7 +48472,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0249af0fd8b55e9edd45de9779",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27349af0fd8b55e9edd45de9779",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -48513,7 +48513,7 @@ const albumData = {
     "uri": "spotify:album:0YBTrz75JgJZlGgFMIdYAg",
     "title": "PERSONA",
     "artist": "Citr3s",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e029098ee3f72aac77e71543c6a",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2739098ee3f72aac77e71543c6a",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -48556,7 +48556,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e029098ee3f72aac77e71543c6a",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2739098ee3f72aac77e71543c6a",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -48597,7 +48597,7 @@ const albumData = {
     "uri": "spotify:album:6nG7XjSnNuNcZDlkjgag9T",
     "title": "SPIDERBLOOD 2: ROTTEN",
     "artist": "Witchouse 40k",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0251fa7f9e4e3bf129be22c31e",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27351fa7f9e4e3bf129be22c31e",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -48640,7 +48640,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0251fa7f9e4e3bf129be22c31e",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27351fa7f9e4e3bf129be22c31e",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -48681,7 +48681,7 @@ const albumData = {
     "uri": "spotify:album:67ANrS3XLSDDqVPzwaJZHk",
     "title": "SOUL SNATCH",
     "artist": "Witchouse 40k",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02b553f7ea243a27902de02573",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273b553f7ea243a27902de02573",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -48724,7 +48724,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02b553f7ea243a27902de02573",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273b553f7ea243a27902de02573",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -48765,7 +48765,7 @@ const albumData = {
     "uri": "spotify:album:1dW8xore3BEE2Og1sK5APV",
     "title": "APPALACHIA",
     "artist": "Witchouse 40k",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e025744d1a74fa6dbeb90c4141a",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2735744d1a74fa6dbeb90c4141a",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -48808,7 +48808,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e025744d1a74fa6dbeb90c4141a",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2735744d1a74fa6dbeb90c4141a",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -48849,7 +48849,7 @@ const albumData = {
     "uri": "spotify:album:2Y4cqH1wKDTz5MhQNQMRZZ",
     "title": "993",
     "artist": "Witchouse 40k",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02d2d8308dea111ccd80ca3445",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273d2d8308dea111ccd80ca3445",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -48892,7 +48892,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02d2d8308dea111ccd80ca3445",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273d2d8308dea111ccd80ca3445",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -48933,7 +48933,7 @@ const albumData = {
     "uri": "spotify:album:128fgsPnKu0PvGQ3kSz4pu",
     "title": "SPIDERBLOOD",
     "artist": "Witchouse 40k",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e029163658770c4c699f801a2d7",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2739163658770c4c699f801a2d7",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -48976,7 +48976,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e029163658770c4c699f801a2d7",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2739163658770c4c699f801a2d7",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -49017,7 +49017,7 @@ const albumData = {
     "uri": "spotify:album:5KqBTaEHatU048ag3ZULf8",
     "title": "SKULLY",
     "artist": "Witchouse 40k",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02ce832834b3bdcdc6d92ce4e7",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273ce832834b3bdcdc6d92ce4e7",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -49060,7 +49060,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02ce832834b3bdcdc6d92ce4e7",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273ce832834b3bdcdc6d92ce4e7",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -49101,7 +49101,7 @@ const albumData = {
     "uri": "spotify:album:5kmHIqA1ob3LDF2D2IKVmu",
     "title": "Blood Bender Mixtape",
     "artist": "Witchouse 40k",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02a54a17f714407531fa97da4e",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273a54a17f714407531fa97da4e",
     "tracksCount": 4,
     "type": "album",
     "isExplicit": false,
@@ -49144,7 +49144,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02a54a17f714407531fa97da4e",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273a54a17f714407531fa97da4e",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -49230,7 +49230,7 @@ const albumData = {
     "uri": "spotify:album:6IE24khelgX8f9rKZHkBdn",
     "title": "Egodeath",
     "artist": "Witchouse 40k",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e022cd0d525bf1701dfeed27b95",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2732cd0d525bf1701dfeed27b95",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -49273,7 +49273,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e022cd0d525bf1701dfeed27b95",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2732cd0d525bf1701dfeed27b95",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -49314,7 +49314,7 @@ const albumData = {
     "uri": "spotify:album:1yA6vwEQ9SNPpz5giz9Gkj",
     "title": "BAD Strains Mixtape",
     "artist": "Witchouse 40k",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02981beca3711e265a8cf492e0",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273981beca3711e265a8cf492e0",
     "tracksCount": 3,
     "type": "album",
     "isExplicit": false,
@@ -49357,7 +49357,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02981beca3711e265a8cf492e0",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273981beca3711e265a8cf492e0",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -49428,7 +49428,7 @@ const albumData = {
     "uri": "spotify:album:0pKP8JTUFamvSiT5v10YT6",
     "title": "Red Rum",
     "artist": "Cardeairè Jack",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e023be01a2f73cf22706dec6642",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2733be01a2f73cf22706dec6642",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -49471,7 +49471,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e023be01a2f73cf22706dec6642",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2733be01a2f73cf22706dec6642",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -49512,7 +49512,7 @@ const albumData = {
     "uri": "spotify:album:5ImXsScMSy7MKK8G64tgHf",
     "title": "Snowpiercer",
     "artist": "Witchouse 40k",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0215734693aa596036a32e5430",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27315734693aa596036a32e5430",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -49555,7 +49555,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0215734693aa596036a32e5430",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27315734693aa596036a32e5430",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -49596,7 +49596,7 @@ const albumData = {
     "uri": "spotify:album:6vBTSKtAv1wbXL0IURUao2",
     "title": "40 Years of Rain",
     "artist": "Witchouse 40k",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e028382d142976ef3b9b3346751",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2738382d142976ef3b9b3346751",
     "tracksCount": 4,
     "type": "album",
     "isExplicit": false,
@@ -49639,7 +49639,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e028382d142976ef3b9b3346751",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2738382d142976ef3b9b3346751",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -49725,7 +49725,7 @@ const albumData = {
     "uri": "spotify:album:4ksd5ffgM8wkzPTR8hBcNq",
     "title": "Trip on a Spiderweb",
     "artist": "Witchouse 40k",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02365197f6a455e736897f69f4",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273365197f6a455e736897f69f4",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -49768,7 +49768,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02365197f6a455e736897f69f4",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273365197f6a455e736897f69f4",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -49809,7 +49809,7 @@ const albumData = {
     "uri": "spotify:album:5DsFAOgHzLxTWmqRGQqksa",
     "title": "Treachery",
     "artist": "Ak3k",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e028009dde2b4436291b5224b64",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2738009dde2b4436291b5224b64",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -49852,7 +49852,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e028009dde2b4436291b5224b64",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2738009dde2b4436291b5224b64",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -49893,7 +49893,7 @@ const albumData = {
     "uri": "spotify:album:2AWoaZJ8741KegDiILjtwS",
     "title": "Headaches",
     "artist": "Witchouse 40k",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0211f5b0ecc2e115b59c8513cf",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27311f5b0ecc2e115b59c8513cf",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -49936,7 +49936,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0211f5b0ecc2e115b59c8513cf",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27311f5b0ecc2e115b59c8513cf",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -49977,7 +49977,7 @@ const albumData = {
     "uri": "spotify:album:6yy54UJRMkbmlvU2RQGz7l",
     "title": "Baraka",
     "artist": "Witchouse 40k",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e027929f87bf1dcf45f3a1b090e",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2737929f87bf1dcf45f3a1b090e",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -50020,7 +50020,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e027929f87bf1dcf45f3a1b090e",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2737929f87bf1dcf45f3a1b090e",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -50061,7 +50061,7 @@ const albumData = {
     "uri": "spotify:album:10bd4S3KbsFm3MbCgwP77g",
     "title": "Bulletbag (feat. Sinizter)",
     "artist": "Witchouse 40k",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02d5efc8690fbefa114fcdd158",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273d5efc8690fbefa114fcdd158",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -50104,7 +50104,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02d5efc8690fbefa114fcdd158",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273d5efc8690fbefa114fcdd158",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -50145,7 +50145,7 @@ const albumData = {
     "uri": "spotify:album:6KJWgH2GfWbXJdYKc8HKGT",
     "title": "Halos (feat. NA$tii)",
     "artist": "Witchouse 40k",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02d671f99190e92c8a2cb4b6b8",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273d671f99190e92c8a2cb4b6b8",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -50188,7 +50188,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02d671f99190e92c8a2cb4b6b8",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273d671f99190e92c8a2cb4b6b8",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -50229,7 +50229,7 @@ const albumData = {
     "uri": "spotify:album:09XRQPXPr5jAlF2JbZYWte",
     "title": "G666n",
     "artist": "Witchouse 40k",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02442e9ac5d48ba1779e5610eb",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273442e9ac5d48ba1779e5610eb",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -50272,7 +50272,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02442e9ac5d48ba1779e5610eb",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273442e9ac5d48ba1779e5610eb",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -50313,7 +50313,7 @@ const albumData = {
     "uri": "spotify:album:3W8wD45K36l58i5Ir8wBd8",
     "title": "Casperflip (feat. Bearded Legend)",
     "artist": "Witchouse 40k",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e027f1118f7a515f65a6b3de8b1",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2737f1118f7a515f65a6b3de8b1",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -50356,7 +50356,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e027f1118f7a515f65a6b3de8b1",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2737f1118f7a515f65a6b3de8b1",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -50397,7 +50397,7 @@ const albumData = {
     "uri": "spotify:album:5jlKNWgfhNJsurRiKmbRrH",
     "title": "Woah",
     "artist": "Ak3k",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02a82992a32eed69e9bfae3610",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273a82992a32eed69e9bfae3610",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -50440,7 +50440,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02a82992a32eed69e9bfae3610",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273a82992a32eed69e9bfae3610",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -50481,7 +50481,7 @@ const albumData = {
     "uri": "spotify:album:4YXEVWDGMMT7EJbEjvIC7L",
     "title": "Venvm",
     "artist": "Witchouse 40k",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0244b548544a1cd1eac78bad5d",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27344b548544a1cd1eac78bad5d",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -50524,7 +50524,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0244b548544a1cd1eac78bad5d",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27344b548544a1cd1eac78bad5d",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -50565,7 +50565,7 @@ const albumData = {
     "uri": "spotify:album:3TiCkaJXGgL2Kr6cRgrWKs",
     "title": "40kaliber",
     "artist": "Witchouse 40k",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02b0fbf78c104006aafaa52c57",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273b0fbf78c104006aafaa52c57",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -50608,7 +50608,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02b0fbf78c104006aafaa52c57",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273b0fbf78c104006aafaa52c57",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -50649,7 +50649,7 @@ const albumData = {
     "uri": "spotify:album:7B4MGFxPlw4UwqQdRiQyoG",
     "title": "Killradical",
     "artist": "Witchouse 40k",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e026b96d927b961373ff9da1c9f",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2736b96d927b961373ff9da1c9f",
     "tracksCount": 3,
     "type": "album",
     "isExplicit": false,
@@ -50692,7 +50692,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e026b96d927b961373ff9da1c9f",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2736b96d927b961373ff9da1c9f",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -50763,7 +50763,7 @@ const albumData = {
     "uri": "spotify:album:5uc18oyH3QtNhO5PLjF6Sk",
     "title": "BoneGrip (feat. 83hades)",
     "artist": "Witchouse 40k",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02dc6f767748b95d08d919c787",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273dc6f767748b95d08d919c787",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -50806,7 +50806,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02dc6f767748b95d08d919c787",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273dc6f767748b95d08d919c787",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -50847,7 +50847,7 @@ const albumData = {
     "uri": "spotify:album:2r8iRbuipPmy2NRX3kgS9E",
     "title": "Idontflinch",
     "artist": "Witchouse 40k",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e028415adc54250bdd6a3967494",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2738415adc54250bdd6a3967494",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -50890,7 +50890,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e028415adc54250bdd6a3967494",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2738415adc54250bdd6a3967494",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -50931,7 +50931,7 @@ const albumData = {
     "uri": "spotify:album:4uJwnX2JxBSZ07Ey0IDyrO",
     "title": "Ant!virxs",
     "artist": "Witchouse 40k",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02d1e3d285e71003c12ab04593",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273d1e3d285e71003c12ab04593",
     "tracksCount": 2,
     "type": "album",
     "isExplicit": false,
@@ -50974,7 +50974,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02d1e3d285e71003c12ab04593",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273d1e3d285e71003c12ab04593",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -51026,7 +51026,7 @@ const albumData = {
     "uri": "spotify:album:4a0lfNarYME4cdRx3EyN6z",
     "title": "Broken Knuckles",
     "artist": "Witchouse 40k",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02a1c19d789c308dbbe80cd97d",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273a1c19d789c308dbbe80cd97d",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -51069,7 +51069,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02a1c19d789c308dbbe80cd97d",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273a1c19d789c308dbbe80cd97d",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -51110,7 +51110,7 @@ const albumData = {
     "uri": "spotify:album:3gX86OMXW1EyqZvWwQE0eD",
     "title": "WARHAMMER",
     "artist": "Witchouse 40k",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e022044e81c5a1a54318d045aa7",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2732044e81c5a1a54318d045aa7",
     "tracksCount": 5,
     "type": "album",
     "isExplicit": false,
@@ -51153,7 +51153,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e022044e81c5a1a54318d045aa7",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2732044e81c5a1a54318d045aa7",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -51254,7 +51254,7 @@ const albumData = {
     "uri": "spotify:album:1zT0diE4ENHZRJEIefr9yz",
     "title": "analog heron",
     "artist": "Istasha",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02144e0ec4f4387880e8b86d50",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273144e0ec4f4387880e8b86d50",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -51297,7 +51297,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02144e0ec4f4387880e8b86d50",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273144e0ec4f4387880e8b86d50",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -51338,7 +51338,7 @@ const albumData = {
     "uri": "spotify:album:2GijnPfiYl2Mbp1Kk8SuFs",
     "title": "Snail Clipper",
     "artist": "Istasha",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02a4c62ec2c4956f62c7a9835a",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273a4c62ec2c4956f62c7a9835a",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -51381,7 +51381,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02a4c62ec2c4956f62c7a9835a",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273a4c62ec2c4956f62c7a9835a",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -51422,7 +51422,7 @@ const albumData = {
     "uri": "spotify:album:2KBcsaj8xhyxDszZNtK39Q",
     "title": "Harmorset",
     "artist": "Istasha",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e026512796f386a92d7c660eb6d",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2736512796f386a92d7c660eb6d",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -51465,7 +51465,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e026512796f386a92d7c660eb6d",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2736512796f386a92d7c660eb6d",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -51506,7 +51506,7 @@ const albumData = {
     "uri": "spotify:album:01wJOjiSZCmFZqsPApCdt5",
     "title": "Junkbath",
     "artist": "Istasha",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02244f40192ccf1e70a05375c1",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273244f40192ccf1e70a05375c1",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -51549,7 +51549,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02244f40192ccf1e70a05375c1",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273244f40192ccf1e70a05375c1",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -51590,7 +51590,7 @@ const albumData = {
     "uri": "spotify:album:6dSx2hFJLhHDMzadZ1Kee1",
     "title": "A Curse Does Not Lift For Nothing",
     "artist": "Istasha",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e024bc7a3af2c5018274490a28c",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2734bc7a3af2c5018274490a28c",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -51633,7 +51633,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e024bc7a3af2c5018274490a28c",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2734bc7a3af2c5018274490a28c",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -51674,7 +51674,7 @@ const albumData = {
     "uri": "spotify:album:7ii8HBQ3nD2nZWHOT7E298",
     "title": "Byracka",
     "artist": "Lord Gasp",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e022b0350436c9c98f11c8cc0e9",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2732b0350436c9c98f11c8cc0e9",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -51717,7 +51717,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e022b0350436c9c98f11c8cc0e9",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2732b0350436c9c98f11c8cc0e9",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -51758,7 +51758,7 @@ const albumData = {
     "uri": "spotify:album:1AculmNlV9qn5OS4L8EoHA",
     "title": "Gip gip",
     "artist": "Istasha",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e020cf457f85cd2f4d26ec5227c",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2730cf457f85cd2f4d26ec5227c",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -51801,7 +51801,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e020cf457f85cd2f4d26ec5227c",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2730cf457f85cd2f4d26ec5227c",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -51842,7 +51842,7 @@ const albumData = {
     "uri": "spotify:album:1tAJ9PW4hHDg2WLNY5Ocg6",
     "title": "The Fly",
     "artist": "Istasha",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02f580fd8363a170bd570fec8f",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273f580fd8363a170bd570fec8f",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -51885,7 +51885,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02f580fd8363a170bd570fec8f",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273f580fd8363a170bd570fec8f",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -51926,7 +51926,7 @@ const albumData = {
     "uri": "spotify:album:5k0TNmWJyYy7onlDJbWlOf",
     "title": "Yxkull",
     "artist": "Istasha",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e020afcab4bb9d54cb8e65aae57",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2730afcab4bb9d54cb8e65aae57",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -51969,7 +51969,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e020afcab4bb9d54cb8e65aae57",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2730afcab4bb9d54cb8e65aae57",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -52010,7 +52010,7 @@ const albumData = {
     "uri": "spotify:album:2mskJ0qwMugjlMmEeGwHze",
     "title": "A THREAD OF LIGHT",
     "artist": "TWENTYTHREE",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02835169e3a45d69ae4fa64d79",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273835169e3a45d69ae4fa64d79",
     "tracksCount": 4,
     "type": "album",
     "isExplicit": false,
@@ -52053,7 +52053,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02835169e3a45d69ae4fa64d79",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273835169e3a45d69ae4fa64d79",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -52139,7 +52139,7 @@ const albumData = {
     "uri": "spotify:album:4qp9WfLRe8vAqKasE740ep",
     "title": "PALEBLOOD CERAMICS",
     "artist": "TWENTYTHREE",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02fb79bc90ecab8d9272d46bdf",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273fb79bc90ecab8d9272d46bdf",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -52182,7 +52182,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02fb79bc90ecab8d9272d46bdf",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273fb79bc90ecab8d9272d46bdf",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -52223,7 +52223,7 @@ const albumData = {
     "uri": "spotify:album:1r4IymSnKsq4NEIj1Acw9K",
     "title": "WANDERING MAUSOLEUM",
     "artist": "TWENTYTHREE",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0263be6b8b48de547b0f7ad9a8",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27363be6b8b48de547b0f7ad9a8",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -52266,7 +52266,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0263be6b8b48de547b0f7ad9a8",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27363be6b8b48de547b0f7ad9a8",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -52307,7 +52307,7 @@ const albumData = {
     "uri": "spotify:album:6xMpD0WfWC9nJF7hsKoqko",
     "title": "Allotrope",
     "artist": "Istasha",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0262186454dce24083314f7516",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27362186454dce24083314f7516",
     "tracksCount": 3,
     "type": "album",
     "isExplicit": false,
@@ -52350,7 +52350,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0262186454dce24083314f7516",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27362186454dce24083314f7516",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -52421,7 +52421,7 @@ const albumData = {
     "uri": "spotify:album:01WEb0iYb9szgzNeANkhQy",
     "title": "Year of the Black Sun",
     "artist": "Istasha",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02846773da513fe8a8f2ab4b46",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273846773da513fe8a8f2ab4b46",
     "tracksCount": 2,
     "type": "album",
     "isExplicit": false,
@@ -52464,7 +52464,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02846773da513fe8a8f2ab4b46",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273846773da513fe8a8f2ab4b46",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -52520,7 +52520,7 @@ const albumData = {
     "uri": "spotify:album:6MGgtnMlbFpof4EvM81DPP",
     "title": "Zombie War Drum",
     "artist": "Gullyspit",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0230c42b048ae6d6a551bca943",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27330c42b048ae6d6a551bca943",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -52563,7 +52563,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0230c42b048ae6d6a551bca943",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27330c42b048ae6d6a551bca943",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -52604,7 +52604,7 @@ const albumData = {
     "uri": "spotify:album:3o5imFh5MIPVm10mDTrw26",
     "title": "Tsar Hand",
     "artist": "Istasha",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e022d5fde26312e4f7f79ad3d93",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2732d5fde26312e4f7f79ad3d93",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -52647,7 +52647,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e022d5fde26312e4f7f79ad3d93",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2732d5fde26312e4f7f79ad3d93",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -52688,7 +52688,7 @@ const albumData = {
     "uri": "spotify:album:5qq4P0V5DzQNwcL8yQwpDh",
     "title": "NOT FOR ESCAPING A NIGHTMARE",
     "artist": "TWENTYTHREE",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0269b9bef90f1ff4654b7e54c8",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27369b9bef90f1ff4654b7e54c8",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -52731,7 +52731,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0269b9bef90f1ff4654b7e54c8",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27369b9bef90f1ff4654b7e54c8",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -52772,7 +52772,7 @@ const albumData = {
     "uri": "spotify:album:7KsTaHuMCFW5gn1MqNQU0d",
     "title": "Sullied",
     "artist": "Warlord Colossus",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0218ede9fd6a1b40db6d80f8cf",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27318ede9fd6a1b40db6d80f8cf",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -52815,7 +52815,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0218ede9fd6a1b40db6d80f8cf",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27318ede9fd6a1b40db6d80f8cf",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -52856,7 +52856,7 @@ const albumData = {
     "uri": "spotify:album:086SG7DqKSPcLGYEq1MqcC",
     "title": "COGNITIVE BEHAVIORAL CRYOTHERAPY",
     "artist": "Istasha",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02ef8f7f3eef90dbc8383e9c4e",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273ef8f7f3eef90dbc8383e9c4e",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -52899,7 +52899,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02ef8f7f3eef90dbc8383e9c4e",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273ef8f7f3eef90dbc8383e9c4e",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -52940,7 +52940,7 @@ const albumData = {
     "uri": "spotify:album:66zuGiTfIHFuvrzeh7r4j4",
     "title": "DontRepeatThisToAnyone",
     "artist": "Istasha",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0211a5f30d086b497002229361",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27311a5f30d086b497002229361",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -52983,7 +52983,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0211a5f30d086b497002229361",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27311a5f30d086b497002229361",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -53024,7 +53024,7 @@ const albumData = {
     "uri": "spotify:album:1KjlqinbQ1EQ0boaFOeSE4",
     "title": "Lowest Bidder",
     "artist": "Istasha",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02ce626306b20c460a4a7e7123",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273ce626306b20c460a4a7e7123",
     "tracksCount": 3,
     "type": "album",
     "isExplicit": false,
@@ -53067,7 +53067,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02ce626306b20c460a4a7e7123",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273ce626306b20c460a4a7e7123",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -53136,7 +53136,7 @@ const albumData = {
     "uri": "spotify:album:0ZUQFYYcpiBbD9DDGYlsTs",
     "title": "heAdworm",
     "artist": "Qoiet",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0216ccf3fb6e03341a260d287b",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27316ccf3fb6e03341a260d287b",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -53179,7 +53179,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0216ccf3fb6e03341a260d287b",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27316ccf3fb6e03341a260d287b",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -53220,7 +53220,7 @@ const albumData = {
     "uri": "spotify:album:0cPB1nqkpcjePZRNKRN27s",
     "title": "Parrot Selector",
     "artist": "Istasha",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e020448bc4c9f18b5d8f53960be",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2730448bc4c9f18b5d8f53960be",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -53263,7 +53263,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e020448bc4c9f18b5d8f53960be",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2730448bc4c9f18b5d8f53960be",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -53304,7 +53304,7 @@ const albumData = {
     "uri": "spotify:album:5ptACnkDXBGARynwhGeBT2",
     "title": "EXILADA",
     "artist": "NIKKO",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e023ae02138374c025366844d70",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2733ae02138374c025366844d70",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -53347,7 +53347,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e023ae02138374c025366844d70",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2733ae02138374c025366844d70",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -53388,7 +53388,7 @@ const albumData = {
     "uri": "spotify:album:0KN00znPHdTGbHaM59Vixl",
     "title": "NO SEARCH",
     "artist": "TWENTYTHREE",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e028f939ffe491b638b53e6b71b",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2738f939ffe491b638b53e6b71b",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -53431,7 +53431,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e028f939ffe491b638b53e6b71b",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2738f939ffe491b638b53e6b71b",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -53472,7 +53472,7 @@ const albumData = {
     "uri": "spotify:album:0kdfKGc1dwHeinSNhc7PuI",
     "title": "Jungle Puppy",
     "artist": "Istasha",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0274553a439caa167ec5fc7c2c",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27374553a439caa167ec5fc7c2c",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -53515,7 +53515,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0274553a439caa167ec5fc7c2c",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27374553a439caa167ec5fc7c2c",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -53556,7 +53556,7 @@ const albumData = {
     "uri": "spotify:album:1yXEkABoNwL1Bo355LelJ8",
     "title": "Shedding Aiko",
     "artist": "Istasha",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e027074a4cc3ef5865d1a9d5b60",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2737074a4cc3ef5865d1a9d5b60",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -53599,7 +53599,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e027074a4cc3ef5865d1a9d5b60",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2737074a4cc3ef5865d1a9d5b60",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -53640,7 +53640,7 @@ const albumData = {
     "uri": "spotify:album:3W7kxkgplRgbOVAHPKBKDd",
     "title": "Cellcast",
     "artist": "Istasha",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0244f2509c223ea745ec3de5d5",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27344f2509c223ea745ec3de5d5",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -53683,7 +53683,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0244f2509c223ea745ec3de5d5",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27344f2509c223ea745ec3de5d5",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -53724,7 +53724,7 @@ const albumData = {
     "uri": "spotify:album:3XaN8KvQmC2Efli52jk692",
     "title": "New Strings",
     "artist": "Istasha",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0295d93b404f30b0c992915fd7",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27395d93b404f30b0c992915fd7",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -53767,7 +53767,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0295d93b404f30b0c992915fd7",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27395d93b404f30b0c992915fd7",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -53808,7 +53808,7 @@ const albumData = {
     "uri": "spotify:album:6hyxT4ayh1Q9xaj8O6JSbs",
     "title": "Gene Mods",
     "artist": "Istasha",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0241d50bd71199bb7a2efaa98e",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27341d50bd71199bb7a2efaa98e",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -53851,7 +53851,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0241d50bd71199bb7a2efaa98e",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27341d50bd71199bb7a2efaa98e",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -53892,7 +53892,7 @@ const albumData = {
     "uri": "spotify:album:20CFdpSPETPS6XUqZgkicg",
     "title": "gothicketchup.",
     "artist": "Istasha",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02a1557ed57f1541ee982389f2",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273a1557ed57f1541ee982389f2",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -53935,7 +53935,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02a1557ed57f1541ee982389f2",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273a1557ed57f1541ee982389f2",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -53976,7 +53976,7 @@ const albumData = {
     "uri": "spotify:album:1MsGV5fHGJEh2iSCf9wdTU",
     "title": "Check Your Spam Folder",
     "artist": "Istasha",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02fd6e9eecdadadbb93e33ac63",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273fd6e9eecdadadbb93e33ac63",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -54019,7 +54019,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02fd6e9eecdadadbb93e33ac63",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273fd6e9eecdadadbb93e33ac63",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -54060,7 +54060,7 @@ const albumData = {
     "uri": "spotify:album:1tHCrKGWMtcXhHJrFzbF8F",
     "title": "Darwin's House Of Second Chances",
     "artist": "Istasha",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e022521f0080bfc950f57ad6ca0",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2732521f0080bfc950f57ad6ca0",
     "tracksCount": 3,
     "type": "album",
     "isExplicit": false,
@@ -54103,7 +54103,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e022521f0080bfc950f57ad6ca0",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2732521f0080bfc950f57ad6ca0",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -54174,7 +54174,7 @@ const albumData = {
     "uri": "spotify:album:07XAkk6spuSwW9evI5VpFb",
     "title": "Hexagonal Spit",
     "artist": "Istasha",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02f0caa958857e0a1ec8529b1e",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273f0caa958857e0a1ec8529b1e",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -54217,7 +54217,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02f0caa958857e0a1ec8529b1e",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273f0caa958857e0a1ec8529b1e",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -54258,7 +54258,7 @@ const albumData = {
     "uri": "spotify:album:0O23nR5aeadzrHzKkhPbYK",
     "title": "GLASS TEETH",
     "artist": "TWENTYTHREE",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0201edf77a6efec1a5dca1912a",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27301edf77a6efec1a5dca1912a",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -54301,7 +54301,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0201edf77a6efec1a5dca1912a",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27301edf77a6efec1a5dca1912a",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -54340,7 +54340,7 @@ const albumData = {
     "uri": "spotify:album:0O1PBPW9r0uN6HYVlzdd4I",
     "title": "128p New Years Resolution",
     "artist": "Istasha",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02fbf8a27d972eb4c0959b18f5",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273fbf8a27d972eb4c0959b18f5",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -54383,7 +54383,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02fbf8a27d972eb4c0959b18f5",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273fbf8a27d972eb4c0959b18f5",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -54424,7 +54424,7 @@ const albumData = {
     "uri": "spotify:album:38GqeR7ZD5cSRFV782KjsI",
     "title": "PALE ORCHARD",
     "artist": "TWENTYTHREE",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0256fc8c87dd6486056bafa1e9",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27356fc8c87dd6486056bafa1e9",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -54467,7 +54467,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0256fc8c87dd6486056bafa1e9",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27356fc8c87dd6486056bafa1e9",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -54508,7 +54508,7 @@ const albumData = {
     "uri": "spotify:album:6oTp7sLd3wlYsx3AXJJr7Z",
     "title": "Dried Out Feathers",
     "artist": "Istasha",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0295ed4b9d314ed1f49313bf49",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27395ed4b9d314ed1f49313bf49",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -54551,7 +54551,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0295ed4b9d314ed1f49313bf49",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27395ed4b9d314ed1f49313bf49",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -54592,7 +54592,7 @@ const albumData = {
     "uri": "spotify:album:68LKkv0YvWBQX34FwfAInf",
     "title": "WRONG STEP",
     "artist": "TWENTYTHREE",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e027ccace76563a65f51d8e1e2b",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2737ccace76563a65f51d8e1e2b",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -54635,7 +54635,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e027ccace76563a65f51d8e1e2b",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2737ccace76563a65f51d8e1e2b",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -54676,7 +54676,7 @@ const albumData = {
     "uri": "spotify:album:5FbDnVfo8uezJkMDhoogHc",
     "title": "I can be your angle, or yuor devil",
     "artist": "Istasha",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02671e78d9df7c85c5401bba60",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273671e78d9df7c85c5401bba60",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -54719,7 +54719,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02671e78d9df7c85c5401bba60",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273671e78d9df7c85c5401bba60",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -54760,7 +54760,7 @@ const albumData = {
     "uri": "spotify:album:6aIUqbBn9Nq0k3X2iqozWL",
     "title": "Squishy Caterpillars Riding On Bullets",
     "artist": "Istasha",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0257420966c17f73dfe4e8d294",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27357420966c17f73dfe4e8d294",
     "tracksCount": 3,
     "type": "album",
     "isExplicit": false,
@@ -54803,7 +54803,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0257420966c17f73dfe4e8d294",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27357420966c17f73dfe4e8d294",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -54872,7 +54872,7 @@ const albumData = {
     "uri": "spotify:album:7aDFkcAdT4V8kecsPaZebP",
     "title": "Fever Dreams",
     "artist": "Istasha",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02ec08c47bd6c19d636d04782a",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273ec08c47bd6c19d636d04782a",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -54915,7 +54915,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02ec08c47bd6c19d636d04782a",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273ec08c47bd6c19d636d04782a",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -54956,7 +54956,7 @@ const albumData = {
     "uri": "spotify:album:4PNqUm24CbJ8pgs2Ci5ZBh",
     "title": "Soup For Dogs",
     "artist": "Istasha",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e026b599ce213fc0ebd25a24398",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2736b599ce213fc0ebd25a24398",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -54999,7 +54999,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e026b599ce213fc0ebd25a24398",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2736b599ce213fc0ebd25a24398",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -55040,7 +55040,7 @@ const albumData = {
     "uri": "spotify:album:0cxT3WGzwNWkOB6ozBA9GP",
     "title": "Brickwall Brickwall Brickwall",
     "artist": "Istasha",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e024ad778b2738a1b37d3ead39a",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2734ad778b2738a1b37d3ead39a",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -55083,7 +55083,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e024ad778b2738a1b37d3ead39a",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2734ad778b2738a1b37d3ead39a",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -55124,7 +55124,7 @@ const albumData = {
     "uri": "spotify:album:36hoQZ6K7IPxhe2KNP5tF5",
     "title": "Wax Figures In The Sky",
     "artist": "Istasha",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02a182b5b590dff0d0375295e9",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273a182b5b590dff0d0375295e9",
     "tracksCount": 3,
     "type": "album",
     "isExplicit": false,
@@ -55167,7 +55167,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02a182b5b590dff0d0375295e9",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273a182b5b590dff0d0375295e9",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -55238,7 +55238,7 @@ const albumData = {
     "uri": "spotify:album:78hb9hPjehup1Dd6ICbxod",
     "title": "Sturgeon's Law",
     "artist": "Istasha",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02e55484e8aa8fbf3c72f12199",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273e55484e8aa8fbf3c72f12199",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -55281,7 +55281,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02e55484e8aa8fbf3c72f12199",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273e55484e8aa8fbf3c72f12199",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -55322,7 +55322,7 @@ const albumData = {
     "uri": "spotify:album:2G2v4L02C9q3uf9ft76Vn9",
     "title": "Egg.",
     "artist": "Istasha",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e022051649461c6c850cc8be66a",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2732051649461c6c850cc8be66a",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -55365,7 +55365,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e022051649461c6c850cc8be66a",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2732051649461c6c850cc8be66a",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -55406,7 +55406,7 @@ const albumData = {
     "uri": "spotify:album:0w2pRZ1USaxx0cynb9jyCS",
     "title": "Hypothetically, We All Know Where This Is Going",
     "artist": "Istasha",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e029b4fb17bc11c747e7fffa522",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2739b4fb17bc11c747e7fffa522",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -55449,7 +55449,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e029b4fb17bc11c747e7fffa522",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2739b4fb17bc11c747e7fffa522",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -55490,7 +55490,7 @@ const albumData = {
     "uri": "spotify:album:3f2cJJM9eVrmpOUmhftF9x",
     "title": "Koala Teeth",
     "artist": "Istasha",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0266aee7ca1374a62748d7adb2",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27366aee7ca1374a62748d7adb2",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -55533,7 +55533,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0266aee7ca1374a62748d7adb2",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27366aee7ca1374a62748d7adb2",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -55574,7 +55574,7 @@ const albumData = {
     "uri": "spotify:album:1leKM5CsRN59M0aG43TXJH",
     "title": "Upgrade 08",
     "artist": "Istasha",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e023120877bba19a30d4f4fb8b2",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2733120877bba19a30d4f4fb8b2",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -55617,7 +55617,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e023120877bba19a30d4f4fb8b2",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2733120877bba19a30d4f4fb8b2",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -55658,7 +55658,7 @@ const albumData = {
     "uri": "spotify:album:7vLf8zARMbivmonnMWY2qS",
     "title": "Whale Sound Asmr",
     "artist": "Istasha",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02e7b2085e349ccb16de3bca32",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273e7b2085e349ccb16de3bca32",
     "tracksCount": 4,
     "type": "album",
     "isExplicit": false,
@@ -55701,7 +55701,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02e7b2085e349ccb16de3bca32",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273e7b2085e349ccb16de3bca32",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -55785,7 +55785,7 @@ const albumData = {
     "uri": "spotify:album:0oiwUjuRgICQu4WVGq8sUo",
     "title": "Somewhat Interesting, Mostly Placebo",
     "artist": "Istasha",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e027cca6bbd7ac524de03c53eb4",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2737cca6bbd7ac524de03c53eb4",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -55828,7 +55828,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e027cca6bbd7ac524de03c53eb4",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2737cca6bbd7ac524de03c53eb4",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -55869,7 +55869,7 @@ const albumData = {
     "uri": "spotify:album:5CnbdmpmoaFoEQZvMHnRyw",
     "title": "Wasp Tongue",
     "artist": "Istasha",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0253708b5109993418e0d605df",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27353708b5109993418e0d605df",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -55912,7 +55912,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0253708b5109993418e0d605df",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27353708b5109993418e0d605df",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -55953,7 +55953,7 @@ const albumData = {
     "uri": "spotify:album:4eexWnOtbeQzDVwgn48rvd",
     "title": "Come Get Your Omega-3",
     "artist": "Istasha",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02858cf001c0d2fe0866bfb048",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273858cf001c0d2fe0866bfb048",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -55996,7 +55996,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02858cf001c0d2fe0866bfb048",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273858cf001c0d2fe0866bfb048",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -56037,7 +56037,7 @@ const albumData = {
     "uri": "spotify:album:13r6C9d42TN49lvcwrv8fI",
     "title": "Benny Please Come Pick Me Up",
     "artist": "Istasha",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02e0431386618a665564e05cff",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273e0431386618a665564e05cff",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -56080,7 +56080,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02e0431386618a665564e05cff",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273e0431386618a665564e05cff",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -56121,7 +56121,7 @@ const albumData = {
     "uri": "spotify:album:15P45tgb48FagEukQIC0SZ",
     "title": "Nimdok",
     "artist": "Istasha",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02e17817a7732a1a59ecc26f08",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273e17817a7732a1a59ecc26f08",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -56164,7 +56164,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02e17817a7732a1a59ecc26f08",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273e17817a7732a1a59ecc26f08",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -56205,7 +56205,7 @@ const albumData = {
     "uri": "spotify:album:1rdW1oyWUDWItFgZ7Vy9yb",
     "title": "Carbon Anchor",
     "artist": "Istasha",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02902650f968d1a2a054967774",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273902650f968d1a2a054967774",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -56248,7 +56248,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02902650f968d1a2a054967774",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273902650f968d1a2a054967774",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -56289,7 +56289,7 @@ const albumData = {
     "uri": "spotify:album:1MeD3Gc50YAvSZlao2Nc6E",
     "title": "Windshield Wiper",
     "artist": "Istasha",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0215079ee02d7172e7ce662bf6",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27315079ee02d7172e7ce662bf6",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -56332,7 +56332,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0215079ee02d7172e7ce662bf6",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27315079ee02d7172e7ce662bf6",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -56373,7 +56373,7 @@ const albumData = {
     "uri": "spotify:album:6XvLoKod7ON7TeDiZlDxKV",
     "title": "I Contort",
     "artist": "Istasha",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0246f4b9401ec5ed4128dca29b",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27346f4b9401ec5ed4128dca29b",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -56416,7 +56416,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0246f4b9401ec5ed4128dca29b",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27346f4b9401ec5ed4128dca29b",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -56457,7 +56457,7 @@ const albumData = {
     "uri": "spotify:album:2W4RJCtBZKdX0ZdyN06aXT",
     "title": "Its Bath Time, Don't Touch My Duck",
     "artist": "Istasha",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0263d15919bed3756008e981af",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27363d15919bed3756008e981af",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -56500,7 +56500,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0263d15919bed3756008e981af",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27363d15919bed3756008e981af",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -56541,7 +56541,7 @@ const albumData = {
     "uri": "spotify:album:0UnHhQzAbVVvAGRrUirTMH",
     "title": "Happy Cyborg",
     "artist": "Istasha",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e021cb58a3be9dbf0868eb62722",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2731cb58a3be9dbf0868eb62722",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -56584,7 +56584,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e021cb58a3be9dbf0868eb62722",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2731cb58a3be9dbf0868eb62722",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -56625,7 +56625,7 @@ const albumData = {
     "uri": "spotify:album:6lE9go8qKDK8JR73xCtxlc",
     "title": "Laughing Lizard",
     "artist": "Istasha",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02c1d0ffd6c69d0bb619f7099f",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273c1d0ffd6c69d0bb619f7099f",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -56668,7 +56668,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02c1d0ffd6c69d0bb619f7099f",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273c1d0ffd6c69d0bb619f7099f",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -56709,7 +56709,7 @@ const albumData = {
     "uri": "spotify:album:4Ie2SY2vMSb05hhs3VU3j2",
     "title": "Spinal Tap",
     "artist": "Istasha",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0284dbf75590d321a29572f007",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27384dbf75590d321a29572f007",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -56752,7 +56752,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0284dbf75590d321a29572f007",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27384dbf75590d321a29572f007",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -56793,7 +56793,7 @@ const albumData = {
     "uri": "spotify:album:7E397w3aHqE483jusCkL1f",
     "title": "Neuronal Nightmares",
     "artist": "Istasha",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0286789d1227dd4c0157e02c82",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27386789d1227dd4c0157e02c82",
     "tracksCount": 3,
     "type": "album",
     "isExplicit": false,
@@ -56836,7 +56836,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0286789d1227dd4c0157e02c82",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27386789d1227dd4c0157e02c82",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -56907,7 +56907,7 @@ const albumData = {
     "uri": "spotify:album:24FFIn6rtR1p9QAuyDBOJU",
     "title": "God Complex",
     "artist": "Gullyspit",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0268640e6b2b8a8e2517a9af7c",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27368640e6b2b8a8e2517a9af7c",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -56950,7 +56950,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0268640e6b2b8a8e2517a9af7c",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27368640e6b2b8a8e2517a9af7c",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -56991,7 +56991,7 @@ const albumData = {
     "uri": "spotify:album:3XcHckjLsx8bixliJb9e2o",
     "title": "Dislocation Code",
     "artist": "Istasha",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e020ae86a65744b26de9cbf7a6b",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2730ae86a65744b26de9cbf7a6b",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -57034,7 +57034,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e020ae86a65744b26de9cbf7a6b",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2730ae86a65744b26de9cbf7a6b",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -57075,7 +57075,7 @@ const albumData = {
     "uri": "spotify:album:0UAu1fiVIvlk9PdTHOYPDl",
     "title": "Miskatonic",
     "artist": "Istasha",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02565d36868efcf79451a44941",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273565d36868efcf79451a44941",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -57118,7 +57118,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02565d36868efcf79451a44941",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273565d36868efcf79451a44941",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -57159,7 +57159,7 @@ const albumData = {
     "uri": "spotify:album:5NpCjajbHRwTnR4vTrmB5k",
     "title": "Rusty Cogs Broken Levers and More",
     "artist": "Istasha",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0274949a0af28c589a500cae90",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27374949a0af28c589a500cae90",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -57202,7 +57202,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0274949a0af28c589a500cae90",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27374949a0af28c589a500cae90",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -57243,7 +57243,7 @@ const albumData = {
     "uri": "spotify:album:1yI0QYMukETuhb7MRAgiAC",
     "title": "In a Sea of Razors",
     "artist": "Istasha",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02eb1b53d5750254c3a4a022a9",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273eb1b53d5750254c3a4a022a9",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -57286,7 +57286,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02eb1b53d5750254c3a4a022a9",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273eb1b53d5750254c3a4a022a9",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -57327,7 +57327,7 @@ const albumData = {
     "uri": "spotify:album:1h5s6F4l4LypObxNYpKDK0",
     "title": "The Blood Ministration Does Not Praise the Sun",
     "artist": "Istasha",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0226d2119d98b5c8d19041e47a",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27326d2119d98b5c8d19041e47a",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -57370,7 +57370,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0226d2119d98b5c8d19041e47a",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27326d2119d98b5c8d19041e47a",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -57411,7 +57411,7 @@ const albumData = {
     "uri": "spotify:album:6jorQmKcGAPcSiCv6PUG15",
     "title": "Bitter Structures",
     "artist": "Istasha",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0229f01726a1e940fc66b603b9",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27329f01726a1e940fc66b603b9",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -57454,7 +57454,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0229f01726a1e940fc66b603b9",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27329f01726a1e940fc66b603b9",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -57493,7 +57493,7 @@ const albumData = {
     "uri": "spotify:album:0RwuFd48IvGM8pyL5RCjEY",
     "title": "Extinction Event",
     "artist": "Alla Xul Elu",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e022d6e2484fbb1fd5cb37db380",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2732d6e2484fbb1fd5cb37db380",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -57536,7 +57536,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e022d6e2484fbb1fd5cb37db380",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2732d6e2484fbb1fd5cb37db380",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -57577,7 +57577,7 @@ const albumData = {
     "uri": "spotify:album:4WlGkBCv00rTAX2piNsJ7W",
     "title": "Wackula",
     "artist": "Alla Xul Elu",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e029e6bf9c37ef00ee72e21b405",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2739e6bf9c37ef00ee72e21b405",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -57620,7 +57620,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e029e6bf9c37ef00ee72e21b405",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2739e6bf9c37ef00ee72e21b405",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -57661,7 +57661,7 @@ const albumData = {
     "uri": "spotify:album:1D137Iz5N3BvXGshKyV5Rk",
     "title": "Evidence of Evil",
     "artist": "Alla Xul Elu",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02b0e1fdae5f0e823816c57f3b",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273b0e1fdae5f0e823816c57f3b",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -57704,7 +57704,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02b0e1fdae5f0e823816c57f3b",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273b0e1fdae5f0e823816c57f3b",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -57745,7 +57745,7 @@ const albumData = {
     "uri": "spotify:album:5QsaGCJtfNNaDNcwvHsPwG",
     "title": "Horns Over Halos",
     "artist": "Alla Xul Elu",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02c8be0ea88e748127501efb9f",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273c8be0ea88e748127501efb9f",
     "tracksCount": 2,
     "type": "album",
     "isExplicit": false,
@@ -57788,7 +57788,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02c8be0ea88e748127501efb9f",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273c8be0ea88e748127501efb9f",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -57844,7 +57844,7 @@ const albumData = {
     "uri": "spotify:album:0V3Ep5DUWhlOSIGAxhl533",
     "title": "canDIED heART",
     "artist": "Alla Xul Elu",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02704a7741c5cb2b4189452dc9",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273704a7741c5cb2b4189452dc9",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -57887,7 +57887,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02704a7741c5cb2b4189452dc9",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273704a7741c5cb2b4189452dc9",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -57928,7 +57928,7 @@ const albumData = {
     "uri": "spotify:album:5Gu41Wd2AuqxsACX4NQTk4",
     "title": "Gift of Death",
     "artist": "Alla Xul Elu",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0213868e4ee212e003ab0f6101",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27313868e4ee212e003ab0f6101",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -57971,7 +57971,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0213868e4ee212e003ab0f6101",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27313868e4ee212e003ab0f6101",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -58012,7 +58012,7 @@ const albumData = {
     "uri": "spotify:album:1adlGY8VFdCwoJfKCz5gFE",
     "title": "Till We Meat",
     "artist": "Alla Xul Elu",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02c670dd7d1e39f6af133ac439",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273c670dd7d1e39f6af133ac439",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -58055,7 +58055,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02c670dd7d1e39f6af133ac439",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273c670dd7d1e39f6af133ac439",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -58096,7 +58096,7 @@ const albumData = {
     "uri": "spotify:album:4B3AiFEnXrpq8NDQGmpfkr",
     "title": "Yung Turkey",
     "artist": "Alla Xul Elu",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e021706e4a870ceca1439666963",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2731706e4a870ceca1439666963",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -58139,7 +58139,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e021706e4a870ceca1439666963",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2731706e4a870ceca1439666963",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -58180,7 +58180,7 @@ const albumData = {
     "uri": "spotify:album:5n9KZORTDCI544umR8nGcY",
     "title": "Freakenstein",
     "artist": "Alla Xul Elu",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0201ad9bb36bc588ceee33b358",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27301ad9bb36bc588ceee33b358",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -58223,7 +58223,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0201ad9bb36bc588ceee33b358",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27301ad9bb36bc588ceee33b358",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -58264,7 +58264,7 @@ const albumData = {
     "uri": "spotify:album:5LRpvNBXDU7yZyVJ31tasI",
     "title": "The Magic Xul Bus",
     "artist": "Alla Xul Elu",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e023a901a4252f285f16f34af8d",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2733a901a4252f285f16f34af8d",
     "tracksCount": 4,
     "type": "album",
     "isExplicit": false,
@@ -58307,7 +58307,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e023a901a4252f285f16f34af8d",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2733a901a4252f285f16f34af8d",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -58393,7 +58393,7 @@ const albumData = {
     "uri": "spotify:album:6eumzjeuHU83r37yT3V49U",
     "title": "Christmas Trees",
     "artist": "Alla Xul Elu",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e025855e47772c33830d3d818f0",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2735855e47772c33830d3d818f0",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -58436,7 +58436,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e025855e47772c33830d3d818f0",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2735855e47772c33830d3d818f0",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -58477,7 +58477,7 @@ const albumData = {
     "uri": "spotify:album:6AuEfrEDWAoD5ohY7ZIKkQ",
     "title": "Monster in My Pocket",
     "artist": "Alla Xul Elu",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e022e4fbe2ad83bfac631b9c815",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2732e4fbe2ad83bfac631b9c815",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -58520,7 +58520,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e022e4fbe2ad83bfac631b9c815",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2732e4fbe2ad83bfac631b9c815",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -58561,7 +58561,7 @@ const albumData = {
     "uri": "spotify:album:4LeeV9kXOa09I1PzzDRe9D",
     "title": "Murder Simulator",
     "artist": "Alla Xul Elu",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02f417a2d0e862583659af1a6a",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273f417a2d0e862583659af1a6a",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -58604,7 +58604,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02f417a2d0e862583659af1a6a",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273f417a2d0e862583659af1a6a",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -58645,7 +58645,7 @@ const albumData = {
     "uri": "spotify:album:77D9TaW9yvbe0qInzzu4I2",
     "title": "12 Foot Skeleton",
     "artist": "Alla Xul Elu",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e027f17f1cb0c5d618c778ad754",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2737f17f1cb0c5d618c778ad754",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -58688,7 +58688,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e027f17f1cb0c5d618c778ad754",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2737f17f1cb0c5d618c778ad754",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -58729,7 +58729,7 @@ const albumData = {
     "uri": "spotify:album:51QYHTMgZlbxXGQF8JIcdK",
     "title": "Smoke",
     "artist": "Alla Xul Elu",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02c0a09721542f7d0c2602f9a9",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273c0a09721542f7d0c2602f9a9",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -58772,7 +58772,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02c0a09721542f7d0c2602f9a9",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273c0a09721542f7d0c2602f9a9",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -58813,7 +58813,7 @@ const albumData = {
     "uri": "spotify:album:1pRERqhIIRhXee8g6mFsAA",
     "title": "Say Goodbye",
     "artist": "Alla Xul Elu",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02ec876d9aafc0888ac9098b8c",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273ec876d9aafc0888ac9098b8c",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -58856,7 +58856,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02ec876d9aafc0888ac9098b8c",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273ec876d9aafc0888ac9098b8c",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -58897,7 +58897,7 @@ const albumData = {
     "uri": "spotify:album:3NRjjsV6W2PqKIXNtVHOha",
     "title": "MauXULeum",
     "artist": "Alla Xul Elu",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02322f377e70c819d2ebda7329",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273322f377e70c819d2ebda7329",
     "tracksCount": 13,
     "type": "album",
     "isExplicit": false,
@@ -58940,7 +58940,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02322f377e70c819d2ebda7329",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273322f377e70c819d2ebda7329",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -59161,7 +59161,7 @@ const albumData = {
     "uri": "spotify:album:2H88M1zdCS3JZdlsITgX6y",
     "title": "L.I.F.E",
     "artist": "Alla Xul Elu",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02ffaa7b650f5c510251645198",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273ffaa7b650f5c510251645198",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -59204,7 +59204,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02ffaa7b650f5c510251645198",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273ffaa7b650f5c510251645198",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -59245,7 +59245,7 @@ const albumData = {
     "uri": "spotify:album:0FhJ8vHFubhp4IeDgb7VgV",
     "title": "Blood Moon and Back",
     "artist": "Alla Xul Elu",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e020dbfee9bef7703e816d615d6",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2730dbfee9bef7703e816d615d6",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -59288,7 +59288,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e020dbfee9bef7703e816d615d6",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2730dbfee9bef7703e816d615d6",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -59329,7 +59329,7 @@ const albumData = {
     "uri": "spotify:album:1ZdVkHjNUK4ZeZqcGCyfhs",
     "title": "Alternate Dimension",
     "artist": "Alla Xul Elu",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e024553f2c72e919ed0c3ce8b26",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2734553f2c72e919ed0c3ce8b26",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -59372,7 +59372,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e024553f2c72e919ed0c3ce8b26",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2734553f2c72e919ed0c3ce8b26",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -59413,7 +59413,7 @@ const albumData = {
     "uri": "spotify:album:6QDwdeEygZkEClwhPDzwR4",
     "title": "Church of XUL",
     "artist": "Alla Xul Elu",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02daf679168708ec87ab654244",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273daf679168708ec87ab654244",
     "tracksCount": 7,
     "type": "album",
     "isExplicit": false,
@@ -59456,7 +59456,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02daf679168708ec87ab654244",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273daf679168708ec87ab654244",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -59587,7 +59587,7 @@ const albumData = {
     "uri": "spotify:album:2eeVnTIsSuXq6NQVLx1SxT",
     "title": "To the Tome Of The Black Tongue",
     "artist": "Alla Xul Elu",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02f64e541c53c98ecd0b16432f",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273f64e541c53c98ecd0b16432f",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -59630,7 +59630,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02f64e541c53c98ecd0b16432f",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273f64e541c53c98ecd0b16432f",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -59671,7 +59671,7 @@ const albumData = {
     "uri": "spotify:album:3FfQM5bPotguT3Urnw2mMG",
     "title": "001 Remixes",
     "artist": "Neon Sermon",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02391914beeaeb02eb9548fdab",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273391914beeaeb02eb9548fdab",
     "tracksCount": 5,
     "type": "album",
     "isExplicit": false,
@@ -59714,7 +59714,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02391914beeaeb02eb9548fdab",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273391914beeaeb02eb9548fdab",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -59815,7 +59815,7 @@ const albumData = {
     "uri": "spotify:album:0GtG6JMEHzMAaYgeEX9PfV",
     "title": "UPGRADED",
     "artist": "Neon Sermon",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e020a0095fa4e1b94f87652e6f0",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2730a0095fa4e1b94f87652e6f0",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -59858,7 +59858,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e020a0095fa4e1b94f87652e6f0",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2730a0095fa4e1b94f87652e6f0",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -59899,7 +59899,7 @@ const albumData = {
     "uri": "spotify:album:5uRIJ1x24ip12DTaXJA4Zt",
     "title": "Moonlight Son (Mike Skyros Official Theme)",
     "artist": "BatiBatt",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02eac13216e257a37666e0465b",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273eac13216e257a37666e0465b",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -59942,7 +59942,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02eac13216e257a37666e0465b",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273eac13216e257a37666e0465b",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -59981,7 +59981,7 @@ const albumData = {
     "uri": "spotify:album:4lgO6ugyt4F0bgwIVfr23v",
     "title": "Wrath",
     "artist": "BatiBatt",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02ceb47d3c8a5bb7d9434e4ed0",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273ceb47d3c8a5bb7d9434e4ed0",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -60024,7 +60024,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02ceb47d3c8a5bb7d9434e4ed0",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273ceb47d3c8a5bb7d9434e4ed0",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -60063,7 +60063,7 @@ const albumData = {
     "uri": "spotify:album:1wF5UP1qjCcGv73bodSNye",
     "title": "Machete",
     "artist": "BatiBatt",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e027f899ea80022c945efb7c7c8",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2737f899ea80022c945efb7c7c8",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -60106,7 +60106,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e027f899ea80022c945efb7c7c8",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2737f899ea80022c945efb7c7c8",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -60145,7 +60145,7 @@ const albumData = {
     "uri": "spotify:album:3FKqOkVMMoU0mfgcqAjtGX",
     "title": "Shatter",
     "artist": "BatiBatt",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02c42b979595b969087176f22d",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273c42b979595b969087176f22d",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -60188,7 +60188,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02c42b979595b969087176f22d",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273c42b979595b969087176f22d",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -60227,7 +60227,7 @@ const albumData = {
     "uri": "spotify:album:1D0ydwz68fvtohaH1UT0L4",
     "title": "Paparazzi",
     "artist": "BatiBatt",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0214ad3d66917e480a5e0451be",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27314ad3d66917e480a5e0451be",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -60270,7 +60270,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0214ad3d66917e480a5e0451be",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27314ad3d66917e480a5e0451be",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -60309,7 +60309,7 @@ const albumData = {
     "uri": "spotify:album:4G1KuaRb23AtTrHaRC3wgd",
     "title": "The Serpent's Eyes",
     "artist": "BatiBatt",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e029a51419dc030c3dfec28f986",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2739a51419dc030c3dfec28f986",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -60352,7 +60352,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e029a51419dc030c3dfec28f986",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2739a51419dc030c3dfec28f986",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -60391,7 +60391,7 @@ const albumData = {
     "uri": "spotify:album:3Vcri3GMs1sR73syydSfKO",
     "title": "All That Awaits You",
     "artist": "BatiBatt",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02e910d3ef1a4fbc69bb85e0a7",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273e910d3ef1a4fbc69bb85e0a7",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -60434,7 +60434,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02e910d3ef1a4fbc69bb85e0a7",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273e910d3ef1a4fbc69bb85e0a7",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -60473,7 +60473,7 @@ const albumData = {
     "uri": "spotify:album:59JDgfSt13Wl7g5QJ4PJ4L",
     "title": "Better Off Dead",
     "artist": "BatiBatt",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e027b257891de76c6c65e488ba7",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2737b257891de76c6c65e488ba7",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -60516,7 +60516,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e027b257891de76c6c65e488ba7",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2737b257891de76c6c65e488ba7",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -60555,7 +60555,7 @@ const albumData = {
     "uri": "spotify:album:1W8K5f2dlUlPKOjcPpFse3",
     "title": "Ego",
     "artist": "Elita",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02afa83c98c56eea20035737a1",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273afa83c98c56eea20035737a1",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -60598,7 +60598,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02afa83c98c56eea20035737a1",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273afa83c98c56eea20035737a1",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -60639,7 +60639,7 @@ const albumData = {
     "uri": "spotify:album:1FvAe6SqLX8zG0lD3hGEaU",
     "title": "Planet Paparazzi",
     "artist": "Elita",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e021e36241cbc1db4327241e50f",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2731e36241cbc1db4327241e50f",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -60682,7 +60682,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e021e36241cbc1db4327241e50f",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2731e36241cbc1db4327241e50f",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -60723,7 +60723,7 @@ const albumData = {
     "uri": "spotify:album:3DR5jShLK80E3NXJGUKxnp",
     "title": "Girls on the Internet",
     "artist": "Elita",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02d547456de4fe0bc797616d75",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273d547456de4fe0bc797616d75",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -60766,7 +60766,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02d547456de4fe0bc797616d75",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273d547456de4fe0bc797616d75",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -60805,7 +60805,7 @@ const albumData = {
     "uri": "spotify:album:6nQfaxpSmXxRe9xCOTRBBa",
     "title": "Korean Karaoke Bar",
     "artist": "Elita",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e022900e6314d6bdfeabd5885aa",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2732900e6314d6bdfeabd5885aa",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -60848,7 +60848,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e022900e6314d6bdfeabd5885aa",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2732900e6314d6bdfeabd5885aa",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -60887,7 +60887,7 @@ const albumData = {
     "uri": "spotify:album:5rxQIohUuObdSEyCeMgLBO",
     "title": "Masturbating in a Coffin",
     "artist": "Elita",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02ca1a5d6705acd4972a95e2d4",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273ca1a5d6705acd4972a95e2d4",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -60930,7 +60930,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02ca1a5d6705acd4972a95e2d4",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273ca1a5d6705acd4972a95e2d4",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -60969,7 +60969,7 @@ const albumData = {
     "uri": "spotify:album:0wi8ZxKcnHoTqBOSypCxRE",
     "title": "It's a Joke",
     "artist": "Elita",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02789b3c5246d1c584aa77b503",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273789b3c5246d1c584aa77b503",
     "tracksCount": 4,
     "type": "album",
     "isExplicit": false,
@@ -61012,7 +61012,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02789b3c5246d1c584aa77b503",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273789b3c5246d1c584aa77b503",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -61096,7 +61096,7 @@ const albumData = {
     "uri": "spotify:album:1ZihE7uvcauy0odKAIJCY4",
     "title": "She Bangs Like a Fairy on Acid",
     "artist": "Elita",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0219b0d79569385b3be2551e0b",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27319b0d79569385b3be2551e0b",
     "tracksCount": 3,
     "type": "album",
     "isExplicit": false,
@@ -61139,7 +61139,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0219b0d79569385b3be2551e0b",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27319b0d79569385b3be2551e0b",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -61208,7 +61208,7 @@ const albumData = {
     "uri": "spotify:album:3f9hSxQdwLyg5ch1o4xRxt",
     "title": "Mentally Not Here",
     "artist": "Elita",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02c82919f321a847e182cfe411",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273c82919f321a847e182cfe411",
     "tracksCount": 2,
     "type": "album",
     "isExplicit": false,
@@ -61251,7 +61251,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02c82919f321a847e182cfe411",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273c82919f321a847e182cfe411",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -61307,7 +61307,7 @@ const albumData = {
     "uri": "spotify:album:0Ta0Ro3omKVm0SLTxYX5NP",
     "title": "Sleep Paralysis",
     "artist": "Elita",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02fd53ba28bd33abbd84967066",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273fd53ba28bd33abbd84967066",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -61350,7 +61350,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02fd53ba28bd33abbd84967066",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273fd53ba28bd33abbd84967066",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -61391,7 +61391,7 @@ const albumData = {
     "uri": "spotify:album:0jmTbk3JwYNSaMIhAxpef0",
     "title": "Anxiety Angel",
     "artist": "Elita",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02e6a375051cedbc0f614c95fb",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273e6a375051cedbc0f614c95fb",
     "tracksCount": 5,
     "type": "album",
     "isExplicit": false,
@@ -61434,7 +61434,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02e6a375051cedbc0f614c95fb",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273e6a375051cedbc0f614c95fb",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -61527,7 +61527,7 @@ const albumData = {
     "uri": "spotify:album:41lETiLeuJBY4SmieMV0K7",
     "title": "Satanic Slumber Party",
     "artist": "Elita",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e022d4975a7228f710adeba3799",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2732d4975a7228f710adeba3799",
     "tracksCount": 2,
     "type": "album",
     "isExplicit": false,
@@ -61570,7 +61570,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e022d4975a7228f710adeba3799",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2732d4975a7228f710adeba3799",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -61624,7 +61624,7 @@ const albumData = {
     "uri": "spotify:album:6AmDiiRIuWbd4y9LqMcvDY",
     "title": "Sour Switchblade",
     "artist": "Elita",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02983f6e0739cdb099c9cf99b5",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273983f6e0739cdb099c9cf99b5",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -61667,7 +61667,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02983f6e0739cdb099c9cf99b5",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273983f6e0739cdb099c9cf99b5",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -61708,7 +61708,7 @@ const albumData = {
     "uri": "spotify:album:7E6VYflNOZL2cItcb9GRrZ",
     "title": "So Wet",
     "artist": "Elita",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0244c3edfcdf81df3912f18ed5",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27344c3edfcdf81df3912f18ed5",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -61751,7 +61751,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0244c3edfcdf81df3912f18ed5",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27344c3edfcdf81df3912f18ed5",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -61790,7 +61790,7 @@ const albumData = {
     "uri": "spotify:album:64RhbtFuXkhlcsRsaZ5uwi",
     "title": "Blood Sucker",
     "artist": "Elita",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e026bcf9ce63a227ccf737b5ecf",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2736bcf9ce63a227ccf737b5ecf",
     "tracksCount": 4,
     "type": "album",
     "isExplicit": false,
@@ -61833,7 +61833,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e026bcf9ce63a227ccf737b5ecf",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2736bcf9ce63a227ccf737b5ecf",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -61915,7 +61915,7 @@ const albumData = {
     "uri": "spotify:album:09fwZzRv4EmksZdhUGkvA4",
     "title": "Void",
     "artist": "Elita",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02b083d84a97c8f6755b324486",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273b083d84a97c8f6755b324486",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -61958,7 +61958,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02b083d84a97c8f6755b324486",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273b083d84a97c8f6755b324486",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -61997,7 +61997,7 @@ const albumData = {
     "uri": "spotify:album:1xIFpGv6PXylrlLYN9bINU",
     "title": "Sick Girl",
     "artist": "Elita",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0267696fb17a081d2f28e2bf43",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27367696fb17a081d2f28e2bf43",
     "tracksCount": 5,
     "type": "album",
     "isExplicit": false,
@@ -62040,7 +62040,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0267696fb17a081d2f28e2bf43",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27367696fb17a081d2f28e2bf43",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -62135,7 +62135,7 @@ const albumData = {
     "uri": "spotify:album:0jvdK0GFKwJYM7WdDICyHi",
     "title": "I Hate Everyone but You",
     "artist": "Elita",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02eb578801627f15c22a265180",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273eb578801627f15c22a265180",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -62178,7 +62178,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02eb578801627f15c22a265180",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273eb578801627f15c22a265180",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -62219,7 +62219,7 @@ const albumData = {
     "uri": "spotify:album:4xYRicVDVeB1lMgXEnSpa7",
     "title": "nothing like them",
     "artist": "moonvampire",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02e33c4755ed6df6d97b8c83ee",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273e33c4755ed6df6d97b8c83ee",
     "tracksCount": 5,
     "type": "album",
     "isExplicit": false,
@@ -62262,7 +62262,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02e33c4755ed6df6d97b8c83ee",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273e33c4755ed6df6d97b8c83ee",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -62357,7 +62357,7 @@ const albumData = {
     "uri": "spotify:album:7zjAdyYefDhIkuhhrq0kJN",
     "title": "i killed you in my dream",
     "artist": "ORR",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02b07cf965a829bb6351b6467c",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273b07cf965a829bb6351b6467c",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -62400,7 +62400,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02b07cf965a829bb6351b6467c",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273b07cf965a829bb6351b6467c",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -62439,7 +62439,7 @@ const albumData = {
     "uri": "spotify:album:1c3mnLyeAUsueu9tqJDCIr",
     "title": "cigarette burns (remix)",
     "artist": "moonvampire",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02e1105e59204972ee2ce6bacb",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273e1105e59204972ee2ce6bacb",
     "tracksCount": 2,
     "type": "album",
     "isExplicit": false,
@@ -62482,7 +62482,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02e1105e59204972ee2ce6bacb",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273e1105e59204972ee2ce6bacb",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -62534,7 +62534,7 @@ const albumData = {
     "uri": "spotify:album:5qQ9N0TzIojGvRDLLbkG5s",
     "title": "cigarette burns - instrumentals",
     "artist": "moonvampire",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02622464cd702cdd93e7141078",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273622464cd702cdd93e7141078",
     "tracksCount": 4,
     "type": "album",
     "isExplicit": false,
@@ -62577,7 +62577,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02622464cd702cdd93e7141078",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273622464cd702cdd93e7141078",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -62655,7 +62655,7 @@ const albumData = {
     "uri": "spotify:album:4NmOvhxJjVWSNouFUiUG9K",
     "title": "witchcraft",
     "artist": "Navjaxx",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02edd836d1ba9343f6fc348076",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273edd836d1ba9343f6fc348076",
     "tracksCount": 4,
     "type": "album",
     "isExplicit": false,
@@ -62698,7 +62698,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02edd836d1ba9343f6fc348076",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273edd836d1ba9343f6fc348076",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -62776,7 +62776,7 @@ const albumData = {
     "uri": "spotify:album:1N0nZbiHRbXQ0I1kkAN9fY",
     "title": "no love",
     "artist": "moonvampire",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02c917c8ca806d00b424caec3a",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273c917c8ca806d00b424caec3a",
     "tracksCount": 4,
     "type": "album",
     "isExplicit": false,
@@ -62819,7 +62819,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02c917c8ca806d00b424caec3a",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273c917c8ca806d00b424caec3a",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -62897,7 +62897,7 @@ const albumData = {
     "uri": "spotify:album:3sLGUgkpxUrQh94jYa4OQF",
     "title": "cigarette burns",
     "artist": "moonvampire",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e023c98ecacf8207b427ab23aa1",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2733c98ecacf8207b427ab23aa1",
     "tracksCount": 4,
     "type": "album",
     "isExplicit": false,
@@ -62940,7 +62940,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e023c98ecacf8207b427ab23aa1",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2733c98ecacf8207b427ab23aa1",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -63018,7 +63018,7 @@ const albumData = {
     "uri": "spotify:album:4ecQsecuh6zM7YpoNCklry",
     "title": "Weird Tales II",
     "artist": "moonvampire",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e027b6241867e810fca6e73613e",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2737b6241867e810fca6e73613e",
     "tracksCount": 6,
     "type": "album",
     "isExplicit": false,
@@ -63061,7 +63061,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e027b6241867e810fca6e73613e",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2737b6241867e810fca6e73613e",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -63165,7 +63165,7 @@ const albumData = {
     "uri": "spotify:album:5QDm8OKcX6ruB8PngTwz4K",
     "title": "Weird Tales",
     "artist": "moonvampire",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e029dc649452f138ed1ef5f0d2f",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2739dc649452f138ed1ef5f0d2f",
     "tracksCount": 4,
     "type": "album",
     "isExplicit": false,
@@ -63208,7 +63208,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e029dc649452f138ed1ef5f0d2f",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2739dc649452f138ed1ef5f0d2f",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -63286,7 +63286,7 @@ const albumData = {
     "uri": "spotify:album:3UtJH7lOow8CtZ0eWDuJBC",
     "title": "suicide",
     "artist": "moonvampire",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0276da5796882cf6d0b4037574",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27376da5796882cf6d0b4037574",
     "tracksCount": 2,
     "type": "album",
     "isExplicit": false,
@@ -63329,7 +63329,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0276da5796882cf6d0b4037574",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27376da5796882cf6d0b4037574",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -63381,7 +63381,7 @@ const albumData = {
     "uri": "spotify:album:0pdxiX7LPU69aXOft2Q3EY",
     "title": "vampire",
     "artist": "moonvampire",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e027da927c5719819886ea92721",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2737da927c5719819886ea92721",
     "tracksCount": 2,
     "type": "album",
     "isExplicit": false,
@@ -63424,7 +63424,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e027da927c5719819886ea92721",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2737da927c5719819886ea92721",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -63476,7 +63476,7 @@ const albumData = {
     "uri": "spotify:album:3iNAkpBOGoZ4JligEqydu0",
     "title": "pathetic",
     "artist": "moonvampire",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02fb77b37d3b00fa6f7a729236",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273fb77b37d3b00fa6f7a729236",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -63519,7 +63519,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02fb77b37d3b00fa6f7a729236",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273fb77b37d3b00fa6f7a729236",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -63558,7 +63558,7 @@ const albumData = {
     "uri": "spotify:album:5TXaOs14C55MErOkGhtUg7",
     "title": "PALLBEARER",
     "artist": "MOSSBACK",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02c2c881db5dde9a2c153f6a17",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273c2c881db5dde9a2c153f6a17",
     "tracksCount": 8,
     "type": "album",
     "isExplicit": false,
@@ -63601,7 +63601,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02c2c881db5dde9a2c153f6a17",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273c2c881db5dde9a2c153f6a17",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -63733,7 +63733,7 @@ const albumData = {
     "uri": "spotify:album:12JQRQJgtAfW041xzOIFIN",
     "title": "156 MPH",
     "artist": "MOSSBACK",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02f98c0f930f1f0626d06c7f4a",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273f98c0f930f1f0626d06c7f4a",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -63776,7 +63776,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02f98c0f930f1f0626d06c7f4a",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273f98c0f930f1f0626d06c7f4a",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -63817,7 +63817,7 @@ const albumData = {
     "uri": "spotify:album:53Yez4WZDLmYk3DBKhAmR9",
     "title": "NEMESIS",
     "artist": "MOSSBACK",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02b8e8f10247a3ace566a98bac",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273b8e8f10247a3ace566a98bac",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -63860,7 +63860,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02b8e8f10247a3ace566a98bac",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273b8e8f10247a3ace566a98bac",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -63899,7 +63899,7 @@ const albumData = {
     "uri": "spotify:album:73fmKfsgfAA3TlzcDJpcQS",
     "title": "American Gothic",
     "artist": "Savage Ga$p",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0291fc225d6f03e33c4ec8e8ba",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27391fc225d6f03e33c4ec8e8ba",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -63942,7 +63942,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0291fc225d6f03e33c4ec8e8ba",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27391fc225d6f03e33c4ec8e8ba",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -63983,7 +63983,7 @@ const albumData = {
     "uri": "spotify:album:49yxCnjxwTEIhrk1VMh5kO",
     "title": "GHOST CREEK TURNPIKE",
     "artist": "MOSSBACK",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e028449378339a6911b89cdca3b",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2738449378339a6911b89cdca3b",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -64026,7 +64026,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e028449378339a6911b89cdca3b",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2738449378339a6911b89cdca3b",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -64065,7 +64065,7 @@ const albumData = {
     "uri": "spotify:album:2lD7AjUlZu7n0ZgE5zu6R6",
     "title": "Flight of the Doorman",
     "artist": "MOSSBACK",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02bfbeabf4d3f274e260ddbc98",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273bfbeabf4d3f274e260ddbc98",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -64108,7 +64108,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02bfbeabf4d3f274e260ddbc98",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273bfbeabf4d3f274e260ddbc98",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -64147,7 +64147,7 @@ const albumData = {
     "uri": "spotify:album:1sY8cQl5Zmgffieid1besU",
     "title": "Horsethief",
     "artist": "MOSSBACK",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e023f315bc52291eb86e7f1cf59",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2733f315bc52291eb86e7f1cf59",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -64190,7 +64190,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e023f315bc52291eb86e7f1cf59",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2733f315bc52291eb86e7f1cf59",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -64229,7 +64229,7 @@ const albumData = {
     "uri": "spotify:album:6eJ9roAVHJTlobJLnvcddw",
     "title": "Bleeding Aura",
     "artist": "MOSSBACK",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e026918f2efe2a65569ad85fa28",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2736918f2efe2a65569ad85fa28",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -64272,7 +64272,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e026918f2efe2a65569ad85fa28",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2736918f2efe2a65569ad85fa28",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -64313,7 +64313,7 @@ const albumData = {
     "uri": "spotify:album:0M8oYNUeNSa9M2cVJnKtPv",
     "title": "Great Dismal Swamp",
     "artist": "MOSSBACK",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0240f620d4315bf09d5f762066",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27340f620d4315bf09d5f762066",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -64356,7 +64356,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0240f620d4315bf09d5f762066",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27340f620d4315bf09d5f762066",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -64397,7 +64397,7 @@ const albumData = {
     "uri": "spotify:album:3l1BSwJgINvLFBUqWveESF",
     "title": "The Island",
     "artist": "MOSSBACK",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02abd276736064303d8a947fa2",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273abd276736064303d8a947fa2",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -64440,7 +64440,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02abd276736064303d8a947fa2",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273abd276736064303d8a947fa2",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -64481,7 +64481,7 @@ const albumData = {
     "uri": "spotify:album:4asDZSQjrUZ8viUTqReQxf",
     "title": "Gravewalker's Anthem",
     "artist": "MOSSBACK",
-    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02886beafe273c755630e0e6f6",
+    "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273886beafe273c755630e0e6f6",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -64524,7 +64524,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02886beafe273c755630e0e6f6",
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273886beafe273c755630e0e6f6",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -64565,7 +64565,7 @@ const albumData = {
     "uri": "spotify:album:22cPNW8lFbSYNlZRujqf9j",
     "title": "HANGDOG",
     "artist": "MOSSBACK",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e023fec7a912334454187a6508c",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2733fec7a912334454187a6508c",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -64608,7 +64608,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e023fec7a912334454187a6508c",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2733fec7a912334454187a6508c",
           "maxHeight": 300,
           "maxWidth": 300
         },
@@ -64647,7 +64647,7 @@ const albumData = {
     "uri": "spotify:album:42nVoQFmHrLclAR1cobMzb",
     "title": "september eleventh twenty twenty",
     "artist": "MOSSBACK",
-    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02245237221f1b1039da0533b7",
+    "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273245237221f1b1039da0533b7",
     "tracksCount": 1,
     "type": "album",
     "isExplicit": false,
@@ -64690,7 +64690,7 @@ const albumData = {
       },
       "image": [
         {
-          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02245237221f1b1039da0533b7",
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273245237221f1b1039da0533b7",
           "maxHeight": 300,
           "maxWidth": 300
         },
