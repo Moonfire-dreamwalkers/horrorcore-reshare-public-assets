@@ -39,11 +39,11 @@
         href="https://raw.githubusercontent.com/Moonfire-dreamwalkers/horrorcore-reshare-public-assets/main/images/hr-icon.png">
     <!-- Dynamic Bootloader for Zero-Stale CDN Streaming -->
     <script>
-        (async function() {
+        (async function () {
             // Hide body immediately to prevent Flash of Unstyled Content (FOUC)
             const hideStyle = document.createElement('style');
             hideStyle.id = 'hr-boot-hide';
-            hideStyle.textContent = 'body { opacity: 0 !important; }';
+            hideStyle.textContent = 'html { background-color: #030303; } body { opacity: 0 !important; }';
             document.head.appendChild(hideStyle);
 
             const isLocal = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
@@ -67,14 +67,14 @@
                     document.head.appendChild(s);
                 });
             };
-            
+
             const revealPage = () => {
                 const styleEl = document.getElementById('hr-boot-hide');
                 if (styleEl) styleEl.remove();
                 document.body.style.transition = 'opacity 0.4s ease';
                 document.body.style.opacity = '1';
             };
-            
+
             if (isLocal) {
                 window.HR_BUILD_VERSION = 'local';
                 await loadStyle('index.css');
@@ -199,7 +199,7 @@
 </head>
 
 <body class="mr-theme"
-    style="margin: 0; padding: 0; height: 100vh; overflow: hidden; background-color: #030303; display: flex; flex-direction: column;">
+    style="margin: 0; padding: 0; min-height: 100vh; overflow-x: hidden; background-color: #030303; display: flex; flex-direction: column;">
     <!-- Background animations -->
     <div class="hr-background-container">
         <canvas id="hr-canvas"></canvas>
@@ -208,140 +208,17 @@
     <div class="mr-hypnotic-bg"></div>
     <div class="mr-hypnotic-overlay"></div>
 
-    <!-- YouTube Music Layout Shell -->
-    <div class="ytm-shell no-sidebar">
-
-        <!-- Center Main Content Viewport -->
-        <div class="ytm-center-view">
-            <!-- Dynamic View Panel: Home (Player View) - hidden by default here to prioritize profile -->
-            <div class="ytm-view-panel" id="ytm-player-view">
-
-                <div id="player-preview-mode" class="player-dashboard-layout">
-                    <div class="player-blur-bg" id="player-blur-bg"></div>
-
-                    <!-- Centered Player Dashboard Widget -->
-                    <div class="player-core-widget">
-                        <!-- Cover slider with circular arrows -->
-                        <div class="player-cover-slider">
-                            <button class="slider-arrow prev" onclick="window.hrPlayer.prevRelease(true, event)"
-                                title="Previous Release">‹</button>
-                            <div class="ytm-cover-container">
-                                <img id="player-cover" class="album-cover"
-                                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                                    alt="Now Playing" onload="this.classList.add('loaded')">
-                            </div>
-                            <button class="slider-arrow next" onclick="window.hrPlayer.nextRelease(true, event)"
-                                title="Next Release">›</button>
-                        </div>
-
-                        <!-- Metadata and Now Playing label -->
-                        <div class="player-info-meta">
-                            <div class="now-playing-label">Now Playing</div>
-                            <h2 id="center-album-title" class="player-center-album-title">NO ALBUM LOADED</h2>
-                            <div id="center-artist-name" class="player-center-artist-name">SELECT RELEASE</div>
-                        </div>
-
-                        <!-- Actions button row -->
-                        <div id="center-links-container" class="center-links-container">
-                            <a href="#" target="_blank" rel="noopener noreferrer" id="center-spotify-btn"
-                                class="center-spotify-btn" style="display: none;">
-                                <span class="spotify-icon">
-                                    <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
-                                        <path
-                                            d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm4.586 14.424c-.18.295-.565.387-.86.207-2.377-1.454-5.37-1.783-8.893-.982-.336.075-.668-.135-.744-.47-.077-.337.135-.668.47-.743 3.856-.88 7.15-.502 9.822 1.13.295.178.387.563.207.858zm1.225-2.72c-.227.367-.707.487-1.074.26-2.72-1.672-6.87-2.157-10.08-1.182-.413.125-.847-.107-.972-.52-.125-.413.108-.847.52-.972 3.67-1.114 8.24-.57 11.346 1.34.367.226.488.707.26 1.074zm.107-2.846C14.34 8.752 8.44 8.557 5.006 9.6c-.53.16-1.09-.14-1.25-.67-.16-.53.14-1.09.67-1.25 3.943-1.196 10.457-.97 14.464 1.407.476.28.63.9.35 1.376-.28.477-.9.63-1.376.35z" />
-                                    </svg>
-                                </span>
-                                Spotify
-                            </a>
-                            <div id="artist-extra-links" class="artist-extra-links">
-                                <!-- Dynamic buttons (Website, Instagram, Profile) injected here -->
-                            </div>
-                        </div>
-
-                        <!-- Audio visualizer display -->
-                        <div class="ytm-visualizer-overlay">
-                            <div class="ytm-visualizer-status" id="visualizer-status">STATUS: STANDBY</div>
-                            <div class="visualizer-bars" id="visualizer-bars">
-                                <span class="bar"></span><span class="bar"></span><span class="bar"></span><span
-                                    class="bar"></span>
-                                <span class="bar"></span><span class="bar"></span><span class="bar"></span><span
-                                    class="bar"></span>
-                                <span class="bar"></span><span class="bar"></span><span class="bar"></span><span
-                                    class="bar"></span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Bottom Panel: Scrollable Tracklist -->
-                    <div class="player-tracks-section">
-                        <div class="player-right-panel-header">RELEASE TRACKS</div>
-                        <div class="ytm-tracklist-container" id="player-tracklist-rows">
-                            <!-- Queue list rows injected dynamically -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Dynamic View Panel: Artist Profile Detail View (Active by default) -->
-            <div class="ytm-view-panel active" id="ytm-profile-view">
-                <div style="margin-bottom: 20px;">
-                    <a href="/" class="back-to-player-link"
-                        style="color: var(--hr-text-muted); text-decoration: none; font-size: 0.85rem; font-family: 'Share Tech Mono', monospace;">&larr;
-                        Back to Player</a>
-                </div>
-                <div class="ytm-artist-profile" id="ytm-artist-profile-content" style="padding-bottom: 40px;">
-                    <div style="text-align: center; padding: 100px 0;">
-                        <div
-                            style="font-family: 'Share Tech Mono', monospace; font-size: 1rem; color: var(--hr-text-muted);">
-                            LOADING...</div>
-                    </div>
-                </div>
-            </div>
+    <!-- Clean Artist Profile Layout (no player shell) -->
+    <div style="flex: 1; max-width: 1200px; margin: 0 auto; width: 100%; padding: 40px 24px; box-sizing: border-box;">
+        <div style="margin-bottom: 20px;">
+            <a href="/" class="back-to-player-link"
+                style="color: var(--hr-text-muted); text-decoration: none; font-size: 0.85rem; font-family: 'Share Tech Mono', monospace;">&larr;
+                Back to Player</a>
         </div>
-
-        <!-- Persistent Bottom Playback Control Bar -->
-        <div class="ytm-bottom-bar">
-            <!-- Progress Slider -->
-            <div class="ytm-timeline-container" onclick="playerSeek(event)">
-                <div id="player-progress-bar" class="ytm-timeline-progress"></div>
-            </div>
-
-            <!-- Playback controls -->
-            <div class="ytm-playback-controls">
-                <button id="player-prev-btn" onclick="playerPrevTrack(event)" class="ytm-playback-btn"
-                    title="Previous Track" disabled>⏮</button>
-                <button id="player-play-btn" onclick="playerTogglePlay(event)" class="ytm-playback-btn play-btn-main"
-                    title="Play / Pause" disabled>▶</button>
-                <button id="player-next-btn" onclick="playerNextTrack(event)" class="ytm-playback-btn"
-                    title="Next Track" disabled>⏭</button>
-                <span class="ytm-time-display">
-                    <span id="player-time-current">0:00</span> / <span id="player-time-total">0:00</span>
-                </span>
-            </div>
-
-            <!-- Metadata display -->
-            <div class="ytm-active-meta">
-                <div class="ytm-active-meta-thumb">
-                    <img id="bottom-active-thumb"
-                        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt=""
-                        onload="this.classList.add('loaded')">
-                </div>
-                <div class="ytm-active-meta-details">
-                    <div id="player-track-title" class="ytm-active-meta-title">NO ACTIVE TRACK</div>
-                    <div class="ytm-active-meta-subtitle">
-                        <span id="player-artist">SELECT TRACK</span> &bull; <span id="player-album-title">No Album
-                            Loaded</span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Utility panel -->
-            <div class="ytm-utility-controls">
-                <div style="display: flex; align-items: center; gap: 8px;">
-                    <span style="font-size: 0.85rem; color: var(--hr-text-muted);">🔊</span>
-                    <input type="range" id="player-volume-slider" class="ytm-volume-slider" min="0" max="1" step="0.05"
-                        value="0.8" oninput="playerSetVolume(this.value)">
-                </div>
+        <div class="ytm-artist-profile" id="ytm-artist-profile-content" style="padding-bottom: 40px;">
+            <div style="text-align: center; padding: 100px 0;">
+                <div style="font-family: 'Share Tech Mono', monospace; font-size: 1rem; color: var(--hr-text-muted);">
+                    LOADING...</div>
             </div>
         </div>
     </div>
@@ -361,11 +238,9 @@
             document.addEventListener('HRReady', initArtistProfile);
         }
     </script>
-</body>
 
-
-
-    <footer style="border-top: 1px solid rgba(255,0,60,0.2); padding: 30px 20px; text-align: center; font-size: 0.85rem; color: rgba(255,255,255,0.6); margin-top: 60px; font-family: 'Share Tech Mono', monospace;">
+    <footer
+        style="border-top: 1px solid rgba(255,0,60,0.2); padding: 30px 20px; text-align: center; font-size: 0.85rem; color: rgba(255,255,255,0.6); margin-top: auto; font-family: 'Share Tech Mono', monospace;">
         <div style="max-width: 1100px; margin: 0 auto;">
             <nav style="margin-bottom: 16px; display: flex; flex-wrap: wrap; justify-content: center; gap: 14px;">
                 <a href="/" style="color: #fff; text-decoration: none;">Home</a>
@@ -382,8 +257,9 @@
                 <a href="/page-audit" style="color: #fff; text-decoration: none;">Page Audit</a>
                 <a href="/privacy" style="color: #fff; text-decoration: none;">Privacy</a>
             </nav>
-            <p>&copy; 2024-2026 Horrorcore Reshare | Update 001 | Maintained by Luna Serafina</p>
+            <p>&copy; 2024-2026 Horrorcore Reshare | Maintained by Luna Serafina</p>
         </div>
     </footer>
+</body>
 
 </html>

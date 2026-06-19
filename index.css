@@ -2706,9 +2706,8 @@ html {
         "bottom bottom";
     grid-template-columns: 650px 1fr;
     grid-template-rows: 1fr 72px;
-    height: calc(100vh - 81px);
+    min-height: calc(100vh - 81px);
     flex: 1;
-    min-height: 0;
     width: 100vw;
     background-color: #030303;
     color: #ffffff;
@@ -3121,7 +3120,8 @@ html {
     align-items: center;
     padding: 0 24px;
     z-index: 15;
-    position: relative;
+    position: sticky;
+    bottom: 0;
     min-width: 0;
 }
 
@@ -3824,9 +3824,8 @@ html {
             "right";
         grid-template-columns: 1fr;
         grid-template-rows: auto auto;
-        height: 0 !important;
         flex: 1 !important;
-        min-height: 0 !important;
+        min-height: auto !important;
         overflow-y: auto !important;
         padding-bottom: 88px !important;
     }
@@ -4216,9 +4215,8 @@ html {
 /* Responsive Overrides */
 @media (max-width: 768px) {
     .ytm-shell {
-        height: 0 !important;
         flex: 1 !important;
-        min-height: 0 !important;
+        min-height: auto !important;
     }
 
     .ytm-bottom-bar {
