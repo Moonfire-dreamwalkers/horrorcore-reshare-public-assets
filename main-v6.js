@@ -1626,7 +1626,7 @@ if (document.querySelector('.ytm-shell')) {
 
     async function checkForUpdates() {
         try {
-            const res = await fetch('/build-version.json?t=' + Date.now(), { cache: 'no-store' });
+            const res = await fetch('https://raw.githubusercontent.com/Moonfire-dreamwalkers/horrorcore-reshare-public-assets/main/build-version.json?t=' + Date.now(), { cache: 'no-store' });
             if (!res.ok) return;
 
             const data = await res.json();
