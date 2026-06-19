@@ -3856,8 +3856,8 @@ html {
     }
 
     #album-grid.ytm-tracklist-container {
-        grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)) !important;
-        gap: 12px !important;
+        grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)) !important;
+        gap: 8px !important;
     }
 
     .ytm-bottom-bar {
@@ -4335,10 +4335,27 @@ html {
 @media (max-width: 1024px) {
     .hr-album-card {
         min-height: auto !important;
+        padding: 10px !important;
     }
+
     .hr-album-card img.album-cover {
-        aspect-ratio: auto !important;
-        min-height: 100px !important;
+        aspect-ratio: 1 / 1 !important;
+        min-height: 80px !important;
+    }
+
+    .hr-album-card .album-artist-name {
+        font-size: 0.7rem !important;
+        white-space: nowrap !important;
+        overflow: hidden !important;
+        text-overflow: ellipsis !important;
+        display: block !important;
+    }
+
+    .hr-album-card .album-title-text {
+        font-size: 0.65rem !important;
+        white-space: nowrap !important;
+        overflow: hidden !important;
+        text-overflow: ellipsis !important;
     }
 }
 
