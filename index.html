@@ -20,7 +20,7 @@
     <link rel="canonical" href="https://www.horrorcore-reshare.com/">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.horrorcore-reshare.com/">
-    <meta property="og:title" content="Horrorcore Reshare | Update 001">
+    <meta property="og:title" content="Horrorcore Reshare">
     <meta property="og:description"
         content="Horrorcore Reshare is the underground music directory for horrorcore rap, dark trap, industrial hip hop, and underground rap. Discover independent artists, stream new releases, use free flyer promotion tools, and join the horrorcore community.">
     <meta property="og:image"
@@ -28,7 +28,7 @@
     <meta property="og:site_name" content="Horrorcore Reshare">
     <meta name="twitter:card" content="summary_large_image">
 
-    <title>Horrorcore Reshare | Update 001</title>
+    <title>Horrorcore Reshare</title>
     <link rel="icon" type="image/png"
         href="https://raw.githubusercontent.com/Moonfire-dreamwalkers/horrorcore-reshare-public-assets/main/images/hr-icon.png">
     <!-- Dynamic Bootloader for Zero-Stale CDN Streaming -->
@@ -169,6 +169,14 @@
                 }
 
                 window.HR_BUILD_VERSION = version;
+
+                // Set page title from CDN version (no hardcoded version in HTML)
+                document.title = 'Horrorcore Reshare | ' + version;
+                const ogTitle = document.querySelector('meta[property="og:title"]');
+                if (ogTitle) ogTitle.setAttribute('content', 'Horrorcore Reshare | ' + version);
+                const srH1 = document.querySelector('.sr-only');
+                if (srH1) srH1.textContent = 'Horrorcore Reshare | ' + version;
+
                 const base = `https://cdn.jsdelivr.net/gh/Moonfire-dreamwalkers/horrorcore-reshare-public-assets@${version}`;
                 await loadStyle(`${base}/index.css`);
                 await loadScript(`${base}/data.js`);
@@ -256,8 +264,8 @@
     <noscript>
         <div
             style="padding: 20px; background: #030303; color: #fff; text-align: center; font-family: 'Share Tech Mono', monospace; border-bottom: 1px solid #ff003c; z-index: 9999; position: relative;">
-            <h2 style="font-family: 'Orbitron', sans-serif; color: #ff003c; letter-spacing: 2px;">HORRORCORE RESHARE |
-                UPDATE 001</h2>
+            <h2 style="font-family: 'Orbitron', sans-serif; color: #ff003c; letter-spacing: 2px;">HORRORCORE RESHARE
+            </h2>
             <p>Explore the Release Radar and directory for underground horrorcore, dark trap, and industrial music.</p>
             <nav style="margin: 15px 0;">
                 <a href="/" style="color: #ffcc00; text-decoration: underline; margin: 0 10px;">Home</a> |
@@ -327,7 +335,7 @@
             </div>
         </div>
     </noscript>
-    <h1 class="sr-only">Horrorcore Reshare | Update 001</h1>
+    <h1 class="sr-only">Horrorcore Reshare</h1>
     <!-- Background animations -->
     <div class="hr-background-container">
         <canvas id="hr-canvas"></canvas>
@@ -628,7 +636,7 @@
                 <a href="/page-audit" style="color: #fff; text-decoration: none;">Page Audit</a>
                 <a href="/privacy" style="color: #fff; text-decoration: none;">Privacy</a>
             </nav>
-            <p style="margin: 0;">&copy; 2024&ndash;2026 Horrorcore Reshare | Update 001 | Maintained by Luna Serafina
+            <p style="margin: 0;">&copy; 2024&ndash;2026 Horrorcore Reshare | Maintained by Luna Serafina
             </p>
         </div>
     </footer>
