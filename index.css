@@ -3856,7 +3856,7 @@ html {
     }
 
     #album-grid.ytm-tracklist-container {
-        grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)) !important;
+        grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)) !important;
         gap: 12px !important;
     }
 
@@ -4330,12 +4330,18 @@ html {
     flex-direction: column !important;
 }
 
-.hr-album-card img.album-cover {
-    aspect-ratio: 1 / 1 !important;
-    min-height: 200px !important;
-    width: 100% !important;
-    object-fit: cover !important;
+
+
+@media (max-width: 1024px) {
+    .hr-album-card {
+        min-height: auto !important;
+    }
+    .hr-album-card img.album-cover {
+        aspect-ratio: auto !important;
+        min-height: 100px !important;
+    }
 }
+
 
 /* ==========================================================================
    DESKTOP PLAYER DASHBOARD TWO-COLUMN LAYOUT REDESIGN (NO SCROLL)

@@ -1369,7 +1369,7 @@ class MasterAudioPlayer {
                         </div>
                         <div style="padding: 20px; flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between; gap: 15px;">
                             <div>
-                                <h3 style="font-family: 'Orbitron', sans-serif; font-size: 0.95rem; color: #fff; margin: 0 0 6px; line-height: 1.4; letter-spacing: 1px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;" title="${album.title}">${album.title}</h3>
+<h3 class="hr-album-title" style="font-family: 'Orbitron', sans-serif; font-size: 0.95rem; color: #fff; margin: 0 0 6px; line-height: 1.4; letter-spacing: 1px;" title="${album.title}">${album.title}</h3>
                                 <p style="font-family: 'Share Tech Mono', monospace; color: var(--hr-blood); font-size: 0.8rem; margin: 0 0 6px 0; font-weight: bold; letter-spacing: 0.5px;">${album.artist.toUpperCase()}</p>
                                 ${displayDate ? `<p style="font-family: 'Share Tech Mono', monospace; color: var(--hr-text-muted); font-size: 0.7rem; margin: 0; letter-spacing: 0.5px;">${displayDate.toUpperCase()}</p>` : ''}
                             </div>
@@ -1564,7 +1564,7 @@ function renderGlobalAlbumGrid() {
                     </div>
                     <div style="padding: 20px; flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between; gap: 15px;">
                         <div>
-                            <h3 style="font-family: 'Orbitron', sans-serif; font-size: 0.95rem; color: #fff; margin: 0 0 6px; line-height: 1.4; letter-spacing: 1px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;" title="${album.title}">${album.title}</h3>
+                            <h3 class="hr-album-title" style="font-family: 'Orbitron', sans-serif; font-size: 0.95rem; color: #fff; margin: 0 0 6px; line-height: 1.4; letter-spacing: 1px;" title="${album.title}">${album.title}</h3>
                             <p style="font-family: 'Share Tech Mono', monospace; color: var(--hr-blood); font-size: 0.8rem; margin: 0 0 6px 0; font-weight: bold; letter-spacing: 0.5px;">${album.artist.toUpperCase()}</p>
                             ${displayDate ? `<p style="font-family: 'Share Tech Mono', monospace; color: var(--hr-text-muted); font-size: 0.7rem; margin: 0; letter-spacing: 0.5px;">${displayDate.toUpperCase()}</p>` : ''}
                         </div>
