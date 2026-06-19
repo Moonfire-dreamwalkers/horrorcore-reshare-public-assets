@@ -10,7 +10,7 @@ const CACHE_ASSETS = [
   '/privacy.html',
   '/flyer-builder.html',
   '/flyer-builder-custom.html',
-  '/https://raw.githubusercontent.com/Moonfire-dreamwalkers/horrorcore-reshare-public-assets/main/images/hr-icon.png'
+  'https://raw.githubusercontent.com/Moonfire-dreamwalkers/horrorcore-reshare-public-assets/main/images/hr-icon.png'
 ];
 
 // Network-first strategy: always try network first, fallback to cache
