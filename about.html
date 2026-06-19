@@ -31,71 +31,13 @@
     <title>About | Horrorcore Reshare</title>
     <link rel="icon" type="image/png"
         href="https://raw.githubusercontent.com/Moonfire-dreamwalkers/horrorcore-reshare-public-assets/main/images/hr-icon.png">
-    <!-- Dynamic Bootloader for Zero-Stale CDN Streaming -->
-    <script>
-        (async function () {
-            // Hide body immediately to prevent Flash of Unstyled Content (FOUC)
-            const hideStyle = document.createElement('style');
-            hideStyle.id = 'hr-boot-hide';
-            hideStyle.textContent = 'html { background-color: #030303; } body { opacity: 0 !important; }';
-            document.head.appendChild(hideStyle);
-
-            const isLocal = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
-            const loadStyle = (href) => {
-                return new Promise((resolve) => {
-                    const link = document.createElement('link');
-                    link.rel = 'stylesheet';
-                    link.href = href;
-                    link.onload = resolve;
-                    link.onerror = resolve;
-                    document.head.appendChild(link);
-                });
-            };
-            const loadScript = (src, defer = false) => {
-                return new Promise((resolve, reject) => {
-                    const s = document.createElement('script');
-                    s.src = src;
-                    if (defer) s.defer = true;
-                    s.onload = resolve;
-                    s.onerror = reject;
-                    document.head.appendChild(s);
-                });
-            };
-
-            const revealPage = () => {
-                const styleEl = document.getElementById('hr-boot-hide');
-                if (styleEl) styleEl.remove();
-                document.body.style.transition = 'opacity 0.4s ease';
-                document.body.style.opacity = '1';
-            };
-
-            if (isLocal) {
-                window.HR_BUILD_VERSION = 'local';
-                await loadStyle('index.css');
-                window.hrReady = true;
-                document.dispatchEvent(new CustomEvent('HRReady'));
-                revealPage();
-            } else {
-                let version = 'main';
-                try {
-                    const res = await fetch('https://raw.githubusercontent.com/Moonfire-dreamwalkers/horrorcore-reshare-public-assets/main/build-version.json?t=' + Date.now(), { cache: 'no-store' });
-                    if (res.ok) {
-                        const data = await res.json();
-                        if (data && data.version) {
-                            version = data.version;
-                        }
-                    }
-                } catch (e) { }
-
-                window.HR_BUILD_VERSION = version;
-                const base = `https://cdn.jsdelivr.net/gh/Moonfire-dreamwalkers/horrorcore-reshare-public-assets@${version}`;
-                await loadStyle(`${base}/index.css`);
-                window.hrReady = true;
-                document.dispatchEvent(new CustomEvent('HRReady'));
-                revealPage();
-            }
-        })();
-    </script>
+    <!-- Stylesheet (static link, no JS boot needed for content page) -->
+    <link rel="stylesheet" href="index.css">
+    <style>
+        html {
+            background-color: #030303;
+        }
+    </style>
     <link rel="manifest" href="manifest.json">
 
     <!-- Global Analytics -->
