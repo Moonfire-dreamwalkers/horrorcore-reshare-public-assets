@@ -1606,7 +1606,7 @@ injectFooter();
 (function setNavVersion() {
     var el = document.getElementById('nav-build-version');
     if (el && window.HR_BUILD_VERSION && window.HR_BUILD_VERSION !== 'local') {
-        el.textContent = 'v' + window.HR_BUILD_VERSION;
+        el.textContent = 'Update 006';
     }
 })();
 injectArtists();
