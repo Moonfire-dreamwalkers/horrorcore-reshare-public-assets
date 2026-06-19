@@ -187,7 +187,7 @@ function injectHeader() {
             <a href="${isLocalhost ? 'flyer-builder.html' : '/flyer-builder'}">Flyer Builder</a>
             <a href="${isLocalhost ? 'discord.html' : '/discord'}">Discord</a>
             <a href="${isLocalhost ? 'services.html' : '/services'}">Services</a>
-            <a href="#" onclick="return false" style="cursor: default;">Oatmeal</a>
+            <a href="#" onclick="return false" style="cursor: default;">GG</a>
         </nav>
     `;
 
@@ -1614,8 +1614,8 @@ if (document.querySelector('.ytm-shell')) {
 (function initUpdateChecker() {
     // Skip if running locally or if this page does not use the bootloader (like tool/admin pages)
     if (!window.HR_BUILD_VERSION ||
-        window.location.hostname === 'localhost' || 
-        window.location.hostname === '127.0.0.1' || 
+        window.location.hostname === 'localhost' ||
+        window.location.hostname === '127.0.0.1' ||
         window.location.hostname === '[::1]' ||
         window.location.hostname.match(/^192\.168\./) ||
         window.HR_BUILD_VERSION === 'local') {
