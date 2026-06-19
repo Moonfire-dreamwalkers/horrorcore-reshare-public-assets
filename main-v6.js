@@ -187,7 +187,7 @@ function injectHeader() {
             <a href="${isLocalhost ? 'flyer-builder.html' : '/flyer-builder'}">Flyer Builder</a>
             <a href="${isLocalhost ? 'discord.html' : '/discord'}">Discord</a>
             <a href="${isLocalhost ? 'services.html' : '/services'}">Services</a>
-            <a href="#" onclick="return false" style="cursor: default;">Cheese</a>
+            <a href="#" onclick="return false" style="cursor: default;">Void</a>
         </nav>
     `;
 
