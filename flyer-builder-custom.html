@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="description" content="The ultimate promotional platform for underground music, horrorcore, and dark industrial artists.">
+    
+    <!-- Open Graph / Facebook -->
+    <link rel="canonical" href="https://www.horrorcore-reshare.com/flyer-builder-custom">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.horrorcore-reshare.com/flyer-builder-custom">
+    <meta property="og:title" content="Custom Flyer Builder - Promotion Tool">
+    <meta property="og:description" content="The ultimate promotional platform for underground music, horrorcore, and dark industrial artists.">
+    <meta property="og:image" content="https://www.horrorcore-reshare.com/https://raw.githubusercontent.com/Moonfire-dreamwalkers/horrorcore-reshare-public-assets/main/images/logo.png">
+    <meta property="og:site_name" content="Horrorcore Reshare">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://www.horrorcore-reshare.com/flyer-builder-custom">
+    <meta name="twitter:title" content="Custom Flyer Builder - Promotion Tool">
+    <meta name="twitter:description" content="The ultimate promotional platform for underground music, horrorcore, and dark industrial artists.">
+    <meta name="twitter:image" content="https://www.horrorcore-reshare.com/https://raw.githubusercontent.com/Moonfire-dreamwalkers/horrorcore-reshare-public-assets/main/images/logo.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate, max-age=0">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    
+    <title>Custom Flyer Builder - Promotion Tool</title>
+    <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/Moonfire-dreamwalkers/horrorcore-reshare-public-assets/main/images/hr-icon.png">
+  <script>
+    window.__PT_BOOT_LOG = [];
+    window.__PT_LOG_BOOT = function (message, details) {
+      var line = "[" + new Date().toLocaleTimeString() + "] " + message;
+      if (details !== undefined) {
+        try {
+          line += " " + (typeof details === "string" ? details : JSON.stringify(details));
+        } catch (error) {
+          line += " [details unavailable]";
+        }
+      }
+      window.__PT_BOOT_LOG.push(line);
+      console.log(line);
+      var panel = document.getElementById("bootDebugBanner");
+      if (panel) {
+        panel.textContent = window.__PT_BOOT_LOG.join("\n");
+      }
+    };
+    window.__PT_RENDER_BOOT_ERROR = function (label, error) {
+      window.__PT_LOG_BOOT(label, {
+        message: error && error.message ? error.message : String(error),
+        stack: error && error.stack ? String(error.stack).split("\n").slice(0, 5).join(" | ") : ""
+      });
+      var panel = document.getElementById("bootDebugBanner");
+      if (panel) {
+        panel.hidden = false;
+        panel.textContent = window.__PT_BOOT_LOG.join("\n");
+      }
+    };
+    window.addEventListener("error", function (event) {
+      window.__PT_RENDER_BOOT_ERROR("BOOT RUNTIME ERROR", event.error || event.message);
+    });
+    window.addEventListener("unhandledrejection", function (event) {
+      window.__PT_RENDER_BOOT_ERROR("BOOT PROMISE ERROR", event.reason);
+    });
+    window.__PT_LOG_BOOT("BOOT HTML READY", { page: "custom", href: location.href });
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Audiowide&family=Bangers&family=Bebas+Neue&family=Black+Ops+One&family=Cinzel:wght@400;700;900&family=Cinzel+Decorative:wght@400;700;900&family=Cormorant+Garamond:wght@400;700&family=Creepster&family=DM+Serif+Display&family=Inter:wght@300;400;600;800&family=Libre+Baskerville:wght@400;700&family=Lora:wght@400;700&family=Merriweather:wght@400;700;900&family=Montserrat:wght@400;700;900&family=Orbitron:wght@400;700;900&family=Oswald:wght@400;700&family=Outfit:wght@300;400;600&family=Permanent+Marker&family=Playfair+Display:wght@400;700;900&family=Poppins:wght@400;700;900&family=Press+Start+2P&family=Roboto+Condensed:wght@400;700&family=Righteous&family=Rubik+Mono+One&family=Share+Tech+Mono&family=Special+Elite&family=Space+Grotesk:wght@400;700&family=Teko:wght@400;700&family=Unbounded:wght@400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="tools.css">
+  <!-- Dynamic Bootloader for Zero-Stale CDN Streaming -->
+  <script>
+      (async function() {
+          // Hide body immediately to prevent Flash of Unstyled Content (FOUC)
+          const hideStyle = document.createElement('style');
+          hideStyle.id = 'hr-boot-hide';
+          hideStyle.textContent = 'body { opacity: 0 !important; }';
+          document.head.appendChild(hideStyle);
+
+          const isLocal = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
+          const loadStyle = (href) => {
+              return new Promise((resolve) => {
+                  const link = document.createElement('link');
+                  link.rel = 'stylesheet';
+                  link.href = href;
+                  link.onload = resolve;
+                  link.onerror = resolve; // Resolve anyway to avoid blocking page load if CDN is down
+                  document.head.appendChild(link);
+              });
+          };
+          const loadScript = (src, defer = false) => {
+              return new Promise((resolve, reject) => {
+                  const s = document.createElement('script');
+                  s.src = src;
+                  if (defer) s.defer = true;
+                  s.onload = resolve;
+                  s.onerror = reject;
+                  document.head.appendChild(s);
+              });
+          };
+          
+          const revealPage = () => {
+              const styleEl = document.getElementById('hr-boot-hide');
+              if (styleEl) styleEl.remove();
+              document.body.style.transition = 'opacity 0.4s ease';
+              document.body.style.opacity = '1';
+          };
+          
+          if (isLocal) {
+              window.HR_BUILD_VERSION = 'local';
+              await loadStyle('index.css');
+              await loadScript('preset-archive.js');
+              await loadScript('flyer-builder-core.js');
+              await loadScript('flyer-builder-custom.js');
+              await loadScript('main-v6.js', true);
+              revealPage();
+          } else {
+              let version = 'main';
+              let versionMismatch = false;
+              try {
+                  const res = await fetch('https://raw.githubusercontent.com/Moonfire-dreamwalkers/horrorcore-reshare-public-assets/main/build-version.json?t=' + Date.now(), { cache: 'no-store' });
+                  if (res.ok) {
+                      const data = await res.json();
+                      if (data && data.version) {
+                          version = data.version;
+                          const activeVersion = localStorage.getItem('hr_active_build_version');
+                          if (activeVersion && activeVersion !== version) {
+                              versionMismatch = true;
+                          }
+
+                          if (!versionMismatch) {
+
+                              localStorage.setItem('hr_active_build_version', version);
+
+                          }
+                      }
+                  }
+              } catch (e) {
+                  console.warn('CDN bootloader failed to fetch latest version tag, using @main fallback:', e);
+              }
+
+              if (versionMismatch) {
+
+
+                  if ('caches' in window) {
+
+
+                      try {
+
+
+                          const keys = await caches.keys();
+
+
+                          await Promise.all(keys.map(key => caches.delete(key)));
+
+
+                          if ('serviceWorker' in navigator) {
+
+
+                              const regs = await navigator.serviceWorker.getRegistrations();
+
+
+                              for (let r of regs) {
+
+
+                                  await r.update();
+
+
+                              }
+
+
+                          }
+
+
+                          localStorage.setItem('hr_active_build_version', version);
+
+
+                          console.log('Cleared stale cache due to build mismatch, reloading...');
+
+
+                          window.location.reload(true);
+
+
+                          return;
+
+
+                      } catch (err) {
+
+
+                          console.error('Failed to clear cache on version mismatch:', err);
+
+
+                      }
+
+
+                  } else {
+
+
+                      localStorage.setItem('hr_active_build_version', version);
+
+
+                  }
+
+
+              }
+
+              window.HR_BUILD_VERSION = version;
+              const base = `https://cdn.jsdelivr.net/gh/Moonfire-dreamwalkers/horrorcore-reshare-public-assets@${version}`;
+              await loadStyle(`${base}/index.css`);
+              await loadScript(`${base}/preset-archive.js`);
+              await loadScript(`${base}/flyer-builder-core.js`);
+              await loadScript(`${base}/flyer-builder-custom.js`);
+              await loadScript(`${base}/main-v6.js`, true);
+              revealPage();
+          }
+      })();
+  </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YGTD782ZEK"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-YGTD782ZEK');
+    </script>
+</head>
+<body>
+  <pre id="bootDebugBanner" class="boot-debug-banner" hidden></pre>
+  <div class="bg-field"></div>
+  <div class="noise-layer"></div>
+  <div class="scanline-layer"></div>
+
+          
+
+  <main>
+    <section class="composer-section page-section">
+      <div class="section-heading compact">
+        <p class="section-kicker">LOCAL EDITOR</p>
+        <h1 class="page-title">CUSTOM FLYER BUILDER</h1>
+      </div>
+
+      <div class="composer-shell">
+        <aside class="control-panel" aria-label="Flyer controls">
+          <div class="panel-block">
+            <h3>Canvas</h3>
+            <p class="note-copy no-top">Default is US Letter at 300 DPI: 8.5 x 11 in, 2550 x 3300 px.</p>
+            <div class="control-row">
+              <label for="formatSelect">Size</label>
+              <select id="formatSelect"></select>
+            </div>
+            <div class="toggle-row one-row">
+              <label><input id="autoCanvasFromImageToggle" type="checkbox"> Auto Size To Biggest Image</label>
+            </div>
+            <div id="customSizeRow" class="panel-inline-grid panel-hidden">
+              <div class="control-row">
+                <label for="customWidth">Width</label>
+                <input id="customWidth" type="number" min="64" value="2550">
+              </div>
+              <div class="control-row">
+                <label for="customHeight">Height</label>
+                <input id="customHeight" type="number" min="64" value="3300">
+              </div>
+              <button class="protocol-button slim full-span" id="applyCustomSizeBtn" type="button">APPLY CUSTOM SIZE</button>
+            </div>
+            <div class="control-row swatch-row">
+              <label for="canvasColor">Background</label>
+              <input id="canvasColor" type="color" value="#000000">
+            </div>
+          </div>
+
+          <div class="panel-block">
+            <h3>Add Layers</h3>
+            <input id="imageInput" class="hidden-input" type="file" accept="image/*" multiple>
+            <div class="button-stack">
+              <button class="ghost-button slim full-button" id="addImageBtn" type="button">ADD IMAGE LAYER</button>
+              <button class="ghost-button slim full-button" id="addTextBtn" type="button">ADD TEXT LAYER</button>
+              <button class="ghost-button slim full-button" id="addQrBtn" type="button">ADD QR CODE LAYER</button>
+            </div>
+          </div>
+
+          <div class="panel-block">
+            <h3>Guides</h3>
+            <div class="toggle-row one-row">
+              <label><input id="snapGuidesToggle" type="checkbox" checked> Snap To Active Guides</label>
+            </div>
+            <div class="two-column-controls">
+              <div class="control-row">
+                <label for="guideOrientation">Type</label>
+                <select id="guideOrientation">
+                  <option value="vertical">Vertical</option>
+                  <option value="horizontal">Horizontal</option>
+                </select>
+              </div>
+              <div class="control-row">
+                <label for="guideUnit">Unit</label>
+                <select id="guideUnit">
+                  <option value="percent">Percent</option>
+                  <option value="px">Pixels</option>
+                </select>
+              </div>
+            </div>
+            <div class="control-row">
+              <label for="guidePosition">Position</label>
+              <input id="guidePosition" type="number" min="0" value="50">
+            </div>
+            <div class="button-row top-gap">
+              <button class="ghost-button slim" id="centerGuideBtn" type="button">CENTER VALUE</button>
+              <button class="protocol-button slim" id="addGuideBtn" type="button">ADD GUIDE</button>
+            </div>
+            <div id="guideList" class="guide-list" aria-live="polite"></div>
+          </div>
+
+          <div class="panel-block">
+            <h3>Presets</h3>
+            <p class="note-copy no-top">Save one project file with images, imported fonts, guides, canvas settings, and layers.</p>
+            <input id="presetInput" class="hidden-input" type="file" accept=".ptpreset,application/zip">
+            <div class="button-row top-gap">
+              <button class="ghost-button slim" id="presetLoadBtn" type="button">LOAD PRESET</button>
+              <button class="protocol-button slim" id="presetSaveBtn" type="button">SAVE PRESET</button>
+            </div>
+          </div>
+
+        </aside>
+
+        <div class="mobile-canvas-toolbar panel-block" aria-label="Mobile layer controls">
+          <div id="mobileLayerPicker" class="mobile-layer-picker" style="display: flex; overflow-x: auto; gap: 8px; padding-bottom: 10px; margin-bottom: 10px; border-bottom: 1px solid rgba(255,255,255,0.1); scrollbar-width: none;">
+            <!-- Dynamic Buttons -->
+          </div>
+          <div class="button-row" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px;">
+            <button class="ghost-button mini-button" id="mobileCenterHBtn" type="button">CTR H</button>
+            <button class="ghost-button mini-button" id="mobileCenterVBtn" type="button">CTR V</button>
+            <button class="ghost-button mini-button" id="mobileLockBtn" type="button">LOCK</button>
+          </div>
+        </div>
+
+        <div class="stage-panel">
+          <div class="canvas-frame">
+            <canvas id="flyerCanvas" width="2550" height="3300" aria-label="Flyer preview canvas"></canvas>
+          </div>
+          <div id="canvasContextMenu" class="canvas-context-menu" role="menu" aria-hidden="true">
+            <button type="button" data-action="center-horizontal">Center Horizontal</button>
+            <button type="button" data-action="center-vertical">Center Vertical</button>
+            <button type="button" data-action="center-both">Center Both</button>
+            <button type="button" data-action="duplicate">Duplicate Layer</button>
+            <button type="button" data-action="delete">Delete Layer</button>
+            <button type="button" data-action="front">Bring To Front</button>
+            <button type="button" data-action="back">Send To Back</button>
+          </div>
+        </div>
+
+        <aside class="stack-panel" aria-label="Layer stack and output controls">
+          <div class="panel-block">
+            <h3>Layers</h3>
+            <p class="note-copy no-top">Drag layers to reorder. Top of this list prints on top.</p>
+            <div id="layerList" class="layer-list" aria-live="polite"></div>
+            <div class="button-row top-gap">
+              <button class="ghost-button slim" id="duplicateLayerBtn" type="button">DUPLICATE</button>
+              <button class="ghost-button slim" id="deleteLayerBtn" type="button">DELETE</button>
+            </div>
+            <div class="button-row top-gap">
+              <button class="protocol-button slim" id="openOutputBtn" type="button">PRINT / EXPORT</button>
+            </div>
+            <p id="statusLine" class="status-line">READY</p>
+          </div>
+
+          <div class="panel-block" id="layerSettingsPanel">
+            <h3>Layer Settings</h3>
+            <p id="selectedLayerLabel" class="status-line left-status">NO LAYER SELECTED</p>
+            <div class="slider-row">
+              <label for="layerOpacity">Opacity</label>
+              <input id="layerOpacity" type="range" min="0" max="100" value="100">
+              <output id="layerOpacityValue">100</output>
+            </div>
+            <div class="two-column-controls">
+              <div class="slider-row">
+                <label for="layerX">X</label>
+                <input id="layerX" type="range" min="0" max="1080" value="540">
+                <output id="layerXValue">540</output>
+              </div>
+              <div class="slider-row">
+                <label for="layerY">Y</label>
+                <input id="layerY" type="range" min="0" max="1080" value="540">
+                <output id="layerYValue">540</output>
+              </div>
+            </div>
+            <div class="slider-row" id="layerScaleRow">
+              <label for="layerScale">Scale</label>
+              <input id="layerScale" type="range" min="10" max="250" value="100">
+              <output id="layerScaleValue">100</output>
+            </div>
+            <div class="slider-row">
+              <label for="layerHue">Hue Shift</label>
+              <input id="layerHue" type="range" min="-180" max="180" value="0">
+              <output id="layerHueValue">0</output>
+            </div>
+            <div class="slider-row">
+              <label for="layerSaturation">Saturation</label>
+              <input id="layerSaturation" type="range" min="0" max="250" value="100">
+              <output id="layerSaturationValue">100</output>
+            </div>
+            <div class="slider-row">
+              <label for="layerBlur">Blur</label>
+              <input id="layerBlur" type="range" min="0" max="40" value="0">
+              <output id="layerBlurValue">0</output>
+            </div>
+          </div>
+
+          <div class="panel-block" id="textPanel">
+            <h3>Text</h3>
+            <label class="stacked-label" for="textContent">Message</label>
+            <textarea id="textContent" rows="3" spellcheck="false"></textarea>
+            <div class="two-column-controls">
+              <div class="control-row">
+                <label for="fontSelect">Font</label>
+                <select id="fontSelect">
+                  <optgroup label="Display">
+                  <option value="Orbitron">Orbitron</option>
+                    <option value="Anton">Anton</option>
+                    <option value="Archivo Black">Archivo Black</option>
+                    <option value="Audiowide">Audiowide</option>
+                    <option value="Bangers">Bangers</option>
+                    <option value="Bebas Neue">Bebas Neue</option>
+                    <option value="Black Ops One">Black Ops One</option>
+                    <option value="Creepster">Creepster</option>
+                    <option value="Permanent Marker">Permanent Marker</option>
+                    <option value="Press Start 2P">Press Start 2P</option>
+                    <option value="Righteous">Righteous</option>
+                    <option value="Rubik Mono One">Rubik Mono One</option>
+                    <option value="Special Elite">Special Elite</option>
+                    <option value="Teko">Teko</option>
+                    <option value="Unbounded">Unbounded</option>
+                  </optgroup>
+                  <optgroup label="Serif">
+                  <option value="Cinzel">Cinzel</option>
+                  <option value="Cinzel Decorative">Cinzel Decorative</option>
+                    <option value="Cormorant Garamond">Cormorant Garamond</option>
+                    <option value="DM Serif Display">DM Serif Display</option>
+                    <option value="Libre Baskerville">Libre Baskerville</option>
+                    <option value="Lora">Lora</option>
+                    <option value="Merriweather">Merriweather</option>
+                    <option value="Playfair Display">Playfair Display</option>
+                    <option value="Georgia">Georgia</option>
+                    <option value="Garamond">Garamond</option>
+                    <option value="Times New Roman">Times New Roman</option>
+                  </optgroup>
+                  <optgroup label="Sans">
+                  <option value="Share Tech Mono">Share Tech Mono</option>
+                  <option value="Inter">Inter</option>
+                    <option value="Montserrat">Montserrat</option>
+                    <option value="Oswald">Oswald</option>
+                  <option value="Outfit">Outfit</option>
+                    <option value="Poppins">Poppins</option>
+                    <option value="Roboto Condensed">Roboto Condensed</option>
+                    <option value="Space Grotesk">Space Grotesk</option>
+                    <option value="Arial">Arial</option>
+                  <option value="Impact">Impact</option>
+                  <option value="Arial Black">Arial Black</option>
+                  <option value="Trebuchet MS">Trebuchet MS</option>
+                  <option value="Verdana">Verdana</option>
+                  </optgroup>
+                  <optgroup label="Mono">
+                    <option value="Courier New">Courier New</option>
+                  <option value="Lucida Console">Lucida Console</option>
+                    <option value="Consolas">Consolas</option>
+                  </optgroup>
+                </select>
+              </div>
+              <div class="control-row">
+                <label for="fontWeight">Weight</label>
+                <select id="fontWeight">
+                  <option value="400">Regular</option>
+                  <option value="700">Bold</option>
+                  <option value="900">Heavy</option>
+                </select>
+              </div>
+            </div>
+            <div class="control-row">
+              <label>Import Font</label>
+              <input id="fontImportInput" class="hidden-input" type="file" accept=".ttf,.otf,.woff,.woff2,font/ttf,font/otf,font/woff,font/woff2">
+              <button class="ghost-button slim full-button" id="importFontBtn" type="button">IMPORT FONT FILE</button>
+            </div>
+            <div class="slider-row">
+              <label for="fontSize">Size</label>
+              <input id="fontSize" type="range" min="24" max="520" value="220">
+              <output id="fontSizeValue">220</output>
+            </div>
+            <div class="two-column-controls">
+              <div class="control-row swatch-row">
+                <label for="textColor">Fill</label>
+                <input id="textColor" type="color" value="#ffffff">
+              </div>
+              <div class="control-row swatch-row">
+                <label for="strokeColor">Outline</label>
+                <input id="strokeColor" type="color" value="#000000">
+              </div>
+            </div>
+            <div class="slider-row">
+              <label for="strokeWidth">Outline Size</label>
+              <input id="strokeWidth" type="range" min="0" max="24" value="4">
+              <output id="strokeWidthValue">4</output>
+            </div>
+            <div class="toggle-row">
+              <label><input id="uppercaseToggle" type="checkbox" checked> Uppercase</label>
+              <label><input id="boxToggle" type="checkbox"> Backplate</label>
+            </div>
+          </div>
+
+          <div class="panel-block" id="qrPanel">
+            <h3>QR Code</h3>
+            <label class="stacked-label" for="qrLink">Destination URL</label>
+            <input id="qrLink" type="url" placeholder="https://example.com">
+            <div class="two-column-controls">
+              <div class="control-row swatch-row">
+                <label for="qrDark">DARK COLOR</label>
+                <input id="qrDark" type="color" value="#000000">
+              </div>
+              <div class="control-row swatch-row">
+                <label for="qrLight">LIGHT COLOR</label>
+                <input id="qrLight" type="color" value="#ffffff">
+              </div>
+            </div>
+            <div class="two-column-controls">
+              <div class="control-row">
+                <label for="qrModuleShape">Modules</label>
+                <select id="qrModuleShape">
+                  <option value="square">Square</option>
+                  <option value="rounded">Rounded</option>
+                  <option value="dot">Dots</option>
+                </select>
+              </div>
+              <div class="control-row">
+                <label for="qrFinderShape">Corners</label>
+                <select id="qrFinderShape">
+                  <option value="square">Square</option>
+                  <option value="rounded">Rounded</option>
+                </select>
+              </div>
+            </div>
+            <div class="slider-row">
+              <label for="qrScale">Scale</label>
+              <input id="qrScale" type="range" min="10" max="250" value="100">
+              <output id="qrScaleValue">100</output>
+            </div>
+            <p class="note-copy">Reliable QR codes are square overall. These styles change the internal modules only.</p>
+            <button class="protocol-button slim full-button" id="updateQrBtn" type="button">UPDATE QR</button>
+          </div>
+
+          <div class="panel-block" id="shadowPanel">
+            <h3>Drop Shadow</h3>
+            <div class="toggle-row one-row">
+              <label><input id="shadowToggle" type="checkbox" checked> Enabled</label>
+            </div>
+            <div class="control-row swatch-row">
+              <label for="shadowColor">Color</label>
+              <input id="shadowColor" type="color" value="#000000">
+            </div>
+            <div class="two-column-controls">
+              <div class="slider-row">
+                <label for="shadowBlur">Blur</label>
+                <input id="shadowBlur" type="range" min="0" max="80" value="18">
+                <output id="shadowBlurValue">18</output>
+              </div>
+              <div class="slider-row">
+                <label for="shadowOpacity">Opacity</label>
+                <input id="shadowOpacity" type="range" min="0" max="100" value="80">
+                <output id="shadowOpacityValue">80</output>
+              </div>
+            </div>
+            <div class="two-column-controls">
+              <div class="slider-row">
+                <label for="shadowX">Offset X</label>
+                <input id="shadowX" type="range" min="-100" max="100" value="8">
+                <output id="shadowXValue">8</output>
+              </div>
+              <div class="slider-row">
+                <label for="shadowY">Offset Y</label>
+                <input id="shadowY" type="range" min="-100" max="100" value="8">
+                <output id="shadowYValue">8</output>
+              </div>
+            </div>
+          </div>
+
+          <div class="panel-block">
+            <div class="panel-title-row">
+              <h3>Debug Log</h3>
+              <button class="mini-button" id="copyDebugBtn" type="button">COPY</button>
+            </div>
+            <pre id="debugLog" class="debug-log" aria-live="polite"></pre>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <div id="outputModal" class="modal-backdrop" aria-hidden="true">
+      <div class="output-modal" role="dialog" aria-modal="true" aria-labelledby="outputTitle">
+        <div class="panel-title-row">
+          <h2 id="outputTitle">PRINT / EXPORT</h2>
+          <button class="mini-button" id="closeOutputBtn" type="button">CLOSE</button>
+        </div>
+
+        <div class="output-grid">
+          <div class="panel-block">
+            <h3>Export File</h3>
+            <div class="control-row">
+              <label for="exportFormat">Format</label>
+              <select id="exportFormat">
+                <option value="png">PNG</option>
+              </select>
+            </div>
+            <div class="control-row">
+              <label for="exportName">File Name</label>
+              <input id="exportName" type="text" value="promotion-graphic">
+            </div>
+            <button class="protocol-button slim full-button" id="exportFileBtn" type="button">EXPORT FILE</button>
+          </div>
+
+          <div class="panel-block">
+            <h3>Print</h3>
+            <div class="control-row">
+              <label for="printLayout">Layout</label>
+              <select id="printLayout">
+                <option value="single">1 Per Page</option>
+                <option value="four">4 Per Page</option>
+              </select>
+            </div>
+            <div class="control-row">
+              <label for="printPageSize">Page Size</label>
+              <select id="printPageSize">
+                <option value="letter">US Letter</option>
+                <option value="a4">A4</option>
+              </select>
+            </div>
+            <div class="toggle-row one-row">
+              <label><input id="printCutLines" type="checkbox" checked> Show Cut Lines For 4-Up</label>
+            </div>
+            <button class="protocol-button slim full-button" id="printFromModalBtn" type="button">OPEN PRINT WINDOW</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+
+</body>
+</html>
+

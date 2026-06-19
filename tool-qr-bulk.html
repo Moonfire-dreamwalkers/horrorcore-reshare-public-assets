@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bulk QR code overlay tool for underground promo shots.">
+    <link rel="canonical" href="https://www.horrorcore-reshare.com/tool-qr-bulk">
+    <title>Bulk QR Overlay | Creative Toolkit | Horrorcore Reshare</title>
+    <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/Moonfire-dreamwalkers/horrorcore-reshare-public-assets/main/images/hr-icon.png">
+    <link rel="stylesheet" href="index.css?v=7.8">
+    <link rel="stylesheet" href="tools.css">
+</head>
+<body class="mr-theme">
+    <div class="hr-background-container">
+        <canvas id="hr-canvas"></canvas>
+    </div>
+
+    <main class="hr-container" style="padding-top: 100px; padding-bottom: 60px;">
+        <div style="text-align: center; margin-bottom: 40px; padding: 0 20px;">
+            <div class="dir-section-label">PROTOCOL_09</div>
+            <h1 class="dir-title">BULK QR <span class="horror">OVERLAY</span></h1>
+            <p style="color: var(--hr-blood); font-family: 'Share Tech Mono', monospace; font-size: 0.75rem; max-width: 600px; margin: 15px auto;">BATCH INJECT QR CODES INTO YOUR PROMO ASSETS. AUTOMATIC SCALING BASED ON RESOLUTION.</p>
+        </div>
+
+        <div class="hr-glass" style="padding: 30px; border-radius: 20px;">
+            <div id="upload-zone" class="file-drop" style="min-height: 200px; cursor: pointer;">
+                <input type="file" id="file-input" multiple accept="image/*" style="display: none;">
+                <span style="font-size: 1.2rem; color: var(--hr-crimson);">[ CLICK OR DROP IMAGES ]</span>
+                <small style="color: var(--hr-text-muted); font-family: 'Share Tech Mono', monospace;">SUPPORTED: JPG, PNG, WEBP, AVIF</small>
+            </div>
+
+            <div id="tool-interface" style="display: none; margin-top: 30px;">
+                <div class="tool-preview-grid" style="display: grid; grid-template-columns: 1fr 350px; gap: 30px;">
+                    <div class="file-list-container" style="background: rgba(0,0,0,0.3); border: 1px solid var(--hr-glass-border); border-radius: 12px; padding: 20px; max-height: 500px; overflow-y: auto;">
+                        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 10px;">
+                            <h3 style="font-family: 'Share Tech Mono', monospace; margin: 0; font-size: 0.9rem;">BATCH LIST (<span id="batch-count">0</span>)</h3>
+                            <button class="hr-link-text" onclick="document.getElementById('file-input').click()" style="background: none; border: none; cursor: pointer;">+ ADD MORE</button>
+                        </div>
+                        <div id="file-list">
+                            <!-- Files injected by JS -->
+                        </div>
+                    </div>
+
+                    <div class="control-panel hr-glass" style="padding: 25px; border-radius: 12px;">
+                        <div class="panel-block" style="margin-bottom: 25px;">
+                            <h3 style="font-family: 'Share Tech Mono', monospace; font-size: 0.8rem; color: var(--hr-crimson); margin-bottom: 15px;">TARGET LINK</h3>
+                            <input type="url" id="qr-link" style="width: 100%; background: #000; border: 1px solid var(--hr-blood); color: #fff; padding: 12px; border-radius: 4px; font-family: 'Share Tech Mono', monospace;" value="https://horrorcorereshare.com">
+                        </div>
+
+                        <div class="panel-block" style="margin-bottom: 25px;">
+                            <h3 style="font-family: 'Share Tech Mono', monospace; font-size: 0.8rem; color: var(--hr-crimson); margin-bottom: 15px;">PLACEMENT</h3>
+                            <div class="position-selector" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;">
+                                <button class="pos-btn" data-pos="top-left">Top L</button>
+                                <button class="pos-btn" data-pos="top-center">Top C</button>
+                                <button class="pos-btn" data-pos="top-right">Top R</button>
+                                <button class="pos-btn" data-pos="center-left">Mid L</button>
+                                <button class="pos-btn" data-pos="center">Center</button>
+                                <button class="pos-btn" data-pos="center-right">Mid R</button>
+                                <button class="pos-btn" data-pos="bottom-left">Bot L</button>
+                                <button class="pos-btn" data-pos="bottom-center">Bot C</button>
+                                <button class="pos-btn" data-pos="bottom-right">Bot R</button>
+                            </div>
+                        </div>
+
+                        <div class="panel-block" style="margin-bottom: 25px;">
+                            <h3 style="font-family: 'Share Tech Mono', monospace; font-size: 0.8rem; color: var(--hr-crimson); margin-bottom: 15px;">QR CONFIG</h3>
+                            <div class="slider-row" style="margin-bottom: 15px;">
+                                <div style="display: flex; justify-content: space-between; font-family: 'Share Tech Mono', monospace; font-size: 0.7rem; color: var(--hr-text-muted); margin-bottom: 5px;">
+                                    <span>SIZE:</span> <span id="scale-val">15</span>%
+                                </div>
+                                <input type="range" id="qr-scale" min="5" max="40" value="15" style="width: 100%;">
+                            </div>
+                            <div class="slider-row" style="margin-bottom: 20px;">
+                                <div style="display: flex; justify-content: space-between; font-family: 'Share Tech Mono', monospace; font-size: 0.7rem; color: var(--hr-text-muted); margin-bottom: 5px;">
+                                    <span>MARGIN:</span> <span id="margin-val">3</span>%
+                                </div>
+                                <input type="range" id="qr-margin" min="0" max="10" value="3" style="width: 100%;">
+                            </div>
+                            
+                            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
+                                <div>
+                                    <label style="display: block; font-family: 'Share Tech Mono', monospace; font-size: 0.6rem; color: var(--hr-text-muted); margin-bottom: 5px;">DARK COLOR</label>
+                                    <input type="color" id="qr-color-dark" value="#000000" style="width: 100%; height: 35px; background: #000; border: 1px solid var(--hr-glass-border); padding: 2px;">
+                                </div>
+                                <div>
+                                    <label style="display: block; font-family: 'Share Tech Mono', monospace; font-size: 0.6rem; color: var(--hr-text-muted); margin-bottom: 5px;">LIGHT COLOR</label>
+                                    <input type="color" id="qr-color-light" value="#ffffff" style="width: 100%; height: 35px; background: #000; border: 1px solid var(--hr-glass-border); padding: 2px;">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div style="display: flex; flex-direction: column; gap: 15px; margin-top: 30px;">
+                            <button id="process-btn" class="hr-premium-btn" style="width: 100%; padding: 15px; background: var(--hr-blood); color: #fff;">INITIALIZE BATCH</button>
+                            <button id="download-btn" class="hr-premium-btn" style="display: none; width: 100%; padding: 15px; background: #39ff14; color: #000; border-color: #39ff14;">DOWNLOAD ZIP</button>
+                            <button id="reset-btn" style="background: none; border: 1px solid rgba(255,255,255,0.1); color: var(--hr-text-muted); padding: 10px; border-radius: 4px; font-family: 'Share Tech Mono', monospace; font-size: 0.7rem; cursor: pointer;">RESET PROTOCOL</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/qrcode/build/qrcode.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+    <script src="main-v6.js?v=7.8" defer></script>
+    
+    <script>
+        const uploadZone = document.getElementById('upload-zone');
+        const fileInput = document.getElementById('file-input');
+        const toolInterface = document.getElementById('tool-interface');
+        const fileList = document.getElementById('file-list');
+        const qrLink = document.getElementById('qr-link');
+        const qrScale = document.getElementById('qr-scale');
+        const qrMargin = document.getElementById('qr-margin');
+        const qrColorDark = document.getElementById('qr-color-dark');
+        const qrColorLight = document.getElementById('qr-color-light');
+        const scaleVal = document.getElementById('scale-val');
+        const marginVal = document.getElementById('margin-val');
+        const processBtn = document.getElementById('process-btn');
+        const downloadBtn = document.getElementById('download-btn');
+        const resetBtn = document.getElementById('reset-btn');
+        
+        let files = [];
+        let selectedPos = 'bottom-right';
+
+        resetBtn.onclick = () => {
+            files = [];
+            fileList.innerHTML = '';
+            toolInterface.style.display = 'none';
+            uploadZone.style.display = 'flex';
+            processBtn.disabled = false;
+            processBtn.innerText = 'INITIALIZE BATCH';
+            processBtn.style.background = 'var(--hr-blood)';
+            downloadBtn.style.display = 'none';
+            fileInput.value = '';
+        };
+
+        // Initialize position buttons
+        document.querySelectorAll('.pos-btn').forEach(btn => {
+            if(btn.dataset.pos === selectedPos) btn.classList.add('active');
+            btn.onclick = () => {
+                document.querySelectorAll('.pos-btn').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                selectedPos = btn.dataset.pos;
+            };
+        });
+
+        qrScale.oninput = () => scaleVal.innerText = qrScale.value;
+        qrMargin.oninput = () => marginVal.innerText = qrMargin.value;
+
+        uploadZone.onclick = () => fileInput.click();
+
+        uploadZone.ondragover = (e) => {
+            e.preventDefault();
+            uploadZone.style.borderColor = 'var(--hr-crimson)';
+        };
+
+        uploadZone.ondragleave = () => {
+            uploadZone.style.borderColor = 'var(--hr-glass-border)';
+        };
+
+        uploadZone.ondrop = (e) => {
+            e.preventDefault();
+            handleFiles(e.dataTransfer.files);
+        };
+
+        fileInput.onchange = (e) => {
+            handleFiles(e.target.files);
+            fileInput.value = '';
+        };
+
+        function handleFiles(incomingFiles) {
+            if(incomingFiles.length === 0) return;
+            const newFiles = Array.from(incomingFiles).filter(f => f.type.startsWith('image/'));
+            files = [...files, ...newFiles];
+            renderFileList();
+            if(files.length > 0) {
+                uploadZone.style.display = 'none';
+                toolInterface.style.display = 'grid';
+            }
+        }
+
+        function removeFile(index) {
+            files.splice(index, 1);
+            renderFileList();
+            if(files.length === 0) resetBtn.click();
+        }
+
+        function renderFileList() {
+            document.getElementById('batch-count').innerText = files.length;
+            fileList.innerHTML = files.map((file, index) => `
+                <div class="file-item" id="file-${index}" style="display: flex; align-items: center; gap: 15px; padding: 12px; border-bottom: 1px solid rgba(255,255,255,0.05); font-family: 'Share Tech Mono', monospace; font-size: 0.75rem;">
+                    <img src="${URL.createObjectURL(file)}" style="width: 40px; height: 40px; object-fit: cover; border-radius: 4px; border: 1px solid var(--hr-glass-border);">
+                    <div style="flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">${file.name}</div>
+                    <div class="status" style="color: var(--hr-text-muted);">READY</div>
+                    <button onclick="removeFile(${index})" style="background: none; border: none; color: var(--hr-crimson); cursor: pointer; font-size: 1rem;">×</button>
+                </div>
+            `).join('');
+        }
+
+        async function generateQRCode(text, size, dark, light) {
+            const canvas = document.createElement('canvas');
+            await QRCode.toCanvas(canvas, text, {
+                width: size,
+                margin: 1,
+                color: { dark: dark, light: light }
+            });
+            return canvas;
+        }
+
+        processBtn.onclick = async () => {
+            if(files.length === 0) return;
+            processBtn.disabled = true;
+            processBtn.innerText = 'PROCESSING...';
+            const zip = new JSZip();
+            const link = qrLink.value || 'https://horrorcorereshare.com';
+            const scaleFactor = parseInt(qrScale.value) / 100;
+            const marginFactor = parseInt(qrMargin.value) / 100;
+            const darkColor = qrColorDark.value;
+            const lightColor = qrColorLight.value;
+
+            for (let i = 0; i < files.length; i++) {
+                const file = files[i];
+                const itemEl = document.getElementById(`file-${i}`);
+                itemEl.querySelector('.status').innerText = 'INJECTING...';
+                
+                try {
+                    const img = await loadImage(file);
+                    const canvas = document.createElement('canvas');
+                    canvas.width = img.width;
+                    canvas.height = img.height;
+                    const ctx = canvas.getContext('2d');
+                    ctx.drawImage(img, 0, 0);
+                    const qrSize = Math.floor(Math.min(img.width, img.height) * scaleFactor);
+                    const margin = Math.floor(Math.min(img.width, img.height) * marginFactor);
+                    const qrCanvas = await generateQRCode(link, qrSize, darkColor, lightColor);
+                    let x, y;
+                    switch(selectedPos) {
+                        case 'top-left': x = margin; y = margin; break;
+                        case 'top-center': x = (img.width - qrSize) / 2; y = margin; break;
+                        case 'top-right': x = img.width - qrSize - margin; y = margin; break;
+                        case 'center-left': x = margin; y = (img.height - qrSize) / 2; break;
+                        case 'center': x = (img.width - qrSize) / 2; y = (img.height - qrSize) / 2; break;
+                        case 'center-right': x = img.width - qrSize - margin; y = (img.height - qrSize) / 2; break;
+                        case 'bottom-left': x = margin; y = img.height - qrSize - margin; break;
+                        case 'bottom-center': x = (img.width - qrSize) / 2; y = img.height - qrSize - margin; break;
+                        case 'bottom-right': x = img.width - qrSize - margin; y = img.height - qrSize - margin; break;
+                    }
+                    
+                    // Use the light color for the border/background of the QR code
+                    ctx.fillStyle = lightColor;
+                    ctx.fillRect(x - 2, y - 2, qrSize + 4, qrSize + 4);
+                    
+                    ctx.drawImage(qrCanvas, x, y);
+                    const blob = await new Promise(resolve => canvas.toBlob(resolve, 'image/png'));
+                    zip.file(file.name.replace(/\.[^/.]+$/, "") + "-qr.png", blob);
+                    itemEl.querySelector('.status').innerText = 'DONE';
+                    itemEl.querySelector('.status').style.color = '#39ff14';
+                } catch (err) {
+                    itemEl.querySelector('.status').innerText = 'ERROR';
+                    itemEl.querySelector('.status').style.color = 'var(--hr-crimson)';
+                }
+            }
+
+            const content = await zip.generateAsync({type:"blob"});
+            downloadBtn.onclick = () => saveAs(content, "horrorcore-qr-package.zip");
+            processBtn.innerText = 'BATCH COMPLETE';
+            processBtn.style.background = '#39ff14';
+            processBtn.style.color = '#000';
+            downloadBtn.style.display = 'block';
+        };
+
+        function loadImage(file) {
+            return new Promise((resolve, reject) => {
+                const img = new Image();
+                img.onload = () => resolve(img);
+                img.onerror = reject;
+                img.src = URL.createObjectURL(file);
+            });
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Offline file converter for underground artists.">
+    <link rel="canonical" href="https://www.horrorcore-reshare.com/tool-converter">
+    <title>File Converter | Creative Toolkit | Horrorcore Reshare</title>
+    <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/Moonfire-dreamwalkers/horrorcore-reshare-public-assets/main/images/hr-icon.png">
+    <link rel="stylesheet" href="index.css?v=7.8">
+    <link rel="stylesheet" href="tools.css">
+</head>
+<body class="mr-theme">
+    <div class="hr-background-container">
+        <canvas id="hr-canvas"></canvas>
+    </div>
+
+    <main class="hr-container" style="padding-top: 100px; padding-bottom: 60px;">
+        <div style="text-align: center; margin-bottom: 40px; padding: 0 20px;">
+            <div class="dir-section-label">PROTOCOL_06</div>
+            <h1 class="dir-title">FILE <span class="horror">CONVERTER</span></h1>
+            <p style="color: var(--hr-blood); font-family: 'Share Tech Mono', monospace; font-size: 0.75rem; max-width: 600px; margin: 15px auto;">NOTE: THIS TOOL RUNS ON YOUR DEVICE. 100% PRIVATE & OFFLINE.</p>
+        </div>
+
+        <div class="hr-glass" style="padding: 30px; border-radius: 20px;">
+            <div id="upload-zone" class="file-drop" style="min-height: 200px; cursor: pointer;">
+                <input type="file" id="file-input" style="display: none;" accept="image/*,.svg">
+                <span style="font-size: 1.2rem; color: var(--hr-crimson);">[ CLICK OR DROP IMAGE ]</span>
+                <small style="color: var(--hr-text-muted); font-family: 'Share Tech Mono', monospace;">SUPPORTED: PNG, JPG, WEBP, SVG</small>
+            </div>
+
+            <div id="convert-zone" style="display: none; margin-top: 30px; text-align: center;">
+                <p id="file-info" style="color: var(--hr-crimson); font-family: 'Share Tech Mono', monospace; margin-bottom: 25px; font-size: 0.8rem;"></p>
+                
+                <div class="hr-glass" style="padding: 30px; border-radius: 12px; max-width: 400px; margin: 0 auto;">
+                    <h3 style="font-family: 'Share Tech Mono', monospace; font-size: 0.8rem; color: var(--hr-crimson); margin-bottom: 20px;">TARGET FORMAT</h3>
+                    <select id="format-select" style="width: 100%; background: #000; border: 1px solid var(--hr-blood); color: #fff; padding: 12px; border-radius: 4px; font-family: 'Share Tech Mono', monospace; margin-bottom: 25px;">
+                        <option value="image/png">PNG (TRANSPARENT)</option>
+                        <option value="image/jpeg">JPEG (SOLID)</option>
+                        <option value="image/webp">WEBP (MODERN)</option>
+                    </select>
+                    
+                    <div style="display: flex; flex-direction: column; gap: 15px;">
+                        <button id="convert-btn" class="hr-premium-btn" style="width: 100%; padding: 15px; background: var(--hr-blood); color: #fff;">CONVERT & DOWNLOAD</button>
+                        <button id="reset-btn" style="background: none; border: 1px solid rgba(255,255,255,0.1); color: var(--hr-text-muted); padding: 10px; border-radius: 4px; font-family: 'Share Tech Mono', monospace; font-size: 0.7rem; cursor: pointer;">RESET</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="main-v6.js?v=7.8" defer></script>
+    <script>
+        const fileInput = document.getElementById('file-input');
+        const uploadZone = document.getElementById('upload-zone');
+        const convertZone = document.getElementById('convert-zone');
+        const fileInfo = document.getElementById('file-info');
+        const convertBtn = document.getElementById('convert-btn');
+        const resetBtn = document.getElementById('reset-btn');
+        const formatSelect = document.getElementById('format-select');
+
+        let currentFile = null;
+
+        uploadZone.onclick = () => fileInput.click();
+        resetBtn.onclick = () => {
+            currentFile = null;
+            uploadZone.style.display = 'flex';
+            convertZone.style.display = 'none';
+            fileInput.value = '';
+        };
+
+        fileInput.onchange = (e) => {
+            const file = e.target.files[0];
+            if (file) {
+                currentFile = file;
+                fileInfo.innerText = `SOURCE: ${file.name.toUpperCase()} (${(file.size/1024).toFixed(1)} KB)`;
+                uploadZone.style.display = 'none';
+                convertZone.style.display = 'block';
+            }
+        };
+
+        convertBtn.onclick = () => {
+            if (!currentFile) return;
+
+            const reader = new FileReader();
+            reader.onload = (e) => {
+                const img = new Image();
+                img.onload = () => {
+                    const canvas = document.createElement('canvas');
+                    canvas.width = img.width;
+                    canvas.height = img.height;
+                    const ctx = canvas.getContext('2d');
+                    
+                    if (formatSelect.value === 'image/jpeg') {
+                        ctx.fillStyle = '#FFFFFF';
+                        ctx.fillRect(0, 0, canvas.width, canvas.height);
+                    }
+                    
+                    ctx.drawImage(img, 0, 0);
+                    
+                    const targetFormat = formatSelect.value;
+                    const ext = targetFormat.split('/')[1];
+                    
+                    const dataUrl = canvas.toDataURL(targetFormat, 0.95);
+                    const a = document.createElement('a');
+                    a.href = dataUrl;
+                    const originalName = currentFile.name.split('.')[0];
+                    a.download = `${originalName}.${ext}`;
+                    a.click();
+                    
+                    convertBtn.innerText = "CONVERSION COMPLETE";
+                    convertBtn.style.background = "#39ff14";
+                    convertBtn.style.color = "#000";
+                    setTimeout(() => {
+                        convertBtn.innerText = "CONVERT & DOWNLOAD";
+                        convertBtn.style.background = "var(--hr-blood)";
+                        convertBtn.style.color = "#fff";
+                    }, 2000);
+                };
+                img.src = e.target.result;
+            };
+            reader.readAsDataURL(currentFile);
+        };
+    </script>
+</body>
+</html>

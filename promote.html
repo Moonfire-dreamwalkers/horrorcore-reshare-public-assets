@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="A comprehensive guide on how to effectively promote underground music, horrorcore, and dark artists.">
+
+    <!-- Connection Hints for Performance / Core Web Vitals (SEO) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://image-cdn-fa.spotifycdn.com">
+    <link rel="preconnect" href="https://i.scdn.co">
+    <link rel="preconnect" href="https://i2o.scdn.co">
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+    <link rel="dns-prefetch" href="https://www.google-analytics.com">
+
+    <!-- SEO / Social -->
+    <link rel="canonical" href="https://www.horrorcore-reshare.com/promote">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.horrorcore-reshare.com/promote">
+    <meta property="og:title" content="Promotion Guide | Horrorcore Reshare">
+    <meta property="og:description"
+        content="Learn how to support and promote your favorite underground artists with this comprehensive guide.">
+    <meta property="og:image"
+        content="https://www.horrorcore-reshare.com/https://raw.githubusercontent.com/Moonfire-dreamwalkers/horrorcore-reshare-public-assets/main/images/logo.png">
+    <meta property="og:site_name" content="Horrorcore Reshare">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <title>Promotion Guide | Horrorcore Reshare</title>
+    <link rel="icon" type="image/png"
+        href="https://raw.githubusercontent.com/Moonfire-dreamwalkers/horrorcore-reshare-public-assets/main/images/hr-icon.png">
+    <script>
+        (async function () {
+            // Hide body immediately to prevent Flash of Unstyled Content (FOUC)
+            const hideStyle = document.createElement('style');
+            hideStyle.id = 'hr-boot-hide';
+            hideStyle.textContent = 'html { background-color: #030303; } body { opacity: 0 !important; }';
+            document.head.appendChild(hideStyle);
+
+            const isLocal = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
+            const loadStyle = (href) => {
+                return new Promise((resolve) => {
+                    const link = document.createElement('link');
+                    link.rel = 'stylesheet';
+                    link.href = href;
+                    link.onload = resolve;
+                    link.onerror = resolve; // Resolve anyway to avoid blocking page load if CDN is down
+                    document.head.appendChild(link);
+                });
+            };
+            const loadScript = (src, defer = false) => {
+                return new Promise((resolve, reject) => {
+                    const s = document.createElement('script');
+                    s.src = src;
+                    if (defer) s.defer = true;
+                    s.onload = resolve;
+                    s.onerror = reject;
+                    document.head.appendChild(s);
+                });
+            };
+
+            const revealPage = () => {
+                const styleEl = document.getElementById('hr-boot-hide');
+                if (styleEl) styleEl.remove();
+                document.body.style.transition = 'opacity 0.4s ease';
+                document.body.style.opacity = '1';
+            };
+
+            if (isLocal) {
+                window.HR_BUILD_VERSION = 'local';
+                await loadStyle('index.css');
+                await loadScript('main-v6.js', true);
+                revealPage();
+            } else {
+                let version = 'main';
+                let versionMismatch = false;
+                try {
+                    const res = await fetch('https://raw.githubusercontent.com/Moonfire-dreamwalkers/horrorcore-reshare-public-assets/main/build-version.json?t=' + Date.now(), { cache: 'no-store' });
+                    if (res.ok) {
+                        const data = await res.json();
+                        if (data && data.version) {
+                            version = data.version;
+                            const activeVersion = localStorage.getItem('hr_active_build_version');
+                            if (activeVersion && activeVersion !== version) {
+                                versionMismatch = true;
+                            }
+
+                            if (!versionMismatch) {
+
+                                localStorage.setItem('hr_active_build_version', version);
+
+                            }
+                        }
+                    }
+                } catch (e) {
+                    console.warn('CDN bootloader failed to fetch latest version tag, using @main fallback:', e);
+                }
+
+                if (versionMismatch) {
+
+
+                    if ('caches' in window) {
+
+
+                        try {
+
+
+                            const keys = await caches.keys();
+
+
+                            await Promise.all(keys.map(key => caches.delete(key)));
+
+
+                            if ('serviceWorker' in navigator) {
+
+
+                                const regs = await navigator.serviceWorker.getRegistrations();
+
+
+                                for (let r of regs) {
+
+
+                                    await r.update();
+
+
+                                }
+
+
+                            }
+
+
+                            localStorage.setItem('hr_active_build_version', version);
+
+
+                            console.log('Cleared stale cache due to build mismatch, reloading...');
+
+
+                            window.location.reload(true);
+
+
+                            return;
+
+
+                        } catch (err) {
+
+
+                            console.error('Failed to clear cache on version mismatch:', err);
+
+
+                        }
+
+
+                    } else {
+
+
+                        localStorage.setItem('hr_active_build_version', version);
+
+
+                    }
+
+
+                }
+
+                window.HR_BUILD_VERSION = version;
+                const base = `https://cdn.jsdelivr.net/gh/Moonfire-dreamwalkers/horrorcore-reshare-public-assets@${version}`;
+                await loadStyle(`${base}/index.css`);
+                await loadScript(`${base}/main-v6.js`, true);
+                window.hrReady = true;
+                document.dispatchEvent(new CustomEvent('HRReady'));
+                revealPage();
+            }
+        })();
+    </script>
+    <link rel="manifest" href="manifest.json">
+
+    <!-- Global Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YGTD782ZEK"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-YGTD782ZEK');
+    </script>
+</head>
+
+<body class="mr-theme" style="background-color: #030303;">
+    <div class="hr-background-container">
+        <canvas id="hr-canvas"></canvas>
+    </div>
+
+    <div class="mr-starfield"></div>
+    <div class="mr-hypnotic-bg"></div>
+    <div class="mr-hypnotic-overlay"></div>
+
+    <main class="hr-container page-main">
+        <div style="text-align: center; margin-bottom: 50px;">
+            <h1 class="dir-title" style="font-size: clamp(2.5rem, 6vw, 4.5rem); margin-bottom: 10px;">PROMOTION <span
+                    class="horror">GUIDE</span></h1>
+            <p
+                style="color: var(--hr-text-muted); font-family: 'Share Tech Mono', monospace; font-size: 1.1rem; letter-spacing: 1px;">
+                How to promote as an underground fan effectively</p>
+        </div>
+
+        <div class="hr-glass guide-section">
+            <h2 class="guide-title">The Underground Music Promotion Mindset</h2>
+            <ul class="guide-list">
+                <li>Be part of the community in a positive way: show up with a bright attitude to set an example for
+                    others, come with your best mindset about things and go with the vibe. Do not join in on hateful
+                    conversations, and instead focus on building and that next level of expansion while ignoring
+                    everything else.</li>
+                <li>It is about making meaningful connections, making new friends, supporting the art we love, and
+                    having a good time above all else.</li>
+                <li>Do it for the love of the music and culture, not for reputation or valor.</li>
+                <li>Give newcomers the best experience possible.</li>
+                <li>Do not engage or partake in community based drama.</li>
+                <li>Always share stuff you actually like and focus your energy on stuff that best reflects you as an
+                    individual, but have mutual respect for others in the underground and their arts even if it is not
+                    your taste.</li>
+            </ul>
+        </div>
+
+        <div class="hr-glass guide-section">
+            <h2 class="guide-title">Core Values for Horrorcore Promotion</h2>
+            <ul class="guide-list">
+                <li>Telling the truth to ourselves & others.</li>
+                <li>Treating others with compassion.</li>
+                <li>Working hard.</li>
+                <li>Being respectful.</li>
+                <li>Celebrating diversity.</li>
+                <li>Leaving things better than when we arrived.</li>
+                <li>Forgiveness.</li>
+                <li>Humility.</li>
+            </ul>
+        </div>
+
+        <div class="hr-glass guide-section">
+            <h2 class="guide-title">Expanding Your Network for Underground Music Promotion</h2>
+            <ul class="guide-list">
+                <li>Constantly add normal people like fans onto your social media that are in the community, who react,
+                    share, comment on posts, and support the underground just like you do.</li>
+                <li>It is in the artist’s best interest that you are getting new fans into the community, so you should
+                    be seeking creative ways to add people that like similar types of things but may not know about the
+                    stuff you are sharing. You can cross into communities that do not inherently know the specific niche
+                    of horrorcore underground.</li>
+                <li>Add people on Facebook or follow people on Instagram that react with content that is like the
+                    content you wish to promote, then make high quality posts to get engagement and invite those people
+                    to your favorite artists once you are friends with them.</li>
+                <li>Avoid spamming advertisements in DMs. If someone asks why you added them, simply explain that you're
+                    a fellow underground music fan looking to connect with like-minded people to share and discover new
+                    content together.</li>
+                <li>It's more effective to support multiple music artists at once. You keep your page fresh by rotating
+                    in different types of content to see. By actively growing your friends list at the same time, you
+                    can rotate which artists you are sending invites to their pages every time you've added 100
+                    different people.</li>
+            </ul>
+        </div>
+
+        <div class="hr-glass guide-section">
+            <h2 class="guide-title">High-Quality Social Sharing for Horrorcore Artists</h2>
+            <ul class="guide-list">
+                <li>Do high quality posts when sharing promotional content: do not put links in the main body of the
+                    post, always put links in comments, make sure the graphics are official artist graphics or that you
+                    have taken the time to make it look really visually clean, do not stretch pixels, make sure
+                    everything is the correct resolution, do not use clearly AI generated text to represent content, and
+                    care a lot about the visual presentation of everything.</li>
+                <li>Do not overshare a single piece of content into a bunch of groups. Do 1 group at most, and if you do
+                    not ever get engagements when you share posts into certain groups, stop sharing them into those
+                    groups.</li>
+                <li>React, comment, and share onto your story content from your favorite horrorcore artists every time
+                    they make a post when you see it.</li>
+                <li>React to every post of others sharing underground content.</li>
+                <li>Create playlists you share with your friends or your subcommunities.</li>
+                <li>Constantly stream your beloved music artists passively on your devices even if the device is AFK.
+                </li>
+                <li>Add to metadata available on various sources, fill out wikis with their information, and transcribe
+                    missing lyrics accurately onto lyric websites.</li>
+            </ul>
+        </div>
+
+        <div class="hr-glass guide-section">
+            <h2 class="guide-title">Physical Flyer Promotion for Underground Music</h2>
+            <ul class="guide-list">
+                <li>Promote in your local communities or music concerts you attend by handing out flyers or posting
+                    flyers where allowed. You can create basic flyers <a href="flyer-builder.html"
+                        style="color: #ffcc00; text-decoration: underline;">here</a>.</li>
+                <li>Never break the law, and respect everyone and their belongings in public.</li>
+                <li>Hand out flyers outside music events. Reaching people as they are leaving the show is more likely to
+                    be remembered because they are more likely to keep the flyer.</li>
+                <li>Hang flyers only where they are allowed to be displayed.</li>
+                <li>Ask local businesses to hang flyers where appropriate.</li>
+                <li>Attend festivals and aesthetically related events to hand out promotional material. Investigate all
+                    local events throughout the year and consider whether there may be a good chance that an event-goer
+                    will check out what you are promoting.</li>
+                <li>Create various types of flyers and promotional materials in different sizes, and try different
+                    tactics.</li>
+                <li>Be safe in your interactions with strangers, and bring friends when you go to large events.</li>
+                <li>Be professional and kind when you approach people. Tell them about the content you are promoting and
+                    offer them a flyer.</li>
+                <li>Be creative, have fun, and be safe.</li>
+                <li>Keep flyers in your car / bag ready to go while traveling.</li>
+                <li>Offer promotion material to anyone making a delivery to your home.</li>
+                <li>Utilize free printing at your local library / college.</li>
+            </ul>
+        </div>
+
+        <div class="hr-glass guide-section" style="border-color: #ffcc00;">
+            <h2 class="guide-title" style="color: #ffcc00; text-shadow: 0 0 10px rgba(255, 204, 0, 0.3);">Daily
+                Underground Music Promotion Checklist</h2>
+            <ul class="guide-list checklist">
+                <li>Everyday you should be adding a handful of people on your Facebook.</li>
+                <li>Everyday you should be following a handful of people on your Instagram.</li>
+                <li>Everyday you should be commenting on posts your favorite artists do.</li>
+                <li>Everyday you should be sharing your favorite artists’ posts to your story.</li>
+                <li>Everyday you should do at least 1 high quality share on your social media.</li>
+                <li>Everyday you should do at least 1 unrelated to another artist post that best reflects you.</li>
+                <li>Everyday you should react to all photos of people you have added and their underground content as
+                    they post them. Do this passively as you scroll the feed, and also open pages to check out people
+                    who are consistent with your posts: throw them some reacts on the content you like. This passive
+                    upkeep will make your own engagement and retention higher, so always be mutually supportive when it
+                    comes to reactions.</li>
+            </ul>
+        </div>
+    </main>
+
+    <footer
+        style="border-top: 1px solid rgba(255,0,60,0.2); padding: 30px 20px; text-align: center; font-size: 0.85rem; color: rgba(255,255,255,0.6); margin-top: 60px; font-family: 'Share Tech Mono', monospace;">
+        <div style="max-width: 1100px; margin: 0 auto;">
+            <nav style="margin-bottom: 16px; display: flex; flex-wrap: wrap; justify-content: center; gap: 14px;">
+                <a href="/" style="color: #fff; text-decoration: none;">Home</a>
+                <a href="/artists" style="color: #fff; text-decoration: none;">Artists Directory</a>
+                <a href="/genres/horrorcore" style="color: #fff; text-decoration: none;">Horrorcore</a>
+                <a href="/genres/dark-trap" style="color: #fff; text-decoration: none;">Dark Trap</a>
+                <a href="/genres/industrial-hip-hop" style="color: #fff; text-decoration: none;">Industrial Hip Hop</a>
+                <a href="/genres/underground-rap" style="color: #fff; text-decoration: none;">Underground Rap</a>
+                <a href="/promote" style="color: #fff; text-decoration: none;">Promotion Guide</a>
+                <a href="/flyer-builder" style="color: #fff; text-decoration: none;">Flyer Builder</a>
+                <a href="/discord" style="color: #fff; text-decoration: none;">Discord</a>
+                <a href="/services" style="color: #fff; text-decoration: none;">Services</a>
+                <a href="/follow" style="color: #fff; text-decoration: none;">Follow</a>
+                <a href="/page-audit" style="color: #fff; text-decoration: none;">Page Audit</a>
+                <a href="/privacy" style="color: #fff; text-decoration: none;">Privacy</a>
+            </nav>
+            <p>&copy; 2024-2026 Horrorcore Reshare | Update 001 | Maintained by Luna Serafina</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

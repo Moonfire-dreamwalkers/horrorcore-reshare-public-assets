@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Browse the underground artist directory. Find horrorcore, dark trap, and industrial music profiles, social links, and official releases.">
+
+    <!-- Connection Hints for Performance / Core Web Vitals (SEO) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://image-cdn-fa.spotifycdn.com">
+    <link rel="preconnect" href="https://i.scdn.co">
+    <link rel="preconnect" href="https://i2o.scdn.co">
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+    <link rel="dns-prefetch" href="https://www.google-analytics.com">
+
+    <!-- SEO / Social -->
+    <link rel="canonical" href="https://www.horrorcore-reshare.com/artists">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.horrorcore-reshare.com/artists">
+    <meta property="og:title" content="Artists | Horrorcore Reshare">
+    <meta property="og:description"
+        content="Browse the underground artist directory. Find horrorcore, dark trap, and industrial music profiles, social links, and official releases.">
+    <meta property="og:image"
+        content="https://www.horrorcore-reshare.com/https://raw.githubusercontent.com/Moonfire-dreamwalkers/horrorcore-reshare-public-assets/main/images/logo.png">
+    <meta property="og:site_name" content="Horrorcore Reshare">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <title>Artists Directory | Horrorcore Reshare</title>
+    <link rel="icon" type="image/png"
+        href="https://raw.githubusercontent.com/Moonfire-dreamwalkers/horrorcore-reshare-public-assets/main/images/hr-icon.png">
+    <!-- Dynamic Bootloader for Zero-Stale CDN Streaming -->
+    <script>
+        (async function () {
+            // Hide body immediately to prevent Flash of Unstyled Content (FOUC)
+            const hideStyle = document.createElement('style');
+            hideStyle.id = 'hr-boot-hide';
+            hideStyle.textContent = 'body { opacity: 0 !important; }';
+            document.head.appendChild(hideStyle);
+
+            const isLocal = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
+            const loadStyle = (href) => {
+                return new Promise((resolve) => {
+                    const link = document.createElement('link');
+                    link.rel = 'stylesheet';
+                    link.href = href;
+                    link.onload = resolve;
+                    link.onerror = resolve; // Resolve anyway to avoid blocking page load if CDN is down
+                    document.head.appendChild(link);
+                });
+            };
+            const loadScript = (src, defer = false) => {
+                return new Promise((resolve, reject) => {
+                    const s = document.createElement('script');
+                    s.src = src;
+                    if (defer) s.defer = true;
+                    s.onload = resolve;
+                    s.onerror = reject;
+                    document.head.appendChild(s);
+                });
+            };
+
+            const revealPage = () => {
+                const styleEl = document.getElementById('hr-boot-hide');
+                if (styleEl) styleEl.remove();
+                document.body.style.transition = 'opacity 0.4s ease';
+                document.body.style.opacity = '1';
+            };
+
+            if (isLocal) {
+                window.HR_BUILD_VERSION = 'local';
+                await loadStyle('index.css');
+                await loadScript('data.js');
+                await loadScript('album-data.js');
+                await loadScript('main-v6.js', true);
+                window.hrReady = true;
+                document.dispatchEvent(new CustomEvent('HRReady'));
+                revealPage();
+            } else {
+                let version = 'main';
+                let versionMismatch = false;
+                try {
+                    const res = await fetch('https://raw.githubusercontent.com/Moonfire-dreamwalkers/horrorcore-reshare-public-assets/main/build-version.json?t=' + Date.now(), { cache: 'no-store' });
+                    if (res.ok) {
+                        const data = await res.json();
+                        if (data && data.version) {
+                            version = data.version;
+                            const activeVersion = localStorage.getItem('hr_active_build_version');
+                            if (activeVersion && activeVersion !== version) {
+                                versionMismatch = true;
+                            }
+
+                            if (!versionMismatch) {
+
+                                localStorage.setItem('hr_active_build_version', version);
+
+                            }
+                        }
+                    }
+                } catch (e) {
+                    console.warn('CDN bootloader failed to fetch latest version tag, using @main fallback:', e);
+                }
+
+                if (versionMismatch) {
+
+
+                    if ('caches' in window) {
+
+
+                        try {
+
+
+                            const keys = await caches.keys();
+
+
+                            await Promise.all(keys.map(key => caches.delete(key)));
+
+
+                            if ('serviceWorker' in navigator) {
+
+
+                                const regs = await navigator.serviceWorker.getRegistrations();
+
+
+                                for (let r of regs) {
+
+
+                                    await r.update();
+
+
+                                }
+
+
+                            }
+
+
+                            localStorage.setItem('hr_active_build_version', version);
+
+
+                            console.log('Cleared stale cache due to build mismatch, reloading...');
+
+
+                            window.location.reload(true);
+
+
+                            return;
+
+
+                        } catch (err) {
+
+
+                            console.error('Failed to clear cache on version mismatch:', err);
+
+
+                        }
+
+
+                    } else {
+
+
+                        localStorage.setItem('hr_active_build_version', version);
+
+
+                    }
+
+
+                }
+
+                window.HR_BUILD_VERSION = version;
+                const base = `https://cdn.jsdelivr.net/gh/Moonfire-dreamwalkers/horrorcore-reshare-public-assets@${version}`;
+                await loadStyle(`${base}/index.css`);
+                await loadScript(`${base}/data.js`);
+                await loadScript(`${base}/album-data.js`);
+                await loadScript(`${base}/main-v6.js`, true);
+                window.hrReady = true;
+                document.dispatchEvent(new CustomEvent('HRReady'));
+                revealPage();
+            }
+        })();
+    </script>
+    <link rel="manifest" href="manifest.json">
+
+    <!-- Global Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YGTD782ZEK"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-YGTD782ZEK');
+    </script>
+</head>
+
+<body class="mr-theme"
+    style="margin: 0; padding: 0; height: 100vh; overflow: hidden; background-color: #030303; display: flex; flex-direction: column;">
+    <noscript>
+        <div
+            style="padding: 20px; background: #030303; color: #fff; text-align: center; font-family: 'Share Tech Mono', monospace; border-bottom: 1px solid #ff003c; z-index: 9999; position: relative;">
+            <h2 style="font-family: 'Orbitron', sans-serif; color: #ff003c; letter-spacing: 2px;">HORRORCORE RESHARE
+                DIRECTORY</h2>
+            <p>Explore the Release Radar and directory for underground horrorcore, dark trap, and industrial music.</p>
+            <nav style="margin: 15px 0;">
+                <a href="/artists" style="color: #ffcc00; text-decoration: underline; margin: 0 10px;">Artists
+                    Directory</a> |
+                <a href="/promote" style="color: #ffcc00; text-decoration: underline; margin: 0 10px;">Promotion
+                    Guide</a> |
+                <a href="/flyer-builder" style="color: #ffcc00; text-decoration: underline; margin: 0 10px;">Flyer
+                    Builder</a> |
+                <a href="/discord" style="color: #ffcc00; text-decoration: underline; margin: 0 10px;">Discord
+                    Community</a> |
+                <a href="/services" style="color: #ffcc00; text-decoration: underline; margin: 0 10px;">Services &
+                    Commissions</a> |
+                <a href="/privacy" style="color: #ffcc00; text-decoration: underline; margin: 0 10px;">Privacy
+                    Policy</a>
+            </nav>
+            <h3 style="margin-top: 20px; color: #fff;">Underground Artists Directory</h3>
+            <div
+                style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; max-width: 800px; margin: 15px auto;">
+                <a href="/artists/lo-key"
+                    style="color: #fff; text-decoration: none; padding: 5px 10px; background: rgba(255, 0, 51, 0.15); border: 1px solid rgba(255, 0, 51, 0.3); border-radius: 4px;">Lo
+                    Key</a>
+                <a href="/artists/doc-gruesome"
+                    style="color: #fff; text-decoration: none; padding: 5px 10px; background: rgba(255, 0, 51, 0.15); border: 1px solid rgba(255, 0, 51, 0.3); border-radius: 4px;">Doc
+                    Gruesome</a>
+                <a href="/artists/grim-salvo"
+                    style="color: #fff; text-decoration: none; padding: 5px 10px; background: rgba(255, 0, 51, 0.15); border: 1px solid rgba(255, 0, 51, 0.3); border-radius: 4px;">Grim
+                    Salvo</a>
+                <a href="/artists/godhandusa"
+                    style="color: #fff; text-decoration: none; padding: 5px 10px; background: rgba(255, 0, 51, 0.15); border: 1px solid rgba(255, 0, 51, 0.3); border-radius: 4px;">GODHANDUSA</a>
+                <a href="/artists/something-outta-nothing"
+                    style="color: #fff; text-decoration: none; padding: 5px 10px; background: rgba(255, 0, 51, 0.15); border: 1px solid rgba(255, 0, 51, 0.3); border-radius: 4px;">Something
+                    Outta Nothing</a>
+                <a href="/artists/kill-dyll"
+                    style="color: #fff; text-decoration: none; padding: 5px 10px; background: rgba(255, 0, 51, 0.15); border: 1px solid rgba(255, 0, 51, 0.3); border-radius: 4px;">Kill
+                    Dyll</a>
+                <a href="/artists/luluyam"
+                    style="color: #fff; text-decoration: none; padding: 5px 10px; background: rgba(255, 0, 51, 0.15); border: 1px solid rgba(255, 0, 51, 0.3); border-radius: 4px;">LuLuYam</a>
+                <a href="/artists/klokwerk-e"
+                    style="color: #fff; text-decoration: none; padding: 5px 10px; background: rgba(255, 0, 51, 0.15); border: 1px solid rgba(255, 0, 51, 0.3); border-radius: 4px;">Klokwerk
+                    E</a>
+                <a href="/artists/blood-of-the-beloved"
+                    style="color: #fff; text-decoration: none; padding: 5px 10px; background: rgba(255, 0, 51, 0.15); border: 1px solid rgba(255, 0, 51, 0.3); border-radius: 4px;">Blood
+                    of the Beloved</a>
+                <a href="/artists/kamaara"
+                    style="color: #fff; text-decoration: none; padding: 5px 10px; background: rgba(255, 0, 51, 0.15); border: 1px solid rgba(255, 0, 51, 0.3); border-radius: 4px;">KAMAARA</a>
+                <a href="/artists/witchouse-40k"
+                    style="color: #fff; text-decoration: none; padding: 5px 10px; background: rgba(255, 0, 51, 0.15); border: 1px solid rgba(255, 0, 51, 0.3); border-radius: 4px;">Witchouse
+                    40k</a>
+                <a href="/artists/istasha"
+                    style="color: #fff; text-decoration: none; padding: 5px 10px; background: rgba(255, 0, 51, 0.15); border: 1px solid rgba(255, 0, 51, 0.3); border-radius: 4px;">Istasha</a>
+                <a href="/artists/alla-xul-elu"
+                    style="color: #fff; text-decoration: none; padding: 5px 10px; background: rgba(255, 0, 51, 0.15); border: 1px solid rgba(255, 0, 51, 0.3); border-radius: 4px;">Alla
+                    Xul Elu</a>
+                <a href="/artists/neon-sermon"
+                    style="color: #fff; text-decoration: none; padding: 5px 10px; background: rgba(255, 0, 51, 0.15); border: 1px solid rgba(255, 0, 51, 0.3); border-radius: 4px;">Neon
+                    Sermon</a>
+                <a href="/artists/batibatt"
+                    style="color: #fff; text-decoration: none; padding: 5px 10px; background: rgba(255, 0, 51, 0.15); border: 1px solid rgba(255, 0, 51, 0.3); border-radius: 4px;">BatiBatt</a>
+                <a href="/artists/elita"
+                    style="color: #fff; text-decoration: none; padding: 5px 10px; background: rgba(255, 0, 51, 0.15); border: 1px solid rgba(255, 0, 51, 0.3); border-radius: 4px;">Elita</a>
+                <a href="/artists/moonvampire"
+                    style="color: #fff; text-decoration: none; padding: 5px 10px; background: rgba(255, 0, 51, 0.15); border: 1px solid rgba(255, 0, 51, 0.3); border-radius: 4px;">Moonvampire</a>
+                <a href="/artists/mossback"
+                    style="color: #fff; text-decoration: none; padding: 5px 10px; background: rgba(255, 0, 51, 0.15); border: 1px solid rgba(255, 0, 51, 0.3); border-radius: 4px;">MOSSBACK</a>
+            </div>
+        </div>
+    </noscript>
+    <!-- Background animations -->
+    <div class="hr-background-container">
+        <canvas id="hr-canvas"></canvas>
+    </div>
+    <div class="mr-starfield"></div>
+    <div class="mr-hypnotic-bg"></div>
+    <div class="mr-hypnotic-overlay"></div>
+
+    <!-- YouTube Music Layout Shell -->
+    <div class="ytm-shell no-sidebar">
+
+        <!-- Center Main Content Viewport -->
+        <div class="ytm-center-view">
+            <!-- Dynamic View Panel: Home (Player View) - hidden by default here to prioritize library -->
+            <div class="ytm-view-panel" id="ytm-player-view">
+
+                <div id="player-preview-mode" class="player-dashboard-layout">
+                    <div class="player-blur-bg" id="player-blur-bg"></div>
+
+                    <!-- Centered Player Dashboard Widget -->
+                    <div class="player-core-widget">
+                        <!-- Cover slider with circular arrows -->
+                        <div class="player-cover-slider">
+                            <button class="slider-arrow prev" onclick="window.hrPlayer.prevRelease(true, event)"
+                                title="Previous Release">‹</button>
+                            <div class="ytm-cover-container">
+                                <img id="player-cover"
+                                    src="https://api.dicebear.com/7.x/shapes/svg?seed=system&backgroundColor=050505"
+                                    alt="Now Playing">
+                            </div>
+                            <button class="slider-arrow next" onclick="window.hrPlayer.nextRelease(true, event)"
+                                title="Next Release">›</button>
+                        </div>
+
+                        <!-- Metadata and Now Playing label -->
+                        <div class="player-info-meta">
+                            <div class="now-playing-label">Now Playing</div>
+                            <h2 id="center-album-title" class="player-center-album-title">NO ALBUM LOADED</h2>
+                            <div id="center-artist-name" class="player-center-artist-name">SELECT RELEASE</div>
+                        </div>
+
+                        <!-- Actions button row -->
+                        <div id="center-links-container" class="center-links-container">
+                            <a href="#" target="_blank" rel="noopener noreferrer" id="center-spotify-btn"
+                                class="center-spotify-btn" style="display: none;">
+                                <span class="spotify-icon">
+                                    <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                                        <path
+                                            d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm4.586 14.424c-.18.295-.565.387-.86.207-2.377-1.454-5.37-1.783-8.893-.982-.336.075-.668-.135-.744-.47-.077-.337.135-.668.47-.743 3.856-.88 7.15-.502 9.822 1.13.295.178.387.563.207.858zm1.225-2.72c-.227.367-.707.487-1.074.26-2.72-1.672-6.87-2.157-10.08-1.182-.413.125-.847-.107-.972-.52-.125-.413.108-.847.52-.972 3.67-1.114 8.24-.57 11.346 1.34.367.226.488.707.26 1.074zm.107-2.846C14.34 8.752 8.44 8.557 5.006 9.6c-.53.16-1.09-.14-1.25-.67-.16-.53.14-1.09.67-1.25 3.943-1.196 10.457-.97 14.464 1.407.476.28.63.9.35 1.376-.28.477-.9.63-1.376.35z" />
+                                    </svg>
+                                </span>
+                                Spotify
+                            </a>
+                            <div id="artist-extra-links" class="artist-extra-links">
+                                <!-- Dynamic buttons (Website, Instagram, Profile) injected here -->
+                            </div>
+                        </div>
+
+                        <!-- Audio visualizer display -->
+                        <div class="ytm-visualizer-overlay">
+                            <div class="ytm-visualizer-status" id="visualizer-status">STATUS: STANDBY</div>
+                            <div class="visualizer-bars" id="visualizer-bars">
+                                <span class="bar"></span><span class="bar"></span><span class="bar"></span><span
+                                    class="bar"></span>
+                                <span class="bar"></span><span class="bar"></span><span class="bar"></span><span
+                                    class="bar"></span>
+                                <span class="bar"></span><span class="bar"></span><span class="bar"></span><span
+                                    class="bar"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Bottom Panel: Scrollable Tracklist -->
+                    <div class="player-tracks-section">
+                        <div class="player-right-panel-header">RELEASE TRACKS</div>
+                        <div class="ytm-tracklist-container" id="player-tracklist-rows">
+                            <!-- Queue list rows injected dynamically -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dynamic View Panel: Library (Artists Gallery) - Active by default -->
+            <div class="ytm-view-panel active" id="ytm-library-view">
+                <div class="ytm-view-header">
+                    <h1 class="ytm-view-title">ARTISTS LIBRARY</h1>
+                    <input type="text" id="library-search-input" placeholder="Search artists..."
+                        class="ytm-search-input">
+                </div>
+                <div class="ytm-artist-grid" id="artist-grid" style="padding-bottom: 40px;">
+                    <!-- Dynamic artists list injected here -->
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- Persistent Bottom Playback Control Bar -->
+        <div class="ytm-bottom-bar">
+            <!-- Progress Slider -->
+            <div class="ytm-timeline-container" onclick="playerSeek(event)">
+                <div id="player-progress-bar" class="ytm-timeline-progress"></div>
+            </div>
+
+            <!-- Playback controls -->
+            <div class="ytm-playback-controls">
+                <button id="player-prev-btn" onclick="playerPrevTrack(event)" class="ytm-playback-btn"
+                    title="Previous Track" disabled>⏮</button>
+                <button id="player-play-btn" onclick="playerTogglePlay(event)" class="ytm-playback-btn play-btn-main"
+                    title="Play / Pause" disabled>▶</button>
+                <button id="player-next-btn" onclick="playerNextTrack(event)" class="ytm-playback-btn"
+                    title="Next Track" disabled>⏭</button>
+                <span class="ytm-time-display">
+                    <span id="player-time-current">0:00</span> / <span id="player-time-total">0:00</span>
+                </span>
+            </div>
+
+            <!-- Metadata display -->
+            <div class="ytm-active-meta">
+                <div class="ytm-active-meta-thumb">
+                    <img id="bottom-active-thumb"
+                        src="https://api.dicebear.com/7.x/shapes/svg?seed=system&backgroundColor=050505" alt="">
+                </div>
+                <div class="ytm-active-meta-details">
+                    <div id="player-track-title" class="ytm-active-meta-title">NO ACTIVE TRACK</div>
+                    <div class="ytm-active-meta-subtitle">
+                        <span id="player-artist">SELECT TRACK</span> &bull; <span id="player-album-title">No Album
+                            Loaded</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Utility panel -->
+            <div class="ytm-utility-controls">
+                <div style="display: flex; align-items: center; gap: 8px;">
+                    <span style="font-size: 0.85rem; color: var(--hr-text-muted);">🔊</span>
+                    <input type="range" id="player-volume-slider" class="ytm-volume-slider" min="0" max="1" step="0.05"
+                        value="0.8" oninput="playerSetVolume(this.value)">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Data dependencies & JS script execution -->
+    <script>
+        const initArtistsDirectory = () => {
+            const searchInput = document.getElementById('library-search-input');
+
+            function filterArtists() {
+                const query = searchInput.value.toLowerCase();
+                const cards = document.querySelectorAll('.ytm-artist-card');
+
+                cards.forEach(card => {
+                    const name = card.querySelector('.ytm-artist-card-name').textContent.toLowerCase();
+                    if (name.includes(query)) {
+                        card.style.display = '';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            }
+
+            if (searchInput) {
+                searchInput.addEventListener('input', filterArtists);
+            }
+
+            // Dynamically inject ItemList structured schema for artists with full descriptions
+            if (typeof artistData !== 'undefined') {
+                const schema = {
+                    "@context": "https://schema.org",
+                    "@type": "ItemList",
+                    "name": "Horrorcore Reshare Artist Directory",
+                    "description": "Browse the underground artist directory. Find horrorcore, dark trap, and industrial music profiles, social links, and official releases.",
+                    "numberOfItems": artistData.length,
+                    "itemListElement": artistData.map((artist, idx) => ({
+                        "@type": "ListItem",
+                        "position": idx + 1,
+                        "item": {
+                            "@type": "MusicGroup",
+                            "name": artist.name,
+                            "url": `${window.location.origin}/artist?name=${encodeURIComponent(artist.name)}`,
+                            "image": artist.img && !artist.img.startsWith('http') ? `${window.location.origin}/${artist.img}` : artist.img,
+                            "description": artist.description || "",
+                            "genre": "Horrorcore"
+                        }
+                    }))
+                };
+                const scriptEl = document.createElement('script');
+                scriptEl.type = 'application/ld+json';
+                scriptEl.text = JSON.stringify(schema);
+                document.head.appendChild(scriptEl);
+
+                // BreadcrumbList for artists directory
+                const breadcrumb = {
+                    "@context": "https://schema.org",
+                    "@type": "BreadcrumbList",
+                    "itemListElement": [
+                        {
+                            "@type": "ListItem",
+                            "position": 1,
+                            "name": "Home",
+                            "item": `${window.location.origin}/`
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 2,
+                            "name": "Artists",
+                            "item": `${window.location.origin}/artists`
+                        }
+                    ]
+                };
+                const bcEl = document.createElement('script');
+                bcEl.type = 'application/ld+json';
+                bcEl.text = JSON.stringify(breadcrumb);
+                document.head.appendChild(bcEl);
+            }
+        };
+        if (window.hrReady) {
+            initArtistsDirectory();
+        } else {
+            document.addEventListener('HRReady', initArtistsDirectory);
+        }
+    </script>
+</body>
+
+
+
+<footer
+    style="border-top: 1px solid rgba(255,0,60,0.2); padding: 30px 20px; text-align: center; font-size: 0.85rem; color: rgba(255,255,255,0.6); margin-top: 60px; font-family: 'Share Tech Mono', monospace;">
+    <div style="max-width: 1100px; margin: 0 auto;">
+        <nav style="margin-bottom: 16px; display: flex; flex-wrap: wrap; justify-content: center; gap: 14px;">
+            <a href="/" style="color: #fff; text-decoration: none;">Home</a>
+            <a href="/artists" style="color: #fff; text-decoration: none;">Artists Directory</a>
+            <a href="/genres/horrorcore" style="color: #fff; text-decoration: none;">Horrorcore</a>
+            <a href="/genres/dark-trap" style="color: #fff; text-decoration: none;">Dark Trap</a>
+            <a href="/genres/industrial-hip-hop" style="color: #fff; text-decoration: none;">Industrial Hip Hop</a>
+            <a href="/genres/underground-rap" style="color: #fff; text-decoration: none;">Underground Rap</a>
+            <a href="/promote" style="color: #fff; text-decoration: none;">Promotion Guide</a>
+            <a href="/flyer-builder" style="color: #fff; text-decoration: none;">Flyer Builder</a>
+            <a href="/discord" style="color: #fff; text-decoration: none;">Discord</a>
+            <a href="/services" style="color: #fff; text-decoration: none;">Services</a>
+            <a href="/follow" style="color: #fff; text-decoration: none;">Follow</a>
+            <a href="/page-audit" style="color: #fff; text-decoration: none;">Page Audit</a>
+            <a href="/privacy" style="color: #fff; text-decoration: none;">Privacy</a>
+        </nav>
+        <p>&copy; 2024-2026 Horrorcore Reshare | Update 001 | Maintained by Luna Serafina</p>
+    </div>
+</footer>
+
+</html>

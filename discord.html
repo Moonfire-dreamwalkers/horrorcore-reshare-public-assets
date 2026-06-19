@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Join the Horrorcore Reshare Discord community. The ultimate promotional platform for underground music.">
+
+    <!-- Connection Hints for Performance / Core Web Vitals (SEO) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://image-cdn-fa.spotifycdn.com">
+    <link rel="preconnect" href="https://i.scdn.co">
+    <link rel="preconnect" href="https://i2o.scdn.co">
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+    <link rel="dns-prefetch" href="https://www.google-analytics.com">
+
+    <!-- Open Graph / Facebook -->
+    <link rel="canonical" href="https://www.horrorcore-reshare.com/discord">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.horrorcore-reshare.com/discord">
+    <meta property="og:title" content="Discord Community - Horrorcore Reshare">
+    <meta property="og:description" content="Connect with the most elite promotional platform in the underground.">
+    <meta property="og:image"
+        content="https://www.horrorcore-reshare.com/https://raw.githubusercontent.com/Moonfire-dreamwalkers/horrorcore-reshare-public-assets/main/images/logo.png">
+
+    <title>Discord Community | Horrorcore Reshare</title>
+    <link rel="icon" type="image/png"
+        href="https://raw.githubusercontent.com/Moonfire-dreamwalkers/horrorcore-reshare-public-assets/main/images/hr-icon.png">
+    <!-- Dynamic Bootloader for Zero-Stale CDN Streaming -->
+    <script>
+        (async function () {
+            // Hide body immediately to prevent Flash of Unstyled Content (FOUC)
+            const hideStyle = document.createElement('style');
+            hideStyle.id = 'hr-boot-hide';
+            hideStyle.textContent = 'html { background-color: #030303; } body { opacity: 0 !important; }';
+            document.head.appendChild(hideStyle);
+
+            const isLocal = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
+            const loadStyle = (href) => {
+                return new Promise((resolve) => {
+                    const link = document.createElement('link');
+                    link.rel = 'stylesheet';
+                    link.href = href;
+                    link.onload = resolve;
+                    link.onerror = resolve; // Resolve anyway to avoid blocking page load if CDN is down
+                    document.head.appendChild(link);
+                });
+            };
+            const loadScript = (src, defer = false) => {
+                return new Promise((resolve, reject) => {
+                    const s = document.createElement('script');
+                    s.src = src;
+                    if (defer) s.defer = true;
+                    s.onload = resolve;
+                    s.onerror = reject;
+                    document.head.appendChild(s);
+                });
+            };
+
+            const revealPage = () => {
+                const styleEl = document.getElementById('hr-boot-hide');
+                if (styleEl) styleEl.remove();
+                document.body.style.transition = 'opacity 0.4s ease';
+                document.body.style.opacity = '1';
+            };
+
+            if (isLocal) {
+                window.HR_BUILD_VERSION = 'local';
+                await loadStyle('index.css');
+                await loadScript('main-v6.js', true);
+                revealPage();
+            } else {
+                let version = 'main';
+                let versionMismatch = false;
+                try {
+                    const res = await fetch('https://raw.githubusercontent.com/Moonfire-dreamwalkers/horrorcore-reshare-public-assets/main/build-version.json?t=' + Date.now(), { cache: 'no-store' });
+                    if (res.ok) {
+                        const data = await res.json();
+                        if (data && data.version) {
+                            version = data.version;
+                            const activeVersion = localStorage.getItem('hr_active_build_version');
+                            if (activeVersion && activeVersion !== version) {
+                                versionMismatch = true;
+                            }
+
+                            if (!versionMismatch) {
+
+                                localStorage.setItem('hr_active_build_version', version);
+
+                            }
+                        }
+                    }
+                } catch (e) {
+                    console.warn('CDN bootloader failed to fetch latest version tag, using @main fallback:', e);
+                }
+
+                if (versionMismatch) {
+
+
+                    if ('caches' in window) {
+
+
+                        try {
+
+
+                            const keys = await caches.keys();
+
+
+                            await Promise.all(keys.map(key => caches.delete(key)));
+
+
+                            if ('serviceWorker' in navigator) {
+
+
+                                const regs = await navigator.serviceWorker.getRegistrations();
+
+
+                                for (let r of regs) {
+
+
+                                    await r.update();
+
+
+                                }
+
+
+                            }
+
+
+                            localStorage.setItem('hr_active_build_version', version);
+
+
+                            console.log('Cleared stale cache due to build mismatch, reloading...');
+
+
+                            window.location.reload(true);
+
+
+                            return;
+
+
+                        } catch (err) {
+
+
+                            console.error('Failed to clear cache on version mismatch:', err);
+
+
+                        }
+
+
+                    } else {
+
+
+                        localStorage.setItem('hr_active_build_version', version);
+
+
+                    }
+
+
+                }
+
+                window.HR_BUILD_VERSION = version;
+                const base = `https://cdn.jsdelivr.net/gh/Moonfire-dreamwalkers/horrorcore-reshare-public-assets@${version}`;
+                await loadStyle(`${base}/index.css`);
+                await loadScript(`${base}/main-v6.js`, true);
+                revealPage();
+            }
+        })();
+    </script>
+    <link rel="manifest" href="manifest.json">
+
+    <style>
+        .discord-card {
+            text-align: center;
+            padding: 60px 40px;
+            max-width: 800px;
+            margin: 0 auto;
+            animation: cardEntrance 1s ease-out;
+        }
+
+        @keyframes cardEntrance {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .discord-logo-wrap {
+            width: 120px;
+            height: 120px;
+            margin: 0 auto 30px;
+            position: relative;
+        }
+
+        .discord-logo-wrap::after {
+            content: '';
+            position: absolute;
+            inset: -10px;
+            border-radius: 50%;
+            background: radial-gradient(circle, rgba(139, 0, 0, 0.3) 0%, transparent 70%);
+            z-index: -1;
+            animation: pulseGlow 3s infinite alternate;
+        }
+
+        @keyframes pulseGlow {
+            from {
+                transform: scale(1);
+                opacity: 0.3;
+            }
+
+            to {
+                transform: scale(1.1);
+                opacity: 0.6;
+            }
+        }
+
+        .discord-logo {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        .discord-title {
+            font-family: var(--hr-font-classic);
+            font-size: clamp(2rem, 8vw, 4rem);
+            letter-spacing: 4px;
+            color: #fff;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+        }
+
+        .discord-desc {
+            font-size: 1.1rem;
+            color: var(--hr-text-muted);
+            margin-bottom: 40px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .discord-join-btn {
+            display: inline-block;
+            padding: 20px 50px;
+            background: var(--hr-blood);
+            color: #fff;
+            text-decoration: none;
+            font-family: var(--hr-font-classic);
+            font-size: 1.2rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            border-radius: 4px;
+            border: 1px solid var(--hr-crimson);
+            transition: 0.3s;
+        }
+
+        .discord-join-btn:hover {
+            background: var(--hr-crimson);
+            box-shadow: 0 0 30px var(--hr-crimson-glow);
+            transform: translateY(-2px);
+        }
+
+        @media (max-width: 768px) {
+            .discord-card {
+                padding: 40px 20px;
+            }
+
+            .discord-title {
+                letter-spacing: 2px;
+            }
+        }
+    </style>
+</head>
+
+<body class="mr-theme" style="background-color: #030303;">
+    <div class="hr-background-container">
+        <canvas id="hr-canvas"></canvas>
+    </div>
+
+    <main class="hr-container page-main">
+        <div class="hr-glass discord-card">
+            <div class="discord-logo-wrap">
+                <img src="https://raw.githubusercontent.com/Moonfire-dreamwalkers/horrorcore-reshare-public-assets/main/images/logo.png"
+                    alt="Horrorcore Reshare Logo" class="discord-logo">
+            </div>
+            <h1 class="discord-title">HORRORCORE RESHARE</h1>
+            <p class="discord-desc">
+                Join the most elite promotional platform in the underground. Connect with artists, fans, and architects
+                of the dark music scene.
+            </p>
+
+            <div
+                style="max-width: 700px; margin: 0 auto 40px auto; text-align: left; line-height: 1.9; color: rgba(255,255,255,0.85); font-size: 0.95rem;">
+                <h2
+                    style="font-family: 'Orbitron', sans-serif; color: #fff; font-size: 1.3rem; letter-spacing: 2px; margin-bottom: 15px; border-bottom: 1px solid rgba(255,0,60,0.3); padding-bottom: 10px;">
+                    About the Horrorcore Reshare Discord Community</h2>
+                <p style="margin-bottom: 20px;">The Horrorcore Reshare Discord server is the central hub for underground
+                    horrorcore, dark trap, and industrial hip hop fans to connect, share music, and support independent
+                    artists. Whether you are a long-time horrorcore listener or just discovering the genre, the Discord
+                    community is where real-time conversation happens — album discussions, new release alerts, artist
+                    promotion talk, and collaboration opportunities between fans and creators.</p>
+                <p style="margin-bottom: 20px;">Inside the server, you will find channels dedicated to music sharing,
+                    underground news, flyer and promotion strategy, artist networking, and general community discussion.
+                    The community is built around positivity, mutual support, and a shared passion for dark underground
+                    music. Artists use the server to announce new releases and connect directly with fans, while
+                    promoters and fans share strategies for growing the scene and supporting the music they love.</p>
+                <p style="margin-bottom: 20px;">Joining the Discord is free, and all horrorcore, dark trap, and
+                    industrial hip hop fans are welcome. Whether you want to lurk and discover new music or jump into
+                    conversations about the latest releases, the server is open to everyone who shares an appreciation
+                    for the darker side of hip hop. Click the button below to join the community and start connecting
+                    with the underground today.</p>
+            </div>
+            <a href="https://discord.gg/dU6rD2qyrQ" target="_blank" class="discord-join-btn">JOIN DISCORD SERVER</a>
+        </div>
+    </main>
+
+    <footer
+        style="border-top: 1px solid rgba(255,0,60,0.2); padding: 30px 20px; text-align: center; font-size: 0.85rem; color: rgba(255,255,255,0.6); margin-top: 60px; font-family: 'Share Tech Mono', monospace;">
+        <div style="max-width: 1100px; margin: 0 auto;">
+            <nav style="margin-bottom: 16px; display: flex; flex-wrap: wrap; justify-content: center; gap: 14px;">
+                <a href="/" style="color: #fff; text-decoration: none;">Home</a>
+                <a href="/artists" style="color: #fff; text-decoration: none;">Artists Directory</a>
+                <a href="/genres/horrorcore" style="color: #fff; text-decoration: none;">Horrorcore</a>
+                <a href="/genres/dark-trap" style="color: #fff; text-decoration: none;">Dark Trap</a>
+                <a href="/genres/industrial-hip-hop" style="color: #fff; text-decoration: none;">Industrial Hip Hop</a>
+                <a href="/genres/underground-rap" style="color: #fff; text-decoration: none;">Underground Rap</a>
+                <a href="/promote" style="color: #fff; text-decoration: none;">Promotion Guide</a>
+                <a href="/flyer-builder" style="color: #fff; text-decoration: none;">Flyer Builder</a>
+                <a href="/discord" style="color: #fff; text-decoration: none;">Discord</a>
+                <a href="/services" style="color: #fff; text-decoration: none;">Services</a>
+                <a href="/follow" style="color: #fff; text-decoration: none;">Follow</a>
+                <a href="/page-audit" style="color: #fff; text-decoration: none;">Page Audit</a>
+                <a href="/privacy" style="color: #fff; text-decoration: none;">Privacy</a>
+            </nav>
+            <p>&copy; 2024-2026 Horrorcore Reshare | Update 001 | Maintained by Luna Serafina</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
